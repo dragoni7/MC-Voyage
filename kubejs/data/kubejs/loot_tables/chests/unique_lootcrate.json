@@ -1,0 +1,365 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:railway_casing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "meetyourfight:velvet_fortune",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "meetyourfight:aether_glazed_cupcake",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:steel_casing",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentgear:crimson_steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sculk_sensor",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dreamland:midashroom"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dreamland:hive_weaver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "deeperdarker:warden_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:bubble_blower"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "meetyourfight:marshy_delight"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:shepherds_pie"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:honey_glazed_ham"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:stuffed_pumpkin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:twilight_scepter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:lifedrain_scepter"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:charm_of_keeping_1"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:upgrade_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:rare_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:epic_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:lightning_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:frozen_bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:blood_vial",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:hogskin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:cinder_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thermal:invar_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thermal:cured_rubber",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thermal:redstone_servo",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ad_astra:steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:terrasteel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

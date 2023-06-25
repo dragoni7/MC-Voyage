@@ -1,0 +1,5 @@
+#Restrict items that can be inserted by other players in a Mailbox to items tagged #furnish:mail?
+restrictMailboxItems = true
+#Allow all creative players to destroy claimed Mailboxes? By default, only op players are allowed.
+creativeDestroyMailbox = false
+

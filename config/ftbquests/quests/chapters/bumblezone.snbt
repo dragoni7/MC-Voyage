@@ -1,0 +1,409 @@
+{
+	id: "791FBFAF6EA0AE04"
+	group: "4152DA6D653D361A"
+	order_index: 1
+	filename: "bumblezone"
+	title: "Bumblezone"
+	icon: "dreamland:bumble_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -2.5d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "productivebees:advancements/all_bees"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "The Bumblezone"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Sticky place"
+			description: [
+				"Visit the Bumblezone by throwing an ender pearl into a bee nest"
+				"Unlocks:"
+				"silentgear lining blueprint"
+				"productive bees!"
+			]
+			size: 2.0d
+			id: "1B00DEB159267CCB"
+			tasks: [{
+				id: "7EF084E6F77732D2"
+				type: "dimension"
+				icon: "minecraft:bee_nest"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+			rewards: [
+				{
+					id: "2061313FBF346029"
+					type: "item"
+					item: "farmersdelight:honey_cookie"
+					count: 3
+				}
+				{
+					id: "5327D7F18398CEDF"
+					type: "item"
+					item: "dreamland:bumble_block"
+				}
+				{
+					id: "5A1D46C5A1B284B7"
+					type: "item"
+					item: {
+						id: "the_bumblezone:bumble_bee_chestplate_1"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2935FDE1C590FEB7"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "245C96C62F8C7B86"
+					type: "skills:basic_skill_reward"
+					title: "New Bee Items Unlocked!"
+					icon: "minecraft:bee_nest"
+					team_reward: false
+					auto: "enabled"
+					ignore_reward_blocking: true
+					skill: "skills:bumblezone_access"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Sweet Gems"
+			description: ["Honey crystals are important components for crafting eyes of ender and productive bee machines!"]
+			hide_dependency_lines: true
+			dependencies: ["1B00DEB159267CCB"]
+			id: "240180FE952CA02D"
+			tasks: [{
+				id: "6E2F12686396CBA9"
+				type: "item"
+				item: "the_bumblezone:honey_crystal_shards"
+			}]
+			rewards: [
+				{
+					id: "023521748BA329A1"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+				{
+					id: "2B16AF75333B3801"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "The Queen"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Interact with the Queen bee and trade with her for rewards"
+				"The queen will periodically ask for different items to trade."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1B00DEB159267CCB"]
+			id: "24A1EA65DBAE0985"
+			tasks: [{
+				id: "473D8B8CCC11D12A"
+				type: "questsadditions:interaction"
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				entity: "the_bumblezone:bee_queen"
+				nbt: { }
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "71228254392C7D42"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Royal Jelly"
+			x: 1.0d
+			y: -1.0d
+			description: ["Obtain the precious royal jelly"]
+			hide_dependency_lines: true
+			dependencies: ["24A1EA65DBAE0985"]
+			id: "12640D22645B85AE"
+			tasks: [{
+				id: "0299682F979E0B48"
+				type: "item"
+				item: "the_bumblezone:royal_jelly_bottle"
+			}]
+			rewards: [{
+				id: "2AA3A982DEBFD1D8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["Bee stingers sometimes drop from bees or is traded with the Bee Queen"]
+			hide_dependency_lines: true
+			dependencies: ["24A1EA65DBAE0985"]
+			id: "6DEC3EC1904D77E8"
+			tasks: [{
+				id: "4D20501DA8BE539F"
+				type: "item"
+				item: "the_bumblezone:bee_stinger"
+			}]
+			rewards: [{
+				id: "61958206C47CA77D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Productive Bee Keeping"
+			icon: "productivebees:honey_treat"
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"The wonderful world of bees!"
+				"Many species of bees roam the world, each with their own unique quirks"
+				"The most useful of these bees are ones that can produce resources such as coal, iron, or diamonds!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1B00DEB159267CCB"]
+			id: "49B079F7B7814E2C"
+			tasks: [{
+				id: "5CDF4065F13E6175"
+				type: "checkmark"
+				title: "Bee Keeping"
+			}]
+			rewards: [
+				{
+					id: "2F3F22E43F8C8DF8"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				}
+				{
+					id: "426EA1CA901843A9"
+					type: "item"
+					item: "productivebees:sturdy_bee_cage"
+				}
+			]
+		}
+		{
+			title: "Better Beehive"
+			x: 4.2d
+			y: 0.0d
+			subtitle: "Bee House!"
+			description: ["The first step in beekeeping! Set up with resources placed next to their hive, they'll produce combs for you!"]
+			hide_dependency_lines: true
+			dependencies: ["49B079F7B7814E2C"]
+			size: 1.2d
+			id: "1D7292A4C7ECF9C3"
+			tasks: [{
+				id: "4410FF575587304D"
+				type: "item"
+				title: "Any #productivebees:advanced_beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			subtitle: "bee love"
+			description: [
+				"-Breed two bees to get a bee! "
+				"-Place their preferred flower or resource in the hand! (Requires power)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C44202826DC47FB"]
+			id: "7ADF226CAE7760CE"
+			tasks: [{
+				id: "4CE367B55BD8844E"
+				type: "item"
+				item: "productivebees:breeding_chamber"
+			}]
+			rewards: [{
+				id: "49EB775F3F2C88FD"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Bee Jeans?"
+			description: ["Keep your bee genes safe in here!"]
+			hide_dependency_lines: true
+			dependencies: ["6C44202826DC47FB"]
+			id: "4E6E2C4FFC5374B4"
+			tasks: [{
+				id: "614A5DCB3171DB5B"
+				type: "item"
+				item: "productivebees:gene_indexer"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			subtitle: "warm bee"
+			description: ["Insert honey treat genes for a chance to produce a new bee"]
+			hide_dependency_lines: true
+			dependencies: ["6C44202826DC47FB"]
+			id: "32898A56ECE4476C"
+			tasks: [{
+				id: "2C7943E9C073F940"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+			rewards: [{
+				id: "2BA12FBA82E8330F"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["Collects bees!"]
+			hide_dependency_lines: true
+			dependencies: ["6C44202826DC47FB"]
+			id: "0087AD01D98B088A"
+			tasks: [{
+				id: "2C7F682343B68054"
+				type: "item"
+				item: "productivebees:catcher"
+			}]
+			rewards: [{
+				id: "227B6008BAAEBB85"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			subtitle: "honey madness"
+			description: ["Place combs to make products!"]
+			hide_dependency_lines: true
+			dependencies: ["1D7292A4C7ECF9C3"]
+			id: "6C44202826DC47FB"
+			tasks: [{
+				id: "6833830329388653"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+			rewards: [
+				{
+					id: "08512C8692B58982"
+					type: "item"
+					item: {
+						id: "productivebees:treat_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D05EA6316047DEB"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			description: ["Place a block under a piston and level to bottle bee genes."]
+			hide_dependency_lines: true
+			dependencies: ["6C44202826DC47FB"]
+			id: "5E72DFF1D847C822"
+			tasks: [{
+				id: "325A05A1147AA28C"
+				type: "item"
+				item: "productivebees:bottler"
+			}]
+			rewards: [{
+				id: "1DB0CA57A680AC1D"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Expansion Box"
+			x: 5.0d
+			y: 1.0d
+			subtitle: "Mansion!"
+			description: ["Expand the hive! Allows an additional two bees inside"]
+			hide_dependency_lines: true
+			dependencies: ["1D7292A4C7ECF9C3"]
+			optional: true
+			progression_mode: "linear"
+			id: "4A48FFF4249D0EE8"
+			tasks: [{
+				id: "74A9BC20BD52473E"
+				type: "item"
+				title: "Any #productivebees:expansion_boxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D1154CFD18907AE"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			subtitle: "bee venture"
+			description: ["Used to locate wild bee nests"]
+			hide_dependency_lines: true
+			dependencies: ["1D7292A4C7ECF9C3"]
+			id: "29C803E0D6A927D6"
+			tasks: [{
+				id: "1BA0CAEAB4806EE9"
+				type: "item"
+				item: {
+					id: "productivebees:nest_locator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1708FB663F5C35F2"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

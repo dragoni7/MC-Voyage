@@ -1,0 +1,126 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 3,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/ostrum"
+      }
+    },
+    "name": {
+      "text": "Ostrum"
+    },
+    "stats": {
+      "main": {
+        "durability": 1160.0,
+        "armor_durability": 27.0,
+        "enchantment_value": 12.0,
+        "harvest_level": 3.0,
+        "harvest_speed": 9.0,
+        "melee_damage": 14.5,
+        "magic_damage": 5.0,
+        "attack_speed": -0.2,
+        "armor": 40.0,
+        "armor/helmet": 10.0,
+        "armor/chestplate": 12.0,
+        "armor/leggings": 10.0,
+        "armor/boots": 8.0,
+        "magic_armor": 8.0,
+        "armor_toughness": 8,
+        "ranged_damage": 3.0,
+        "ranged_speed": 0.1,
+        "rarity": 70.0,
+        "charging_value": 1.0
+      },
+      "rod": {
+        "durability": {
+          "mul2": 0.26
+        },
+        "melee_damage": {
+          "add": 1.0
+        },
+        "rarity": 60.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 4
+        },
+        {
+          "name": "silentgear:moonwalker",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+            "name": "silentcompat:knockback",
+            "level": 1,
+            "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              }
+            ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:malleable",
+          "level": 3
+        },
+        {
+            "name": "silentcompat:dense",
+            "level": 2,
+            "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.5
+              }
+            ]
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#a66b72"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#a66b72"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#a66b72"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#a66b72"
+        }
+      ]
+    }
+  }

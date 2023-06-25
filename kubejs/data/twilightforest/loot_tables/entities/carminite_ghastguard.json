@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:entities/ghast"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "twilightforest:borer_essence",
+              "weight": 1,
+              "quality": 0,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+      }
+    ]
+  }

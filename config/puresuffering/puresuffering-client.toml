@@ -1,0 +1,9 @@
+
+[Rendering]
+	#Can render Invasions with a custom sky box renderer?
+	#NOTE: Set false with incompatible shaders!
+	useSkyBoxRenderer = false
+	#Can Invasions change the brightness Values?
+	#NOTE: Set false with incompatible shaders!
+	canInvasionsChangeBrightness = false
+

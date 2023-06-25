@@ -1,0 +1,43 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 21, 2023, 10:23:53 AM
+
+#habitat:jungle
+- habitat:bali_myna (from habitat-1.2.4.jar)
+- habitat:red_throated_parrotfinch (from habitat-1.2.4.jar)
+
+#habitat:cold
+- habitat:blue_jay (from habitat-1.2.4.jar)
+- habitat:common_sparrow (from habitat-1.2.4.jar)
+- habitat:eurasian_bullfinch (from habitat-1.2.4.jar)
+- habitat:northern_cardinal (from habitat-1.2.4.jar)
+
+#habitat:hot
+- habitat:common_sparrow (from habitat-1.2.4.jar)
+- habitat:flame_robin (from habitat-1.2.4.jar)
+
+#habitat:temperate
+- habitat:american_goldfinch (from habitat-1.2.4.jar)
+- habitat:blue_jay (from habitat-1.2.4.jar)
+- habitat:common_sparrow (from habitat-1.2.4.jar)
+- habitat:eastern_bluebird (from habitat-1.2.4.jar)
+- habitat:eurasian_bullfinch (from habitat-1.2.4.jar)
+- habitat:northern_cardinal (from habitat-1.2.4.jar)
+
+#habitat:common
+- habitat:american_goldfinch (from habitat-1.2.4.jar)
+- habitat:common_sparrow (from habitat-1.2.4.jar)
+- habitat:eurasian_bullfinch (from habitat-1.2.4.jar)
+- habitat:flame_robin (from habitat-1.2.4.jar)
+- habitat:northern_cardinal (from habitat-1.2.4.jar)
+- habitat:violet_backed_starling (from habitat-1.2.4.jar)
+
+#habitat:all
+- habitat:american_goldfinch (from habitat-1.2.4.jar)
+- habitat:bali_myna (from habitat-1.2.4.jar)
+- habitat:blue_jay (from habitat-1.2.4.jar)
+- habitat:common_sparrow (from habitat-1.2.4.jar)
+- habitat:eastern_bluebird (from habitat-1.2.4.jar)
+- habitat:eurasian_bullfinch (from habitat-1.2.4.jar)
+- habitat:flame_robin (from habitat-1.2.4.jar)
+- habitat:northern_cardinal (from habitat-1.2.4.jar)
+- habitat:red_throated_parrotfinch (from habitat-1.2.4.jar)
+- habitat:violet_backed_starling (from habitat-1.2.4.jar)

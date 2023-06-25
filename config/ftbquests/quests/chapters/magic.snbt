@@ -1,0 +1,1409 @@
+{
+	id: "4476102C94ABAA00"
+	group: ""
+	order_index: 3
+	filename: "magic"
+	title: "Magic"
+	icon: {
+		id: "irons_spellbooks:electromancer_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Spirit"
+			x: 0.0d
+			y: -7.5d
+			description: [
+				"Soul powder is the basic ingredient down the path of spirit magic"
+				"Create soul crystals, get a broken spawner, and create your own mob spawners!"
+			]
+			size: 2.0d
+			id: "0370343F28271CF1"
+			tasks: [{
+				id: "6B1B0E74D560704F"
+				type: "item"
+				item: "spirit:soul_powder"
+			}]
+			rewards: [
+				{
+					id: "7E58546D5E7782F8"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+				{
+					id: "70E1319691C1A224"
+					type: "item"
+					item: "spirit:soul_powder"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			description: [
+				"Soul steal is created by tossing iron into soul fire surround by soul powder blocks"
+				"JEI can help with this process"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0370343F28271CF1"]
+			id: "32D2F4B426D7D5EA"
+			tasks: [{
+				id: "7C8069226A954F7C"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "0127CED135929160"
+					type: "item"
+					item: "spirit:soul_powder_block"
+				}
+				{
+					id: "2D55A4C3F169F7BD"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			description: ["First step to obtaining a soul crystal"]
+			hide_dependency_lines: true
+			dependencies: ["0370343F28271CF1"]
+			id: "142818CC6185F3FE"
+			tasks: [{
+				id: "2E1475A307260397"
+				type: "item"
+				item: "spirit:soul_crystal_shard"
+			}]
+			rewards: [
+				{
+					id: "373B5EBE4BBB9AF7"
+					type: "item"
+					item: "spirit:soul_glass"
+				}
+				{
+					id: "25ED7DB47ECA1AE5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "6CE15C6C32891719"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["142818CC6185F3FE"]
+			id: "2EE552DFEEB2DF15"
+			tasks: [{
+				id: "7A99C2A6E8B85DF3"
+				type: "item"
+				item: "spirit:crude_soul_crystal"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["First kill binds a soul to a crystal"]
+			hide_dependency_lines: true
+			dependencies: ["2EE552DFEEB2DF15"]
+			id: "1E511AC0D5AB95AF"
+			tasks: [{
+				id: "56522081943937C2"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			subtitle: "Spawning mobs"
+			description: [
+				"Complete a soul crystal and place it into a soul cage to spawn mobs!"
+				"Broken spawners can sometimes be rewarded through trade agreements"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1E511AC0D5AB95AF"]
+			id: "1F930B786BE4BC2B"
+			tasks: [{
+				id: "5A893B8FDE7A250A"
+				type: "item"
+				item: "spirit:soul_cage"
+			}]
+			rewards: [
+				{
+					id: "47AC0B3BD388214B"
+					type: "item"
+					item: "spirit:crude_soul_crystal"
+				}
+				{
+					id: "067BD610E5508DDD"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "7E5B72D93D5611D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			description: ["Farms souls for crystals more efficiently"]
+			hide_dependency_lines: true
+			dependencies: ["32D2F4B426D7D5EA"]
+			id: "459843DA752C94B9"
+			tasks: [{
+				id: "20FDF9C6EF39980B"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "74BDA82FA6CD63B2"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "47794C87A6512E7E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:gold_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spellSlots: 6
+						activeSpellIndex: -1
+						spells: [ ]
+					}
+				}
+			}
+			x: -5.5d
+			y: -7.5d
+			description: [
+				"Magical relics exist in the world, enabling and empowering spell casting!"
+				"No longer unique to illagers, you can now cast offensive, defensive, and utility spells with the use of scrolls and spellbooks"
+			]
+			size: 2.0d
+			id: "2C521127B532DFAA"
+			tasks: [{
+				id: "2A4AD40267E3EBC1"
+				type: "checkmark"
+				title: "Spells and Spell Casting"
+			}]
+			rewards: [{
+				id: "407ED5DB45D0B2B6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			description: [
+				"The flimsy journal is the first magical artifact that allows you to cast spells!"
+				"Scrolls can be slotted into the spellbook to avoid consuming the scroll"
+				"The rarity of scroll that can be slotted in depends on the rarity of the spellbook"
+				"Pressing r with a spellbook will open it's spell selection"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3A76DF19342E23E0"]
+			id: "34F0B1495EECB2ED"
+			tasks: [{
+				id: "51E7CC6306C5D26D"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:copper_spell_book"
+					Count: 1b
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 4
+							activeSpellIndex: -1
+							spells: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1814DEF65B157ACD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Botania"
+			icon: "botania:orange_mystical_flower"
+			x: 4.0d
+			y: -7.5d
+			subtitle: "Magical Botanist in the making"
+			description: [
+				"The Lexica is the one the starting points to Botania. Use magic and flora for automation and crafting powerful trinkets"
+				"Please refer to the Lexica for a more in depth guide for Botania."
+			]
+			size: 2.0d
+			id: "398A839A4C8C748C"
+			tasks: [{
+				id: "74D6C9926DB538BB"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0BB7922576EC1193"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75D5ACAD8D5FE87A"
+					type: "item"
+					item: "botania:lexicon"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:scroll"
+				Count: 1b
+				tag: {
+					ISB_spell: {
+						type: 1
+						level: 1
+					}
+				}
+			}
+			x: -5.5d
+			y: -6.0d
+			description: [
+				"Spell scroll are single use items that will cast the spell described on it"
+				"They can be looted from chests or crafted!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2C521127B532DFAA"]
+			id: "3A76DF19342E23E0"
+			tasks: [{
+				id: "0460AC412D747A46"
+				type: "checkmark"
+				title: "Spell Scrolls"
+			}]
+			rewards: [{
+				id: "75141A812190E9D1"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:scroll"
+					Count: 1b
+					tag: {
+						ISB_spell: {
+							type: 5
+							level: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			description: [
+				"The scroll forge allows the creation of new spell scrolls!"
+				"Each scroll takes paper, ink, and another item depending on the school of magic"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3A76DF19342E23E0"]
+			id: "7A8501FF2A9A8CA3"
+			tasks: [{
+				id: "3E4BE9C6D7F3B21B"
+				type: "item"
+				item: "irons_spellbooks:scroll_forge"
+			}]
+			rewards: [{
+				id: "321B224663A6CD3C"
+				type: "item"
+				item: "irons_spellbooks:common_ink"
+			}]
+		}
+		{
+			icon: "irons_spellbooks:common_ink"
+			x: -7.0d
+			y: -6.0d
+			description: [
+				"Ink is used in spell scroll creation"
+				"Several tiers of ink are available in the world, the more rare, the more powerful spell can be created"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3A76DF19342E23E0"]
+			id: "25716B83C8109F5B"
+			tasks: [{
+				id: "7DFA854A7C9162DC"
+				type: "checkmark"
+				title: "Ink"
+			}]
+		}
+		{
+			title: "Schools of Magic"
+			icon: "irons_spellbooks:lightning_bottle"
+			x: -8.5d
+			y: -5.5d
+			shape: "square"
+			description: [
+				"Each school of magic has it's respective crafting item:"
+				"Fire - Blaze Rods"
+				"Ice - Frozen Stray Bones"
+				"Lightning - Bottles o' Lightning (Use empty bottle on charged creeper)"
+				"Holy - Divine Pearls"
+				"Blood - Blood Vials"
+				"Ender - Ender Pearls"
+				"Evocation - Emeralds"
+				"Void - Echo Shards"
+				"Poison - Poisonous Potato"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3A76DF19342E23E0"]
+			size: 2.0d
+			id: "00D80B317303F32C"
+			tasks: [{
+				id: "35CC469F1DE56F8A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "70D5D5567807F5C5"
+				type: "item"
+				item: "irons_spellbooks:lightning_bottle"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			description: ["The Petal Apothecary, the starting point for new Botania users, to create different flowers using mystical petals."]
+			hide_dependency_lines: true
+			dependencies: ["398A839A4C8C748C"]
+			id: "0F9813734173A7B9"
+			tasks: [
+				{
+					id: "03EA75C6C2A08158"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "6B6D6A80101FB930"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+			]
+			rewards: [{
+				id: "49D94F5924AA4EEB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			description: ["The inscription table allows spells to be slotted into spell books!"]
+			hide_dependency_lines: true
+			dependencies: ["34F0B1495EECB2ED"]
+			id: "05071CB221350ADF"
+			tasks: [{
+				id: "4E8CCDABAF22069B"
+				type: "item"
+				item: "irons_spellbooks:inscription_table"
+			}]
+			rewards: [{
+				id: "2EABC3DCE0460458"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			description: [
+				"The arcane anvil is used to upgrade spell scrolls, armor, and gear"
+				"Two similar scrolls of the same rarity can be combined to upgrade it's level!"
+				"Spell Scrolls can also be imbued onto weapons to allow casting of that spell while wielding it"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3A76DF19342E23E0"]
+			id: "32AD7A70A86615E0"
+			tasks: [{
+				id: "5B3474800F6EB234"
+				type: "item"
+				item: "irons_spellbooks:arcane_anvil"
+			}]
+			rewards: [{
+				id: "0FF38BF8A2C49110"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Livingwood and Livingrock"
+			x: 4.0d
+			y: -5.0d
+			description: ["A necessary material used in many Botania recipes. Simply surround logs and stone around a pure daisy!"]
+			hide_dependency_lines: true
+			dependencies: ["0F9813734173A7B9"]
+			id: "524DB6F8276A894C"
+			tasks: [
+				{
+					id: "2B6A88535866DC01"
+					type: "item"
+					item: "botania:livingrock"
+					count: 4L
+				}
+				{
+					id: "14FE5AE5A8A0E64A"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7814BDAFB02657A6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "irons_spellbooks:upgrade_orb"
+			x: -3.5d
+			y: -5.0d
+			description: [
+				"Upgrade orbs can be looted in the world, or dropped from bosses!"
+				"These rare orbs can be crafted into an upgrade orb of the respective magical school"
+				"Upgrade orbs can be combined on armor, weapons, or spellbooks to grant a bonus to spell damage, mana, or other stats"
+				"This includes SilentGear items"
+			]
+			hide_dependency_lines: true
+			dependencies: ["32AD7A70A86615E0"]
+			id: "03252A99A0F34006"
+			tasks: [{
+				id: "753AB57E89EB24C8"
+				type: "checkmark"
+				title: "Upgrade Orbs"
+			}]
+			rewards: [{
+				id: "1E53CF24737669D2"
+				type: "item"
+				item: "irons_spellbooks:upgrade_orb"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			description: ["Blank runes are one of the ingredients needed to create upgrade orbs"]
+			hide_dependency_lines: true
+			dependencies: ["03252A99A0F34006"]
+			id: "674B918B5DB0403B"
+			tasks: [{
+				id: "1A3040C15E430CF4"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+			}]
+			rewards: [{
+				id: "0588136D1E077D6A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: ["Cinder essence drops from ancient knights found at ancient battlegrounds in the nether!"]
+			hide_dependency_lines: true
+			dependencies: ["03252A99A0F34006"]
+			id: "102BE394CB1F8E90"
+			tasks: [{
+				id: "05C0E29D168B8E35"
+				type: "item"
+				item: "irons_spellbooks:cinder_essence"
+			}]
+			rewards: [{
+				id: "2409FA94E74E56F6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			description: ["Arcane salave drops from arcane debris in the overworld"]
+			hide_dependency_lines: true
+			dependencies: ["03252A99A0F34006"]
+			id: "58A977E669A08D13"
+			tasks: [{
+				id: "5C0DFC69985BC9CB"
+				type: "item"
+				item: "irons_spellbooks:arcane_salvage"
+			}]
+			rewards: [{
+				id: "5ED70534C6DF5890"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["Used to craft Botania Runes"]
+			hide_dependency_lines: true
+			dependencies: ["25E8F7E8753D2782"]
+			id: "19A0BCB42A48E0EB"
+			tasks: [{
+				id: "20240BF7D88DA79E"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			title: "Mana Creation "
+			x: 5.0d
+			y: -4.0d
+			description: ["The next step is mana creation. Put a mana spread and use the wand to bind it to the mana pool. (See Endoflame)"]
+			hide_dependency_lines: true
+			dependencies: ["524DB6F8276A894C"]
+			id: "5D435831486927BC"
+			tasks: [
+				{
+					id: "41015C610CBE59C3"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "3EC049C6DB7AB304"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+				{
+					id: "50BDCB8DAEE0B432"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+			]
+			rewards: [
+				{
+					id: "522EE2D1AE4625E4"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 2
+				}
+				{
+					id: "0931493EA40F890C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Mana Creation "
+			x: 3.0d
+			y: -4.0d
+			description: ["Several flowers are capable of producing mana"]
+			hide_dependency_lines: true
+			dependencies: ["524DB6F8276A894C"]
+			id: "162E13602C2A7226"
+			tasks: [{
+				id: "53D9FCCA5C6E8F52"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "79D15D6900E183B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Manasteel Ingot"
+			x: 4.0d
+			y: -3.0d
+			description: ["A common component in many Botania ventures."]
+			hide_dependency_lines: true
+			dependencies: [
+				"162E13602C2A7226"
+				"5D435831486927BC"
+			]
+			id: "25E8F7E8753D2782"
+			tasks: [{
+				id: "3F5B2727B6B3C8E6"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 3L
+			}]
+		}
+		{
+			icon: {
+				id: "hexerei:witch_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.500000000000007d
+			y: -7.464285714285708d
+			description: [
+				"Delve into witchcraft to produce useful magical utilities"
+				"Place the book on an altar to read!"
+			]
+			size: 2.0d
+			id: "1D7DCCB894EE941F"
+			tasks: [{
+				id: "65D20E59237DC0A2"
+				type: "checkmark"
+				title: "Witchcraft"
+			}]
+			rewards: [
+				{
+					id: "20C302E68758EC71"
+					type: "item"
+					item: {
+						id: "hexerei:book_of_shadows"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "46A40A8899902F13"
+					type: "item"
+					item: "hexerei:book_of_shadows_altar"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["Ingredients needed to make a Terrestrial Agglomeration Plate to begin creating terrasteel."]
+			hide_dependency_lines: true
+			dependencies: ["19A0BCB42A48E0EB"]
+			id: "619BFD89ED478099"
+			tasks: [
+				{
+					id: "3153CA814488458A"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "71860CB4C9EA275F"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "18BC3AF89884FD18"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "7040BBFE429E9DC8"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "4717794B560BF926"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+				{
+					id: "6C85C038C9A34118"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "178D2FCE1DB57A3D"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 3L
+				}
+				{
+					id: "568B0C2195D6F97D"
+					type: "item"
+					item: "botania:manasteel_block"
+				}
+			]
+			rewards: [
+				{
+					id: "3073E6CDACDC5838"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "38417B97CA09928E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -6.0d
+			description: ["A more advanced cauldron capable of brewing more powerful potions"]
+			hide_dependency_lines: true
+			dependencies: ["1D7DCCB894EE941F"]
+			id: "012FB48542D8611A"
+			tasks: [{
+				id: "6D986E43F6663846"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [{
+				id: "74BC8F4450A46942"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			description: [
+				"A blood sigil can be placed in a cauldron to produce blood"
+				"Hopping into the cauldron will damage you and fill it with blood!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["012FB48542D8611A"]
+			id: "773FC4B270D59EC0"
+			tasks: [{
+				id: "1853F1D295E2E9B2"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+			rewards: [{
+				id: "187941A84CE17564"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			description: ["Right click a cauldron filled with blood with a bottle to obtain bottles of blood"]
+			hide_dependency_lines: true
+			dependencies: ["773FC4B270D59EC0"]
+			id: "55B30521D19607DF"
+			tasks: [{
+				id: "21126D161715B65F"
+				type: "item"
+				item: "hexerei:blood_bottle"
+			}]
+		}
+		{
+			title: "Road to Alfheim"
+			icon: "botania:natura_pylon"
+			x: 4.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "Refer to the Lexica on the proper block placements!"
+			description: [
+				""
+				"The path to creating the Portal to Alfheim begins! It is used to trade with the others across the dimension with certain materials. (Toss items through the portal)"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B263687B0DC3C15"]
+			size: 2.0d
+			id: "402CC7BC1C45988A"
+			tasks: [{
+				id: "418951E9C93E576F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0454645AB8677370"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 5
+			}]
+		}
+		{
+			title: "Glimmering Living Wood"
+			x: 2.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["402CC7BC1C45988A"]
+			id: "6DBCB7AFA529EB98"
+			tasks: [{
+				id: "2D6C792F9C4797BD"
+				type: "item"
+				item: "botania:glimmering_livingwood_log"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5FF2AF4547FF1BFD"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 3
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["402CC7BC1C45988A"]
+			id: "6F24476998FDDA72"
+			tasks: [{
+				id: "7D4612177FDB4579"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+			rewards: [
+				{
+					id: "13F4B9195DE45CA0"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "75DFC20CB7FF3C40"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -6.0d
+			description: ["Herb jars provide versatile mass storage"]
+			hide_dependency_lines: true
+			dependencies: ["1D7DCCB894EE941F"]
+			id: "08B8EC30EEA96807"
+			tasks: [{
+				id: "528F8864105451F6"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4BA0F231FEBB8662"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			description: [
+				"These magical brooms allow flight!"
+				"Multiple accessories can also be equipped to enhance the broom"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1D7DCCB894EE941F"
+				"177700694C2B1EAE"
+			]
+			hide: true
+			id: "510CCD91E56CF51C"
+			tasks: [{
+				id: "7497AE3E08E0262C"
+				type: "item"
+				item: {
+					id: "hexerei:willow_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "05C66E4D053D2E6C"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Mana Pool and Pylon"
+			x: 4.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["402CC7BC1C45988A"]
+			id: "45CCD7698F90BE4D"
+			tasks: [
+				{
+					id: "4B62F0B87C973DE9"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "0B2CE2460FCFA81E"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -5.0d
+			description: ["The crystal ball can help determine the current moon cycle"]
+			hide_dependency_lines: true
+			dependencies: ["1D7DCCB894EE941F"]
+			id: "64A1ACA7A8F33346"
+			tasks: [{
+				id: "1B070891B0176A46"
+				type: "item"
+				item: "hexerei:crystal_ball"
+			}]
+			rewards: [{
+				id: "49B2A8FB79C77560"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			description: ["Can only be crafted during a full moon"]
+			hide_dependency_lines: true
+			dependencies: ["64A1ACA7A8F33346"]
+			id: "66FB9A209C40E91E"
+			tasks: [{
+				id: "013C8E42763E334E"
+				type: "item"
+				item: "hexerei:moon_dust"
+			}]
+			rewards: [{
+				id: "3FA724121B3B294A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			icon: "biomancy:living_flesh"
+			x: -14.5d
+			y: -7.5d
+			description: [
+				"Use the magic of flesh and life to create functional contraptions!"
+				"Note: having a create setup will be necessary"
+			]
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: true
+			size: 2.0d
+			id: "781F497456D9A446"
+			tasks: [{
+				id: "3836025DD198FC68"
+				type: "checkmark"
+				title: "Biomancy"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["619BFD89ED478099"]
+			id: "2B263687B0DC3C15"
+			tasks: [{
+				id: "36D7291D8C3AE376"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 2L
+			}]
+		}
+		{
+			title: "Mobs Drops"
+			x: -16.0d
+			y: -7.5d
+			description: [
+				"Certain mob drops will prove useful in the creation of new life"
+				"Skeletons, zombies, wolves, spiders, and others will be of interest"
+			]
+			hide_dependency_lines: true
+			dependencies: ["781F497456D9A446"]
+			id: "723292C778073226"
+			tasks: [
+				{
+					id: "573A313D856C98F5"
+					type: "item"
+					item: "biomancy:mob_fang"
+				}
+				{
+					id: "0878BAF8856FB22B"
+					type: "item"
+					item: "biomancy:mob_claw"
+				}
+				{
+					id: "0F3E07E41056D1A9"
+					type: "item"
+					item: "biomancy:mob_sinew"
+				}
+				{
+					id: "78814B2F51B89A76"
+					type: "item"
+					item: "biomancy:mob_marrow"
+				}
+				{
+					id: "4413E31BC9E3EBDB"
+					type: "item"
+					item: "biomancy:mob_gland"
+				}
+				{
+					id: "15CED5F7CC28CF2A"
+					type: "item"
+					item: "biomancy:toxin_gland"
+				}
+				{
+					id: "058577AE02CAF8F3"
+					type: "item"
+					item: "biomancy:volatile_gland"
+				}
+				{
+					id: "1EF92044594521F9"
+					type: "item"
+					item: "biomancy:withered_mob_marrow"
+				}
+			]
+			rewards: [{
+				id: "0A29665435A72B05"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -6.0d
+			description: ["The bio mechanism is an integral part of creation"]
+			hide_dependency_lines: true
+			dependencies: ["781F497456D9A446"]
+			id: "6C76FDEEEBE41514"
+			tasks: [{
+				id: "3EF474EB827C1742"
+				type: "item"
+				item: "kubejs:bio_mechanism"
+			}]
+			rewards: [{
+				id: "130604623E475084"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.5d
+			y: -5.0d
+			description: [
+				"The primordial cradle is capable of creating new life from raw flesh"
+				"Feed it raw meat until it's full, then begin the healing process by feeding it potions of healing"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6C76FDEEEBE41514"]
+			id: "77E958E9EED9CBCD"
+			tasks: [{
+				id: "03A26160D8F564F6"
+				type: "item"
+				item: "biomancy:primordial_cradle"
+			}]
+			rewards: [{
+				id: "4B05765494E9C4EA"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -4.0d
+			description: ["Living flesh can be obtained by putting down the new life the cradle spits out"]
+			hide_dependency_lines: true
+			dependencies: ["77E958E9EED9CBCD"]
+			id: "58E9DB72542D32A0"
+			tasks: [{
+				id: "3B72A61DBF47709F"
+				type: "item"
+				item: "biomancy:living_flesh"
+			}]
+			rewards: [{
+				id: "2E980F761263405F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: -3.0d
+			description: [
+				"The decomposter runs of nutrients or food"
+				"This living mechanism can break down items into it's primal elements"
+			]
+			hide_dependency_lines: true
+			dependencies: ["58E9DB72542D32A0"]
+			id: "5792D9952092A93B"
+			tasks: [{
+				id: "4763A953DBAD9AA2"
+				type: "item"
+				item: "biomancy:decomposer"
+			}]
+			rewards: [{
+				id: "2200B5D95B1F1F23"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -14.5d
+			y: -3.0d
+			description: [
+				"The bio forge runs off nutrients or food"
+				"It can produce more fleshy utility items"
+			]
+			hide_dependency_lines: true
+			dependencies: ["58E9DB72542D32A0"]
+			id: "53003830498D1D2E"
+			tasks: [{
+				id: "6E0F4D77E5402361"
+				type: "item"
+				item: "biomancy:bio_forge"
+			}]
+			rewards: [{
+				id: "569D6B0CA9DD8CB9"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -3.0d
+			description: [
+				"The bio lab runs off nutrients or food"
+				"It is capable of brewing powerful concoctions"
+			]
+			hide_dependency_lines: true
+			dependencies: ["58E9DB72542D32A0"]
+			id: "53103899D266F27F"
+			tasks: [{
+				id: "371F3FA237583C0B"
+				type: "item"
+				item: "biomancy:bio_lab"
+			}]
+			rewards: [{
+				id: "52014D4E72DF8D6D"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -2.0d
+			description: ["The maw hopper allows automatic feeding for the blocks"]
+			hide_dependency_lines: true
+			dependencies: ["53003830498D1D2E"]
+			id: "221C19ABE3216AC0"
+			tasks: [{
+				id: "0C4B6F4AEEAD2498"
+				type: "item"
+				item: "biomancy:maw_hopper"
+			}]
+			rewards: [{
+				id: "311FA0C9D47B0343"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			description: ["The bio injector can inject mobs or yourself with compounds"]
+			hide_dependency_lines: true
+			dependencies: ["53103899D266F27F"]
+			id: "65EAB511EF73FD68"
+			tasks: [{
+				id: "67FE88DFB2A8ED5D"
+				type: "item"
+				item: {
+					id: "biomancy:injector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "648F7CDD47C76AF6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["6F24476998FDDA72"]
+			id: "6ED9F761F6542124"
+			tasks: [{
+				id: "6A30E07694E62A81"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["6F24476998FDDA72"]
+			id: "54B584E048723AFA"
+			tasks: [{
+				id: "2421D0114E4D0B7C"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["6F24476998FDDA72"]
+			id: "4F5A17116D1D697E"
+			tasks: [{
+				id: "70494E92EE7CAC3B"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			description: [
+				"The gaia pylon is an upgraded form of the terrasteel pylon"
+				"Also used in the ritual of summon gaia"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6ED9F761F6542124"
+				"54B584E048723AFA"
+			]
+			id: "288326F02153500E"
+			tasks: [{
+				id: "18F6F4C85B21C591"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+			rewards: [{
+				id: "3B7F22648496813A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Gaia Ritual"
+			icon: "minecraft:beacon"
+			x: 4.0d
+			y: 7.0d
+			description: [
+				"The ritual of gaia begins with setting up a tier 1 beacon"
+				"A flat circular area of 11 blocks must be available around the beacon"
+				"4 gaia pylons need to be placed 3 blocks away from each corner of the beacon, 1 block high"
+				"Right clicking on the beacon with a terrasteel ingot will summon the gaia guardian"
+			]
+			hide_dependency_lines: true
+			dependencies: ["288326F02153500E"]
+			id: "07BEA45DD874A812"
+			tasks: [{
+				id: "2124FAB5A5A619C5"
+				type: "checkmark"
+				title: "Gaia Ritual"
+			}]
+		}
+		{
+			title: "Defeat the Guardian of Gaia"
+			icon: "botania:gaia_head"
+			x: 4.00238095238096d
+			y: 8.430952380952384d
+			hide_dependency_lines: true
+			dependencies: ["07BEA45DD874A812"]
+			size: 2.0d
+			id: "2545395C0E3FFC8E"
+			tasks: [{
+				id: "13436C880A1A08A1"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["2545395C0E3FFC8E"]
+			id: "5F3D7B306B698236"
+			tasks: [{
+				id: "7F329BC7E4045C3D"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"5F3D7B306B698236"
+				"49E9E2AD9434D731"
+			]
+			hide: true
+			id: "434F97254A9716FB"
+			tasks: [{
+				id: "7027C9DB3901AB46"
+				type: "item"
+				item: "botanicadds:gaiasteel_ingot"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"5F3D7B306B698236"
+				"61437502D8EA956C"
+			]
+			hide: true
+			id: "232358900CB1DABA"
+			tasks: [{
+				id: "6563308FC2CC07BF"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			icon: "botania:life_essence"
+			x: 5.5d
+			y: 8.5d
+			description: [
+				"The Guardian of Gaia can be resummoned to fight again, as many times as one pleases"
+				"Using a gaia ingot in place of the terrasteel ingot will summon a stronger version to fight!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2545395C0E3FFC8E"]
+			id: "0095014935177EDB"
+			tasks: [{
+				id: "06EB98906A575211"
+				type: "checkmark"
+				title: "More Gaia.."
+			}]
+		}
+	]
+	quest_links: [ ]
+}

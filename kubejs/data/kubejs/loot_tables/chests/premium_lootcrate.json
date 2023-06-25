@@ -1,0 +1,138 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsdifficulty:enderium_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "undergarden:utherium_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentgear:azure_electrum_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentgear:tyrian_steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentcompat:plasteel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentcompat:voidmetal_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentcompat:arcmetal_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "silentcompat:solarmetal_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:dragon_scale"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thermalendergy:endergy_upgrade_2"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ae2:cell_component_256k"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:azure_casing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "ae2:256k_crafting_storage"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:mysterious_worm"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:charm_of_keeping_3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:totem_of_undying"
+        }
+      ]
+    }
+  ]
+}

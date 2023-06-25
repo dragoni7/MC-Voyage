@@ -1,0 +1,203 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+            "type": "minecraft:uniform",
+            "min": 4,
+            "max": 5
+        },
+        "bonus_rolls": 0,
+        "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:bone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 32
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:spider_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "quark:soul_bead",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:string",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "aquamirae:fin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "aquamirae:esca",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "upgrade_aquatic:thrasher_tooth",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "upgrade_aquatic:guardian_spine",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "architects_palette:withered_bone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:centipede_leg",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 8
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gunpowder",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "peat_mummy:rotten_peat_fresh",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        }
+        ]
+      }
+    ]
+  }
+  

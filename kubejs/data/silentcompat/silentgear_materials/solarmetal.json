@@ -1,0 +1,130 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/solarmetal"
+      }
+    },
+    "name": {
+      "translate": "material.silentcompat.solarmetal"
+    },
+    "stats": {
+      "main": {
+        "durability": 1461.0,
+        "armor_durability": 32.0,
+        "enchantment_value": 12.0,
+        "rarity": 80.0,
+        "charging_value": 1.0,
+        "harvest_level": 5.0,
+        "harvest_speed": 14.0,
+        "melee_damage": 15.0,
+        "magic_damage": 5.0,
+        "attack_speed": 0.0,
+        "attack_speed/axe": -0.1,
+        "attack_speed/knife": 0.1,
+        "attack_speed/dagger": 0.1,
+        "attack_speed/katana": 0.1,
+        "attack_speed/spear": 0.2,
+        "ranged_damage": 0.5,
+        "ranged_speed": 2.0,
+        "armor": 40.0,
+        "armor/helmet": 10.0,
+        "armor/chestplate": 12.0,
+        "armor/leggings": 10.0,
+        "armor/boots": 8.0,
+        "armor_toughness": 12.0,
+        "magic_armor": 8.0
+      },
+      "rod": {
+        "attack_speed": {
+          "add": 0.2
+        },
+        "harvest_speed": {
+            "add": 3.0
+        },
+        "ranged_speed": {
+          "add": 0.5
+        },
+        "rarity": 60.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentcompat:scorching",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "name": "silentcompat:restoration",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+            "name": "silentgear:flame_ward",
+            "level": 1
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:fireproof",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#ff8b28"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#ff8b28"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#ff8b28"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#ff8b28"
+        }
+      ]
+    }
+  }

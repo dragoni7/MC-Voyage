@@ -1,0 +1,50 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+
+.curseclient
+.qmenu_opened.marker
+kubejs/probe/*
+ESM/*
+crash-reports/*
+debug/*
+knownkeys.txt
+lightspeed-cache/*
+local/*
+logs/*
+mods/*
+o_prof
+opf_cache/*
+options.txt
+optionsof.txt
+output/*
+patchouli_data.json
+resourcepacks/*
+rhino.local.properties
+saves/*
+screenshots/*
+servers.dat
+servers.dat_old
+shaderpacks/*
+usercache.json
+usernamecache.json

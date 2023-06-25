@@ -1,0 +1,29 @@
+{
+    "common": [
+      {
+        "entity": "minecraft:zombie",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:skeleton",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:spider"
+      },
+      {
+        "entity": "rottencreatures:undead_miner"
+      }
+    ],
+    "rare": [
+      {
+        "entity": "minecraft:creeper"
+      },
+      {
+        "entity": "minecraft:stray"
+      },
+      {
+        "entity": "peat_mummy:peat_zombie"
+      }
+    ]
+  }

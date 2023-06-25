@@ -1,0 +1,37 @@
+#Apply damage boost to other Entity
+"Apply damage boost to other Entity" = false
+
+#The burn damage bonus is based on the following mathematical formula: 
+#
+#burn_time < time,DAMAGE =  slow_rate * default_damage/ (1 + exp(-burn_time + 5));
+#burn_time > time,DAMAGE =  exp(rapid_rate * (burn_time - time));
+#
+#Where:(burn_time IS REMAIN_BURN_TIME)
+#- default_damage is the value of DAMAGE when burn_time = 0.
+#- rate is the rate of increase of the function after the inflection point, where the burn time exceeds time.
+#- time is the inflection point, where the graph of the function has a small and gradual increase until burn_time <= T, but experiences a steep increase in value when burn_time > T, with the amplitude of the increase becoming greater as burn_time increases.
+#
+#FINAL_DAMAGE = Overall_bonus_coefficient * DAMAGE + Aggregate_value_added
+[functions]
+	#Parameter 'default_damage' for the begin damage boost 
+	#Range: 0.0 ~ 1.7976931348623157E308
+	default_damage = 1.0
+	#Parameter 'slow_rate' for the damage boost formula
+	#Range: -128.0 ~ 1.7976931348623157E308
+	slow_rate = 0.282561
+	#Parameter 'rapid_rate' for the damage boost formula
+	#Range: -128.0 ~ 1.7976931348623157E308
+	rapid_rate = 0.547786
+	#Parameter 'time' for the damage boost mode change
+	#Range: 0.0 ~ 1.7976931348623157E308
+	time = 10.0
+	#In the final calculation of flame damage modifiers.
+	#Range: -128.0 ~ 1.7976931348623157E308
+	" Aggregate_value_added" = -1.0
+	#Multiplied by a coefficient on the calculated damage.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Overall_bonus_coefficient = 1.0
+	#Define the probability of the potion's effect taking place after being damaged as (damage value * 100/Broken_Body_effect_damage)%.
+	#Range: > 1
+	Broken_Body_effect_damage = 1000
+

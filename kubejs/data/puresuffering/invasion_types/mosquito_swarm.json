@@ -1,0 +1,111 @@
+{
+    "Dimensions": [
+        "minecraft:overworld",
+        "mincraft:the_nether"
+    ],
+
+    "Rarity": 4,
+    "Tier": 0,
+    "InvasionTime": "NIGHT",
+    "InvasionPriority": "BOTH",
+    "SpawningSystem": "DEFAULT",
+    "TimeModifier": "NONE",
+    "TimeChangeability": "DEFAULT",
+    "WeatherType": "DEFAULT",
+    "SeverityInfo": [
+        {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.6,
+            "MobSpawnList": [
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 12
+              }
+            ],
+            "TickDelay": 30
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.7,
+            "MobSpawnList": [
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 4,
+                "MinCount": 1,
+                "Weight": 12
+              },
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 24
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.8,
+            "MobSpawnList": [
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 6,
+                "MinCount": 2,
+                "Weight": 12
+              },
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 18
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.9,
+            "MobSpawnList": [
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 8,
+                "MinCount": 3,
+                "Weight": 12
+              },
+              {
+                "EntityType": "alexsmobs:crimson_mosquitor",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 12
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 1.0,
+            "MobSpawnList": [
+              {
+                "EntityType": "alexsmobs:crimson_mosquito",
+                "MaxCount": 10,
+                "MinCount": 4,
+                "Weight": 12
+              },
+              {
+                "EntityType": "alexsmobs:crimson_mosquitor",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 6
+          }
+    ]
+ }

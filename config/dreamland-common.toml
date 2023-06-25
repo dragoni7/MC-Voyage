@@ -1,0 +1,26 @@
+
+#General Settings
+[general]
+	#dreamland region weight (smaller values means more common). Default = 2
+	#Range: > 0
+	weight = 1
+
+#Effects
+[misc]
+	#Duration the antagonized effect is applied for. Default 200 ticks. Note: 20 ticks = 1 sec
+	#Range: > 0
+	duration = 200
+
+["Midashroom gold conversion"]
+	#Chance that the midashroom will convert a bonemealable block to a gold block when fertilizing. Default = 1/24
+	#Range: > 0
+	"gold conversion chance" = 24
+
+["Spore node transform block"]
+	#Should spore nodes spread mold by replacing blocks in the mold_spreadables tag?
+	"spore node spreads mold" = true
+
+["Mold block spreading"]
+	#Should mold blocks spread to blocks in the mold_spreadables tag?
+	"mold block spreads" = false
+

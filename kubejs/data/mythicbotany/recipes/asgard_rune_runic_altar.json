@@ -1,0 +1,33 @@
+{
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/netherite"
+      },
+      {
+        "tag": "forge:ingots/solarmetal"
+      },
+      {
+        "tag": "forge:ingots/voidmetal"
+      },
+      {
+        "tag": "forge:ingots/arcmetal"
+      },
+      {
+        "item": "botania:rune_air"
+      },
+      {
+        "item": "botania:rune_autumn"
+      },
+      {
+        "item": "botania:rune_pride"
+      },
+      {
+        "item": "botania:rainbow_rod"
+      }
+    ],
+    "mana": 16000,
+    "output": {
+      "item": "mythicbotany:asgard_rune"
+    }
+  }

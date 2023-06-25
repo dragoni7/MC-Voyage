@@ -1,0 +1,81 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 21, 2023, 10:23:53 AM
+
+#friendsandfoes:lightning_rods
+- friendsandfoes:exposed_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:weathered_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:oxidized_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:waxed_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:waxed_exposed_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:waxed_oxidized_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:waxed_weathered_lightning_rod (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+
+#minecraft:bee_home
+- minecraft:beehive (from Default)
+- minecraft:bee_nest (from Default)
+- habitat:beehive (from habitat-1.2.4.jar)
+- #productivebees:advanced_beehive (from productivebees-1.19.2-0.10.7.2.jar)
+- productivebees:nether_nest (from productivebees-1.19.2-0.10.7.2.jar)
+- blueprint:beehive (from blueprint-1.19.2-6.1.2.jar)
+- friendsandfoes:acacia_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:birch_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:crimson_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:dark_oak_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:jungle_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:mangrove_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:spruce_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:warped_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- everycomp:faf_beehive (from Everycomp Generated Pack)
+
+#species:birt_home
+- species:birt_dwelling (from species-1.1-forge.jar)
+
+#productivebees:advanced_beehive
+- productivebees:advanced_beehive (from productivebees-1.19.2-0.10.7.2.jar)
+
+#the_bumblezone:is_near_beehive_advancement_trigger
+- #minecraft:bee_home (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+- productivebees:solitary_hive? (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+- productivebees:solitary_nest? (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+- productivebees:draconic_nest? (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+- productivebees:sugarbag_nest? (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+- productivebees:nether_nest? (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+- productivebees:bumble_bee_nest? (from the_bumblezone_forge-6.7.24+1.19.2.jar)
+
+#minecraft:acquirable_job_site
+- minecraft:armorer (from Default)
+- minecraft:butcher (from Default)
+- minecraft:cartographer (from Default)
+- minecraft:cleric (from Default)
+- minecraft:farmer (from Default)
+- minecraft:fisherman (from Default)
+- minecraft:fletcher (from Default)
+- minecraft:leatherworker (from Default)
+- minecraft:librarian (from Default)
+- minecraft:mason (from Default)
+- minecraft:shepherd (from Default)
+- minecraft:toolsmith (from Default)
+- minecraft:weaponsmith (from Default)
+- blue_skies:star_emitter (from blue_skies-1.19.2-1.3.20.jar)
+- blue_skies:trough (from blue_skies-1.19.2-1.3.20.jar)
+- blue_skies:tool_box (from blue_skies-1.19.2-1.3.20.jar)
+- blue_skies:bag_of_spoils (from blue_skies-1.19.2-1.3.20.jar)
+- blue_skies:summoning_table (from blue_skies-1.19.2-1.3.20.jar)
+- blue_skies:alchemy_table (from blue_skies-1.19.2-1.3.20.jar)
+- domesticationinnovation:pet_bed (from domesticationinnovation-1.6.1-1.19.2.jar)
+- wares:delivery_table (from wares-1.19.2-1.0.0.jar)
+- productivebees:advanced_beehive (from productivebees-1.19.2-0.10.7.2.jar)
+- minecraft:beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:acacia_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:birch_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:crimson_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:dark_oak_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:jungle_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:mangrove_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:spruce_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- friendsandfoes:warped_beehive (from friendsandfoes-forge-mc1.19.2-1.8.2.jar)
+- ae2:fluix_researcher (from appliedenergistics2-forge-12.9.5.jar)
+
+#minecraft:village
+- #minecraft:acquirable_job_site (from Default)
+- minecraft:home (from Default)
+- minecraft:meeting (from Default)

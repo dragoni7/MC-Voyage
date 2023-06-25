@@ -1,0 +1,110 @@
+{
+    "Dimensions": [
+        "minecraft:overworld"
+    ],
+
+    "Rarity": 2,
+    "Tier": 2,
+    "InvasionTime": "NIGHT",
+    "InvasionPriority": "BOTH",
+    "SpawningSystem": "DEFAULT",
+    "TimeModifier": "NONE",
+    "TimeChangeability": "DEFAULT",
+    "WeatherType": "DEFAULT",
+    "SeverityInfo": [
+        {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.6,
+            "MobSpawnList": [
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 12
+              }
+            ],
+            "TickDelay": 30
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.7,
+            "MobSpawnList": [
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 4,
+                "MinCount": 1,
+                "Weight": 12
+              },
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 24
+          },
+          {
+            "ClusterSize": 2,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.8,
+            "MobSpawnList": [
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 6,
+                "MinCount": 2,
+                "Weight": 12
+              },
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 18
+          },
+          {
+            "ClusterSize": 2,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.9,
+            "MobSpawnList": [
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 8,
+                "MinCount": 3,
+                "Weight": 12
+              },
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 12
+          },
+          {
+            "ClusterSize": 2,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 1.0,
+            "MobSpawnList": [
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 10,
+                "MinCount": 4,
+                "Weight": 12
+              },
+              {
+                "EntityType": "blue_skies:infested_swarmer",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 6
+          }
+    ]
+ }

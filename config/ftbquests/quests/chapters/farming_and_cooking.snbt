@@ -1,0 +1,540 @@
+{
+	id: "54CF3E24D8D539AE"
+	group: ""
+	order_index: 4
+	filename: "farming_and_cooking"
+	title: "Farming and Cooking"
+	icon: "minecraft:cake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Cooking and Diet"
+			icon: "minecraft:golden_apple"
+			x: -1.0d
+			y: -4.0d
+			subtitle: "Anyone can cook!"
+			description: [
+				"Many new recipes are available, some simple while others requiring complex production chains"
+				"Eating many unique foods will grant you permanent max health, so always be on the look out to expand your palate!"
+				"Additionally, maintaining a diverse diet can grant temporary max feathers, allowing you to dodge more!"
+			]
+			size: 2.0d
+			id: "6F898D6D29E58305"
+			tasks: [{
+				id: "67335E005EFB8C92"
+				type: "checkmark"
+				title: "Anyone can cook!"
+				icon: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F877081D27C98DB"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "0A184F6C434D101E"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "6AB7DF86FF83CFA4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Fry away"
+			description: ["The skillet is used for campfire cooking recipes!"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "1AC14DA7A2AB74BB"
+			tasks: [{
+				id: "6632138D4FA3B8C7"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "43C85B8EBE67AC82"
+				type: "item"
+				item: "farmersdelight:fried_egg"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			subtitle: "Multiblock kitchen"
+			description: [
+				"You'll need several blocks to make a proper kitchen. "
+				"Ensure all the blocks are connected so the multiblock kitchen works!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "274C9043C8C04785"
+			tasks: [
+				{
+					id: "1D164D2CEE36760D"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
+				}
+				{
+					id: "5C7580EFB21724CA"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+				{
+					id: "470B988B83048DF6"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+				{
+					id: "2FED42E635E72EB8"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+				{
+					id: "7A561880E8071ABD"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+			]
+			rewards: [
+				{
+					id: "53BC82B3D7CB803E"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
+					count: 16
+				}
+				{
+					id: "65172C812F418677"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["The stove also allows the creation of campfire cooking recipes."]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "2FF1420E014A4B68"
+			tasks: [{
+				id: "70197268C3B7DB7C"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "10C36950BDD2D0B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CDF8551CA900944"
+					type: "item"
+					item: "createcafe:blueberry_milk_tea"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Boiled"
+			description: ["A pot allows you to cook certain recipes such as stews, soups, and more!"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "4E3B5504CD2F9A05"
+			tasks: [{
+				id: "3A6C1397D27A183B"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "507503897BB6E088"
+					type: "item"
+					item: "createcafe:strawberry_milk_tea"
+				}
+				{
+					id: "1BD7C7015D674451"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["The cutting board allows you to chop up ingredients and cakes. Use a sharp knife! (or sword)"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "7039899395278B21"
+			tasks: [
+				{
+					id: "0849151A19213E4D"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "00EC564524F9F178"
+					type: "item"
+					title: "Any #farmersdelight:tools/knives"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3D92827E27898037"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "250021F92374969E"
+					type: "item"
+					item: {
+						id: "ae2:certus_quartz_cutting_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["The kettle can brew teas and more"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "3B0AEBDEB97371C5"
+			tasks: [{
+				id: "17801477F7F383FB"
+				type: "item"
+				item: "farmersrespite:kettle"
+			}]
+		}
+		{
+			title: "Pet Powerup"
+			x: -3.0d
+			y: -0.5d
+			description: ["Buffing treats for your buddy!"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "457F1C709400DEC4"
+			tasks: [
+				{
+					id: "690AF462CDFBA332"
+					type: "item"
+					item: "farmersdelight:dog_food"
+				}
+				{
+					id: "1A55A6FF22175A86"
+					type: "item"
+					item: "farmersdelight:horse_feed"
+				}
+			]
+			rewards: [{
+				id: "59DF52A64B8AD78D"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 2
+			}]
+		}
+		{
+			title: "Drink Up"
+			x: -2.0d
+			y: -0.5d
+			description: ["Some foods and beverages provide a buff or two, or even something negative!"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "2B3B0BFEF60DF241"
+			tasks: [
+				{
+					id: "6FA587580AA23A01"
+					type: "item"
+					item: "farmersrespite:coffee"
+				}
+				{
+					id: "4D36C053A362A765"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+				}
+				{
+					id: "413C8CC7E8F9F2BC"
+					type: "item"
+					item: "delightful:rock_candy"
+				}
+			]
+			rewards: [
+				{
+					id: "69328C58A7DB85E2"
+					type: "item"
+					item: "overweight_farming:overweight_beetroot_block"
+				}
+				{
+					id: "00612D81C28DDB8F"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			subtitle: "Time to eat healthier!"
+			description: ["Juicy cheeseburgers can provide buffs!"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "6B4FEDFEB6EA3237"
+			tasks: [{
+				id: "3F1C16B7138B446F"
+				type: "item"
+				item: "delightful:deluxe_cheeseburger"
+			}]
+			rewards: [
+				{
+					id: "7391A46997870166"
+					type: "item"
+					item: "pamhc2trees:cherry_sapling"
+				}
+				{
+					id: "5DDD9903165A6728"
+					type: "item"
+					item: "pamhc2trees:lime_sapling"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "use paper straws!"
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "6BCCEAF6A0FAD07A"
+			tasks: [{
+				id: "2140E48292DC2AE2"
+				type: "item"
+				item: "createcafe:strawberry_milk_tea"
+			}]
+			rewards: [
+				{
+					id: "1F604F757526E717"
+					type: "item"
+					item: "pamhc2trees:mango_sapling"
+				}
+				{
+					id: "16C139F26F8E9ED2"
+					type: "item"
+					item: "farmersrespite:tea_seeds"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "58516C94375BF295"
+			tasks: [
+				{
+					id: "3CF9D5891DE6DD66"
+					type: "item"
+					item: "collectorsreap:lime_gummy"
+				}
+				{
+					id: "3E1C7F3DA2D93DEB"
+					type: "item"
+					item: "collectorsreap:strawberry_gummy"
+				}
+				{
+					id: "2D9923B788E7DE78"
+					type: "item"
+					item: "collectorsreap:melon_gummy"
+				}
+			]
+		}
+		{
+			title: "Big Feast"
+			x: -2.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "34F395E7E74AC09F"
+			tasks: [
+				{
+					id: "3ED293A447AB28F9"
+					type: "item"
+					item: "collectorsreap:honey_lime_chicken"
+				}
+				{
+					id: "1E6FEE91D5CB7B2F"
+					type: "item"
+					item: "farmersdelight:shepherds_pie"
+				}
+				{
+					id: "2FF8B8003E9B37F3"
+					type: "item"
+					item: "farmersdelight:honey_glazed_ham_block"
+				}
+			]
+			rewards: [{
+				id: "7F55C1DB4E30D3B1"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 4
+			}]
+		}
+		{
+			title: "Cheese Making"
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"Cheese can be made with a keg"
+				"Kegs can also produce beers!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "11B17C4E04D71742"
+			tasks: [
+				{
+					id: "3BABC02023D269A3"
+					type: "item"
+					item: "brewinandchewin:keg"
+				}
+				{
+					id: "1DA1D95929187EBE"
+					type: "item"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+				}
+			]
+			rewards: [
+				{
+					id: "7FCB51EAE7BD80F9"
+					type: "item"
+					item: "brewinandchewin:ham_and_cheese_sandwich"
+				}
+				{
+					id: "5D0735BFBEFAB703"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			title: "Seasons"
+			icon: "sereneseasons:calendar"
+			x: -1.0d
+			y: -6.0d
+			description: [
+				"The world will rotate between the four season, changing the land and how plants grow"
+				"Some crops can only grow in certain seasons, plan your farm accordingly!"
+			]
+			size: 2.0d
+			id: "7F9C0EF7AC6F2E41"
+			tasks: [{
+				id: "64B2DAB641CD5F90"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3E6EF7667382CE2F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Arby's Menu"
+			x: -1.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "51F6D84BFBDE2829"
+			tasks: [
+				{
+					id: "5B7643E60D8B3592"
+					type: "item"
+					item: "culturaldelights:mutton_sandwich"
+				}
+				{
+					id: "3C2735B9FE5DA768"
+					type: "item"
+					item: "farmersdelight:ham"
+				}
+				{
+					id: "0FF45E583AECF7E3"
+					type: "item"
+					item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+				}
+			]
+			rewards: [
+				{
+					id: "17B36076A3F1D157"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "1CEFA12B1321F3C6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Ice Cream Truck"
+			x: 0.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "7C055C4AE57129DD"
+			tasks: [
+				{
+					id: "5A7361B2F6B22638"
+					type: "item"
+					item: "gourmet:neapolitan_ice_cream_cone"
+				}
+				{
+					id: "482AE97887042675"
+					type: "item"
+					item: "collectorsreap:lime_popsicle"
+				}
+				{
+					id: "544A9311BA7CD3FD"
+					type: "item"
+					item: "respiteful:green_tea_ice_cream"
+				}
+			]
+			rewards: [{
+				id: "266E2A07906B8137"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}

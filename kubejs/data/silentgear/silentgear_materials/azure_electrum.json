@@ -1,0 +1,163 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/azure_electrum"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.azure_electrum"
+  },
+  "stats": {
+    "main": {
+      "durability": 1259.0,
+      "armor_durability": 61.0,
+      "enchantment_value": 37.0,
+      "rarity": 109.0,
+      "charging_value": 1.5,
+      "repair_value": 0.5,
+      "harvest_level": 5.0,
+      "harvest_speed": 29.0,
+      "melee_damage": 7.5,
+      "magic_damage": 11.0,
+      "attack_speed": 0.4,
+      "ranged_damage": 3.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 2.0,
+      "projectile_accuracy": 1.5,
+      "armor": 41.0,
+      "armor/helmet": 10.0,
+      "armor/chestplate": 12.0,
+      "armor/leggings": 11.0,
+      "armor/boots": 8.0,
+      "armor_toughness": 8.0,
+      "magic_armor": 19.0
+    },
+    "rod": {
+      "harvest_speed": {
+        "add": 3.0
+      },
+      "projectile_speed": {
+        "mul2": 1.5
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 401.0
+      },
+      "armor_durability": {
+        "add": 11.0
+      },
+      "harvest_speed": {
+        "add": 5.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:accelerate",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.35
+          }
+        ]
+      },
+      {
+        "name": "silentgear:light",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:accelerate",
+        "level": 5,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.66
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#4575E3"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#4575E3"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#4575E3"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#4575E3"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#4575E3"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#4575E3"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

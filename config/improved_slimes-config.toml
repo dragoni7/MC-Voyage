@@ -1,0 +1,41 @@
+
+[resistance]
+	#Amount the damage of physical attacks to slimes is divided by.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	damage = 1.4
+	#Amount the knockback of any attacks to slimes is divided by.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	knockback = 2.0
+
+[health]
+	#Amount the health of large slimes is multiplied by.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	small_slimes = 1.5
+	#Amount the health of rare slimes is multiplied by.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	rare_slimes = 1.25
+
+[rare_slime]
+	#Size of rare slimes.
+	#
+	#Range: > 0
+	size = 6
+	#Chance of a rare slime spawning instead of a normal slime.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	chance = 0.5
+
+[boost]
+	#Amount the attack damage of slimes is multiplied by.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	strength = 1.1
+	#Amount the damage taken by weaknesses of slimes is multiplied by.
+	#
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weakness = 1.3
+

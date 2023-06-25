@@ -1,0 +1,170 @@
+[
+    {
+        "mob": "minecraft:bee",
+        "player": true,
+        "random": 0.3,
+        "item": "the_bumblezone:bee_stinger"
+    },
+
+    {
+        "mob": "quark:wraith",
+        "player": true,
+        "random": 0.2,
+        "item": "silentgear:glowing_dust"
+    },
+
+    {
+        "mob": "minecraft:vex",
+        "player": true,
+        "random": 0.2,
+        "item": "silentgear:glowing_dust"
+    },
+
+    {
+        "mob": "bygonenether:wither_skeleton_knight",
+        "player": true,
+        "random": 0.2,
+        "item": "minecraft:wither_skeleton_skull"
+    },
+
+    {
+        "mob": "minecraft:evoker",
+        "player": true,
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "conjurer_illager:conjurer",
+        "player": true,
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "minecraft:illusioner",
+        "player": true,
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "friendsandfoes:iceologer",
+        "player": true,
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "savage_and_ravage:iceologer",
+        "player": true,
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "irons_spellbooks:archevoker",
+        "player": true,
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "blue_skies:alchemist",
+        "player": true,
+        "item": ["silentgear:blazing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "blue_skies:summoner",
+        "player": true,
+        "item": ["silentgear:blazing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "cataclysm:ignited_revenant",
+        "player": true,
+        "random": 0.2,
+        "item": "silentgear:blazing_dust"
+    },
+
+    {
+        "mob": "friendsandfoes:wildfire",
+        "player": true,
+        "random": 0.2,
+        "item": "silentgear:blazing_dust"
+    },
+
+    {
+        "mob": "minecraft:blaze",
+        "player": true,
+        "random": 0.05,
+        "item": "silentgear:blazing_dust"
+    },
+
+    {
+        "mob": "twilightforest:lich",
+        "player": true,
+        "item": ["irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "cataclysm:the_harbinger",
+        "player": true,
+        "item": ["irons_spellbooks:upgrade_orb", "endrem:corrupted_eye", "kubejs:boss_essence"]
+    },
+
+    {
+        "mob": "aquamirae:captain_cornelia",
+        "player": true,
+        "item": ["irons_spellbooks:upgrade_orb", "endrem:lost_eye", "silentgear:blazing_dust"]
+    },
+
+    {
+        "mob": "undergarden:masticator",
+        "player": true,
+        "item": "irons_spellbooks:upgrade_orb"
+    },
+
+    {
+        "mob": "cataclysm:ignis",
+        "player": true,
+        "item": ["irons_spellbooks:upgrade_orb", "endrem:cursed_eye", "silentgear:blazing_dust"]
+    },
+    
+    {
+        "mob": "meetyourfight:bellringer",
+        "player": true,
+        "item": "meetyourfight:phantoplasm"
+    },
+
+    {
+        "mob": "meetyourfight:dame_fortuna",
+        "player": true,
+        "item": "meetyourfight:fortunes_favor"
+    },
+
+    {
+        "mob": "meetyourfight:swampjaw",
+        "player": true,
+        "item": "meetyourfight:mossy_tooth"
+    },
+
+    {
+        "mob": "meetyourfight:rosalyne",
+        "player": true,
+        "item": ["meetyourfight:violet_bloom", "irons_spellbooks:upgrade_orb", "endrem:old_eye", "kubejs:boss_essence", "silentgear:glittery_dust"]
+    },
+
+    {
+        "mob": "minecraft:ender_dragon",
+        "player": true,
+        "item": ["kubejs:boss_essence", "irons_spellbooks:upgrade_orb", "silentgear:glittery_dust"]
+    },
+
+    {
+        "mob": "minecraft:wither",
+        "player": true,
+        "item": ["kubejs:boss_essence", "irons_spellbooks:upgrade_orb"]
+    },
+
+    {
+        "mob": "botania:doppleganger",
+        "player": true,
+        "item": ["kubejs:boss_essence", "irons_spellbooks:upgrade_orb", "silentgear:blazing_dust"]
+    }
+]

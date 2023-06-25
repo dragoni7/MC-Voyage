@@ -1,0 +1,7 @@
+{
+  "kubejs.ponder.starlight_charging.header": "How to use the starlight charger",
+  "kubejs.ponder.starlight_charging.text_1": "The Starlight charger is capable gaining charge while under moonlight.",
+  "kubejs.ponder.starlight_charging.text_2": "Four pillars each 2 blocks away from the center must be built, with a certain block on top. The blocks under this can be any block",
+  "kubejs.ponder.starlight_charging.text_3": "Crimson Steel, Azure Electrum, and Tyrian Steel allow different level of star charge.",
+  "kubejs.ponder.starlight_charging.text_4": "Use a catalyst along with charge to add the starlight charged modifer to materials."
+}

@@ -1,0 +1,14 @@
+
+#General settings for Molten Vents
+[common]
+	#The rarity of vents. The higher the number the rarer the vents. Default: 690
+	ventRarity = 900
+	#The depth of vents. When set below 10 the vents will stop generating immediately below the molten ore block, which is useful for specific cases such as when using the Stratospheric Expansion mod to prevent the vents from sticking through the bottom of the islands. Default: 100
+	ventDepth = 60
+	#When true, vents will only generate underwater. Vent depth is limited to a maximum of 80 when this setting is enabled. Default: false
+	generateUnderwater = false
+	#When true, orestone blocks will only replace liquid source blocks. This means that you will require a constant supply of liquid to generate orestones. Default: true
+	useLiquid = true
+	#The name of the liquid that molten orestones will convert into orestones. Important: For modded liquids you must have the mod's technical id such as 'tconstruct' instead of 'Tinkers Construct'. Default: 'minecraft:lava'
+	requiredLiquid = "minecraft:lava"
+

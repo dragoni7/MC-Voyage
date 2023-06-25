@@ -1,0 +1,38 @@
+{
+    "common": [
+      {
+        "entity": "minecraft:zombie",
+        "weight": 3
+      },
+      {
+        "entity": "minecraft:stray",
+        "weight": 2
+      },
+      {
+        "entity": "bygonenether:wex"
+      },
+      {
+        "entity": "minecraft:wither_skeleton"
+      },
+      {
+        "entity": "monsterplus:crystal_zombie"
+      }
+    ],
+    "rare": [
+      {
+        "entity": "bygonenether:corpor"
+      },
+      {
+        "entity": "twilightforest:maze_slime"
+      },
+      {
+        "entity": "irons_spellbooks:necromancer"
+      },
+      {
+        "entity": "twilightforest:troll"
+      },
+      {
+        "entity": "alexsmobs:centipede_head"
+      }
+    ]
+  }

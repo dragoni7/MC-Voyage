@@ -1,0 +1,155 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "silentcompat:alpha_yeti_fur"
+    }
+  },
+  "name": {
+    "text": "Alpha Yeti Fur"
+  },
+  "stats": {
+    "main": {
+      "durability": 640.0,
+      "armor_durability": 20.0,
+      "enchantment_value": 16.0,
+      "armor": 26.0,
+      "armor/helmet": 5.0,
+      "armor/chestplate": 9.0,
+      "armor/leggings": 8.0,
+      "armor/boots": 4.0,
+      "armor_toughness": 12.0,
+      "magic_armor": 6.0,
+      "rarity": 80.0,
+      "charging_value": 1.0
+    },
+    "grip": {
+      "durability": {
+        "add": 100.0
+      },
+      "attack_speed": {
+        "add": 0.3
+      },
+      "rarity": 80.0
+    },
+    "lining": {
+      "armor_durability": {
+        "add": 50.0
+      },
+      "knockback_resistance": {
+        "add": 0.2
+      },
+      "armor_toughness": {
+        "add": 1.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentcompat:cold",
+        "level": 1
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 1
+      },
+      {
+        "name": "silentcompat:yeti_strength",
+        "level": 1
+      },
+      {
+        "name": "silentcompat:feather_falling",
+        "level": 4
+      },
+              {
+          "name": "silentgear:snow_walker",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "boots"
+            }
+          ]
+        }
+    ],
+    "grip": [
+      {
+        "name": "silentgear:sturdy",
+        "level": 2
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 1
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:sturdy",
+        "level": 2
+      },
+      {
+        "name": "silentcompat:cold",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#A5D4F3"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#A5D4F3"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#A5D4F3"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#A5D4F3"
+      }
+    ],
+    "grip/all": [
+      {
+        "texture": "silentgear:grip_wool",
+        "color": "#A5D4F3"
+      }
+    ],
+    "grip/part": [
+      {
+        "texture": "silentgear:grip",
+        "color": "#A5D4F3"
+      }
+    ],
+    "lining/part": [
+      {
+        "texture": "silentgear:lining_cloth",
+        "color": "#A5D4F3"
+      }
+    ]
+  }
+}

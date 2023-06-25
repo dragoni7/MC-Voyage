@@ -1,0 +1,665 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+            "type": "minecraft:uniform",
+            "min": 4,
+            "max": 5
+        },
+        "bonus_rolls": 0,
+        "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:bacon",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:tomato",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:cabbage",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:onion",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:rice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:fried_egg",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:apple",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:beetroot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pamhc2trees:plumitem",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pamhc2trees:grapefruititem",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pamhc2trees:mangoitem",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pamhc2trees:peachitem",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "pamhc2trees:orangeitem",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 24
+              }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:chicken_cuts",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:minced_beef",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:cod_slice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:salmon_slice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:ham",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:apple_pie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:sweet_berry_cheesecake",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:chocolate_pie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:glow_berry_custard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:sweet_berry_cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:honey_cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "culturaldelights:beef_burrito",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "culturaldelights:midori_roll_slice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "culturaldelights:rice_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "culturaldelights:raw_calamari",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "culturaldelights:corn_cob",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "culturaldelights:eggplant",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersrespite:nether_wart_sourdough",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersrespite:green_tea_cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "collectorsreap:portobello_risotto",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "collectorsreap:portobello_quiche",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "collectorsreap:glazed_strider",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "farmersdelight:raw_pasta",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "delightful:honey_glazed_walnut",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "delightful:crab_rangoon",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "delightful:field_salad",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "delightful:salmonberry_gummy",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "abnormals_delight:pike_slice",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "abnormals_delight:duck_fillet",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "abnormals_delight:mulberry_cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "abnormals_delight:escargot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "abnormals_delight:venison_with_bamboo_shoots",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "abnormals_delight:pike_with_beetroot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsdelight:gongylidia_bruschetta",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsdelight:bison_burger",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "le_fishe_au_chocolat:le_fishe_au_chocolat",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsdelight:kangaroo_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsdelight:lobster_pasta",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "oceansdelight:guardian_soup",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "oceansdelight:fugu_roll",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "oceansdelight:braised_sea_pickle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 8
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "createcafe:mango_milk_tea",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "createcafe:pumpkin_milk_tea",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,445 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+            "type": "minecraft:uniform",
+            "min": 4,
+            "max": 5
+        },
+        "bonus_rolls": 0,
+        "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:raw_copper",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:raw_gold",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentgear:raw_crimson_iron",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:raw_zinc",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:raw_zinc_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentgear:raw_crimson_iron_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:raw_iron_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:raw_copper_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:raw_gold_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:copper_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:diamond",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:lapis_lazuli",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:quartz",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentgear:bort",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:ochrum",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:asurine",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:crimsite",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:scoria",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:veridium",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cobblestone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cobbled_deepslate",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:tuff",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:dirt",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:coal",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:granite",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:andesite",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:diorite",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:obsidian",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:redstone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:iron_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:copper_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:zinc_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

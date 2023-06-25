@@ -1,0 +1,318 @@
+[
+    {
+        "mob": ["minecraft:bat"],
+        "mincount": {
+            "amount": 4,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:fly"],
+        "dimension": ["ad_astra:moon", "ad_astra:venus", "ad_astra:mars", "ad_astra:mercury"],
+        "result": "deny"
+    },
+
+    {
+        "mob": ["the_bumblezone:bee_queen"],
+        "result": "default",
+        "healthadd": 1000
+    },
+
+    {
+        "mob": ["minecraft:wither"],
+        "result": "default",
+        "healthadd": 150
+    },
+
+    {
+        "mob": ["twilightforest:knight_phantom"],
+        "result": "default",
+        "healthadd": 150
+    },
+
+    {
+        "mob": ["twilightforest:alpha_yeti", "twilightforest:ur_ghast", "twilightforest:armored_giant", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 250
+    },
+
+    {
+        "mob": "twilightforest:hydra",
+        "result": "default",
+        "healthadd": 300
+    },
+
+    {
+        "mob": "minecraft:ender_dragon",
+        "result": "default",
+        "healthadd": 800
+    },
+
+    {
+        "mob": ["alexsmobs:warped_mosco"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 150
+    },
+
+    {
+        "mob": "minecraft:elder_guardian",
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 250
+    },
+
+    {
+        "mob": ["deeperdarker:stalker", "minecraft:warden"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 400
+    },
+
+    {
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "minlight": 0,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["quark:wraith"],
+        "dimension": "minecraft:overworld",
+        "block": ["minecraft:stone_bricks", "minecraft:bricks", "minecraft:sandstone", "minecraft:polished_andesite"],
+        "result": "allow"
+    },
+    {
+        "mob": ["quark:wraith"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:farseer"],
+        "dimension": "minecraft:overworld",
+        "structure": "betterstrongholds:stronghold",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:farseer", "blue_skies:artificial_golem"],
+        "structure": "twilightforest:final_castle",
+        "dimension": "twilightforest:twilight_forest",
+        "healthmultiply": 3,
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:farseer", "blue_skies:artificial_golem"],
+        "dimension": "twilightforest:twilight_forest",
+        "incontrol": true,
+        "result": "deny"
+    },
+    {
+        "mob": ["alexsmobs:farseer"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:skelewag"],
+        "dimension": "minecraft:overworld",
+        "structure": "betteroceanmonuments:ocean_monument",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:skelewag"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:guster", "rottencreatures:mummy"],
+        "dimension": "minecraft:overworld",
+        "structure": "betterdeserttemples:desert_temple",
+        "block": ["minecraft:cut_sandstone", "minecraft:sandstone"],
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:guster", "rottencreatures:mummy"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:rocky_roller"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:ancient_mines",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:rocky_roller"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:pillager_fortress",
+        "result": "allow"
+    },
+    {
+        "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:skreecher"],
+        "dimension": "minecraft:overworld",
+        "structure": "minecraft:ancient_city",
+        "block": ["minecraft:sculk", "minecraft:deepslate_bricks"],
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:skreecher"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "mincount": {
+            "amount": 3,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+
+    {
+        "mob": ["deeperdarker:shattered"],
+        "dimension": "minecraft:overworld",
+        "structure": "minecraft:ancient_city",
+        "block": ["minecraft:sculk", "minecraft:deepslate_bricks", "minecraft:deepslate"],
+        "result": "allow"
+    },
+    {
+        "mob": ["deeperdarker:shattered"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:crimson_mosquito", "friendsandfoes:wildfire", "cataclysm:ignited_revenant", "bygonenether:wither_skeleton_knight"],
+        "dimension": "minecraft:the_nether",
+        "structure": "hexfortress:nether_fortress",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:crimson_mosquito", "cataclysm:ignited_revenant"],
+        "dimension": "minecraft:the_nether",
+        "biome": "minecraft:warped_forest",
+        "result": "allow"
+    },
+    {
+        "mob": ["alexsmobs:crimson_mosquito", "friendsandfoes:wildfire", "cataclysm:ignited_revenant", "bygonenether:wither_skeleton_knight"],
+        "dimension": "minecraft:the_nether",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["quark:forgotten"],
+        "dimension": "minecraft:overworld",
+        "structure": "dungeons_arise:shiraz_palace",
+        "result": "allow"
+    },
+    {
+        "mob": ["quark:forgotten"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["neapolitan:plantain_spider"],
+        "dimension": "minecraft:overworld",
+        "structure": "idas:treetop_tavern",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["neapolitan:plantain_spider"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["aquamirae:anglerfish", "species:deepfish"],
+        "dimension": "minecraft:overworld",
+        "biometags": "minecraft:is_ocean",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["aquamirae:anglerfish", "species:deepfish"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["aquamirae:eel"],
+        "dimension": "minecraft:overworld",
+        "biometags": "minecraft:is_ocean",
+        "onjoin": true,
+        "result": "allow"
+    },
+    {
+        "mob": ["aquamirae:eel"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["dreamland:larva"],
+        "dimension": "minecraft:overworld",
+        "block": ["dreamland:hive_block"],
+        "onjoin": true,
+        "result": "allow"
+    },
+
+    {
+        "mob": ["dreamland:larva"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["enderzoology:infested_zombie"],
+        "dimension": "minecraft:the_end",
+        "structure": "minecraft:end_city",
+        "block": ["minecraft:purpur_block"],
+        "result": "allow"
+    },
+    {
+        "mob": ["enderzoology:infested_zombie"],
+        "dimension": "minecraft:the_end",
+        "incontrol": true,
+        "result": "deny"
+    }
+]

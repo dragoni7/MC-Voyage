@@ -1,0 +1,43 @@
+
+["Default Spawn Size/Distribution Values"]
+	#
+	#Determines the default min, max, and median size values a mob can be.
+	#
+	#The median value sets where the middle of the distribution is set.
+	#
+	#**Default values: Min=0.8, Max=1,2, Median=1, Distribution=0. Default values will only be used if an entity does not have them set in the config.**
+	#
+	#**More info on distributions can be found on the mod's page on curseforge.**
+	#
+	#*WARNING: Extreme values can cause issues and lag. *
+	#
+	#Range: 0.01 ~ 5.0
+	vmhSizeMax = 1.05
+	#Range: 0.01 ~ 5.0
+	vmhSizeMin = 0.955
+	#Range: 0.01 ~ 5.0
+	vmhSizeMedian = 1.0
+	#
+	#Determines the type of distribution to use on entities.
+	#
+	#Range: 0 ~ 4
+	vmhDistributionType = 0
+
+["Do Auto-Compatibility"]
+	#
+	#Enables/disables auto-compatibility with mobs/creatures. Disabling this turns the Entities List into a Whitelist.
+	#
+	vmhDoAutoCompat = true
+
+["Use Default Auto-Compatibility List"]
+	#
+	#Enables/disables auto-compatibility with mobs/creatures. This enables a default list of values included with the mod.
+	#
+	vmhDoDefaultAutoCompat = true
+
+["Use Different Scaling values"]
+	#
+	#Determines whether scales use a singular scaling value, or multiple for each scaling type. This can be overwritten by overrides.
+	#
+	vmhUseDifferentScalingValues = true
+

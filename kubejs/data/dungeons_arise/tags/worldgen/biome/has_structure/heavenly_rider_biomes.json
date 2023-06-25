@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "twilightforest:forest",
+      "twilightforest:dense_forest",
+      "twilightforest:mushroom_forest",
+      "twilightforest:enchanted_forest",
+      "twilightforest:clearing",
+      "twilightforest:swamp",
+      "twilightforest:lake",
+      "minecraft:end_barrens",
+      "minecraft:end_midlands",
+      "minecraft:end_highlands",
+      "minecraft:the_end"
+    ]
+  }

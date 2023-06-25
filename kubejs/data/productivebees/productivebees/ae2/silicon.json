@@ -1,0 +1,11 @@
+{
+    "primaryColor": "#737373",
+    "secondaryColor": "#804f40",
+    "flowerTag": "productivebees:flowers/crystalline",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "none"
+        }
+    ]
+}

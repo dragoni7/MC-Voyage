@@ -1,0 +1,244 @@
+{
+	id: "6068354F8D95FC91"
+	group: "4152DA6D653D361A"
+	order_index: 6
+	filename: "the_end"
+	title: "The End"
+	icon: "minecraft:end_stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "To the End"
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Prepare for a battle"
+			hide_dependency_lines: true
+			dependencies: [
+				"730B8A008F587642"
+				"5450F086FA59B087"
+			]
+			hide: true
+			size: 2.0d
+			id: "7762572B99DD368D"
+			tasks: [{
+				id: "358A9E6129F6845E"
+				type: "dimension"
+				icon: "endrem:ancient_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "0A1266A0F7A42005"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				}
+				{
+					id: "3B7B596B3C027436"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 5
+				}
+				{
+					id: "45E8FCAC29F2286B"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["Defeat the Ender Dragon to explore the End"]
+			hide_dependency_lines: true
+			dependencies: ["7762572B99DD368D"]
+			hide: true
+			hide_text_until_complete: false
+			size: 2.0d
+			id: "6E6C32E16EEE1ED7"
+			tasks: [{
+				id: "062762ACBAF9B97D"
+				type: "kill"
+				title: "The Great Dragon"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5753DF4D91F7E164"
+					type: "item"
+					auto: "enabled"
+					item: "quark:dragon_scale"
+				}
+				{
+					id: "632A56B00E512747"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 10
+				}
+				{
+					id: "579D6D30FA096C00"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "662A15DC88D97576"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Ender Golem"
+			x: 6.5d
+			y: 3.0d
+			description: ["Ender golems can be found throughout the citadel."]
+			hide_dependency_lines: true
+			dependencies: ["67108B87338BF60E"]
+			id: "3A7E02F3FB7B99F5"
+			tasks: [{
+				id: "7BC20482677DD3A1"
+				type: "kill"
+				icon: "cataclysm:void_stone"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "43C98490110518B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41EC9127A853B27B"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Ender Guardian"
+			x: 7.5d
+			y: 3.0d
+			description: [
+				"Much more powerful than ender golems."
+				"Final boss of the ruined citadel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["67108B87338BF60E"]
+			id: "333E17D9139DB556"
+			tasks: [{
+				id: "5A870245ED0E52E8"
+				type: "kill"
+				icon: "cataclysm:void_core"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "107CB45BAE9BEEA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F8AC829DF53FAED"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "5E909026B5EE28F2"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Ruined Citadel"
+			icon: "cataclysm:purpur_void_rune_trap_block"
+			x: 7.0d
+			y: 2.0d
+			description: [
+				"The ruined citadel is home to two bosses, the ender guardian and golem."
+				"Be wary of traps!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6E6C32E16EEE1ED7"]
+			id: "67108B87338BF60E"
+			tasks: [{
+				id: "546834FCE3DA0E4C"
+				type: "structure"
+				icon: "cataclysm:ender_guardian_spawner"
+				structure: "cataclysm:ruined_citadel"
+			}]
+			rewards: [{
+				id: "78AEA789BE00A7E9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "End City"
+			x: 4.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["6E6C32E16EEE1ED7"]
+			id: "1D1ED100B1FA2F0F"
+			tasks: [{
+				id: "2EE927BE47748160"
+				type: "structure"
+				icon: "minecraft:purpur_block"
+				structure: "minecraft:end_city"
+			}]
+			rewards: [{
+				id: "29C76D62B3BE55B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["6E6C32E16EEE1ED7"]
+			id: "69566FBC4FDB758C"
+			tasks: [{
+				id: "3F62948D4192D6F8"
+				type: "kill"
+				title: "Mutant Shulker"
+				icon: "minecraft:shulker_box"
+				entity: "mutantmore:mutant_shulker"
+				value: 1L
+			}]
+			rewards: [{
+				id: "636885706E7BB269"
+				type: "item"
+				team_reward: true
+				item: "kubejs:boss_essence"
+				only_one: true
+			}]
+		}
+	]
+	quest_links: [ ]
+}

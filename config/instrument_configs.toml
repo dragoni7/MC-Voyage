@@ -1,0 +1,13 @@
+#Range: 0.5 ~ 1.9
+instrument_pitch = 1.0
+#Allowed Values: KEYBOARD_LAYOUT, DO_RE_MI, ABC, NONE
+label_type = "KEYBOARD_LAYOUT"
+#Allowed Values: MONO, MIXED, STEREO
+channel_type = "MIXED"
+#Stops all background music when you play or someone else within 10 blocks of range
+stop_music_on_play = true
+#Allowed Values: OLD, NEW
+zither_sound_type = "NEW"
+#Allowed Values: DON_KA, KEYBOARD_LAYOUT, NONE
+drum_label_type = "KEYBOARD_LAYOUT"
+

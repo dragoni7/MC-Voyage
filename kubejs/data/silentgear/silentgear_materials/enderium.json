@@ -1,0 +1,97 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/enderium"
+      }
+    },
+    "name": {
+      "translate": "material.silentgear.enderium"
+    },
+    "stats": {
+      "main": {
+        "durability": 1200.0,
+        "armor_durability": 34.0,
+        "repair_value": 0.15,
+        "enchantment_value": 13.0,
+        "harvest_level": 4.0,
+        "harvest_speed": 18.0,
+        "melee_damage": 6.0,
+        "magic_damage": 4.0,
+        "attack_speed": 0.0,
+        "armor": 24.0,
+        "armor/helmet": 4.0,
+        "armor/chestplate": 9.0,
+        "armor/leggings": 7.0,
+        "armor/boots": 4.0,
+        "armor_toughness": 8.0,
+        "magic_armor": 10.0,
+        "ranged_damage": 3.0,
+        "ranged_speed": 0.0,
+        "rarity": 80.0,
+        "charging_value": 1.2
+      },
+      "rod": {
+        "durability": {
+          "mul2": 0.2
+        },
+        "harvest_speed": {
+          "mul2": 0.2
+        },
+        "rarity": 60.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 3
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:malleable",
+          "level": 2
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#468C75"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#468C75"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#468C75"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#468C75"
+        }
+      ]
+    }
+  }

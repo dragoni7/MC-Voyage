@@ -1,0 +1,343 @@
+{
+	id: "7D941A2DF6F90206"
+	group: "4152DA6D653D361A"
+	order_index: 5
+	filename: "otherside"
+	title: "Otherside"
+	icon: "deeperdarker:heart_of_the_deep"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit the Deep Dark"
+			x: -6.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 2.0d
+			id: "6F42030EA1480AFE"
+			tasks: [{
+				id: "7096A00210E2A472"
+				type: "biome"
+				icon: "minecraft:sculk_catalyst"
+				secret: true
+				biome: "minecraft:deep_dark"
+			}]
+			rewards: [{
+				id: "7697D7878F4BB66C"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			description: ["Obtain an echo shard"]
+			hide: true
+			id: "347676E56F755EDF"
+			tasks: [{
+				id: "49E4A7196325B6E7"
+				type: "item"
+				item: "minecraft:echo_shard"
+			}]
+			rewards: [
+				{
+					id: "66CAF939E7021F92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "201905151271B759"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			title: "Warden"
+			x: -4.0d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"Defeat a warden to collect it's heart."
+				"The heart can be used to activate the portal in the ancient city. Be sure to clear the frame of any sculk first"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6F42030EA1480AFE"]
+			size: 2.0d
+			id: "77AE546E07BA8879"
+			tasks: [{
+				id: "656E5690007E8619"
+				type: "kill"
+				icon: "majruszsdifficulty:warden_treasure_bag"
+				entity: "minecraft:warden"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "31CC4E53120F701A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B602984AB11ADA8"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "0DB7F64259BFE43A"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "14A553F550385D25"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: true
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Stalker"
+			x: -7.5d
+			y: 0.0d
+			description: ["Defeat a stalker to obtain it's soul crystal"]
+			hide_dependency_lines: true
+			dependencies: ["6F42030EA1480AFE"]
+			id: "4263A4ECD7DE9720"
+			tasks: [{
+				id: "0B70F0E0DB3901C5"
+				type: "kill"
+				icon: "deeperdarker:ancient_vase"
+				entity: "deeperdarker:stalker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "519C4DF6B4EB850E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "73DD419CC7DC7B4E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "244D048B5A61FC71"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "1D01E27E53D189FB"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			description: [
+				"Reinforce your gear with this strong material."
+				"Can be applied as SilentGear coating, adding a trait that prevents the darkness effect!"
+			]
+			id: "345493BB466CE112"
+			tasks: [{
+				id: "79169E81F689B7A6"
+				type: "item"
+				item: "deeperdarker:reinforced_echo_shard"
+			}]
+			rewards: [
+				{
+					id: "41098265727A74CC"
+					type: "item"
+					item: "minecraft:echo_shard"
+					count: 3
+				}
+				{
+					id: "358BB673A522645A"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			title: "The Otherside"
+			x: -6.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["Enter the otherside and explore it's secrets"]
+			hide_dependency_lines: true
+			dependencies: ["6F42030EA1480AFE"]
+			hide: true
+			size: 2.0d
+			id: "02035E71905C6FB4"
+			tasks: [{
+				id: "5FE41A19D1849820"
+				type: "dimension"
+				icon: "deeperdarker:gloom_sculk"
+				dimension: "deeperdarker:otherside"
+			}]
+			rewards: [{
+				id: "6CE79D2099A8D694"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Shriek Worm"
+			x: -5.0d
+			y: 3.0d
+			description: ["Defeat a shriek worm"]
+			hide_dependency_lines: true
+			dependencies: ["02035E71905C6FB4"]
+			hide: true
+			id: "69290A719B06B04E"
+			tasks: [{
+				id: "768C6B0A3833B32A"
+				type: "kill"
+				icon: "minecraft:sculk_shrieker"
+				entity: "deeperdarker:shriek_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "35D341A12FAEF075"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+					count: 2
+				}
+				{
+					id: "633D51387CF67B46"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03FC27ED4F5E159E"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Sculk Alloy"
+			x: -5.0d
+			y: -3.5d
+			description: ["Sculk alloy serves as a strong alloy. Made from skreecher souls"]
+			id: "4B6D814CF76991EF"
+			tasks: [{
+				id: "0AA3B64942EEAA95"
+				type: "item"
+				item: "silentcompat:sculk_alloy_ingot"
+			}]
+			rewards: [
+				{
+					id: "6CA42C2F624AFC44"
+					type: "item"
+					item: "alexsmobs:skreecher_soul"
+				}
+				{
+					id: "3A10DBE56D10C304"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			description: ["Obtain a recovery compass to locate your last death location"]
+			id: "4866B1D0882078A9"
+			tasks: [{
+				id: "71887E562391EF00"
+				type: "item"
+				item: "minecraft:recovery_compass"
+			}]
+			rewards: [{
+				id: "68DB2CC2C51AE81F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Ancient Temple"
+			x: -6.0d
+			y: 3.5d
+			description: ["Discover an ancient temple"]
+			hide_dependency_lines: true
+			dependencies: ["02035E71905C6FB4"]
+			hide: true
+			id: "4D3790DBD41950A3"
+			tasks: [{
+				id: "5CB60ECF52310575"
+				type: "structure"
+				icon: "minecraft:soul_campfire"
+				structure: "deeperdarker:ancient_temple"
+			}]
+			rewards: [{
+				id: "253607B79252C482"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["02035E71905C6FB4"]
+			size: 2.0d
+			id: "36A94A30F3A84420"
+			tasks: [{
+				id: "369093B8BD82103B"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D0067934C8BB48B"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["02035E71905C6FB4"]
+			hide_text_until_complete: true
+			id: "66063FCD7542E82B"
+			tasks: [{
+				id: "4A0C1393AAE93C72"
+				type: "kill"
+				entity: "deeperdarker:sculk_centipede"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4A41AC584227ACFB"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

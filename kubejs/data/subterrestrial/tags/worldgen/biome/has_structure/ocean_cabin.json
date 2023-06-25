@@ -1,0 +1,9 @@
+{
+    "values": [
+      "minecraft:river",
+      {
+        "id": "#forge:is_water",
+        "required": false
+      }
+    ]
+  }

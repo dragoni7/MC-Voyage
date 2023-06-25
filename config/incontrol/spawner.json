@@ -1,0 +1,344 @@
+[   
+    {
+      "mob": ["deeperdarker:sculk_leech", "alexsmobs:skreecher", "deeperdarker:sculk_snapper", "deeperdarker:shattered"],
+      "persecond": 0.4,
+      "attempts": 10,
+      "amount": {
+        "minimum": 2,
+        "maximum": 5
+      },
+      "conditions": {
+        "dimension": "deeperdarker:otherside",
+        "mindist": 55,
+        "maxdist": 100,
+        "minheight": -60,
+        "maxheight": 200,
+        "maxthis": 8
+      }
+    },
+
+    {
+      "mob": ["dreamland:larva"],
+      "persecond": 0.5,
+      "attempts": 20,
+      "amount": {
+        "minimum": 3,
+        "maximum": 6
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "mindist": 35,
+        "maxdist": 100,
+        "minheight": -60,
+        "maxheight": 35,
+        "maxthis": 8
+      }
+    },
+
+    {
+        "mob": ["alexsmobs:skreecher", "deeperdarker:shattered"],
+        "persecond": 0.3,
+        "attempts": 15,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 45,
+          "maxdist": 100,
+          "minheight": -60,
+          "maxheight": 0,
+          "maxthis": 6
+        }
+      },
+
+    {
+        "mob": ["minecraft:warden", "deeperdarker:shriek_worm"],
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "deeperdarker:otherside",
+          "mindist": 55,
+          "maxdist": 100,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 4
+        }
+    },
+
+      {
+        "mob": ["quark:wraith"],
+        "persecond": 0.8,
+        "attempts": 12,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2,
+          "perplayer": true
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 20,
+          "maxdist": 60,
+          "minheight": -60,
+          "maxheight": 30,
+          "maxthis": 12
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:farseer"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 35,
+          "maxdist": 70,
+          "minheight": -60,
+          "maxheight": 30,
+          "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:farseer", "blue_skies:artificial_golem"],
+        "persecond": 0.6,
+        "attempts": 20,
+        "amount": {
+          "minimum": 1,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "twilightforest:twilight_forest",
+          "mindist": 25,
+          "maxdist": 70,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 24
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:skelewag"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 45,
+          "maxdist": 70,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:guster", "rottencreatures:mummy"],
+        "persecond": 0.2,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 20,
+          "maxdist": 65,
+          "minheight": 0,
+          "maxheight": 200,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:rocky_roller"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 20,
+          "maxdist": 55,
+          "minheight": -60,
+          "maxheight": 30,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 35,
+          "maxdist": 60,
+          "minheight": 50,
+          "maxheight": 200,
+          "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
+        "persecond": 0.5,
+        "attempts": 15,
+        "amount": {
+          "minimum": 2,
+          "maximum": 5
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 45,
+          "maxdist": 90,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 19
+        }
+      },
+
+      {
+        "mob": ["rottencreatures:burned"],
+        "persecond": 0.5,
+        "attempts": 16,
+        "amount": {
+          "minimum": 2,
+          "maximum": 4
+        },
+        "conditions": {
+          "dimension": "minecraft:the_nether",
+          "mindist": 45,
+          "maxdist": 100,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 16
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:crimson_mosquito", "friendsandfoes:wildfire", "cataclysm:ignited_revenant", "bygonenether:wither_skeleton_knight"],
+        "persecond": 0.1,
+        "attempts": 15,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:the_nether",
+          "mindist": 45,
+          "maxdist": 60,
+          "minheight": 0,
+          "maxheight": 200,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["quark:forgotten"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 55,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["neapolitan:plantain_spider"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 25,
+          "maxdist": 55,
+          "minheight": 40,
+          "maxheight": 200,
+          "maxthis": 8
+        }
+      },
+
+      {
+        "mob": ["aquamirae:anglerfish", "species:deepfish"],
+        "persecond": 0.5,
+        "attempts": 10,
+        "amount": {
+          "minimum": 2,
+          "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "inwater": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": -10,
+          "maxheight": 30,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["aquamirae:eel"],
+        "persecond": 0.2,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 1
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "inwater": true,
+          "mindist": 50,
+          "maxdist": 100,
+          "minheight": -10,
+          "maxheight": 30,
+          "maxthis": 1
+        }
+      },
+
+      {
+        "mob": ["enderzoology:infested_zombie"],
+        "persecond": 0.5,
+        "attempts": 20,
+        "amount": {
+          "minimum": 1,
+          "maximum": 4
+        },
+        "conditions": {
+          "dimension": "minecraft:the_end",
+          "mindist": 50,
+          "maxdist": 100,
+          "maxthis": 18
+        }
+      }
+  ]

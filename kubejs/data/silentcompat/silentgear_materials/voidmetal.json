@@ -1,0 +1,139 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/voidmetal"
+      }
+    },
+    "name": {
+      "translate": "material.silentcompat.voidmetal"
+    },
+    "stats": {
+      "main": {
+        "durability": 1661.0,
+        "armor_durability": 32.0,
+        "enchantment_value": 12.0,
+        "rarity": 80.0,
+        "charging_value": 1.0,
+        "harvest_level": 5.0,
+        "harvest_speed": 12.0,
+        "melee_damage": 15.5,
+        "magic_damage": 5.0,
+        "attack_speed": -0.2,
+        "attack_speed/axe": -0.3,
+        "attack_speed/knife": 0.0,
+        "attack_speed/dagger": 0.0,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.5,
+        "projectile_speed": 0.5,
+        "projectile_accuracy": 1.0,
+        "armor": 40.0,
+        "armor/helmet": 10.0,
+        "armor/chestplate": 12.0,
+        "armor/leggings": 10.0,
+        "armor/boots": 8.0,
+        "armor_toughness": 14.0,
+        "magic_armor": 8.0
+      },
+      "rod": {
+        "durability": {
+          "add": 321
+        },
+        "attack_speed": {
+          "add": -0.1
+        },
+        "harvest_speed": {
+          "add": -1.0
+        },
+        "ranged_speed": {
+          "add": -0.5
+        },
+        "rarity": 60.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentcompat:devouring",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "name": "silentcompat:dense",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ]
+        },
+        {
+          "name": "silentcompat:umbral_blast",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:magnetic",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#452479"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#452479"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#452479"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#452479"
+        }
+      ]
+    }
+  }

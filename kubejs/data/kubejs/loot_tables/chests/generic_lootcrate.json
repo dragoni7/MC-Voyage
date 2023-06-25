@@ -1,0 +1,593 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "majruszsdifficulty:bandage",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "majruszsdifficulty:golden_bandage",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "majruszsdifficulty:bandage",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 16
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "majruszsdifficulty:golden_bandage",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "spirit:soul_powder_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "genshinstrument:windsong_lyre"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "genshinstrument:vintage_lyre"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "genshinstrument:floral_zither"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "genshinstrument:glorious_drum"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentcompat:midnight_iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "silentcompat:dark_chocolate_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "the_bumblezone:bee_cannon"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "opf:opf"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:novelty_hat"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:pumpkin_pie"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:cake"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:milk_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:shrimp_fried_rice"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:boiled_emu_egg"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:precision_mechanism"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:honey_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:honeyed_apple"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:rabbit_stew"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:mushroom_stew"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:beetroot_soup"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:builders_tea"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:diamond",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:rainbow_glass",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:armor_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "savage_and_ravage:blast_proof_plating",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:blaze_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:bomb_blue",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_pearl",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:comb_jelly_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:medium_catfish_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:golden_apple"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "quark:pickarang"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:spyglass"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:fluix_pickaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:fluix_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ae2:fluix_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:vanishing_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:reappearing_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:rainbow_oak_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "dreamland:kunzite_point",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "dreamland:ooze_pie"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:rabbit_stew"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:dried_kelp_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:andesite_alloy",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "create:shaft",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "ironchest:obsidian_chest"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:sculk",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:bundle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:flute"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:globe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:clock_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:bellows"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:lock_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "supplementaries:speaker_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "buzzier_bees:bee_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:blobfish_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:platypus_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:music_disc_daze"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "alexsmobs:music_disc_thime"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "neapolitan:music_disc_hullabaloo"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "undergarden:music_disc_relict"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "undergarden:music_disc_limax_maximus"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "undergarden:music_disc_mammoth"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:music_disc_motion"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:music_disc_thread"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "quark:music_disc_crickets"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "quark:music_disc_clock"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "quark:music_disc_fire"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:moonworm"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "twilightforest:moonworm_queen"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "rottencreatures:treasure_chest"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "irons_spellbooks:arcane_essence",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "irons_spellbooks:common_ink",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "irons_spellbooks:uncommon_ink",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "createcafe:mana_berry_milk_tea",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "architects_palette:algal_blend",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

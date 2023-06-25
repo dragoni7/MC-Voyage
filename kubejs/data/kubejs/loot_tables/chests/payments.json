@@ -1,0 +1,911 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "savage_and_ravage:conch_of_conjuring",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "genshinstrument:windsong_lyre",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "genshinstrument:vintage_lyre",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "genshinstrument:floral_zither",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "genshinstrument:glorious_drum",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "productivebees:sturdy_bee_cage",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:avocado_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:peach_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:plum_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:olive_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:dragonfruit_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:date_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:lemon_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:persimmon_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:lychee_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "pamhc2trees:guava_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "colorfulazaleas:red_azalea_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "colorfulazaleas:pink_azalea_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "colorfulazaleas:white_azalea_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:ancient_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "friendsandfoes:tuff_golem_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "friendsandfoes:copper_golem_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsdifficulty:recall_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:name_tag",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:rainbow_glass",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "savage_and_ravage:blast_proof_plating",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:vanishing_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "twilightforest:reappearing_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sea_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shroomlight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ochre_froglight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:verdant_froglight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:pearlescent_froglight",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:andesite_alloy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:shaft",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:sculk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:flute"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:globe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:clock_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:blobfish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:platypus_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:stradpole_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:mimic_octopus_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "netherdepthsupgrade:wither_bonefish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:broken_spawner"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spirit:broken_spawner"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "kubejs:generic_lootcrate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:arcane_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:antique_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:common_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:uncommon_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:rare_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "hexerei:blood_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "botania:black_lotus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsdifficulty:bandage",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsdifficulty:golden_bandage",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "productivebees:upgrade_base",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dreamland:necrathene_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:tadpole_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "the_bumblezone:bee_queen_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dreamland:larva_symbiote"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "amodgus:amongus_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "dungeons_plus:leviathan_blade"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquamirae:whisper_of_the_abyss"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquamirae:shell_horn"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "aquamirae:coral_lance"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:upgrade_orb"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "irons_spellbooks:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "quark:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "friendsandfoes:totem_of_freezing"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "friendsandfoes:totem_of_illusion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "biomemakeover:enchanted_totem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nourished_nether:totem_of_post_mortem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "alexsmobs:stink_ray"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:adventurers_guide"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:lucky_rock"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:overworld_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:white_flag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:tamed_potato_beetle"
+        
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:secret_ingredient"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:idol_of_fertility"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:certificate_of_taming"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:anglers_trophy"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:golden_dice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:dice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:owl_feather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:horseshoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "majruszsaccessories:golden_horseshoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "rottencreatures:treasure_chest"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "waystones:waystone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:frog_black"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:frog_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:frog_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:frog_cyan"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:mushroom_black"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:mushroom_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:mushroom_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:mushroom_cyan"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:octopus_black"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:octopus_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:octopus_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:octopus_cyan"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:hanging_lights_black"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:hanging_lights_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:hanging_lights_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "nightlights:hanging_lights_cyan"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

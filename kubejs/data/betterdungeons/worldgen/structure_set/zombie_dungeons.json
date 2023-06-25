@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "betterdungeons:zombie_dungeon",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "salt": 280667671,
+      "spacing": 38,
+      "separation": 14,
+      "type": "minecraft:random_spread"
+    }
+  }

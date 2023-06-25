@@ -1,0 +1,182 @@
+
+[Accessories]
+
+	[Accessories.WhiteFlag]
+		#Ratio of damage ignored while being attacked.
+		#Range: 0.01 ~ 0.99
+		damage_received_reduction = 0.2
+		#Ratio of damage ignored when attacking.
+		#Range: 0.01 ~ 0.99
+		damage_dealt_penalty = 0.6
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance for White Flag to spawn in any village chest.
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 2.0e-5
+		#Determines which chests should contain White Flag.
+		loot_table_ids = ["minecraft:chests/village/village_savanna_house"]
+
+	[Accessories.TamedPotatoBeetle]
+		#Chance to double crops when harvesting.
+		#Range: 0.0 ~ 1.0
+		double_crops_chance = 0.1
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance for Tamed Potato Beetle to drop when harvesting.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+		#Chance multiplier when harvesting potatoes.
+		#Range: 1.0 ~ 10.0
+		potato_multiplier = 2.5
+
+	[Accessories.SecretIngredient]
+		#Duration penalty for created enhanced potions.
+		#Range: 0.0 ~ 0.99
+		potion_duration_penalty = 0.6
+		#Extra potion level for created enhanced potions.
+		#Range: 1 ~ 10
+		potion_extra_amplifier = 1
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance for Secret Ingredient to drop from Witch.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Accessories.OverworldRune]
+		#Extra multiplier for number of items acquired from chests.
+		#Range: 0.0 ~ 10.0
+		chest_size_bonus = 1.05
+		#Luck bonus when fishing.
+		#Range: 1 ~ 10
+		fishing_luck = 2
+		#Time reduction multiplier when fishing.
+		#Range: 0.01 ~ 0.99
+		time_multiplier = 0.5
+		#Bonus health, damage, movement speed and jump height for tamed animals.
+		#Range: 0.0 ~ 10.0
+		animal_bonus = 0.1
+		#Chance to spawn twins when breeding animals.
+		#Range: 0.0 ~ 1.0
+		twins_chance = 0.1
+		#Chance to drop extra items when mining stone.
+		#Range: 0.0 ~ 1.0
+		extra_loot_chance = 0.01
+		#Duration penalty for created enhanced potions.
+		#Range: 0.0 ~ 0.99
+		potion_duration_penalty = 0.5
+		#Extra potion level for created enhanced potions.
+		#Range: 1 ~ 10
+		potion_extra_amplifier = 1
+		#Chance to double crops when harvesting.
+		#Range: 0.0 ~ 1.0
+		double_crops_chance = 0.1
+		#Ratio of damage ignored while being attacked.
+		#Range: 0.01 ~ 0.99
+		damage_received_reduction = 0.0625
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 17
+
+	[Accessories.LuckyRock]
+		#Chance to drop extra items when mining stone.
+		#Range: 0.0 ~ 1.0
+		extra_loot_chance = 0.01
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance for Lucky Rock to drop when mining stone.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Accessories.IdolOfFertility]
+		#Chance to spawn twins when breeding animals.
+		#Range: 0.0 ~ 1.0
+		twins_chance = 0.1
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance for Idol of Fertility to drop when breeding animals.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Accessories.CertificateOfTaming]
+		#Bonus health, damage, movement speed and jump height for tamed animals.
+		#Range: 0.0 ~ 10.0
+		animal_bonus = 0.1
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance for Certificate of Taming to drop when taming animals.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Accessories.AnglersTrophy]
+		#Luck bonus when fishing.
+		#Range: 1 ~ 10
+		fishing_luck = 2
+		#Time reduction multiplier when fishing.
+		#Range: 0.01 ~ 0.99
+		time_multiplier = 0.4
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+		#Chance to drop Angler's Trophy when fishing.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Accessories.AdventurersGuide]
+		#Extra multiplier for number of items acquired from chests.
+		#Range: 0.0 ~ 10.0
+		chest_size_bonus = 1.05
+		#Chance for Adventurer's Guide to spawn in any chest.
+		#Range: 0.0 ~ 1.0
+		spawn_chance = 2.0e-5
+		#Price the villager will pay for this accessory (requires world/game restart).
+		#Range: 1 ~ 32
+		trade_price = 7
+
+[Boosters]
+	#Chance for random booster to spawn in any Nether chest.
+	#Range: 0.0 ~ 1.0
+	chest_chance = 0.1
+	#Chance for random booster to drop from any Nether mob.
+	#Range: 0.0 ~ 1.0
+	mob_chance = 0.001
+
+	[Boosters.OwlFeather]
+		#Extra experience multiplier from all sources.
+		#Range: 0.01 ~ 10.0
+		experience_extra_multiplier = 0.1
+		#Chance for Owl Feather to drop from Vex.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Boosters.Horseshoe]
+		#Extra luck bonus.
+		#Range: 1 ~ 10
+		luck = 1
+		#Chance for Horseshoe to drop from Skeleton Horseman.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+
+	[Boosters.GoldenHorseshoe]
+		#Extra luck bonus.
+		#Range: 1 ~ 10
+		luck = 2
+
+	[Boosters.GoldenDice]
+		#Extra chance multiplier to drop accessories.
+		#Range: 0.01 ~ 10.0
+		extra_chance_multiplier = 0.3
+
+	[Boosters.Dice]
+		#Extra chance multiplier to drop accessories.
+		#Range: 0.01 ~ 10.0
+		extra_chance_multiplier = 0.15
+		#Chance for Dice to drop from Guardian.
+		#Range: 0.0 ~ 1.0
+		drop_chance = 2.0e-5
+

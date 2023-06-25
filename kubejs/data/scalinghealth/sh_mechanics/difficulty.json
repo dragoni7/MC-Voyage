@@ -1,0 +1,31 @@
+{
+  "startingValue" : 0,
+  "minValue" : 0,
+  "maxValue" : 300,
+  "changePerSecond" : 0.0,
+  "mode" : {
+    "type" : "average",
+    "radius" : 128
+  },
+  "groupBonus" : "1 + 0.50 * (areaPlayerCount - 1)",
+  "groupBonusRadius" : 64,
+  "idleMultiplier" : 0.0,
+  "afkMessage" : false,
+  "timeBeforeAfk" : 120,
+  "sleepWarningMessage": false,
+  "multipliers" : {
+    "lunarMultipliers" : [],
+    "locationMultipliers" : [
+    ]
+  },
+  "mutators" : {
+    "onBlightKilled" : "difficulty + 0",
+    "onHostileKilled" : "difficulty + 0",
+    "onPeacefulKilled" : "difficulty + 0",
+    "onPlayerKilled" : "difficulty + 0",
+    "onPlayerDeath" : "difficulty + 0",
+    "onPlayerSleep" : "difficulty + 0",
+    "byEntity" : [
+    ]
+  }
+}

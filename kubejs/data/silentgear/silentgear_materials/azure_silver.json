@@ -1,0 +1,159 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 3,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/azure_silver"
+      }
+    },
+    "name": {
+      "translate": "material.silentgear.azure_silver"
+    },
+    "stats": {
+      "main": {
+        "durability": 197.0,
+        "armor_durability": 17.0,
+        "enchantment_value": 29.0,
+        "rarity": 83.0,
+        "charging_value": 1.4,
+        "repair_value": 0.5,
+        "harvest_level": 3.0,
+        "harvest_speed": 19.0,
+        "melee_damage": 6.0,
+        "magic_damage": 7.0,
+        "attack_speed": 0.0,
+        "ranged_damage": 2.0,
+        "ranged_speed": 0.0,
+        "projectile_speed": 1.2,
+        "projectile_accuracy": 1.1,
+        "armor": 13.0,
+        "armor/helmet": 2.0,
+        "armor/chestplate": 5.0,
+        "armor/leggings": 4.0,
+        "armor/boots": 2.0,
+        "magic_armor": 13.0
+      },
+      "rod": {
+        "durability": {
+          "mul2": -0.2
+        },
+        "harvest_speed": {
+          "add": 3.0
+        }
+      },
+      "tip": {
+        "durability": {
+          "add": 83.0
+        },
+        "armor_durability": {
+          "add": 3.0
+        },
+        "harvest_speed": {
+          "add": 3.0
+        },
+        "magic_damage": {
+          "add": 2.0
+        },
+        "attack_speed": {
+          "add": 0.2
+        },
+        "rarity": {
+          "add": 31.0
+        }
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 3
+        },
+        {
+          "name": "silentgear:soft",
+          "level": 2
+        },
+        {
+          "name": "silentgear:moonwalker",
+          "level": 4,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:bending",
+          "level": 2
+        }
+      ],
+      "tip": [
+        {
+          "name": "silentgear:malleable",
+          "level": 2
+        },
+        {
+          "name": "silentgear:soft",
+          "level": 2
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#CBBAFF"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#CBBAFF"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#CBBAFF"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#CBBAFF"
+        }
+      ],
+      "tip/all": [
+        {
+          "texture": "silentgear:tip_sharp",
+          "color": "#CBBAFF"
+        }
+      ],
+      "tip/part": [
+        {
+          "texture": "silentgear:tip_base"
+        },
+        {
+          "texture": "silentgear:tip",
+          "color": "#CBBAFF"
+        },
+        {
+          "texture": "silentgear:tip_shine"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,82 @@
+{
+    "mlib": "majruszsdifficulty:gameplay/ender_dragon_treasure_loot",
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "majruszsdifficulty:enderium_shard_locator",
+            "quality": 4,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.375
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+              "type": "minecraft:item",
+              "name": "quark:dragon_scale",
+              "weight": 1,
+              "quality": 0,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1.0,
+                    "max": 5.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+      },
+      {
+        "rolls": {
+          "min": 20.0,
+          "max": 30.0,
+          "type": "minecraft:uniform"
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "weight": 350,
+            "quality": 0
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dragon_breath",
+            "weight": 300,
+            "quality": 0
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "weight": 300,
+            "quality": 0
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:end_crystal",
+            "weight": 40,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "majruszsdifficulty:enderium_shard",
+            "weight": 8,
+            "quality": 2
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,39 @@
+{
+  "configVersion": 5,
+  "renderNametagsThroughWalls": true,
+  "blockEntityWhitelist": [
+    "create:rope_pulley",
+    "minecraft:beacon",
+    "create:hose_pulley",
+    "betterend:eternal_pedestal",
+    "create:contraption",
+    "create:stationary_contraption",
+    "create:gantry_contraption",
+    "create:carriage_contraption"
+  ],
+  "entityWhitelist": [
+    "botania:mana_burst",
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "alexsmobs:void_worm",
+    "alexsmobs:void_worm_part",
+    "alexsmobs:void_worm_shot",
+    "alexsmobs:void_portal",
+    "meetyourfight:dame_fortuna",
+    "meetyourfight:bellringer",
+    "meetyourfight:swampjaw",
+    "cataclysm:the_harbinger",
+    "meetyourfight:rosalyne"
+  ],
+  "tracingDistance": 128,
+  "debugMode": false,
+  "sleepDelay": 10,
+  "hitboxLimit": 50,
+  "skipMarkerArmorStands": true,
+  "tickCulling": true,
+  "tickCullingWhitelist": [
+    "minecraft:boat",
+    "minecraft:firework_rocket"
+  ],
+  "disableF3": false
+}

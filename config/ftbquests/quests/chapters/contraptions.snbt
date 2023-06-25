@@ -1,0 +1,3027 @@
+{
+	id: "3CBBDC703DEE8099"
+	group: ""
+	order_index: 2
+	filename: "contraptions"
+	title: "Tech And Contraptions"
+	icon: "create:precision_mechanism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Forget Redstone and Pistons"
+			x: -9.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Create!"
+			description: [
+				"Begin your engineering journey with Create. Factories, trains, and more can be created with the power of rotational force!"
+				"Many of Create's blocks and items come with a ponder mechanic. Simply hover over the item and hold 'w' to bring up a ponder scenes. Ponder scenes offer a helpful tutorial to learn how to use features"
+				"This questline serves as a loose guide. There are many more interesting blocks, contraptions, and items between steps!"
+			]
+			size: 2.0d
+			id: "2A8AA1677D3BD35B"
+			tasks: [{
+				id: "449B448B2DBDE1EE"
+				type: "checkmark"
+				icon: "create:wrench"
+			}]
+			rewards: [
+				{
+					id: "16AC4978FD723F41"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 8
+				}
+				{
+					id: "6D9A758769C5E95E"
+					type: "item"
+					item: "create:builders_tea"
+				}
+				{
+					id: "29C586B5E375BF05"
+					type: "item"
+					item: "create:shaft"
+					count: 4
+				}
+				{
+					id: "4BC096C1B456D255"
+					type: "item"
+					item: "create:cogwheel"
+					count: 3
+				}
+				{
+					id: "4B5FD5A50C5E7A5A"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "21AB2903ABE42DD8"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "15417BADDB19770C"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			subtitle: "ae2"
+			description: ["Allows the creation of advanced processors"]
+			hide_dependency_lines: true
+			dependencies: [
+				"593CA27A4712D8FE"
+				"103D37B49950E1AF"
+			]
+			id: "28F2B1FE46C8C48F"
+			tasks: [{
+				id: "1BCDAFEFCEAC0DFA"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+			rewards: [
+				{
+					id: "3A5BB7C6B604AF7A"
+					type: "item"
+					item: "ae2:silicon"
+					count: 4
+				}
+				{
+					id: "3C86B39112ED4403"
+					type: "item"
+					item: "ae2:quartz_cluster"
+				}
+				{
+					id: "722ED9ED2B300870"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22F43A46AB52D4AC"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["28F2B1FE46C8C48F"]
+			id: "32B2917048AB10E1"
+			tasks: [{
+				id: "727EEF71D66D3A22"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+			rewards: [{
+				id: "17D7A83C2DE60877"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["28F2B1FE46C8C48F"]
+			id: "5FA14E864BC51CB3"
+			tasks: [{
+				id: "2ECD052706445153"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+			rewards: [{
+				id: "138B42F72F1F3DE4"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["28F2B1FE46C8C48F"]
+			id: "1B7ECB8DEC28D8CC"
+			tasks: [{
+				id: "1D6F99DC875FD026"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+			rewards: [{
+				id: "65B12BDA210F2C32"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.5d
+			description: ["Heart of a network. Connect it to other blocks with fluix cables"]
+			hide_dependency_lines: true
+			dependencies: ["084C7EC0F6C221C6"]
+			id: "5C0F7DEF2B1BDE97"
+			tasks: [{
+				id: "55836E38C3D16644"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [
+				{
+					id: "7EBA37C5160637B3"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+					count: 3
+				}
+				{
+					id: "4A3260FABD07F82E"
+					type: "item"
+					item: "ae2:chest"
+				}
+				{
+					id: "6B7B52DEFBFCFDA0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6DB60EA811515D54"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 6.0d
+			subtitle: "In the palm of your hand"
+			description: ["Create a singularity by compressing a large amount of items, then create an explosion with ender pearl dust"]
+			hide_dependency_lines: true
+			dependencies: ["05A4B8DE9639C44A"]
+			id: "230815783D6C752C"
+			tasks: [{
+				id: "04AD59A2BAAB0C3F"
+				type: "item"
+				item: "ae2:quantum_entangled_singularity"
+			}]
+			rewards: [
+				{
+					id: "2020809BD828F76C"
+					type: "item"
+					item: {
+						id: "ae2:item_storage_cell_256k"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6B213985E21F9858"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "660536E9E1A0E288"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 6.5d
+			description: ["The matter condensor can condense items into compact forms"]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "05A4B8DE9639C44A"
+			tasks: [{
+				id: "637318E377A8C638"
+				type: "item"
+				item: "ae2:condenser"
+			}]
+			rewards: [
+				{
+					id: "535957B59B2D4994"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "5CBDEE974B58B6AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 7.0d
+			description: ["Several items that should not be combined.."]
+			hide_dependency_lines: true
+			dependencies: ["230815783D6C752C"]
+			id: "6EA8360CABB027CF"
+			tasks: [{
+				id: "727EA028B494154F"
+				type: "item"
+				item: "kubejs:impossible_compound"
+			}]
+			rewards: [
+				{
+					id: "40BE0CEBB1AD19AF"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "64E2B36336F6FBD2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			description: [
+				"Certus quartz can be crushed to into a dust"
+				"This dust is necessary in silicon creation"
+			]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "276AD11FA8E66572"
+			tasks: [{
+				id: "64A36CF5E4FECE3E"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+			rewards: [
+				{
+					id: "756DB545B0B5CC24"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "21FD93C7A0CEC39C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			description: ["Fluix can be created by tossing charged certus quartz and redstone into water, then waiting"]
+			hide_dependency_lines: true
+			dependencies: ["77FEBFFCC4F07D01"]
+			id: "61BE010539DC1FB9"
+			tasks: [{
+				id: "6F3FE16EB8F41D5C"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+			rewards: [
+				{
+					id: "41C167FAA6649BE3"
+					type: "item"
+					item: "ae2:fluix_crystal"
+					count: 2
+				}
+				{
+					id: "2AE6019B1C60D452"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "54FF6768168A72B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 6.5d
+			description: ["Better fluix cables. Can show you the number of channels in use "]
+			hide_dependency_lines: true
+			dependencies: ["4B94BC569542FF00"]
+			id: "4CBF4D89FD385818"
+			tasks: [{
+				id: "196891E9B777244C"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+			rewards: [
+				{
+					id: "04471A1BD2779E64"
+					type: "item"
+					item: "ae2:fluix_smart_cable"
+					count: 16
+				}
+				{
+					id: "5FF4F4F34E747923"
+					type: "item"
+					item: "ae2:fluix_covered_cable"
+					count: 16
+				}
+				{
+					id: "44C26330B4AA88C3"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			subtitle: "Stronger steel"
+			description: ["Plasteel is a rare metal that now appears deep underound, used in plasteel mechanisms!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"61437502D8EA956C"
+				"2A8AA1677D3BD35B"
+			]
+			hide: true
+			id: "3D64241BB6604298"
+			tasks: [{
+				id: "5DB3DE44386B0EC9"
+				type: "item"
+				item: "silentcompat:plasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "016D4C92AFDFF4AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41906EB7252B785E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"1B6D3496228A4C71"
+			]
+			id: "0BCA31CEB184270E"
+			tasks: [{
+				id: "3B9A9B5D91A7DD29"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "14FDD0D1770E92F5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			description: ["Algal blend is a crucial ingredient for andesite alloy"]
+			hide_dependency_lines: true
+			dependencies: ["6DFD95340E65EE89"]
+			id: "1B6D3496228A4C71"
+			tasks: [
+				{
+					id: "0B30F986491630FF"
+					type: "item"
+					item: "architects_palette:algal_blend"
+				}
+				{
+					id: "2F5744F5BD535033"
+					type: "item"
+					item: "architects_palette:algal_brick"
+				}
+			]
+			rewards: [{
+				id: "17FA765998ED1EB0"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			icon: "minecraft:kelp"
+			x: -9.0d
+			y: -0.5d
+			description: ["Having a supply of kelp or algae will be useful for crafting create items"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "6DFD95340E65EE89"
+			tasks: [{
+				id: "5785D12DC3F3C5DA"
+				type: "checkmark"
+				title: "Kelp Farming"
+			}]
+			rewards: [{
+				id: "0D29340557F216CD"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+		}
+		{
+			title: "Transporting Rotational Force"
+			icon: "create:shaft"
+			x: -9.0d
+			y: 0.75d
+			description: [
+				"Shafts can transfer rotational force!"
+				"Attatch cogs or other blocks to the shafts"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0BCA31CEB184270E"]
+			size: 1.5d
+			id: "5B70987723488AFA"
+			tasks: [{
+				id: "7BCCBFE32DDF43E5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "581F02DBD8C3F8A3"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			title: "Generate Rotational Force"
+			icon: "create:large_cogwheel"
+			x: -9.0d
+			y: -4.5d
+			description: [
+				"Rotational force can be generated through several methods"
+				"It serves as the power source for create contraptions"
+				"Using large and small cog wheels can speed up or slow down rotational force"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			size: 1.5d
+			id: "22ABD9662F0A71E0"
+			tasks: [{
+				id: "1F61B46D9DD48F1A"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6A5DBE6118F57A44"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "7D01FDECC9CBB330"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "3CE2415C8F51DDF4"
+			tasks: [{
+				id: "6A4F7C71836FF111"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "494457F5E682911D"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "682546BE324E3F6F"
+			tasks: [{
+				id: "39FE4149C36265FA"
+				type: "item"
+				item: "create:large_water_wheel"
+			}]
+			rewards: [{
+				id: "0382DD0741BB046C"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "1009E70E217DF790"
+			tasks: [
+				{
+					id: "3D00292126F5D686"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "6293ECF212EB89ED"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "673CF9AA83E7337F"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.5d
+			description: [
+				"Steam motors require a large set up to produce rotational force"
+				"Hold 'w' on the item to learn more"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "228A85C279FE9620"
+			tasks: [{
+				id: "498D2B5C01158274"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "572A02A2FAE027CD"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.5d
+			description: [
+				"Diesel Engines use fuels to produce rotational force!"
+				"Use a fluid pipe to pump in fuel"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49E9E2AD9434D731"
+				"2A56DAF89EDA153D"
+				"01E8FFCE9F36D177"
+			]
+			hide: true
+			id: "4CC3AD50752389AC"
+			tasks: [{
+				id: "75D900AE443F1F48"
+				type: "item"
+				item: "createdieselgenerators:diesel_engine"
+			}]
+			rewards: [{
+				id: "136D635B8B75A75F"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"49E9E2AD9434D731"
+				"2A56DAF89EDA153D"
+				"01E8FFCE9F36D177"
+			]
+			hide: true
+			id: "6C7CDEFF662B7FD2"
+			tasks: [{
+				id: "73CBB9889ECF18E1"
+				type: "item"
+				item: "createdieselgenerators:large_diesel_engine"
+			}]
+			rewards: [{
+				id: "3A4053DBBDDB35D7"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			description: ["Brass is a strong alloy used in more complex create blocks"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "2A56DAF89EDA153D"
+			tasks: [{
+				id: "73330E5EADEEEFA4"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "7AAE5DA50FED803B"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			description: ["Cast iron is a refined version of iron used in some create blocks"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "68C0BE124C42C92A"
+			tasks: [{
+				id: "744E3CCBAEC21A5D"
+				type: "item"
+				item: "createdeco:cast_iron_ingot"
+			}]
+			rewards: [{
+				id: "16B8723EA4600D55"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: ["The basing allows the creation of mixing and compression recipes!"]
+			hide_dependency_lines: true
+			dependencies: ["68C0BE124C42C92A"]
+			id: "7FC8EFD9B74C7EBB"
+			tasks: [{
+				id: "2B11F2511BB25B68"
+				type: "item"
+				item: "create:basin"
+			}]
+			rewards: [{
+				id: "694980B72FBDE125"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: [
+				"The mechanical mixer can create food, alloys, and more!"
+				"Some recipes require a heat source underneath the basin"
+				"This can be achieved by placing a blaze burner underneath"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "199D35D549FA94B7"
+			tasks: [{
+				id: "0B85D2AA0EFC3A80"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "2792722C5E87ABF7"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			description: ["The mechanical press can create plates from ingots"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "4819E0B188E860E1"
+			tasks: [{
+				id: "2FD24F8811043C0D"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "389C8155BB1150C3"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Transporting Items"
+			x: -7.5d
+			y: 0.5d
+			description: [
+				"Mechanical belts can move items!"
+				"Attach a belt to two shafts and apply rotational force to transport items that land on it!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "39FC4AC9D41EAD45"
+			tasks: [{
+				id: "76A2E1F93DDCE045"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "44CA9254A4DBA4A8"
+				type: "item"
+				item: "create:shaft"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			description: ["Capture a blaze with an empty blaze burner to heat your basins!"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "7EA6228FBA3861B4"
+			tasks: [{
+				id: "210CC65DB1A6CB5E"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "428BFA86D7D04BCB"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			description: [
+				"Rubber is used for fluid pipes and more!"
+				"Having a rubber set up will be useful"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "60431FC7681BACED"
+			tasks: [{
+				id: "1214664471A646A6"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+			rewards: [{
+				id: "273086B09BA4BA67"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			description: [
+				"Fluids can be transported with fluid pipes and a pump"
+				"Mechanical pumps use rotational force to insert or remove fluid from a container"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "528A9C45C7599861"
+			tasks: [
+				{
+					id: "677EAA52F265CFE0"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "5C7D3B616B4DABF8"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "5465169BB0EAD943"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+			]
+			rewards: [{
+				id: "0A3E8CD87FFD80EC"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			description: ["Spouts can fill items with fluids"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "054C036C9354DD12"
+			tasks: [{
+				id: "76E0E015403A8D5A"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "11AD066463F74D09"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.5d
+			description: ["Andesite casing can be created by right clicking stripped wood with an andesite alloy"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "76C71227B0E62A71"
+			tasks: [{
+				id: "3354DECBB3590C1F"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "4C762ED33B199B44"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "1F644B31A96137F4"
+			tasks: [{
+				id: "4C12E1AB8FD4E60A"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [{
+				id: "682295CC1DA080E0"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A56DAF89EDA153D"
+				"2A8AA1677D3BD35B"
+			]
+			id: "587E8C02AF9A99B6"
+			tasks: [{
+				id: "46E7F8759FF631D5"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "3C34FD08EC360F92"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"587E8C02AF9A99B6"
+				"2A8AA1677D3BD35B"
+				"01E8FFCE9F36D177"
+				"2A56DAF89EDA153D"
+			]
+			id: "728D42D85F105DB9"
+			tasks: [{
+				id: "3D55E31135892DF6"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+			rewards: [{
+				id: "32CAC1E602BCBFE9"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			description: [
+				"Precision mechanisms are created in a process called 'sequenced assembly'"
+				"Processing an item through a series of mechanisms will result in the final item!"
+				"Sometimes steps are repeated"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "53CA4C60EE23CCEE"
+			tasks: [{
+				id: "1EA98AA2FB02B33E"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "01E4C778AF38A85D"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"49E9E2AD9434D731"
+				"5533400E4862A18F"
+			]
+			hide: true
+			id: "265084345BDE3C14"
+			tasks: [{
+				id: "5E9820FDE896BECF"
+				type: "item"
+				item: "kubejs:steel_casing"
+			}]
+			rewards: [{
+				id: "3E1729142D2665F0"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"61437502D8EA956C"
+				"314ACDC54C6C660F"
+			]
+			hide: true
+			id: "2D509DC500AEDE76"
+			tasks: [{
+				id: "088DCBEE32223E4D"
+				type: "item"
+				item: "kubejs:stainless_casing"
+			}]
+			rewards: [{
+				id: "6169E9131078E7E7"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"61437502D8EA956C"
+			]
+			hide: true
+			id: "4BC94DCFF68A69C0"
+			tasks: [{
+				id: "6BA704397861A154"
+				type: "item"
+				item: "kubejs:azure_casing"
+			}]
+			rewards: [{
+				id: "7B8FFD4CD59151A6"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"61437502D8EA956C"
+			]
+			hide: true
+			id: "0BFA9BBB56740EC8"
+			tasks: [{
+				id: "18994ECD07CC28E6"
+				type: "item"
+				item: "createteleporters:quantum_casing"
+			}]
+			rewards: [{
+				id: "13859B8673B2C6A0"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -0.5d
+			description: [
+				"The harvester can harvest any crops it moves over."
+				"Hold 'w' on the item for more info"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"6DFD95340E65EE89"
+			]
+			id: "0447B745A357BB33"
+			tasks: [{
+				id: "74B2DFC7B9F5FB9E"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "75F4C2B4D96B4ACF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			description: [
+				"The mechanical bearing allows you to create moving contraptions!"
+				"Using superglue, blocks can be attatched and moved with the bearing"
+				"hold 'w' on the item for more info"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DFD95340E65EE89"
+				"2A8AA1677D3BD35B"
+			]
+			id: "2F0C42051B9BA436"
+			tasks: [{
+				id: "605D1AE98A3E753D"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+			rewards: [
+				{
+					id: "256A81217F0889BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A39E8786ED0A39F"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Super Heating"
+			x: -5.0d
+			y: 0.0d
+			description: [
+				"Feeding a blaze burner a blaze cake will cause it to be super heated!"
+				"Some recipes can only be completed with a super heated blaze"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7EA6228FBA3861B4"]
+			id: "6E382E75A3007230"
+			tasks: [{
+				id: "2DB6623BCAC3ED5A"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "34698CF59ADADA18"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: ["Sturdy sheets made from obsidian powder are useful for more complex items"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"49E9E2AD9434D731"
+			]
+			hide: true
+			id: "01E8FFCE9F36D177"
+			tasks: [{
+				id: "6FE0D358570258F5"
+				type: "item"
+				item: "create:sturdy_sheet"
+			}]
+			rewards: [{
+				id: "0ABCC5F4F97255E5"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			description: [
+				"Mimics item application. Equip the hand with an item!"
+				"Works with hoppers"
+				"Used in many sequential assembly recipes!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "46219FCCCFC6738F"
+			tasks: [{
+				id: "48DC2C8A3B71CA7E"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "775E6A836FDEA7E0"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			description: ["The millstone can grind items into dusts or other useful ingredients"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "329464BB009E5685"
+			tasks: [{
+				id: "098A6662542EDDAB"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "1F5BFC53F376CD7A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Crushing Wheels"
+			x: -4.0d
+			y: -5.0d
+			description: ["Crushing wheels can crush ores into crushed ores, increasing yields"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "74142C47548BAC45"
+			tasks: [{
+				id: "40BBC527C4C3F27B"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3B258BFAF44EE380"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			description: [
+				"Mechanical crafters can auto craft recipes!"
+				"Create a grid out of crafters, and apply items to each one"
+			]
+			hide_dependency_lines: true
+			dependencies: ["587E8C02AF9A99B6"]
+			id: "764A2F8718821A05"
+			tasks: [{
+				id: "2F7BC6B18039FD2F"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "2E321D029196D64B"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["Coal coke is used in the steel making process"]
+			hide_dependency_lines: true
+			dependencies: [
+				"49E9E2AD9434D731"
+				"7FC8EFD9B74C7EBB"
+			]
+			hide: true
+			id: "42FAA96B7BCD7861"
+			tasks: [{
+				id: "1D9F7B100C1E7426"
+				type: "item"
+				item: "thermal:coal_coke"
+			}]
+			rewards: [{
+				id: "3D18564D5AF034C6"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Steel"
+			x: -1.5d
+			y: 0.5d
+			description: [
+				"Process steel by mixing cast iron and coal coke"
+				"Steel is used in the creation of more advanced technology"
+			]
+			hide_dependency_lines: true
+			dependencies: ["42FAA96B7BCD7861"]
+			hide: true
+			size: 1.85d
+			id: "5533400E4862A18F"
+			tasks: [{
+				id: "508C25D855FDA66D"
+				type: "item"
+				item: "ad_astra:steel_ingot"
+			}]
+			rewards: [{
+				id: "3A588A0FFB9E8759"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Gears"
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"Gears are used in machine recipes"
+				"Having a set up to craft gears will be handy!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49E9E2AD9434D731"
+				"2A8AA1677D3BD35B"
+			]
+			hide: true
+			id: "1AA39CA74939842C"
+			tasks: [{
+				id: "38CCC2309B5C4FCC"
+				type: "item"
+				title: "Any #forge:gears"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:gears"
+					}
+				}
+			}]
+			rewards: [{
+				id: "74D01248DD9CC114"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["Thermal devices require servos"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"49E9E2AD9434D731"
+			]
+			hide: true
+			id: "494DE3F3A106F1D1"
+			tasks: [{
+				id: "4A071EE2E1BE59D1"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			rewards: [{
+				id: "159B2544CB92C790"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["Redstone mechanisms power thermal machines!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"49E9E2AD9434D731"
+			]
+			hide: true
+			id: "1B4D5CFC69CB34AD"
+			tasks: [{
+				id: "3C0081D6C9B07829"
+				type: "item"
+				item: "kubejs:redstone_mechanism"
+			}]
+			rewards: [{
+				id: "61EF6F7DAC3CF6B8"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			icon: "thermal:rf_coil_augment"
+			x: 0.3500000000000001d
+			y: 0.5d
+			description: [
+				"RF, or redstone flux, is an energy that powers many of thermals machines."
+				"Several machines called dynamos can create rf"
+				"Use steel casings to create thermal machines"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49E9E2AD9434D731"
+				"2A8AA1677D3BD35B"
+			]
+			hide: true
+			size: 1.85d
+			id: "4A53305BF88CE6B3"
+			tasks: [{
+				id: "78043C19DF53A017"
+				type: "checkmark"
+				title: "RF Power!"
+			}]
+			rewards: [
+				{
+					id: "211644F13126B9EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00E1A5E93ED7BDD1"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			description: ["The bio mechanism is used in biomancy recipes!"]
+			dependencies: ["0C4A364FAA9DA542"]
+			id: "77A58452C15D0F38"
+			tasks: [{
+				id: "1BE2E90BD978D69F"
+				type: "item"
+				item: "kubejs:bio_mechanism"
+			}]
+			rewards: [{
+				id: "50FB9E9D7EFF8EBA"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["These ducts can transfer rf power between blocks!"]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "6BAB1D04693FE866"
+			tasks: [{
+				id: "62A25D4151340D86"
+				type: "item"
+				item: "thermal:energy_duct"
+			}]
+			rewards: [{
+				id: "0DCEC38605272222"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			description: [
+				"The flux cell can store power"
+				"It can also be upgraded!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "78FE49CF5EA8C0DB"
+			tasks: [{
+				id: "59DBC6AE5BF1F387"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "06B5EF660FA86947"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["Flux coils are used in redstone mechanisms and in uprades!"]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "59A749B131DAA5FC"
+			tasks: [{
+				id: "2B9BCD54CAC361E3"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			rewards: [{
+				id: "37F68973F8374934"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["Components can be placed into machine augment slots to upgrade their base stats!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"3D90CEB27F91FD02"
+			]
+			id: "1B9DDD670EB4392C"
+			tasks: [{
+				id: "6A2DDD21D57F4C91"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "3E049AD25D30CD43"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"3D90CEB27F91FD02"
+			]
+			id: "1D98998376CA27F0"
+			tasks: [{
+				id: "1B62C1D1758B7C8A"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "6D274C631B7364DC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"3D90CEB27F91FD02"
+			]
+			id: "00A96635B7080850"
+			tasks: [{
+				id: "51B2BDD6DFA6A6C0"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "4D025C7F05B8C178"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"61437502D8EA956C"
+				"3D90CEB27F91FD02"
+			]
+			id: "4155A036D7A034D2"
+			tasks: [{
+				id: "43998E781FC67662"
+				type: "item"
+				item: "thermalendergy:endergy_upgrade_1"
+			}]
+			rewards: [{
+				id: "00BF04058F107F13"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"61437502D8EA956C"
+				"3D90CEB27F91FD02"
+			]
+			id: "73DEBDA7F86C1AAE"
+			tasks: [{
+				id: "545E85E1E7CC73D8"
+				type: "item"
+				item: "thermalendergy:endergy_upgrade_2"
+			}]
+			rewards: [{
+				id: "5D6F36C101A4A84C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"61437502D8EA956C"
+				"3D90CEB27F91FD02"
+			]
+			id: "1767C024E8E18114"
+			tasks: [{
+				id: "56EC386C4B5B6CA0"
+				type: "item"
+				item: "thermalendergy:endergy_upgrade_3"
+			}]
+			rewards: [{
+				id: "32E3247B01328E3A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "thermal:machine_speed_augment"
+			x: 2.0d
+			y: 0.5d
+			description: [
+				"Augments can upgrade machines!"
+				"Open the tab on the right when in an machine GUI to access augment slots"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "3D90CEB27F91FD02"
+			tasks: [{
+				id: "132BF17F0A99CAB2"
+				type: "checkmark"
+				title: "Augments"
+			}]
+			rewards: [{
+				id: "1121EA6D4E0CBA18"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7FC8EFD9B74C7EBB"
+				"2A8AA1677D3BD35B"
+			]
+			id: "40F911B8CC259103"
+			tasks: [{
+				id: "6F9233336C6D2C79"
+				type: "item"
+				item: "architects_palette:nether_brass_ingot"
+			}]
+			rewards: [{
+				id: "59E54295BB32179F"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "29F3BAFC8D89BFDA"
+			tasks: [{
+				id: "1411A22CA2921B39"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "64D01B4E29D33B77"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "22CA0D8C5DAC297D"
+			tasks: [{
+				id: "6E54AF264E127AB0"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "1CA89E445AE4BF54"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "54F9DCBB39DBA257"
+			tasks: [{
+				id: "322B02BD3A75C978"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "3C3015FB80B58F94"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "4BB48A71437D8177"
+			tasks: [{
+				id: "114BCD5BB2AC8277"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "75A4D495BE6A6A7A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "359B34A6F7F806E3"
+			tasks: [{
+				id: "73216FE6D56C16F0"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "4263D6477AD22CC2"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "4B4029C38A39F657"
+			tasks: [{
+				id: "2E3913979C8A8158"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "4F782044C7C31DE5"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "7E59F4F33E2DD007"
+			tasks: [{
+				id: "4C4E5E4B90DA5B39"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "7C9A261C84752086"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "16E0CCB1CD785803"
+			tasks: [{
+				id: "0684E3F5274ECC7A"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+			rewards: [{
+				id: "2CB06056309358A3"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			description: ["Extracts fluids from trees when place near it's log"]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "2DA63FEEE312E126"
+			tasks: [{
+				id: "35CECEE4B64FD3B0"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [{
+				id: "01E9B478EE806D88"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "2AEBE8D49448A76B"
+			tasks: [{
+				id: "5E2345E907F2F740"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+			rewards: [{
+				id: "3BF9EC60F8E52379"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Efficient composting"]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "17C70D5518DA3EA4"
+			tasks: [{
+				id: "62A4199FFFA79C96"
+				type: "item"
+				item: "thermal:device_composter"
+			}]
+			rewards: [{
+				id: "5FDD9E1411F0AD4C"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: ["Collects fluids it is submerged inside"]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "7DBB0B8277A810F2"
+			tasks: [{
+				id: "76C7A780E64814FF"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [{
+				id: "4B9D4B0F1543A8EF"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			description: ["Generates certain stone blocks with lava and water"]
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "47D0F060BA8887E2"
+			tasks: [{
+				id: "1B989A52F90E5323"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [{
+				id: "6E35D1D945869B20"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "44916D1103F3B4D2"
+			tasks: [{
+				id: "6123EFB3A4F484E1"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [{
+				id: "255A5FAF3782EBCD"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "0A30E7F41E8BCD15"
+			tasks: [{
+				id: "5F7C083996543575"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+			rewards: [{
+				id: "45BBA25E407F5021"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "3EFCFEACEAEFB44E"
+			tasks: [{
+				id: "4CF005664A776834"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			rewards: [{
+				id: "5ACAC276C81E387A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "779E4AF0B3CEAE8D"
+			tasks: [{
+				id: "32FE4B0A21FF8572"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			rewards: [{
+				id: "19C5A2E5B64B0C8A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "531BFE7EE87225A4"
+			tasks: [{
+				id: "1F93FA6CF75E4259"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "6A74D6C141E433AB"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "0B5A1BEEECBB7A87"
+			tasks: [{
+				id: "189E6AB4B2A3F151"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "320BFA9AA9B895F2"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "3FD5833F830D9E27"
+			tasks: [{
+				id: "707199B6F3B60632"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "13724C88187DA5CB"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "5E1751562DA22DF0"
+			tasks: [{
+				id: "75EF599FC299B752"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "0C88792B69D5C0A6"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "4DC3156193D60A73"
+			tasks: [{
+				id: "7C830AA23006339B"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "5208EF916EC212BC"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "4F7573F970FED9B1"
+			tasks: [{
+				id: "2B0C1641F9382874"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "450F02D20F5985CC"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "17CA93D3D63EF7A1"
+			tasks: [{
+				id: "2F95D8CAA96ABEDB"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "7D4C6D969C32D4E4"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "401F794BF8199720"
+			tasks: [{
+				id: "6F30FC5FCD20E580"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "73AE93C0D2A12654"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "52A37D2049914F2A"
+			tasks: [{
+				id: "2440267132A5CDD9"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "5133AE4938C76321"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["4A53305BF88CE6B3"]
+			id: "0B19AF9E53802655"
+			tasks: [{
+				id: "105D5DF031AA329D"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+			rewards: [{
+				id: "400AB84671A2F4D3"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			description: ["Used to create high tier augments"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"3D90CEB27F91FD02"
+				"61437502D8EA956C"
+			]
+			id: "392A034209217D23"
+			tasks: [{
+				id: "019E5D1EB4FCAF87"
+				type: "item"
+				item: "thermalendergy:vibrating_core"
+			}]
+			rewards: [{
+				id: "663B5A77A02770B3"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["Variable capacitors can be looted from chests and offer random bonuses to machines!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4A53305BF88CE6B3"
+				"3D90CEB27F91FD02"
+			]
+			id: "2D815B097C4F7242"
+			tasks: [{
+				id: "1F8E51FEAA4B14C7"
+				type: "item"
+				item: "thermaloot:variable_capacitor"
+			}]
+			rewards: [{
+				id: "250BE64580A5C6FA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"61437502D8EA956C"
+			]
+			hide: true
+			id: "314ACDC54C6C660F"
+			tasks: [{
+				id: "5773EDE6A62E2957"
+				type: "item"
+				item: "kubejs:stainless_mechanism"
+			}]
+			rewards: [{
+				id: "49A1401A919F2661"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"61437502D8EA956C"
+			]
+			hide: true
+			id: "2FB00CA3E0FECE50"
+			tasks: [{
+				id: "623B43FB7E4F20DD"
+				type: "item"
+				item: "kubejs:plasteel_mechanism"
+			}]
+			rewards: [{
+				id: "3A69168C304E7A64"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2A8AA1677D3BD35B"
+				"61437502D8EA956C"
+			]
+			hide: true
+			id: "7DB35DA02A9EBE7C"
+			tasks: [{
+				id: "4D3A7354D0402690"
+				type: "item"
+				item: "kubejs:overclocked_mechanism"
+			}]
+			rewards: [{
+				id: "62E68F597669586D"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			icon: "ae2:drive"
+			x: -9.0d
+			y: 4.0d
+			description: [
+				"AE2 allows the creation of storage networks, autocrafting and more!"
+				"Networks consist of a controller, fluix cables, drives, and storage cells"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"61437502D8EA956C"
+				"2A8AA1677D3BD35B"
+			]
+			hide: true
+			size: 2.0d
+			id: "593CA27A4712D8FE"
+			tasks: [{
+				id: "3E6199E3EE09802A"
+				type: "checkmark"
+				title: "Applied Energistics"
+			}]
+			rewards: [
+				{
+					id: "4D296BA05DF5ED9E"
+					type: "item"
+					item: "ae2:guide"
+				}
+				{
+					id: "4DC2E171B40F4DB8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			description: [
+				"Prismasand can be found at the bottom of oceans!"
+				"Processing this sand can reward rare metals"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"61437502D8EA956C"
+				"2A8AA1677D3BD35B"
+			]
+			hide: true
+			id: "0FE0B3A848211FB6"
+			tasks: [{
+				id: "301A5D386B01196F"
+				type: "item"
+				item: "kubejs:prismasand"
+			}]
+			rewards: [{
+				id: "36A7D4C4AA5D3A95"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			dependencies: ["0FE0B3A848211FB6"]
+			id: "15F1E3523F8BBE0F"
+			tasks: [{
+				id: "73756BFA523FDBC3"
+				type: "item"
+				item: "kubejs:chromium_ingot"
+			}]
+			rewards: [{
+				id: "04EAC1C948A6C90B"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["15F1E3523F8BBE0F"]
+			id: "5A8B001570ED4E72"
+			tasks: [{
+				id: "0E036E2943CC6138"
+				type: "item"
+				item: "kubejs:stainless_steel_ingot"
+			}]
+			rewards: [{
+				id: "1D6B8BC0276876A8"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			description: ["Certus quartz can be charged in a charger"]
+			hide_dependency_lines: true
+			dependencies: ["276AD11FA8E66572"]
+			id: "77FEBFFCC4F07D01"
+			tasks: [{
+				id: "6BD1CD0A85BE4045"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			description: [
+				"Budding certus quartz can be found in meteors or crafted!"
+				"Wait until the crystal is fully grown to harvest it"
+			]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "2DA4A81195C8DA86"
+			tasks: [{
+				id: "51C411B427E3FC06"
+				type: "item"
+				item: "ae2:flawed_budding_quartz"
+			}]
+			rewards: [{
+				id: "7A8C42E64D1BA283"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.5d
+			description: ["Used for creating charged certus quartz"]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "084C7EC0F6C221C6"
+			tasks: [{
+				id: "03EB8200F1106BF6"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "3D9AB15E3B78AF46"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.5d
+			description: [
+				"Use fluix cables to connect network blocks together!"
+				"Can also transfer power"
+			]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "4B94BC569542FF00"
+			tasks: [{
+				id: "5FB73D65402158E8"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 7.5d
+			description: ["The ME drive can hold storage cells, increasing the capacity of the network"]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "3C09575677DF3852"
+			tasks: [{
+				id: "5F6104B485DB7F46"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "2E15FF36D647A512"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.5d
+			description: [
+				"Storage cells increase the storage capacity of a network"
+				"These is a version for both items and fluids"
+			]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "4D04622DC9A505E5"
+			tasks: [
+				{
+					id: "7D3D6FC68189C9F7"
+					type: "item"
+					item: {
+						id: "ae2:item_storage_cell_1k"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1B9877ADE6A9CED9"
+					type: "item"
+					item: {
+						id: "ae2:fluid_storage_cell_1k"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "65A6D2937345A1F9"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			description: [
+				"Printed silicon is used in circuit creation"
+				"Having a supply of resin will be handy"
+			]
+			hide_dependency_lines: true
+			dependencies: ["593CA27A4712D8FE"]
+			id: "103D37B49950E1AF"
+			tasks: [{
+				id: "6A9E7196CDDBAB6E"
+				type: "item"
+				item: "ae2:printed_silicon"
+			}]
+			rewards: [{
+				id: "7E9717D09F008799"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Ad Astra"
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+				Count: 1b
+				tag: {
+					BotariumData: { }
+				}
+			}
+			x: 3.2000000000000006d
+			y: 5.700000000000001d
+			description: [
+				"With new advanced materials available, launching to space is possible!"
+				"You will need a combination of ae2, thermal, and create ingredients to craft the necessary items!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"61437502D8EA956C"
+				"2A8AA1677D3BD35B"
+			]
+			hide: true
+			size: 1.85d
+			id: "02001A02754D53E8"
+			tasks: [{
+				id: "0E4373BB5EC47A57"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7FA0F20F16B2CA30"
+				type: "item"
+				item: "ad_astra:astrodux"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["The nasa workbench allows the crafting of rockets!"]
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "2DDC6B3057545AD4"
+			tasks: [{
+				id: "4740B6B8C54DAA56"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+			rewards: [{
+				id: "182B507992C9F82F"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "7A91D99DC8B33226"
+			tasks: [{
+				id: "6971C228430C4A18"
+				type: "item"
+				item: "ad_astra:oxygen_loader"
+			}]
+			rewards: [
+				{
+					id: "05E37B5E0C3FE839"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "48DAD02D00D2309E"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			description: ["Rockets will need a good supply of fuel"]
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "4C031FFF49D1DFB9"
+			tasks: [{
+				id: "73D50704CA25D179"
+				type: "item"
+				item: "thermal:refined_fuel_bucket"
+			}]
+			rewards: [
+				{
+					id: "5A741876C9716C97"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "69DFB5BB967B2820"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			description: ["Rockets must be placed on the launch pad for takeoff"]
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "7284584D72C4289F"
+			tasks: [{
+				id: "0EF6AAF56C4AA6E1"
+				type: "item"
+				item: "ad_astra:launch_pad"
+			}]
+			rewards: [{
+				id: "3301E5FE067FF0A7"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: [
+				"To survive in space, special equipment will be needed"
+				"There is also a space breathing enchanted book that can be crafted for the same effect"
+			]
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "4813441F9247759C"
+			tasks: [
+				{
+					id: "3BCF1D23C70F0FEC"
+					type: "item"
+					item: {
+						id: "ad_astra:space_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CBB71957E036B37"
+					type: "item"
+					item: {
+						id: "ad_astra:space_suit"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05BA28324BB99596"
+					type: "item"
+					item: {
+						id: "ad_astra:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24BBDA1F6C804840"
+					type: "item"
+					item: {
+						id: "ad_astra:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FDDF34641DF3FD2"
+					type: "item"
+					item: {
+						id: "ad_astra_giselle_addon:oxygen_can"
+						Count: 1b
+						tag: {
+							BotariumData: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0E18714CFBDBA151"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "5DEF71410FA62E27"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			description: ["Craft the basic components in rocket creation"]
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "2D05D9AF8A3EC353"
+			tasks: [
+				{
+					id: "3810125FC8C285FF"
+					type: "item"
+					item: "ad_astra:rocket_nose_cone"
+				}
+				{
+					id: "35501DAA5DEEA883"
+					type: "item"
+					item: "ad_astra:rocket_fin"
+				}
+				{
+					id: "4AC0C28F678858EE"
+					type: "item"
+					item: "ad_astra:engine_frame"
+				}
+			]
+			rewards: [{
+				id: "1CCE9E6BE0BFF711"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			description: [
+				"Create the tier 1 rocket and prepare for launch!"
+				"Place the rocket on the launch pad, fill it with fuel, then press space while inside to launch!"
+				"You'll have the option to set up an space station, enter orbit, or land on a planet"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D05D9AF8A3EC353"]
+			id: "60EF9E6AA8641984"
+			tasks: [{
+				id: "14B8FB25582E9983"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "415502686E9F82E8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+				}
+				{
+					id: "0158576F1FCDF712"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:feather_feet"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["60EF9E6AA8641984"]
+			id: "45FA39279A256FF2"
+			tasks: [{
+				id: "564644AFA58CCE1C"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A65AEE1A84ED08E"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+				count: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["45FA39279A256FF2"]
+			id: "19066BDFDA2CBE3E"
+			tasks: [{
+				id: "75145D5F5B60DFB3"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "577D002E12A4394F"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "57DD74606DED85B2"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["19066BDFDA2CBE3E"]
+			id: "4C51E296C8FFCEE6"
+			tasks: [{
+				id: "0C0C693AEA6EA136"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1915548BAB2C5BE2"
+				type: "item"
+				item: "kubejs:premium_lootcrate"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "7AA2ECCF9C1CEDA9"
+			tasks: [{
+				id: "5BA92358F0F4976E"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+			rewards: [{
+				id: "6A8256F343E7E9B8"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			description: ["Powerful machine capable of creating cryo fuel"]
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "21A1D509EF59BA15"
+			tasks: [{
+				id: "5C159051C3E91126"
+				type: "item"
+				item: "ad_astra:cryo_freezer"
+			}]
+			rewards: [{
+				id: "2478F44BEEF80BC4"
+				type: "item"
+				item: "kubejs:premium_lootcrate"
+			}]
+		}
+		{
+			title: "Mars"
+			icon: "ad_astra:mars_globe"
+			x: 7.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "5964262A0094DC79"
+			tasks: [{
+				id: "29C6B518679BC390"
+				type: "dimension"
+				dimension: "ad_astra:mars"
+			}]
+			rewards: [{
+				id: "72594A6F9D750EBC"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			title: "The Moon"
+			icon: "ad_astra:moon_globe"
+			x: 6.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "52661C6A3B6599A6"
+			tasks: [{
+				id: "2BF202C6C6D9C6A4"
+				type: "dimension"
+				dimension: "ad_astra:moon"
+			}]
+			rewards: [{
+				id: "17F62489E80B053A"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			title: "Mercury"
+			icon: "ad_astra:mercury_globe"
+			x: 8.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "5C40AB88460189F2"
+			tasks: [{
+				id: "0AE5F2797DD1B399"
+				type: "dimension"
+				dimension: "ad_astra:mercury"
+			}]
+			rewards: [{
+				id: "0272D5159B962103"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			title: "Venus"
+			icon: "ad_astra:venus_globe"
+			x: 9.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "1D26A1A6A7101E71"
+			tasks: [{
+				id: "202A0E136E4DA76F"
+				type: "dimension"
+				dimension: "ad_astra:venus"
+			}]
+			rewards: [{
+				id: "2A6DC1E6783CF240"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			title: "Glacio"
+			icon: "ad_astra:glacio_globe"
+			x: 10.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["02001A02754D53E8"]
+			id: "3B619B0E6E721DF8"
+			tasks: [{
+				id: "57C5F5E08F8D01D1"
+				type: "dimension"
+				dimension: "ad_astra:glacio"
+			}]
+			rewards: [{
+				id: "68D90A1C8CDB9286"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: 3.228571428571435d
+			y: 10.528571428571432d
+			description: ["Combine cryo fuel with a mosquito larva in a crystallizer to create the stasis larva"]
+			hide_dependency_lines: true
+			dependencies: ["21A1D509EF59BA15"]
+			size: 1.85d
+			id: "1307B57EFC0573C3"
+			tasks: [{
+				id: "320EBF723122D864"
+				type: "item"
+				item: "kubejs:stasis_larva"
+			}]
+			rewards: [{
+				id: "283B017F0DC133F6"
+				type: "item"
+				item: "kubejs:unique_lootcrate"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			description: ["The mechanical extruder can produce different types of stone"]
+			hide_dependency_lines: true
+			dependencies: ["68C0BE124C42C92A"]
+			id: "19BED2B5EEA68FCD"
+			tasks: [{
+				id: "2170432CE2A5D3A2"
+				type: "item"
+				item: "create_mechanical_extruder:mechanical_extruder"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.0d
+			description: ["The mechanical drill can break blocks it comes into contact with"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "43B8B7888AC3BE11"
+			tasks: [{
+				id: "68D144F91E984DC3"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			icon: "molten_vents:dormant_asurine"
+			x: -4.5d
+			y: -6.0d
+			description: [
+				"Scattered on the surface of the overworld are orestone vents"
+				"The vents contain dorment orestone, which when placing tnt ontop of it, will awaken the orestone"
+				"Awakened orestone will transform any lava next to it into the same orestone type"
+				"Orestones can be crushed to obtain metals!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "786D08435DA74D89"
+			tasks: [{
+				id: "24DA639B8578F5D2"
+				type: "checkmark"
+				title: "Dorment Orestone"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -5.5d
+			description: ["The storage terminal provides a gui to any inventory block it is attatched to"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "0FDC91543B77D63C"
+			tasks: [{
+				id: "66BC2E02EFADDED5"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -4.5d
+			description: [
+				"The inventory connector can connect inventory blocks together"
+				"Attatch a terminal onto an inventory connector to access all connected inventories!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0FDC91543B77D63C"]
+			id: "06AC76385CAD269B"
+			tasks: [{
+				id: "7D4456118A756151"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

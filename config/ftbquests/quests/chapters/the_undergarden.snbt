@@ -1,0 +1,236 @@
+{
+	id: "0282F84DBAAA4F7D"
+	group: "4152DA6D653D361A"
+	order_index: 4
+	filename: "the_undergarden"
+	title: "The Undergarden"
+	icon: "undergarden:catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Undergarden"
+			icon: "undergarden:depthrock"
+			x: 1.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Enter the undergarden"]
+			dependencies: ["7C82C7AFACF0ED64"]
+			size: 2.0d
+			id: "081007A512D0D5A4"
+			tasks: [{
+				id: "7BB0DA9628967CA3"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [
+				{
+					id: "7EE70F5E0BED7674"
+					type: "item"
+					auto: "enabled"
+					item: "undergarden:gloomgourd_pie"
+				}
+				{
+					id: "6163B6DD90B42F4B"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "04A667F2C89AF0CB"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "65EAD93D0BCE0450"
+					type: "skills:basic_skill_reward"
+					auto: "enabled"
+					ignore_reward_blocking: true
+					skill: "skills:undergarden_access"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Summon the masticator by crafting a masticator bait and performing the ritual in an altar"]
+			hide_dependency_lines: true
+			dependencies: ["081007A512D0D5A4"]
+			hide: true
+			size: 2.0d
+			id: "29DFD80B3C3AD2F1"
+			tasks: [{
+				id: "4C1F10289CE09D70"
+				type: "kill"
+				title: "Masticator"
+				icon: "kubejs:masticator_bait"
+				entity: "undergarden:masticator"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "48FD495406EB3884"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4A413B363243BD5E"
+					type: "item"
+					item: "undergarden:regalium_crystal"
+					count: 3
+				}
+				{
+					id: "0C2377C49BAE0E42"
+					type: "skills:basic_skill_reward"
+					title: "Master Mode"
+					auto: "enabled"
+					ignore_reward_blocking: true
+					skill: "skills:master_mode"
+				}
+				{
+					id: "293DFCDE686C43D7"
+					type: "item"
+					item: "undergarden:masticator_scales"
+					count: 3
+				}
+				{
+					id: "72B2642A38385542"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "0118E3AEE614982C"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "1F6BD4776BFD635B"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Undergarden Ores"
+			x: 0.5d
+			y: 2.0d
+			description: ["Discover all of the Undergarden ores"]
+			hide_dependency_lines: true
+			dependencies: ["081007A512D0D5A4"]
+			id: "61BA47A41AEEAC62"
+			tasks: [
+				{
+					id: "3FCC9B693A8BF089"
+					type: "item"
+					item: "undergarden:raw_cloggrum"
+				}
+				{
+					id: "24B297BD434D08AD"
+					type: "item"
+					item: "undergarden:raw_froststeel"
+				}
+				{
+					id: "20617AD000BE13E2"
+					type: "item"
+					item: "undergarden:utherium_crystal"
+				}
+				{
+					id: "435151C551AFD585"
+					type: "item"
+					item: "undergarden:regalium_crystal"
+				}
+				{
+					id: "77D74EC830EA9782"
+					type: "item"
+					item: "undergarden:forgotten_nugget"
+				}
+			]
+			rewards: [{
+				id: "0457E1B1493D0401"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Catacombs"
+			x: 1.5d
+			y: 2.0d
+			description: ["Discover the catacombs in the Undergarden, where forgotton ingots can be found."]
+			hide_dependency_lines: true
+			dependencies: ["081007A512D0D5A4"]
+			id: "31F0D91C4AAE9DFB"
+			tasks: [{
+				id: "157A983C8CE3F856"
+				type: "structure"
+				icon: "undergarden:chiseled_depthrock_bricks"
+				structure: "undergarden:catacombs"
+			}]
+			rewards: [{
+				id: "509DF3AE45FAD9B9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "diamond"
+			description: [
+				"Craft an evil eye."
+				"One of the 12 eyes to activate the end portal frame."
+			]
+			hide_dependency_lines: true
+			dependencies: ["29DFD80B3C3AD2F1"]
+			hide: true
+			size: 2.0d
+			id: "730B8A008F587642"
+			tasks: [{
+				id: "321CA02DF1223171"
+				type: "item"
+				item: {
+					id: "endrem:evil_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6831345D59CA99EE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ender_eye"
+					count: 5
+				}
+				{
+					id: "5C895FDC1C0FC92D"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 5
+				}
+				{
+					id: "0B59CBD78A03AB9B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "31DA9413D0DBD9D7"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

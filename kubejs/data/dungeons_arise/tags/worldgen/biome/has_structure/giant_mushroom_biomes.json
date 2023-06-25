@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:plains",
+      "minecraft:meadow",
+      "minecraft:sunflower_plains",
+      "twilightforest:mushroom_forest",
+      "twilightforest:dense_mushroom_forest"
+    ]
+  }

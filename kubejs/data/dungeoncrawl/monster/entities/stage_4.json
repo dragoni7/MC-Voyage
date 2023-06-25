@@ -1,0 +1,46 @@
+{
+    "common": [
+      {
+        "entity": "minecraft:zombie",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:skeleton",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:spider"
+      },
+      {
+        "entity": "minecraft:cave_spider"
+      },
+      {
+        "entity": "bygonenether:wex"
+      },
+      {
+        "entity": "thermal:basalz"
+      },
+      {
+        "entity": "minecraft:stray",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:wither_skeleton",
+        "weight": 2
+      }
+    ],
+    "rare": [
+      {
+        "entity": "creeperoverhaul:cave_creeper"
+      },
+      {
+        "entity": "twilightforest:maze_slime"
+      },
+      {
+        "entity": "twilightforest:troll"
+      },
+      {
+        "entity": "alexsmobs:centipede_head"
+      }
+    ]
+  }

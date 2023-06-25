@@ -1,0 +1,98 @@
+{
+  "difficultyWeight": 0.03,
+  "genericScale": 0.3,
+  "affectHostiles": false,
+  "affectPeacefuls": false,
+  "modBlacklist": [],
+  "mode": "DIFFICULTY",
+  "damageScales": [
+    {
+      "damageTypes" : ["sonic_boom"],
+      "scale" : 0.4
+    },
+    {
+      "damageTypes" : ["arrow"],
+      "scale" : 0.2
+    },
+    {
+      "damageTypes" : ["inFire"],
+      "scale" : 0.4
+    },
+    {
+      "damageTypes" : ["poison"],
+      "scale" : 0.3
+    },
+    {
+      "damageTypes" : ["lightningBolt"],
+      "scale" : 0.6
+    },
+    {
+      "damageTypes" : ["onFire"],
+      "scale" : 0.1
+    },
+    {
+      "damageTypes" : ["lava"],
+      "scale" : 0.4
+    },
+    {
+      "damageTypes" : ["hotFloor"],
+      "scale" : 0.5
+    },
+    {
+      "damageTypes" : ["inWall"],
+      "scale" : 0.3
+    },
+    {
+      "damageTypes" : ["cramming"],
+      "scale" : 0.5
+    },
+    {
+      "damageTypes" : ["drown"],
+      "scale" : 0.5
+    },
+    {
+      "damageTypes" : ["starve"],
+      "scale" : 0.5
+    },
+    {
+      "damageTypes" : ["cactus"],
+      "scale" : 0.5
+    },
+    {
+      "damageTypes" : ["fall"],
+      "scale" : 0.1
+    },
+    {
+      "damageTypes" : ["flyIntoWall"],
+      "scale" : 0.1
+    },
+    {
+      "damageTypes" : ["generic"],
+      "scale" : 1.0
+    },
+    {
+      "damageTypes" : ["magic"],
+      "scale" : 0.4
+    },
+    {
+      "damageTypes" : ["wither"],
+      "scale" : 0.33
+    },
+    {
+      "damageTypes" : ["anvil"],
+      "scale" : 0.1
+    },
+    {
+      "damageTypes" : ["fallingBlock"],
+      "scale" : 0.5
+    },
+    {
+      "damageTypes" : ["dragonBreath"],
+      "scale" : 0.6
+    },
+    {
+      "damageTypes" : ["fireworks"],
+      "scale" : 0.5
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "clearChatHistory": false,
+  "disableChatClearing": true,
+  "disableResourcePackWarning": true,
+  "skipLoadingTransition": true,
+  "skipToastFadeOut": false,
+  "skipTitleFadeIn": true,
+  "disableExperimentalWarning": true,
+  "enableItemDespawnBlink": true,
+  "despawnBlinkSpeed": 6000,
+  "enableQuickCrouch": false,
+  "quickCrouchSpeed": 10.0,
+  "despawnBlinkStartTime": 20,
+  "modpackBranding": {
+    "enabled": false,
+    "enableTitlescreenBranding": true,
+    "modpackName": "Modpack Name",
+    "modpackVersion": {
+      "ID": "69420",
+      "semName": "1.0.0",
+      "releaseType": "Beta"
+    },
+    "modpackID": "",
+    "modpackAuthors": [
+      "Author 1",
+      "Author 2"
+    ],
+    "URLS": {
+      "website": "https://example.com/emergency-meeting",
+      "support": "https://discord.gg/red-is-the-imposter",
+      "repository": "https://github.com/iamdefinitely/notsus"
+    }
+  },
+  "enableCutThroughGrass": false,
+  "enableHideHandKeybind": false
+}

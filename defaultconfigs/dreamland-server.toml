@@ -1,0 +1,24 @@
+
+#Spawn Settings
+[spawning]
+
+	[spawning."Larva Spawn Rolls"]
+		#Larva extra spawn roll amount. Default = 2
+		#Range: > 0
+		"spawn roll" = 1
+
+	[spawning."Ooze Spawn Rolls"]
+		#Ooze extra spawn roll amount. Default = 2
+		#Range: > 0
+		"spawn roll" = 1
+
+	[spawning."BumbleBeast Spawn Rolls"]
+		#Bumble Beast extra spawn roll amount. Default = 2
+		#Range: > 0
+		"spawn roll" = 2
+
+	[spawning."Opal Shell Spawn Rolls"]
+		#Opal Shell extra spawn roll amount. Default = 1
+		#Range: > 0
+		"spawn roll" = 1
+

@@ -1,0 +1,39 @@
+{
+    "common": [
+      {
+        "entity": "minecraft:zombie",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:skeleton",
+        "weight": 2
+      },
+      {
+        "entity": "minecraft:spider"
+      },
+      {
+        "entity": "minecraft:cave_spider"
+      },
+      {
+        "entity": "minecraft:stray",
+        "weight": 2
+      },
+      {
+        "entity": "thermal:basalz"
+      }
+    ],
+    "rare": [
+      {
+        "entity": "creeperoverhaul:jungle_creeper"
+      },
+      {
+        "entity": "minecraft:enderman"
+      },
+      {
+        "entity": "minecraft:silverfish"
+      },
+      {
+        "entity": "minecraft:wither_skeleton"
+      }
+    ]
+  }

@@ -1,0 +1,676 @@
+{
+	id: "254B9D52841DD9FB"
+	group: "4152DA6D653D361A"
+	order_index: 0
+	filename: "nether"
+	title: "Nether"
+	icon: "minecraft:netherite_scrap"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Nether"
+			x: -2.5d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"Enter the nether, the infernal underworld."
+				"new silentgear blueprints unlocked!"
+				"new spellbooks unlocked!"
+				"biomancy unlocked!"
+			]
+			size: 2.0d
+			secret: true
+			id: "0C4A364FAA9DA542"
+			tasks: [{
+				id: "79E79C943292D088"
+				type: "dimension"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "7AE055B0E3290A45"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B299ACB4A44CF65"
+					type: "skills:basic_skill_reward"
+					title: "Nether Items Unlocked"
+					icon: "minecraft:netherrack"
+					auto: "enabled"
+					ignore_reward_blocking: true
+					skill: "skills:nether_access"
+				}
+			]
+		}
+		{
+			title: "The Fortress"
+			x: -1.0d
+			y: -2.0d
+			description: [
+				"Find a nether fortress"
+				"Explore the fortress to reap bountiful loot"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: false
+			id: "5D2BE7AEBC2BB538"
+			tasks: [{
+				id: "190C6E103FBE4FEF"
+				type: "structure"
+				icon: "minecraft:nether_bricks"
+				structure: "hexfortress:nether_fortress"
+			}]
+			rewards: [
+				{
+					id: "7539ECD3AED1F3AC"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "2A242D8BAECC1687"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"The blaze key can be found from unlocked chests in the fortress"
+				"Blaze keys can be used to unlock chests or fortress beacons"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5D2BE7AEBC2BB538"]
+			hide: false
+			id: "4EFCBEAA8289F1E9"
+			tasks: [{
+				id: "6B4EED9CC12AEC4F"
+				type: "item"
+				item: "hexfortress:blaze_key"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "6F479C962A5A792F"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"The fortress beacon empowers mobs and weakens players"
+				"It can be disabled by using a blaze key on it then right clicking"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4EFCBEAA8289F1E9"]
+			hide: false
+			id: "1B4A8E866A89947E"
+			tasks: [{
+				id: "67C558CF669A9FBC"
+				type: "questsadditions:use"
+				icon: "hexfortress:resistance_canceler"
+				block_type: 0
+				block: "hexfortress:resistance_canceler"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: "hexfortress:blaze_key"
+			}]
+			rewards: [{
+				id: "4CDF50370F55AA1B"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Burning Arena"
+			x: -12.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: true
+			id: "02E1B314152491D5"
+			tasks: [{
+				id: "038EA654ED29888D"
+				type: "structure"
+				icon: "minecraft:polished_basalt"
+				structure: "cataclysm:burning_arena"
+			}]
+			rewards: [{
+				id: "545025452FAB9C33"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Soul Blacksmith"
+			x: -7.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: true
+			id: "634BB8529543BF53"
+			tasks: [{
+				id: "12E50521A9AF60E6"
+				type: "structure"
+				icon: "minecraft:polished_blackstone_bricks"
+				structure: "cataclysm:soul_black_smith"
+			}]
+			rewards: [{
+				id: "06EBDA80F81C851A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Activate the Altar"
+			x: -10.0d
+			y: -2.0d
+			description: ["Use a burning ashes on the altar of fire in the upper level of the arena to summon the Ignis!"]
+			hide_dependency_lines: true
+			dependencies: ["724F64E3520AC5F3"]
+			hide: true
+			id: "0B88B2E02E80A9A2"
+			tasks: [{
+				id: "5FB20C610AEC4A81"
+				type: "questsadditions:use"
+				icon: "cataclysm:altar_of_fire"
+				block_type: 0
+				block: "cataclysm:altar_of_fire"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: "cataclysm:burning_ashes"
+			}]
+			rewards: [
+				{
+					id: "7A6293CEB94366D8"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "34E5BE3D05B98C81"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Ignited Revenant"
+			x: -11.0d
+			y: -2.0d
+			description: [
+				"Defeat an ignited revenant to obtain it's ashes."
+				"An axe is effective at piercing their shields."
+			]
+			hide_dependency_lines: true
+			dependencies: ["02E1B314152491D5"]
+			hide: true
+			id: "724F64E3520AC5F3"
+			tasks: [{
+				id: "30B7CD19EB00A107"
+				type: "kill"
+				icon: "cataclysm:burning_ashes"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3437B1DD88D023D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3447BD735BDC8ADE"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			title: "Ignis"
+			x: -9.0d
+			y: -2.0d
+			description: [
+				"Defeated the Ignis."
+				"This boss is extremely difficult, doing damage in proportion to your health and lowering armor defenses"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B88B2E02E80A9A2"]
+			hide: true
+			id: "7F4B5DCCA474F70F"
+			tasks: [{
+				id: "5B8152CA5051DBDD"
+				type: "kill"
+				icon: {
+					id: "cataclysm:ignitium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "037E96C0E24B3670"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "14819D2DB9835EC9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "49118CCECC035FC5"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "7F1C68151DC682BF"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Netherite Monstrosity"
+			x: -7.5d
+			y: -0.5d
+			description: [
+				"Defeat the netherite monstrosity."
+				"This boss lobs lava at range and heals from lava"
+			]
+			hide_dependency_lines: true
+			dependencies: ["634BB8529543BF53"]
+			hide: true
+			id: "1F9823996DCFE526"
+			tasks: [{
+				id: "2E61A8E3D09FA0FB"
+				type: "kill"
+				icon: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "31FDF4A9D9C36553"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "1FD7590EB826FBFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "109535CD7C41AE16"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "027E016C410EA0B8"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: ["Gather wither skeleton skulls in preparation to summon the wither"]
+			hide_dependency_lines: true
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: false
+			id: "23945C06D552C57E"
+			tasks: [{
+				id: "1ACAFA18591DBB44"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+			rewards: [{
+				id: "58A2B2945864DC54"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Bastion"
+			x: -2.5d
+			y: -0.5d
+			description: [
+				"Locate a bastion"
+				"Bastions are full of netherite and piglins"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: false
+			id: "6FC7CB2D111FA270"
+			tasks: [{
+				id: "3BC850772E16FA29"
+				type: "structure"
+				icon: "minecraft:polished_blackstone_bricks"
+				structure: "minecraft:bastion_remnant"
+			}]
+			rewards: [{
+				id: "4375F9778DA7DC5A"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			x: -6.0d
+			y: -2.0d
+			subtitle: "Wither no more"
+			description: [
+				"Defeat the wither and steal it's eye!"
+				"Succeeding will begin expert mode!"
+				"The wither will drop boss essence and upgrade orbs on each defeat while growing stronger at the same time!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"041F219F0682205B"
+				"23945C06D552C57E"
+			]
+			hide: true
+			id: "5A171948B45D8755"
+			tasks: [{
+				id: "57DA6F26F44C698C"
+				type: "kill"
+				title: "The Wither"
+				icon: "furnish:wither_skull_torch"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6CBBAD95F5F984FA"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 5
+				}
+				{
+					id: "0632442A4C2ED39A"
+					type: "skills:basic_skill_reward"
+					title: "Expert Mode"
+					auto: "enabled"
+					ignore_reward_blocking: true
+					skill: "skills:expert_mode"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["Craft the wither eye and prove yourself worthy to enter the twilight forest!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F9823996DCFE526"
+				"7F4B5DCCA474F70F"
+				"0CD81D75D69784F5"
+				"463E13B3E8DD81C4"
+			]
+			hide: true
+			size: 2.0d
+			id: "5D94D028A5938A5F"
+			tasks: [{
+				id: "6D093F0EEB82685F"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "392D96674154E181"
+					type: "advancement"
+					title: "Twilight Ready"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					team_reward: true
+					auto: "enabled"
+					advancement: "kubejs:adventure/twilight_ready"
+					criterion: ""
+				}
+				{
+					id: "21C9683DAD8D0DDB"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+			]
+		}
+		{
+			title: "Crimson Iron"
+			x: -2.5d
+			y: -3.5d
+			shape: "circle"
+			description: ["Some of the available ingots in nether. Collect them all!"]
+			hide_dependency_lines: true
+			dependencies: ["0C4A364FAA9DA542"]
+			hide: false
+			id: "3C4FBC4F5C940400"
+			tasks: [
+				{
+					id: "6EC8C0FEC9858A7A"
+					type: "item"
+					item: "silentgear:raw_crimson_iron"
+				}
+				{
+					id: "047A1A51AFEB29EF"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "5CC2BF9DCA239FDC"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+				}
+				{
+					id: "5321B0DF653584FD"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+			rewards: [{
+				id: "5DEE74910A51FE77"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "minecraft:diamond"
+			x: -5.0d
+			y: 1.0d
+			shape: "diamond"
+			description: [
+				"Create a 2x2 pool of water surrounded by dirt and flowers, then throw in a diamond!"
+				"Watch out for the lightning strike"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5D94D028A5938A5F"]
+			size: 2.0d
+			id: "6435FDD844F5CC2B"
+			tasks: [{
+				id: "17DA40B3E20895A8"
+				type: "checkmark"
+				title: "Twilight Portal"
+			}]
+			rewards: [{
+				id: "1515F6AA14697C9A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Wildfire"
+			x: 0.0d
+			y: -1.5d
+			description: ["These tougher blazes can be found in fortresses."]
+			hide_dependency_lines: true
+			dependencies: ["5D2BE7AEBC2BB538"]
+			id: "5A02023ED7A1BD83"
+			tasks: [{
+				id: "0A086D9B1BC25A73"
+				type: "kill"
+				icon: {
+					id: "friendsandfoes:wildfire_crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "friendsandfoes:wildfire"
+				value: 1L
+			}]
+			rewards: [{
+				id: "039DBA44E57FAAA7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "mutantmore:mutant_wither_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -7.0d
+			y: -3.5d
+			description: ["The mutant wither skeleton can be created by applying chemical y or z to a regular wither skeleton"]
+			hide_dependency_lines: true
+			dependencies: ["5A171948B45D8755"]
+			id: "463E13B3E8DD81C4"
+			tasks: [{
+				id: "5EA2D54DFD8575D6"
+				type: "kill"
+				title: "Mutant Wither Skeleton"
+				icon: {
+					id: "mutantmore:mutant_wither_skeleton_skull"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mutantmore:mutant_wither_skeleton_body_part"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "62B36D76EF3992C3"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "2580D541674B31FC"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Forbidden Chemicals"
+			x: -7.5d
+			y: -5.0d
+			shape: "pentagon"
+			description: [
+				"These dangerous compounds are capable of transforming regular mobs into something more."
+				"Formula Y has a smaller chance of success while compound z has guarenteed success"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5A171948B45D8755"]
+			size: 2.0d
+			id: "031D0554D7A71EE5"
+			tasks: [
+				{
+					id: "65704B628E1E1196"
+					type: "item"
+					item: "mutantmore:formula_y"
+				}
+				{
+					id: "05387E069CC70830"
+					type: "item"
+					item: "mutantmore:compound_z"
+				}
+			]
+			rewards: [{
+				id: "57FC8CE410BA9DE5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			description: ["Defeat a mutant blaze by applying chemical y or z on a regular blaze!"]
+			hide_dependency_lines: true
+			dependencies: ["5A171948B45D8755"]
+			id: "0CD81D75D69784F5"
+			tasks: [{
+				id: "1F5AE3821BA61872"
+				type: "kill"
+				title: "Mutant Blaze"
+				icon: "mutantmore:mutant_blaze_core"
+				entity: "mutantmore:mutant_blaze"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6CD9D1FFDD593AD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C7FA1FBBE121F26"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "7E5DA51D39A2F8DE"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

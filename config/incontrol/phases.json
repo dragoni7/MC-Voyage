@@ -1,0 +1,8 @@
+[
+    {
+        "name": "nighttime",
+        "conditions": {
+            "mintime": 12500
+        }
+    }
+]

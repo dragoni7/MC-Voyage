@@ -1,0 +1,194 @@
+{
+    "decorations": [
+      {
+        "type": "vines",
+        "chance": 0.5
+      }
+    ],
+    "theme": {
+      "fencing": {
+        "type": "block",
+        "block": "architects_palette:entwine_bars"
+      },
+      "floor": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "minecraft:gravel",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:flint_tiles",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:flint_block",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:overgrown_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:algal_bricks",
+            "weight": 2
+          }
+        ]
+      },
+      "fluid": {
+        "type": "block",
+        "block": "minecraft:air"
+      },
+      "generic": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "minecraft:gravel",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:cracked_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_bricks",
+            "weight": 2
+          }
+        ]
+      },
+      "material": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "minecraft:gravel",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:flint_tiles",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:cracked_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:algal_bricks",
+            "weight": 2
+          }
+        ]
+      },
+      "pillar": {
+        "type": "block",
+        "block": "architects_palette:entwin_pillar"
+      },
+      "slab": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "architects_palette:algal_brick_slab",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_slab",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_slab",
+            "weight": 2
+          }
+        ]
+      },
+      "solid": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "minecraft:gravel",
+            "weight": 1
+          },
+          {
+            "block": "architects_palette:cracked_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:cracked_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_bricks",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_bricks",
+            "weight": 2
+          }
+        ]
+      },
+      "solid_slab": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "architects_palette:algal_brick_slab",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_slab",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_slab",
+            "weight": 2
+          }
+        ]
+      },
+      "solid_stairs": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "architects_palette:algal_brick_stairs",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_stairs",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_stairs",
+            "weight": 2
+          }
+        ]
+      },
+      "stairs": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "architects_palette:algal_brick_stairs",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_stairs",
+            "weight": 2
+          },
+          {
+            "block": "architects_palette:overgrown_algal_brick_stairs",
+            "weight": 2
+          }
+        ]
+      },
+      "wall": {
+        "type": "block",
+        "block": "architects_palette:algal_brick_wall"
+      }
+    }
+  }

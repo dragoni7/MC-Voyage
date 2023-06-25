@@ -1,0 +1,2059 @@
+{
+	id: "2581EF6750E56B1F"
+	group: ""
+	order_index: 0
+	filename: "overworld"
+	title: "Progression"
+	icon: "ad_astra:earth_globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Humble Beginnings"
+			icon: "sophisticatedbackpacks:backpack"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Welcome!"
+			description: [
+				"Welcome to the Overworld, your home. You may want to begin preparations to fight bosses, so take these...."
+				"You'll notice the world is filled with strange new creatures, structures, and biomes. Take caution and prepare for your explorations!"
+				"Make sure to check out the other quest tabs"
+			]
+			size: 2.0d
+			id: "61EEF0063893B8A9"
+			tasks: [{
+				id: "608DEBE22F66B68E"
+				type: "checkmark"
+				title: "Explore, Prepare, and Build"
+			}]
+			rewards: [
+				{
+					id: "47E60EB36D72F759"
+					type: "item"
+					item: "farmersdelight:beef_stew"
+				}
+				{
+					id: "73DBA61474FF01C5"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29943E1A847208A9"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06DCAB54CA598A37"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C069D7D520C4B29"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02AB2E3EC6097648"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E05AB1BC1667C20"
+					type: "item"
+					item: "minecraft:spyglass"
+				}
+				{
+					id: "17D68163D2AF05E6"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+			]
+		}
+		{
+			title: "Biomes"
+			icon: "supplementaries:globe"
+			x: 1.0d
+			y: -1.0d
+			subtitle: "How to find them"
+			description: [
+				""
+				"There are many biomes to explore filled with useful and decorative resources. A nature's compass can help you locate them!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			hide: false
+			id: "7D576D6EEBCDB209"
+			tasks: [{
+				id: "3A2C3293EF7EF145"
+				type: "checkmark"
+				title: "New Biomes"
+			}]
+			rewards: [{
+				id: "41C62CBF656A0DE8"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "minecraft:oak_door"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Greentop"
+			description: [
+				"There are many new options for creating your home base with! Setting a spawn point with a bed is a good start."
+				"The furniture workbench allows you to craft many new furnitures with almost any wood!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			id: "48692E734D5E7526"
+			tasks: [{
+				id: "2728345B6BD495A1"
+				type: "checkmark"
+				title: "Home Base"
+			}]
+			rewards: [
+				{
+					id: "39AFCAACCB980F3D"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "7192F0E110EB870E"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "7380E9364A4DC0D8"
+					type: "item"
+					item: "another_furniture:oak_table"
+				}
+				{
+					id: "478AC8488EBE5D75"
+					type: "item"
+					item: "another_furniture:oak_chair"
+				}
+				{
+					id: "2FAD938C07CECCD4"
+					type: "item"
+					item: "ironchest:iron_chest"
+				}
+				{
+					id: "67EF62035B486A45"
+					type: "item"
+					item: "furnish:furniture_workbench"
+				}
+				{
+					id: "325E6B5D19ACD97E"
+					type: "item"
+					item: {
+						id: "another_furniture:furniture_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Be prepared,,,"
+			description: [
+				"Discover a layered dungeon."
+				"Explore the depths of these deadly dungeons to find valuable loot!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			hide: false
+			id: "1EA61FB44C68E51C"
+			tasks: [{
+				id: "3B9ADCC480C73813"
+				type: "structure"
+				title: "Dungeon Crawling!"
+				icon: "minecraft:cracked_stone_bricks"
+				structure: "dungeoncrawl:dungeon"
+			}]
+			rewards: [{
+				id: "1787F9077507FDA6"
+				type: "item"
+				item: "majruszsdifficulty:recall_potion"
+			}]
+		}
+		{
+			title: "Swampjaw"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "Your first boss"
+			description: [
+				"Perform the summoning ritual for swampjaw!"
+				"This brittle boned fish likes to swim in the air and drop explosives from above"
+			]
+			dependencies: ["069A02567F30D24C"]
+			id: "3FEFAA19984ED7D1"
+			tasks: [{
+				id: "579A508F861615CD"
+				type: "kill"
+				title: "Defeat Swampjaw"
+				icon: "meetyourfight:fossil_bait"
+				entity: "meetyourfight:swampjaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7C3922E81BB9083A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0A06097D7C3E6E20"
+					type: "item"
+					item: "meetyourfight:marshy_delight"
+					count: 3
+				}
+				{
+					id: "39634880EA2012C6"
+					type: "item"
+					item: "minecraft:frogspawn"
+				}
+				{
+					id: "1CE82EC239FFE875"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "7D7AE52508ACF5F9"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Bellringer"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Spooky"
+			description: [
+				"Perform the summoning ritual for bellringer"
+				"This ghostly boss rings it's bell to fire projectiles. Ranged weapons advised."
+			]
+			dependencies: ["3FEFAA19984ED7D1"]
+			id: "17AB83732BB1D634"
+			tasks: [{
+				id: "787519608C40C5A5"
+				type: "kill"
+				title: "Banish Bellringer"
+				icon: "meetyourfight:haunted_bell"
+				entity: "meetyourfight:bellringer"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "75053EAF30205D52"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:allay_spawn_egg"
+				}
+				{
+					id: "07A75A4D903ED2D8"
+					type: "item"
+					auto: "enabled"
+					item: "meetyourfight:aether_glazed_cupcake"
+					count: 3
+				}
+				{
+					id: "6FD6416E185D1A00"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 10
+				}
+				{
+					id: "717294214418951E"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "60068C8B5D8F4FCF"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Dame Fortuna"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Unfortunate"
+			description: [
+				"Perform the summoning ritual to summon dame fortuna."
+				"This entity likes to throw waves of projectiles while floating around. Prepare to dodge!"
+			]
+			dependencies: ["17AB83732BB1D634"]
+			id: "041F219F0682205B"
+			tasks: [{
+				id: "09605582F35F3F13"
+				type: "kill"
+				title: "Fortune and Glory"
+				icon: "meetyourfight:devils_ante"
+				entity: "meetyourfight:dame_fortuna"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "50C1C835A1E1BBD2"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 10
+				}
+				{
+					id: "31CA71C0B2254B9E"
+					type: "item"
+					auto: "enabled"
+					item: "meetyourfight:velvet_fortune"
+					count: 3
+				}
+				{
+					id: "4A8625D69E5A9B02"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "1FC41A2A08FFC2A0"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Best Friend"
+			x: -1.0d
+			y: 1.0d
+			description: [
+				"Nothing can go wrong with having a pet! In fact, they can even defend you!"
+				"Many mobs can be tamed in their own ways."
+			]
+			hide_dependency_lines: true
+			dependencies: ["48692E734D5E7526"]
+			id: "0BC744B7EA8A7ABC"
+			tasks: [{
+				id: "2C3DF74FD1EE3F5C"
+				type: "item"
+				item: {
+					id: "domesticationinnovation:collar_tag"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "563320716003F69A"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_white"
+				}
+				{
+					id: "0374E05D04F04CB1"
+					type: "item"
+					item: "domesticationinnovation:drum"
+				}
+				{
+					id: "00B64779F114F277"
+					type: "item"
+					item: "domesticationinnovation:wayward_lantern"
+				}
+			]
+		}
+		{
+			title: "Here they come..."
+			x: 5.5d
+			y: 4.5d
+			subtitle: "Shamblers"
+			description: [
+				"After killing 150 undead, the undead army may come after you..."
+				"Prepare to face wave after wave of zombies and more."
+			]
+			id: "6A87D19BBD9E7E5B"
+			tasks: [{
+				id: "7C6CFCBFD0F0616A"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 150L
+			}]
+			rewards: [{
+				id: "39DA746A0E4DE551"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Miner's Delight"
+			x: 1.5d
+			y: 1.0d
+			description: ["Many ingots are available in the normal mode, make use of them all!"]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			id: "1B1890E7BA760AE4"
+			tasks: [
+				{
+					id: "64314F9252B11BD9"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "059AA52F084BF50A"
+					type: "item"
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "372324DD1CF113B0"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "7C27B9EB1425509F"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "5B02D46332161C43"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "1441CF5F2E2CA003"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "2FD6AEEC538C5328"
+					type: "item"
+					item: "botania:gaia_ingot"
+				}
+				{
+					id: "33863F7E7A7AD837"
+					type: "item"
+					item: "aquaculture:neptunium_ingot"
+				}
+				{
+					id: "1CBAFA75C865ACCF"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "491032DB2AD03F7A"
+					type: "item"
+					item: "silentgear:crimson_iron_ingot"
+				}
+				{
+					id: "57F4075D27836B3A"
+					type: "item"
+					item: "silentgear:blaze_gold_ingot"
+				}
+				{
+					id: "506195BDB958558B"
+					type: "item"
+					item: "silentcompat:midnight_iron_ingot"
+				}
+				{
+					id: "5F3E8A435C84DA2B"
+					type: "item"
+					item: "silentcompat:dark_chocolate_ingot"
+				}
+				{
+					id: "63913B694D64A394"
+					type: "item"
+					item: "silentcompat:sculk_alloy_ingot"
+				}
+				{
+					id: "49A4B1B679B43547"
+					type: "item"
+					item: "architects_palette:nether_brass_ingot"
+				}
+				{
+					id: "1D8CDB66AFB510DE"
+					type: "item"
+					item: "spirit:soul_steel_ingot"
+				}
+				{
+					id: "34707745058F473A"
+					type: "item"
+					item: "create:zinc_ingot"
+				}
+				{
+					id: "450D1D05E481FF77"
+					type: "item"
+					item: "create:brass_ingot"
+				}
+				{
+					id: "738B39AC74C09601"
+					type: "item"
+					item: "createdeco:cast_iron_ingot"
+				}
+				{
+					id: "11F7445BC3829678"
+					type: "item"
+					item: "irons_spellbooks:arcane_ingot"
+				}
+				{
+					id: "49C1BC30625AC75D"
+					type: "item"
+					item: "dreamland:necrathene_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "0024FA6B54906E60"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2C9B7FDEC97D617D"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Hirschgeist"
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"Perform the summoning ritual to summon the Hirschgeist."
+				"This skeletal stag has strong knock back attacks!"
+			]
+			dependencies: ["041F219F0682205B"]
+			id: "6F288227E5213CC3"
+			tasks: [{
+				id: "31ED013D31B1F939"
+				type: "kill"
+				icon: {
+					id: "whisperwoods:hirschgeist_skull"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "whisperwoods:hirschgeist"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "686F58DA6D4FFD12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3393482F5DF58AB5"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "652F51B48713E9CA"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: [
+				"Summon an inert nether portal key. The inert key can be upgrade to a nether portal key to allow access into the Nether!"
+				"Beware as summoning this key will also summon it's gatekeeper.."
+			]
+			dependencies: ["6F288227E5213CC3"]
+			id: "65FFAB86AC176640"
+			tasks: [{
+				id: "71292537E50AF570"
+				type: "item"
+				item: "kubejs:inert_nether_portal_key"
+			}]
+			rewards: [
+				{
+					id: "7A66A05AE6F88785"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43E528F24703740D"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"The summoning altar is a crucial block that allows you to summon many bosses and items!"
+				"Be sure to set it in a place with a lot of space and away from your main base."
+				"To view summoning recipes, right click on the item in JEI"
+				"When fighting bosses, ensure you have the best gear possible, and make use of shields, potions, spells and more!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			id: "069A02567F30D24C"
+			tasks: [{
+				id: "76C4232AEF01A6D2"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+			rewards: [{
+				id: "4BD7CF108BAF9CE1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Frozen Ocean"
+			x: 4.0d
+			y: 4.5d
+			description: ["Visit the frozen ocean and discover the mysterious ice maze"]
+			id: "157232B7AE3D7C2B"
+			tasks: [{
+				id: "10ADD19BF5DF0483"
+				type: "biome"
+				icon: "aquamirae:rune_of_the_storm"
+				biome: "minecraft:deep_frozen_ocean"
+			}]
+			rewards: [{
+				id: "52A1E70641BA7FB1"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "The Ghost of Captain Cornelia"
+			icon: {
+				id: "endrem:lost_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 5.5d
+			description: [
+				"Defeat Captain Cornelia. Summon her with a shell horn near the water in the ice maze"
+				"Be sure to come prepared as this fight is more difficult"
+			]
+			hide_dependency_lines: true
+			dependencies: ["157232B7AE3D7C2B"]
+			id: "3663FF5F78A0B251"
+			tasks: [{
+				id: "5DA4FE3ABED0F2C6"
+				type: "kill"
+				icon: "aquamirae:shell_horn"
+				entity: "aquamirae:captain_cornelia"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "205D92095EC1D261"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 3
+				}
+				{
+					id: "3F8EA13F06A3C51D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22E65B81CF8F43F6"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "2BE30D25CBAF95FC"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Mother of the Maze"
+			x: 4.5d
+			y: 5.5d
+			description: [
+				"Defeat the maze mother. This creature appears rarely in the ice maze"
+				"Aquatic gear will be essential for this fight"
+			]
+			hide_dependency_lines: true
+			dependencies: ["157232B7AE3D7C2B"]
+			id: "4CAAAA209CFFAC89"
+			tasks: [{
+				id: "5261B88331D94A57"
+				type: "kill"
+				icon: {
+					id: "aquamirae:maze_rose"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "aquamirae:maze_mother"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "296E7C69B253E26B"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "13ADD056EC65A267"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5CE8166A7C9A07F9"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Elder Guardian"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "Old Fish"
+			description: ["Find an ocean monument to take on the elder guardian and retrieve it's eye"]
+			id: "62C787D36CD80C8E"
+			tasks: [{
+				id: "67CC3CB5282CAA52"
+				type: "kill"
+				title: "Elder"
+				icon: "majruszsdifficulty:elder_guardian_treasure_bag"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "55F2EF00167DB6B9"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5422107103D0FCCF"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 5
+				}
+				{
+					id: "4DCAC7CD8C35CEDF"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "019B75636AEEC7C7"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"Boss essence is gained from defeating a boss for the first time!"
+				"Certain more powerful bosses such as the wither will drop an essence on each defeat."
+			]
+			hide_dependency_lines: true
+			dependencies: ["069A02567F30D24C"]
+			id: "37FA55C81065032C"
+			tasks: [{
+				id: "246686A7653C26F4"
+				type: "item"
+				item: "kubejs:boss_essence"
+			}]
+			rewards: [{
+				id: "1F5136936958FB1D"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			title: "Raid"
+			x: 1.5d
+			y: 4.5d
+			description: ["Start an illager raid by placing down a raid banner. These banners drop from illagers carrying them on patrols"]
+			id: "7FA44323903DA8C8"
+			tasks: [{
+				id: "235A42784B98426E"
+				type: "item"
+				item: "majruszsdifficulty:pillager_treasure_bag"
+			}]
+			rewards: [
+				{
+					id: "2EA8FF235583437B"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "2C29647495A44550"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			description: ["Survive the undead army!"]
+			dependencies: ["6A87D19BBD9E7E5B"]
+			id: "6AED3362559D03CD"
+			tasks: [{
+				id: "166BAC9562069A79"
+				type: "item"
+				item: "majruszsdifficulty:undead_army_treasure_bag"
+			}]
+			rewards: [
+				{
+					id: "3BE75C02294F751F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5C777B4A49B81DF5"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["Defeat a warped mosco by allowing a crimson mosquito to drink the blood of a mungus full of warped fungus"]
+			id: "7CE471F57AA632D3"
+			tasks: [{
+				id: "2B406C029D125CC2"
+				type: "kill"
+				title: "Warped Mosco"
+				icon: "alexsmobs:warped_muscle"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "29CF4DEEDF420F6E"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "18E96A9F85AFD84E"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "68C62E894C59185A"
+					type: "item"
+					auto: "enabled"
+					item: "alexsmobs:warped_muscle"
+				}
+			]
+		}
+		{
+			icon: "minecraft:feather"
+			x: 4.0d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"Feathers are a new resource that allows one to dodge attacks. "
+				"Pressing left alt will dodge. Consumes feathers each time"
+				"Wearing armor reduces the amount of feathers you have."
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "1AAD744395612FA5"
+			tasks: [{
+				id: "70178C3D95DCCF4D"
+				type: "checkmark"
+				title: "Feathers"
+			}]
+			rewards: [{
+				id: "01F4BB7B03434A1C"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "feathers:endurance_potion"
+					}
+				}
+			}]
+		}
+		{
+			title: "Mansion"
+			x: 2.5d
+			y: 4.5d
+			description: ["Locate a mansion, home to many illagers!"]
+			id: "3C333B07B055759B"
+			tasks: [{
+				id: "297365ECFC5C7E36"
+				type: "structure"
+				icon: "minecraft:totem_of_undying"
+				structure: "minecraft:mansion"
+			}]
+			rewards: [{
+				id: "377DAEF11CA917E3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Theater"
+			x: 0.0d
+			y: 4.5d
+			description: [
+				"Find a theater where the illagers put on a show"
+				"The conjurer illager can be fought here!"
+			]
+			id: "780C3CAB2AC424DE"
+			tasks: [{
+				id: "1CDC241215EB8FDB"
+				type: "structure"
+				icon: {
+					id: "conjurer_illager:conjurer_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "conjurer_illager:theatre"
+			}]
+			rewards: [{
+				id: "30790FCD2E920B47"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Conjurer"
+			x: 0.0d
+			y: 5.5d
+			description: ["Defeat the conjurer and take his hat"]
+			hide_dependency_lines: true
+			dependencies: ["780C3CAB2AC424DE"]
+			id: "302825585C6712C7"
+			tasks: [{
+				id: "57DD97ADF682CB62"
+				type: "kill"
+				icon: "conjurer_illager:throwing_card"
+				entity: "conjurer_illager:conjurer"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "566CEA9CF8E751B6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06191B48A2874A05"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			title: "Evoker"
+			x: 2.0d
+			y: 5.5d
+			hide: false
+			dependency_requirement: "one_completed"
+			id: "4DE1B5F76B341662"
+			tasks: [{
+				id: "40C5B08DAC8F5D09"
+				type: "kill"
+				title: "Defeat an Evoker"
+				icon: {
+					id: "irons_spellbooks:archevoker_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:evoker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "421E8952F45C3392"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7269F21CB9BBCECB"
+					type: "item"
+					item: "minecraft:allay_spawn_egg"
+				}
+				{
+					id: "3BE0847AD349B472"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Craft the nether portal key to gain access to the nether!"]
+			dependencies: ["65FFAB86AC176640"]
+			hide: false
+			id: "7C8894746444CC14"
+			tasks: [{
+				id: "176CE0467CA8B2BA"
+				type: "item"
+				item: "kubejs:nether_portal_key"
+			}]
+			rewards: [
+				{
+					id: "158758E3DE3FD8B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AEE65A264E2A034"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+				{
+					id: "6D5E5C08432594D9"
+					type: "item"
+					item: "irons_spellbooks:upgrade_orb"
+				}
+				{
+					id: "3D91C16509DA3D5E"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "eccentrictome:tome"
+				Count: 1b
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"You may be used to an inventory full of guidebooks"
+				"The eccentric tome is here to help! Combine it with any guide book in a crafting table to add it to the tome!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			hide: false
+			id: "0E72188B0B8176BD"
+			tasks: [{
+				id: "78B56CC4E325B6CB"
+				type: "checkmark"
+				title: "Too Many Guides"
+			}]
+			rewards: [{
+				id: "3811075D113A7017"
+				type: "item"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			x: 7.0d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"Mobs may sometimes start an invasion against you. Prepare a defendable base!"
+				"These invasions prevent sleeping until complete"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "2F8ADBC4BC66F5D5"
+			tasks: [{
+				id: "42B58D64CCF49F3F"
+				type: "checkmark"
+				title: "Invasions"
+			}]
+		}
+		{
+			icon: "minecraft:creeper_head"
+			x: 6.0d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"As you progress through quests, deafting bosses, and collecting items, the world will become more dangerous."
+				"Mobs will gain more health and damage, and new enemies will appear!"
+				"Make sure to seek out the strongest gear available!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "517B58F86FBD6B8E"
+			tasks: [{
+				id: "62197628F2960312"
+				type: "checkmark"
+				title: "Mob Scaling"
+			}]
+		}
+		{
+			icon: "majruszsdifficulty:undead_battle_standard"
+			x: 5.0d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"As you progress by fighting bosses, and collecting items, the state of the world will change."
+				"New ores, recipes, dimensions and more will gradually appear in response to your actions!"
+				"If a bug occurs with the stages, try restarting your client!"
+				"Additionally, reporting bugs to the xskills mod repo is helpful"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "799AB4E7D04E85A5"
+			tasks: [{
+				id: "3AE15CD8E7D072F9"
+				type: "checkmark"
+				title: "Game Stages"
+			}]
+			rewards: [
+				{
+					id: "3DE25737B7BDEA6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "286D85B014B6808E"
+					type: "item"
+					item: "kubejs:stage_repairer"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			description: ["A powerful king long dead. Beware his potent magic!"]
+			id: "75FC4D6172FDCB39"
+			tasks: [{
+				id: "5BCD3889232A31AC"
+				type: "kill"
+				title: "Dead King"
+				icon: {
+					id: "irons_spellbooks:blood_staff"
+					Count: 1b
+					tag: {
+						ISB_spellbook: {
+							spellSlots: 5
+							activeSpellIndex: 0
+							spells: [
+								{
+									id: 26
+									slot: 0
+									level: 6
+								}
+								{
+									id: 29
+									slot: 1
+									level: 6
+								}
+								{
+									id: 39
+									slot: 2
+									level: 3
+								}
+								{
+									id: 8
+									slot: 3
+									level: 6
+								}
+								{
+									id: 33
+									slot: 4
+									level: 6
+								}
+							]
+						}
+					}
+				}
+				entity: "irons_spellbooks:dead_king"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5BE3CA5233A8DBC8"
+				type: "item"
+				item: "kubejs:generic_lootcrate"
+			}]
+		}
+		{
+			icon: "majruszsdifficulty:undead_battle_standard"
+			x: 4.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"You have now begun expert mode."
+				"Expect to face stronger and new mobs, while discovering new ores, tools, and more!"
+				"New content includes:"
+				"Steel"
+				"thermal machines"
+				"create diesel generators"
+				"botanic additions"
+				"mutant monsters"
+				"and more!"
+				"Restarting the client is advised to see new ores"
+			]
+			hide_dependency_lines: true
+			size: 2.0d
+			secret: true
+			id: "49E9E2AD9434D731"
+			tasks: [{
+				id: "30630FED31CA7724"
+				type: "skills:basic_skill_task"
+				title: "Expert Mode"
+				icon: "majruszsdifficulty:undead_battle_standard"
+				secret: true
+				skill: "skills:expert_mode"
+			}]
+			rewards: [{
+				id: "7AC54176A8C46DA7"
+				type: "command"
+				title: "Difficulty Increased!"
+				team_reward: false
+				auto: "enabled"
+				command: "/sh_difficulty add @p 100"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["New ingots and alloys!"]
+			hide_dependency_lines: true
+			dependencies: ["49E9E2AD9434D731"]
+			hide: true
+			id: "1C3182237C231BEA"
+			tasks: [
+				{
+					id: "12E13E7A32815EC8"
+					type: "item"
+					item: "silentgear:crimson_steel_ingot"
+				}
+				{
+					id: "1090B46A197FDA77"
+					type: "item"
+					item: "ad_astra:steel_ingot"
+				}
+				{
+					id: "1A778DFCD32701B3"
+					type: "item"
+					item: "thermal:nickel_ingot"
+				}
+				{
+					id: "145AA7E620C32AB7"
+					type: "item"
+					item: "thermal:tin_ingot"
+				}
+				{
+					id: "7982A98B3D457E05"
+					type: "item"
+					item: "thermal:silver_ingot"
+				}
+				{
+					id: "41B86FB943B56CBD"
+					type: "item"
+					item: "thermal:bronze_ingot"
+				}
+				{
+					id: "7B27652DB7947B14"
+					type: "item"
+					item: "thermal:signalum_ingot"
+				}
+				{
+					id: "62AD760C5EEBAF81"
+					type: "item"
+					item: "thermal:constantan_ingot"
+				}
+				{
+					id: "2CA1C3FA5C733F1B"
+					type: "item"
+					item: "thermal:invar_ingot"
+				}
+				{
+					id: "0E33BE6AC5F30496"
+					type: "item"
+					item: "thermal:electrum_ingot"
+				}
+				{
+					id: "5CA14E99E8E4EA01"
+					type: "item"
+					item: "thermal:lead_ingot"
+				}
+				{
+					id: "2C392312F9660B5C"
+					type: "item"
+					item: "thermal:rose_gold_ingot"
+				}
+				{
+					id: "4643DA95C2760B7F"
+					type: "item"
+					item: "thermal:lumium_ingot"
+				}
+				{
+					id: "481C692041FB7C54"
+					type: "item"
+					item: "thermal:enderium_ingot"
+				}
+				{
+					id: "607686CBC509F022"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+				{
+					id: "15683768E4B4A89E"
+					type: "item"
+					item: "silentcompat:bunny_steel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "50B6ECE4E82D2B30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "174BDDDDE93D8291"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"New content includes:"
+				"Prismasand in the ocean depths"
+				"Void arc and solar metals"
+				"Ad astra"
+				"Thermal endergy"
+				"Mythic Botany"
+				"AE2"
+			]
+			size: 2.0d
+			secret: true
+			id: "61437502D8EA956C"
+			tasks: [{
+				id: "42E68DD40D722817"
+				type: "skills:basic_skill_task"
+				title: "Master Mode"
+				icon: "majruszsdifficulty:undead_battle_standard"
+				secret: true
+				skill: "skills:master_mode"
+			}]
+			rewards: [{
+				id: "1AA50B4C34473072"
+				type: "command"
+				title: "Difficulty Increased!"
+				team_reward: false
+				auto: "enabled"
+				command: "/sh_difficulty add @p 100"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["61437502D8EA956C"]
+			hide: true
+			id: "605D0471323CCFD3"
+			tasks: [
+				{
+					id: "025CFCF0E3364379"
+					type: "item"
+					item: "botanicadds:gaiasteel_ingot"
+				}
+				{
+					id: "513078C8DF7C4F58"
+					type: "item"
+					item: "thermalendergy:prismalium_ingot"
+				}
+				{
+					id: "4A532679A632064F"
+					type: "item"
+					item: "thermalendergy:melodium_ingot"
+				}
+				{
+					id: "5F02E906B0ACED83"
+					type: "item"
+					item: "thermalendergy:stellarium_ingot"
+				}
+				{
+					id: "06AEE56B2807BEA1"
+					type: "item"
+					item: "silentcompat:arcmetal_ingot"
+				}
+				{
+					id: "783DF9EB8079CD39"
+					type: "item"
+					item: "silentcompat:solarmetal_ingot"
+				}
+				{
+					id: "4B4C8E45EF9FFF41"
+					type: "item"
+					item: "silentcompat:voidmetal_ingot"
+				}
+				{
+					id: "0B11D300C3E17CF5"
+					type: "item"
+					item: "kubejs:chromium_ingot"
+				}
+				{
+					id: "5DC6919FF0884507"
+					type: "item"
+					item: "kubejs:stainless_steel_ingot"
+				}
+				{
+					id: "418B02E577AAD0FD"
+					type: "item"
+					item: "ad_astra:desh_ingot"
+				}
+				{
+					id: "41A61848D7C5F3EC"
+					type: "item"
+					item: "ad_astra:ostrum_ingot"
+				}
+				{
+					id: "15401FAEC5C5FA35"
+					type: "item"
+					item: "ad_astra:calorite_ingot"
+				}
+				{
+					id: "487D42DD362D7BBC"
+					type: "item"
+					item: "silentcompat:plasteel_ingot"
+				}
+				{
+					id: "424E6F2BDAE1CCB9"
+					type: "item"
+					item: "silentcompat:crystalline_alloy"
+				}
+				{
+					id: "54C1F2F6F05AE6A5"
+					type: "item"
+					item: "silentcompat:capsid_alloy_ingot"
+				}
+				{
+					id: "7773CCA0D2DE2F34"
+					type: "item"
+					item: "majruszsdifficulty:enderium_ingot"
+				}
+				{
+					id: "68B3325E24BEB0B2"
+					type: "item"
+					item: "silentgear:azure_silver_ingot"
+				}
+				{
+					id: "11C7C9BE041DF24C"
+					type: "item"
+					item: "silentgear:azure_electrum_ingot"
+				}
+				{
+					id: "22AD7C56F4E3C7F3"
+					type: "item"
+					item: "silentgear:tyrian_steel_ingot"
+				}
+				{
+					id: "6DE076C94CFB1A82"
+					type: "item"
+					item: "enlightened_end:bismuth_ingot"
+				}
+				{
+					id: "3F807C69FAA786BE"
+					type: "item"
+					item: "enlightened_end:adamantite_ingot"
+				}
+				{
+					id: "548518BDF92D01B8"
+					type: "item"
+					item: "phantasm:stellium_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "23D64F48F90D996E"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+					count: 4
+				}
+				{
+					id: "7577DE6FB2EEAE49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7958794FDE7B9277"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			shape: "octagon"
+			subtitle: "Hungering void"
+			description: ["Summon the Void Worm in the end by tossing a mysterious worm into the void"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6E6C32E16EEE1ED7"
+				"082C74F50C9F52BE"
+			]
+			hide: true
+			size: 2.0d
+			id: "4BF2E05841674BD6"
+			tasks: [{
+				id: "04341E2B8577EC62"
+				type: "kill"
+				title: "The Great Worm"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "66F70423D7425CED"
+					type: "item"
+					auto: "enabled"
+					item: "alexsmobs:void_worm_mandible"
+				}
+				{
+					id: "0A9202F0B3B48845"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:bedrock"
+				}
+				{
+					id: "30840B614D2CC9E3"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cake"
+				}
+				{
+					id: "7EC011756B7C52D0"
+					type: "xp_levels"
+					auto: "enabled"
+					xp_levels: 20
+				}
+				{
+					id: "19D9F5A0852CDC51"
+					type: "item"
+					auto: "enabled"
+					item: "kubejs:premium_lootcrate"
+				}
+				{
+					id: "09669AE2E6892A0A"
+					type: "item"
+					team_reward: true
+					auto: "enabled"
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+			]
+		}
+		{
+			title: "Eyes of the End"
+			x: 10.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Eye spies"
+			description: [
+				"Collect all 12 ender eyes! Each eye can be found by defeating enemies, looting, or crafting with powerful ingredients."
+				"You will need them all to slot into the end portal frame located in a stronghold "
+			]
+			size: 2.0d
+			id: "54095F8E134919D7"
+			tasks: [
+				{
+					id: "2C3278AC9A004B51"
+					type: "item"
+					item: {
+						id: "endrem:corrupted_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47E55A05E47F541A"
+					type: "item"
+					item: {
+						id: "endrem:lost_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5438D1F6597E5D8E"
+					type: "item"
+					item: {
+						id: "endrem:old_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58B5A2E11143B02A"
+					type: "item"
+					item: {
+						id: "endrem:rogue_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10AAAFF84DC65DC8"
+					type: "item"
+					item: {
+						id: "endrem:cursed_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03DFDF3B66C3EBD3"
+					type: "item"
+					item: {
+						id: "endrem:evil_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17C395ED43E28C87"
+					type: "item"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34338E6EE6E32F2E"
+					type: "item"
+					item: {
+						id: "endrem:magical_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BB11F237F585782"
+					type: "item"
+					item: {
+						id: "endrem:wither_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42211CE538B27CF4"
+					type: "item"
+					item: {
+						id: "endrem:witch_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DE949046448BB5F"
+					type: "item"
+					item: {
+						id: "endrem:undead_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5933F9CE5B991632"
+					type: "item"
+					item: {
+						id: "endrem:exotic_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5C488457CF3D6F9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09180DE77C251846"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "1595976BDC60F7CC"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Stronghold"
+			x: 11.5d
+			y: 2.5d
+			description: ["Locate a stronghold where the 12 eyes can be inserted into the end portal."]
+			hide_dependency_lines: true
+			dependencies: ["54095F8E134919D7"]
+			hide: true
+			id: "5450F086FA59B087"
+			tasks: [{
+				id: "0634656653D2DCD3"
+				type: "structure"
+				icon: "minecraft:end_portal_frame"
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "06AE0391C25A0F8C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["Many new structures exist in the world, with some tied to progression"]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			id: "772138C6F7F2C09E"
+			tasks: [{
+				id: "0FB0F59AB3097CC2"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4989F340F098A742"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["Use the catalyst on a portal frame of stone brick to activate a portal to the undergarden!"]
+			hide_dependency_lines: true
+			dependencies: ["177700694C2B1EAE"]
+			size: 2.0d
+			id: "7C82C7AFACF0ED64"
+			tasks: [{
+				id: "34E96DDE3A8E28F9"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+			rewards: [{
+				id: "513E2685CE461395"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			description: ["Summon Rosalyne to defeat her and claim her eye!"]
+			dependencies: [
+				"6D3B99609DEEC6DC"
+				"3FD0D1FB30D1716D"
+			]
+			dependency_requirement: "one_completed"
+			id: "177700694C2B1EAE"
+			tasks: [{
+				id: "0EC1196921C2D4E5"
+				type: "kill"
+				title: "Rosalyne Blade of Dusk"
+				icon: "meetyourfight:violet_bloom"
+				entity: "meetyourfight:rosalyne"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0FFC052934AC2554"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "4B74EF5D48889C38"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 10"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "minecraft:spawner"
+			x: 5.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"Spawners are indestructable!"
+				"Placing torches on the 5 visible faces of the spawner will disable it, stopping it from spawning mobs"
+				"Broken spawners can be rewarded through trade agreements"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "6C4C2AE08BB6A455"
+			tasks: [{
+				id: "16E00E364CAE7ABB"
+				type: "checkmark"
+				title: "Spawners"
+			}]
+			rewards: [{
+				id: "42B3FDC528ADEB68"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			description: ["Create a mysterious worm by placing a stasis worm into a capsid"]
+			hide_dependency_lines: true
+			dependencies: ["61437502D8EA956C"]
+			hide: true
+			id: "082C74F50C9F52BE"
+			tasks: [{
+				id: "4C3BAAC8D47A1E58"
+				type: "item"
+				item: "alexsmobs:mysterious_worm"
+			}]
+			rewards: [{
+				id: "02523C55157CA0A3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "minecraft:campfire"
+			x: 3.0d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"Being on fire is now more dangerous!"
+				"The longer you remain on fire, the damage will gradually ramp up"
+				"Finding a way to remove the flame will be crucial!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "745EC90ED6924F74"
+			tasks: [{
+				id: "1B7CA7FB09549CB1"
+				type: "checkmark"
+				title: "Fire"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"When playing in a group, forming a team is recommended"
+				"In the inventory screen, select the team option in the top left to create or join a team!"
+				"Everyone in a team will share quest progress"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61EEF0063893B8A9"]
+			size: 2.0d
+			id: "16379E25DB22C8B9"
+			tasks: [{
+				id: "76099E6E259D4ACA"
+				type: "checkmark"
+				title: "Teams"
+			}]
+		}
+		{
+			icon: "minecraft:recovery_compass"
+			x: 5.0d
+			y: -3.0d
+			shape: "diamond"
+			description: [
+				"Upon dying, a corpse will be left in the area containing all your items"
+				"Tools and armor will lose durability upon each death"
+				"A crystal containing your xp will also be present at your death location"
+				"For an easier time, use keepInventory gamerule"
+			]
+			size: 2.0d
+			id: "7B3BEF19B50BA948"
+			tasks: [{
+				id: "5466FC303D524F93"
+				type: "checkmark"
+				title: "Death And Durability"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			description: [
+				"Defeat the Harbinger to obtain the corrupt eye!"
+				"This mechanical construct is located in the ancient factory in the overworld"
+				"A nether star is needed to awaken the entity"
+				"Make use of the various traps located in the factory!"
+				"This tough fight is advised to be taken on after blue skies completion"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"49E9E2AD9434D731"
+				"5A171948B45D8755"
+			]
+			id: "2EBD7A54A618E90D"
+			tasks: [{
+				id: "11943FFD2AFC9016"
+				type: "kill"
+				title: "The Harbinger"
+				icon: "cataclysm:witherite_block"
+				entity: "cataclysm:the_harbinger"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6DA207ACE4CB182F"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
+				{
+					id: "2464E456CD978A5A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

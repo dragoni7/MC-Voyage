@@ -1,0 +1,162 @@
+{
+	id: "3B543B5C0DE48E7E"
+	group: ""
+	order_index: 5
+	filename: "trade_center"
+	title: "Trade Center"
+	icon: "wares:completed_delivery_agreement"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mining Agreement"
+			icon: "wares:cardboard_box"
+			disable_toast: true
+			x: -4.0d
+			y: -5.0d
+			description: [
+				"Sign a mining trade agreement!"
+				"Limit of 1 per 5 minutes"
+			]
+			hide_dependency_lines: true
+			dependencies: ["635691302E10EEC7"]
+			can_repeat: true
+			id: "1C60CF652568EA13"
+			tasks: [{
+				id: "0F2A294D91DB59B8"
+				type: "questsadditions:time"
+				title: "Mining Agreement"
+				disable_toast: true
+				elapsedTime: 300L
+			}]
+			rewards: [{
+				id: "62B0855704A068ED"
+				type: "item"
+				item: {
+					id: "wares:sealed_delivery_agreement"
+					Count: 1b
+					tag: {
+						ordered: 1
+						requested: "kubejs:chests/mining_requests"
+						payment: "kubejs:chests/payments"
+						id: "mining_agreement"
+						title: "Mining_Agreement"
+						experience: 50
+					}
+				}
+			}]
+		}
+		{
+			title: "Chef Agreement"
+			icon: "wares:cardboard_box"
+			disable_toast: true
+			x: -2.0d
+			y: -5.0d
+			description: [
+				"Sign a chef trade agreement!"
+				"Limit of 1 per 5 minutes"
+			]
+			hide_dependency_lines: true
+			dependencies: ["635691302E10EEC7"]
+			can_repeat: true
+			id: "31D83B3773B3469A"
+			tasks: [{
+				id: "363555551F1B8B94"
+				type: "questsadditions:time"
+				title: "Chef Agreement"
+				disable_toast: true
+				elapsedTime: 300L
+			}]
+			rewards: [{
+				id: "026DB4BE70EF116D"
+				type: "item"
+				item: {
+					id: "wares:sealed_delivery_agreement"
+					Count: 1b
+					tag: {
+						ordered: 1
+						requested: "kubejs:chests/chef_requests"
+						payment: "kubejs:chests/payments"
+						id: "chef_agreement"
+						title: "Chef_Agreement"
+						experience: 50
+					}
+				}
+			}]
+		}
+		{
+			icon: "wares:completed_delivery_agreement"
+			x: -3.0d
+			y: -6.0d
+			shape: "diamond"
+			description: ["Wares is a delivery system that allows you to take on trade agreements, ship packages, and review rewards!"]
+			size: 2.0d
+			id: "635691302E10EEC7"
+			tasks: [{
+				id: "274DDBE6D96DD9BF"
+				type: "checkmark"
+				title: "Wares"
+			}]
+		}
+		{
+			icon: "wares:cardboard_box"
+			disable_toast: true
+			x: -3.0d
+			y: -4.0d
+			description: [
+				"Sign a monster slayer trade agreement!"
+				"Limit of 1 per 5 minutes"
+			]
+			hide_dependency_lines: true
+			dependencies: ["635691302E10EEC7"]
+			can_repeat: true
+			id: "19D11F0FA0F03130"
+			tasks: [{
+				id: "4AA54C552C5C3E64"
+				type: "questsadditions:time"
+				title: "Monster Slayer Agreement"
+				elapsedTime: 300L
+			}]
+			rewards: [{
+				id: "5DA95CDE08BCA562"
+				type: "item"
+				item: {
+					id: "wares:sealed_delivery_agreement"
+					Count: 1b
+					tag: {
+						ordered: 1
+						requested: "kubejs:chests/monster_slayer_requests"
+						payment: "kubejs:chests/payments"
+						id: "monster_slayer_agreement"
+						title: "Monster_Slayer_Agreement"
+						experience: 50
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			description: [
+				"The delivery table is a new workstation that enables you to complete delivery agreements"
+				"Place the agreement in the top slot, cardboard boxes in the bottom slot, and the payment items on the left"
+				"Packages will be delivered over time, or a villager can use the station at a faster rate"
+			]
+			hide_dependency_lines: true
+			dependencies: ["635691302E10EEC7"]
+			id: "0E467922F76FDD88"
+			tasks: [{
+				id: "535E329D1E4CF188"
+				type: "item"
+				item: "wares:delivery_table"
+			}]
+			rewards: [{
+				id: "2BE68CDD199276BD"
+				type: "item"
+				item: "wares:cardboard_box"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
