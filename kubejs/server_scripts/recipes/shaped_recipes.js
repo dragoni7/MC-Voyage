@@ -83,6 +83,7 @@ ServerEvents.recipes(event => {
                 R: MC('redstone'),
                 C: INGOT_TAG('steel')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}item_cell_housing`
         },
 
@@ -99,6 +100,7 @@ ServerEvents.recipes(event => {
                 M: KJ('infused_mechanism'),
                 S: KJ('stainless_casing')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}inscriber`
         },
 
@@ -116,6 +118,7 @@ ServerEvents.recipes(event => {
                 F: AE('fluix_glass_cable'),
                 L: AE('logic_processor')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}crafting_unit`
         },
 
@@ -131,6 +134,7 @@ ServerEvents.recipes(event => {
                 P: CR('copper_sheet'),
                 S: KJ('stainless_casing')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}charger`
         },
 
@@ -148,6 +152,7 @@ ServerEvents.recipes(event => {
                 A: 'ae2:annihilation_core',
                 F: 'ae2:formation_core'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}molecular_assembler`
         },
 
@@ -163,6 +168,7 @@ ServerEvents.recipes(event => {
                 D: KJ('infused_mechanism'),
                 G: KJ('plasteel_mechanism')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}condenser`
         },
 
@@ -180,6 +186,7 @@ ServerEvents.recipes(event => {
                 A: 'ae2:annihilation_core',
                 F: 'ae2:formation_core'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}interface`
         },
 
@@ -196,6 +203,7 @@ ServerEvents.recipes(event => {
                 D: TH('obsidian_glass')
 
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}fluix_glass_cable`
         },
 
@@ -211,6 +219,7 @@ ServerEvents.recipes(event => {
                 D: INGOT_TAG('lumium')
 
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}quartz_vibrant_glass`
         },
 
@@ -229,6 +238,7 @@ ServerEvents.recipes(event => {
                 C: KJ('stainless_mechanism')
 
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}panels_semi_dark_monitor`
         },
 
@@ -244,6 +254,7 @@ ServerEvents.recipes(event => {
                 D: '#forge:dusts/fluix',
                 T: KJ('redstone_mechanism')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}energy_cell`
         },
 
@@ -260,6 +271,7 @@ ServerEvents.recipes(event => {
                 G: 'ae2:quartz_glass',
                 F: 'ae2:fluix_glass_cable'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}quartz_growth_accelerator`
         },
 
@@ -276,6 +288,7 @@ ServerEvents.recipes(event => {
                 C: 'kubejs:azure_casing',
                 F: 'ae2:fluix_glass_cable'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}wireless_access_point`
         },
 
@@ -293,6 +306,7 @@ ServerEvents.recipes(event => {
                 C: KJ('stainless_mechanism'),
                 I: INGOT_TAG('iron')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}io_port`
         },
 
@@ -309,6 +323,7 @@ ServerEvents.recipes(event => {
                 E: INGOT_TAG('stainless_steel'),
                 B: '#forge:storage_blocks/knightmetal'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}ace_of_iron`
         },
 
@@ -338,6 +353,7 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('steel'),
                 B: FORGE_TAG('bones')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}bone_raker`
         },
 
@@ -426,6 +442,7 @@ ServerEvents.recipes(event => {
                 B: 'silentgear:blueprint_paper',
                 I: INGOT_TAG('cloggrum'),
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}hammer_blueprint`
         },
 
@@ -440,6 +457,7 @@ ServerEvents.recipes(event => {
                 B: 'silentgear:blueprint_paper',
                 I: INGOT_TAG('cloggrum'),
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}excavator_blueprint`
         },
 
@@ -454,6 +472,7 @@ ServerEvents.recipes(event => {
                 B: 'silentgear:blueprint_paper',
                 I: '#forge:ingots/crimson_iron'
             },
+            stage: NETHER,
             id:  `${id_prefix}prospector_hammer_blueprint`
         },
 
@@ -469,6 +488,7 @@ ServerEvents.recipes(event => {
                 C: 'the_bumblezone:sticky_honey_residue',
                 S: 'minecraft:string'
             },
+            stage: BUMBLEZONE,
             id:  `${id_prefix}lining_blueprint`
         },
 
@@ -483,6 +503,7 @@ ServerEvents.recipes(event => {
                 B: 'silentgear:blueprint_paper',
                 I: 'minecraft:diamond'
             },
+            stage: NETHER,
             id:  `${id_prefix}katana_blueprint`
         },
 
@@ -499,6 +520,7 @@ ServerEvents.recipes(event => {
                 V: 'cataclysm:void_core',
                 S: 'quark:dragon_scale'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}elytra_blueprint`
         },
 
@@ -516,6 +538,7 @@ ServerEvents.recipes(event => {
                 F: '#forge:shards/nether_star',
                 D: 'phantasm:stardust'
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}starmetal_dust`
         },
 
@@ -528,9 +551,10 @@ ServerEvents.recipes(event => {
              ' A '],
             key: {
                 I: INGOT_TAG('crimson_steel'),
-                A: 'create:andesite_casing',
+                A: 'kubejs:steel_casing',
                 C: INGOT_TAG('cast_iron'),
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}metal_alloyer`
         },
 
@@ -547,6 +571,7 @@ ServerEvents.recipes(event => {
                 G: 'minecraft:gold_block',
                 A: 'kubejs:steel_casing',
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}recrystallizer`
         },
 
@@ -561,9 +586,10 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('iron'),
                 D: '#forge:gems/carminite',
                 B: '#forge:gems/diamond',
-                A: 'create:andesite_casing',
+                A: 'kubejs:steel_casing',
                 W: '#minecraft:planks'
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}refabricator`
         },
 
@@ -580,6 +606,7 @@ ServerEvents.recipes(event => {
                 C: '#forge:storage_blocks/cast_iron',
                 A: 'kubejs:steel_casing'
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}metal_press`
         },
 
@@ -594,6 +621,7 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('crimson_steel'),
                 B: 'silentgear:blueprint_paper'
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}crossbow_blueprint`
         },
 
@@ -608,6 +636,7 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('crimson_steel'),
                 B: 'silentgear:blueprint_paper'
             },
+            stage: TWILIGHT,
             id:  `${id_prefix}bow_blueprint`
         },
 
@@ -622,6 +651,7 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('regalium'),
                 B: 'silentgear:blueprint_paper'
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}bracelet_blueprint`
         },
 
@@ -636,6 +666,7 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('crimson_iron'),
                 B: 'silentgear:blueprint_paper'
             },
+            stage: NETHER,
             id:  `${id_prefix}tip_blueprint`
         },
 
@@ -651,7 +682,100 @@ ServerEvents.recipes(event => {
                 B: 'silentgear:blueprint_paper',
                 L: 'minecraft:leather'
             },
+            stage: NETHER,
             id:  `${id_prefix}grip_blueprint`
+        },
+
+        {
+            output: 'silentgear:binding_blueprint',
+            old_id: 'silentgear:binding_blueprint',
+            pattern: 
+            ['BI',
+             'I ',
+             '  '],
+            key: {
+                I: 'infernalexp:glowsilk',
+                B: 'silentgear:blueprint_paper'
+            },
+            stage: NETHER,
+            id:  `${id_prefix}binding_blueprint`
+        },
+
+        {
+            output: 'silentgear:arrow_blueprint',
+            old_id: 'silentgear:arrow_blueprint',
+            pattern: 
+            [' B ',
+             ' S ',
+             ' F '],
+            key: {
+                S: '#forge:rods/wooden',
+                B: 'silentgear:blueprint_paper',
+                F: '#forge:feathers'
+            },
+            stage: TWILIGHT,
+            id:  `${id_prefix}arrow_blueprint`
+        },
+
+        {
+            output: 'silentgear:fletching_blueprint',
+            old_id: 'silentgear:fletching_blueprint',
+            pattern: 
+            ['BB ',
+             'F  ',
+             '   '],
+            key: {
+                B: 'silentgear:blueprint_paper',
+                F: '#forge:feathers'
+            },
+            stage: TWILIGHT,
+            id:  `${id_prefix}fletching_blueprint`
+        },
+
+        {
+            output: 'silentgear:mattock_blueprint',
+            old_id: 'silentgear:mattock_blueprint',
+            pattern: 
+            ['BB ',
+             'BSB',
+             ' S '],
+            key: {
+                B: 'silentgear:blueprint_paper',
+                S: '#forge:rods/wooden'
+            },
+            stage: TWILIGHT,
+            id:  `${id_prefix}mattock_blueprint`
+        },
+
+        {
+            output: 'silentgear:ring_blueprint',
+            old_id: 'silentgear:ring_blueprint',
+            pattern: 
+            [' BI',
+             'B B',
+             'IB '],
+            key: {
+                I: INGOT_TAG('froststeel'),
+                B: 'silentgear:blueprint_paper'
+            },
+            stage: UNDERGARDEN,
+            id:  `${id_prefix}ring_blueprint`
+        },
+
+        {
+            output: 'silentgear:trident_blueprint',
+            old_id: 'silentgear:trident_blueprint',
+            pattern: 
+            ['BHB',
+             'BTB',
+             ' B '],
+            key: {
+                H: MC('heart_of_the_sea'),
+                T: MC('trident'),
+                B: 'silentgear:blueprint_paper'
+            },
+            stage: UNDERGARDEN,
+            id:  `${id_prefix}trident_blueprint`
         },
 
         {
@@ -665,7 +789,60 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('crimson_iron'),
                 B: 'silentgear:blueprint_paper'
             },
+            stage: NETHER,
             id:  `${id_prefix}shield_blueprint`
+        },
+
+        {
+            output: 'silentgear:starlight_charger',
+            old_id: 'silentgear:starlight_charger',
+            pattern: 
+            ['LGL',
+             'BGB',
+             'BSB'],
+            key: {
+                L: BO('livingrock'),
+                B: 'minecraft:polished_blackstone',
+                G: FORGE_TAG('glass'),
+                S: STORAGE_BLOCK_TAG('blaze_gold')
+            },
+            stage: TWILIGHT,
+            id:  `${id_prefix}starlight_charger`
+        },
+
+        {
+            output: 'silentgear:material_grader',
+            old_id: 'silentgear:material_grader',
+            pattern: 
+            ['LIL',
+             'IUI',
+             'BAB'],
+            key: {
+                L: BO('livingrock'),
+                U: 'silentgear:advanced_upgrade_base',
+                B: INGOT_TAG('blaze_gold'),
+                A: 'kubejs:steel_casing',
+                I: INGOT_TAG('iron')
+            },
+            stage: TWILIGHT,
+            id:  `${id_prefix}material_grader`
+        },
+
+        {
+            output: 'silentgear:salvager',
+            old_id: 'silentgear:salvager',
+            pattern: 
+            [' P ',
+             'LBL',
+             'LAL'],
+            key: {
+                L: BO('livingrock'),
+                P: MC('piston'),
+                B: STORAGE_BLOCK_TAG('crimson_iron'),
+                A: 'kubejs:steel_casing',
+            },
+            stage: UNDERGARDEN,
+            id:  `${id_prefix}salvager`
         },
 
         // CREATE
@@ -864,6 +1041,7 @@ ServerEvents.recipes(event => {
                 P: MC('bucket'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_tree_extractor`
         },
 
@@ -881,6 +1059,7 @@ ServerEvents.recipes(event => {
                 P: 'aquaculture:diamond_fishing_rod',
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_fisher`
         },
 
@@ -898,6 +1077,7 @@ ServerEvents.recipes(event => {
                 P: MC('composter'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_composter`
         },
 
@@ -915,6 +1095,7 @@ ServerEvents.recipes(event => {
                 P: MC('bucket'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_water_gen`
         },
 
@@ -932,6 +1113,7 @@ ServerEvents.recipes(event => {
                 P: GEAR_TAG('constantan'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_rock_gen`
         },
 
@@ -949,6 +1131,7 @@ ServerEvents.recipes(event => {
                 P: MC('ender_pearl'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_collector`
         },
 
@@ -966,6 +1149,7 @@ ServerEvents.recipes(event => {
                 P: MC('lava_bucket'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_nullifier`
         },
 
@@ -983,6 +1167,7 @@ ServerEvents.recipes(event => {
                 P: GEAR_TAG('emerald'),
                 S: TH('redstone_servo')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}device_potion_diffuser`
         },
 
@@ -1001,6 +1186,7 @@ ServerEvents.recipes(event => {
                 W: MC_TAG('planks'),
                 R: TH('rf_coil')
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}tinker_bench`
         },
 
@@ -1018,6 +1204,7 @@ ServerEvents.recipes(event => {
                 M: '#' + BI('raw_meats'),
                 B: KJ('bio_mechanism')
             },
+            stage: NETHER,
             id:  `${id_prefix}primordial_core`
         },
 
@@ -1035,6 +1222,7 @@ ServerEvents.recipes(event => {
                 E: BI('living_flesh'),
                 B: KJ('bio_mechanism')
             },
+            stage: NETHER,
             id:  `${id_prefix}bio_forge`
         },
 
@@ -1052,6 +1240,7 @@ ServerEvents.recipes(event => {
                 E: BI('living_flesh'),
                 B: KJ('bio_mechanism')
             },
+            stage: NETHER,
             id:  `${id_prefix}decomposer`
         },
 
@@ -1071,6 +1260,7 @@ ServerEvents.recipes(event => {
                 C: KJ('azure_casing'),
                 M: KJ('overclocked_mechanism')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}oxygen_loader`
         },
 
@@ -1088,6 +1278,7 @@ ServerEvents.recipes(event => {
                 M: KJ('redstone_mechanism'),
                 A: KJ('azure_casing')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}solar_panel`
         },
 
@@ -1104,6 +1295,7 @@ ServerEvents.recipes(event => {
                 D: STORAGE_BLOCK_TAG('diamond'),
                 M: KJ('overclocked_mechanism')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}energizer`
         },
 
@@ -1122,6 +1314,7 @@ ServerEvents.recipes(event => {
                 S: KJ('plasteel_mechanism'),
                 A: KJ('azure_casing')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}cryo_freezer`
         },
 
@@ -1137,6 +1330,7 @@ ServerEvents.recipes(event => {
                 I: INGOT_TAG('stainless_steel'),
                 B: STORAGE_BLOCK_TAG('steel')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}engine_frame`
         },
 
@@ -1152,6 +1346,7 @@ ServerEvents.recipes(event => {
                 E: MC('echo_shard'),
                 C: 'deeperdarker:warden_carapace'
             },
+            stage: EXPERT_MODE,
             id:  `${id_prefix}reinforced_echo_shard`
         },
 
@@ -1167,6 +1362,7 @@ ServerEvents.recipes(event => {
                 T: FORGE_TAG('workbenches'),
                 C: 'the_bumblezone:honey_crystal_shards'
             },
+            stage: BUMBLEZONE,
             id:  `${id_prefix}gene_indexer`
         },
 
@@ -1183,6 +1379,7 @@ ServerEvents.recipes(event => {
                 H: 'the_bumblezone:honey_crystal_shards',
                 E: GEM_TAG('emerald')
             },
+            stage: BUMBLEZONE,
             id:  `${id_prefix}upgrade_base`
         },
 
@@ -1276,6 +1473,7 @@ ServerEvents.recipes(event => {
                 A: 'mythicbotany:asgard_rune',
                 T: BO('rune_autumn')
             },
+            stage: MASTER_MODE,
             id:  `${id_prefix}mana_infuser`
         },
         
@@ -1321,6 +1519,7 @@ ServerEvents.recipes(event => {
                 V: 'deeperdarker:sculk_bone',
                 U: 'biomancy:flesh_bits'
             },
+            stage: UNDERGARDEN,
             id:  `${id_prefix}masticator_bait`
         },
 
@@ -1366,21 +1565,7 @@ ServerEvents.recipes(event => {
             },
             id:  `${id_prefix}blood_rune`,
             old_id: 'irons_spellbooks:blood_rune'
-        },
-
-        /*{
-            output: Item.of('wares:sealed_delivery_agreement', {id:"mining_agreement", title:"Mining_Agreement", ordered: 1, requested:"kubejs:chests/mining_requests", payment:"kubejs:chests/payments", experience: 50}).weakNBT(),
-            pattern:
-            [' I ',
-             ' P ', 
-             ' R '],
-            key: {
-                I: MC("ink_sac"),
-                P: MC("paper"),
-                R: MC("red_dye")
-            },
-            id:  `${id_prefix}sealed_agreement`
-        }*/
+        }
     ]
 
     let keyRecipe = function(name) {
@@ -1417,7 +1602,9 @@ ServerEvents.recipes(event => {
                 G: gear,
                 R: KJ('redstone_mechanism')
             }
-            ).id(`${id_prefix}` + id[1])
+            )
+            .stage(EXPERT_MODE)
+            .id(`${id_prefix}` + id[1])
     }
 
     MachineRecipe(TH('machine_pulverizer'), MC('piston'), MC('flint'), GEAR_TAG('copper'))
@@ -1428,7 +1615,7 @@ ServerEvents.recipes(event => {
     MachineRecipe(TH('machine_crucible'), FORGE_TAG('glass'), MC('nether_bricks'), GEAR_TAG('invar'))
     MachineRecipe(TH('machine_chiller'), FORGE_TAG('glass'), TH('blizz_rod'), GEAR_TAG('invar'))
     MachineRecipe(TH('machine_refinery'), FORGE_TAG('glass'), INGOT_TAG('copper'), GEAR_TAG('invar'))
-    MachineRecipe(TH('machine_pyrolyzer'), FORGE_TAG('rods/blaze'), INGOT_TAG('crimson_steel'), GEAR_TAG('constantan'))
+    MachineRecipe(TH('machine_pyrolyzer'), KJ('infused_mechanism'), INGOT_TAG('crimson_steel'), GEAR_TAG('constantan'))
     MachineRecipe(TH('machine_crystallizer'), TH('lumium_glass'), PLATE_TAG('signalum'), GEAR_TAG('constantan'))
 
     function OrbRecipe(name) {
@@ -1460,7 +1647,10 @@ ServerEvents.recipes(event => {
         if (recipe.old_id) {
             event.remove({id: recipe.old_id})
         }
-        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
+        if (recipe.stage) {
+            event.shaped(recipe.output, recipe.pattern, recipe.key).stage(recipe.stage).id(recipe.id)
+        }
+        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
     })
 })
 

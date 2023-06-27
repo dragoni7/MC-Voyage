@@ -181,10 +181,10 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.5
+	HarbingerHealthMultiplier = 1.6
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 0.75
+	HarbingerDamageMultiplier = 0.8
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"The Harbinger's prevent attacks from far away Range" = 35.0

@@ -549,6 +549,15 @@
 					ignore_reward_blocking: true
 					skill: "skills:twilight_access"
 				}
+				{
+					id: "0101344ED6AA6ECD"
+					type: "command"
+					title: "Twilight Acces"
+					icon: "kubejs:stage_repairer"
+					auto: "invisible"
+					command: "/gamestage add @p twilight_access"
+					player_command: true
+				}
 			]
 		}
 		{

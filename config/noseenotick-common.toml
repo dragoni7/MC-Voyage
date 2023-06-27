@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#Maximum distance from player (horizontally) for entity spawning check [Squared, Default 64^2]
-	maxEntitySpawnDistanceHorizontal = 3096
+	maxEntitySpawnDistanceHorizontal = 2096
 	#Maximum distance from player (vertically) for entity spawning check [Raw, Default 32]
 	maxEntitySpawnDistanceVertical = 48
 	#Maximum distance from player (horizontally) to allow entity ticking [Squared, Default 48^2]

@@ -211,6 +211,11 @@
 					item: "kubejs:boss_essence"
 					only_one: true
 				}
+				{
+					id: "78FC724717F45AE0"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
 			]
 		}
 		{
@@ -243,6 +248,11 @@
 					team_reward: true
 					item: "kubejs:boss_essence"
 					only_one: true
+				}
+				{
+					id: "31C95ED07D07C601"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
 				}
 			]
 		}
@@ -283,6 +293,11 @@
 					item: "kubejs:boss_essence"
 					only_one: true
 				}
+				{
+					id: "50E39CB6C502922E"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
+				}
 			]
 		}
 		{
@@ -315,6 +330,11 @@
 					team_reward: true
 					item: "kubejs:boss_essence"
 					only_one: true
+				}
+				{
+					id: "3C18DC28C373ED46"
+					type: "item"
+					item: "kubejs:unique_lootcrate"
 				}
 			]
 		}

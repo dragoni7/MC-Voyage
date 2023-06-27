@@ -1,3 +1,4 @@
+//priority: 997
 ServerEvents.tags('fluid', event => { 
 
     event.add('forge:crude_oil', 'ad_astra:oil')

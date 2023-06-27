@@ -1,7 +1,7 @@
 [   
     {
       "mob": ["deeperdarker:sculk_leech", "alexsmobs:skreecher", "deeperdarker:sculk_snapper", "deeperdarker:shattered"],
-      "persecond": 0.4,
+      "persecond": 0.3,
       "attempts": 10,
       "amount": {
         "minimum": 2,
@@ -45,7 +45,7 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 45,
+          "mindist": 55,
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 0,
@@ -63,7 +63,7 @@
         },
         "conditions": {
           "dimension": "deeperdarker:otherside",
-          "mindist": 55,
+          "mindist": 65,
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
@@ -77,8 +77,7 @@
         "attempts": 12,
         "amount": {
           "minimum": 1,
-          "maximum": 2,
-          "perplayer": true
+          "maximum": 2
         },
         "conditions": {
           "dimension": "minecraft:overworld",
@@ -104,7 +103,7 @@
           "maxdist": 70,
           "minheight": -60,
           "maxheight": 30,
-          "maxthis": 8
+          "maxthis": 6
         }
       },
 
@@ -194,13 +193,13 @@
           "maxdist": 60,
           "minheight": 50,
           "maxheight": 200,
-          "maxthis": 8
+          "maxthis": 5
         }
       },
 
       {
         "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
-        "persecond": 0.5,
+        "persecond": 0.4,
         "attempts": 15,
         "amount": {
           "minimum": 2,
@@ -208,17 +207,17 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 45,
-          "maxdist": 90,
+          "mindist": 55,
+          "maxdist": 110,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 19
+          "maxthis": 16
         }
       },
 
       {
         "mob": ["rottencreatures:burned"],
-        "persecond": 0.5,
+        "persecond": 0.4,
         "attempts": 16,
         "amount": {
           "minimum": 2,
@@ -226,11 +225,11 @@
         },
         "conditions": {
           "dimension": "minecraft:the_nether",
-          "mindist": 45,
+          "mindist": 55,
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 16
+          "maxthis": 12
         }
       },
 
@@ -271,24 +270,6 @@
       },
 
       {
-        "mob": ["neapolitan:plantain_spider"],
-        "persecond": 0.5,
-        "attempts": 10,
-        "amount": {
-          "minimum": 1,
-          "maximum": 2
-        },
-        "conditions": {
-          "dimension": "minecraft:overworld",
-          "mindist": 25,
-          "maxdist": 55,
-          "minheight": 40,
-          "maxheight": 200,
-          "maxthis": 8
-        }
-      },
-
-      {
         "mob": ["aquamirae:anglerfish", "species:deepfish"],
         "persecond": 0.5,
         "attempts": 10,
@@ -310,7 +291,7 @@
       {
         "mob": ["aquamirae:eel"],
         "persecond": 0.2,
-        "attempts": 10,
+        "attempts": 7,
         "amount": {
           "minimum": 1,
           "maximum": 1

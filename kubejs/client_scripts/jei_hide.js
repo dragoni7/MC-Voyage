@@ -1,7 +1,7 @@
 JEIEvents.hideItems(event => {
 
 	const hidden = [
-		'silentgear:blueprint_package',
+			'silentgear:blueprint_package',
 
 		    // aquaculture
 			'aquaculture:wooden_fillet_knife',
@@ -15,7 +15,7 @@ JEIEvents.hideItems(event => {
 			'ae2:sky_stone_tank',
 		
 			// neapolitan
-			//'neapolitan:chocolate_bar',
+			'neapolitan:chocolate_bar',
 			'neapolitan:milk_bottle',
 		
 			// bees
@@ -28,7 +28,7 @@ JEIEvents.hideItems(event => {
 			'silentgear:saw_blueprint',
 			'silentgear:saw_blade',
 			'silentgear:saw',
-			//'silentcompat:source_steel_ingot',
+			'silentcompat:source_steel_ingot',
 		
 			// endrem
 			'endrem:cold_eye',

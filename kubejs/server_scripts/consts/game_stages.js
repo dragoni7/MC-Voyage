@@ -1,0 +1,6 @@
+const EXPERT_MODE = 'expert_mode'
+const MASTER_MODE = 'master_mode'
+const BUMBLEZONE = 'bumblezone_access'
+const NETHER = 'nether_access'
+const TWILIGHT = 'twilight_access'
+const UNDERGARDEN = 'undergarden_access'

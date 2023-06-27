@@ -7,7 +7,7 @@
 	#Whether or not to display hunger
 	"Show Hunger" = true
 	#The vertical offset at which to display the party list at.
-	"Y Offset" = 2
+	"Y Offset" = 50
 	#Whether or not to use the simple UI
 	"Use Simple UI" = false
 	#The point to anchor the UI to.

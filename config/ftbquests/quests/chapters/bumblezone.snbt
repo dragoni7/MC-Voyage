@@ -69,14 +69,13 @@
 					item: "kubejs:generic_lootcrate"
 				}
 				{
-					id: "245C96C62F8C7B86"
-					type: "skills:basic_skill_reward"
-					title: "New Bee Items Unlocked!"
-					icon: "minecraft:bee_nest"
-					team_reward: false
-					auto: "enabled"
-					ignore_reward_blocking: true
-					skill: "skills:bumblezone_access"
+					id: "540C80958D060FCB"
+					type: "command"
+					title: "Bumblezone Access"
+					icon: "kubejs:stage_repairer"
+					auto: "invisible"
+					command: "/gamestage add @p bumblezone_access"
+					player_command: true
 				}
 			]
 		}

@@ -13,6 +13,10 @@
   ],
   "entityWhitelist": [
     "botania:mana_burst",
+    "botania:magic_missile",
+    "botania:flame_ring",
+    "botania:falling_star",
+    "minecraft:player",
     "minecraft:wither",
     "minecraft:ender_dragon",
     "alexsmobs:void_worm",
@@ -25,10 +29,10 @@
     "cataclysm:the_harbinger",
     "meetyourfight:rosalyne"
   ],
-  "tracingDistance": 128,
+  "tracingDistance": 168,
   "debugMode": false,
   "sleepDelay": 10,
-  "hitboxLimit": 50,
+  "hitboxLimit": 150,
   "skipMarkerArmorStands": true,
   "tickCulling": true,
   "tickCullingWhitelist": [

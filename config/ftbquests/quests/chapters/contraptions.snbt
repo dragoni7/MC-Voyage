@@ -3022,6 +3022,25 @@
 				item: "toms_storage:ts.inventory_connector"
 			}]
 		}
+		{
+			title: "Iron Chests"
+			x: -12.0d
+			y: -5.0d
+			description: ["Chests can be upgraded to include more capacity!"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "1564C31C6100F8F9"
+			tasks: [{
+				id: "6828E730A134CBDB"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "68D0B4C284DC3C94"
+				type: "xp"
+				xp: 100
+			}]
+		}
 	]
 	quest_links: [ ]
 }

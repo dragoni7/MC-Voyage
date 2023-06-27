@@ -35,13 +35,13 @@
 					xp: 100
 				}
 				{
-					id: "7B299ACB4A44CF65"
-					type: "skills:basic_skill_reward"
-					title: "Nether Items Unlocked"
-					icon: "minecraft:netherrack"
-					auto: "enabled"
-					ignore_reward_blocking: true
-					skill: "skills:nether_access"
+					id: "456094A30AC9D9CD"
+					type: "command"
+					title: "Nether Access"
+					icon: "kubejs:stage_repairer"
+					auto: "invisible"
+					command: "/gamestage add @p nether_access"
+					player_command: true
 				}
 			]
 		}
@@ -420,10 +420,11 @@
 					xp_levels: 5
 				}
 				{
-					id: "0632442A4C2ED39A"
+					id: "36F62F102484BD42"
 					type: "skills:basic_skill_reward"
 					title: "Expert Mode"
-					auto: "enabled"
+					icon: "kubejs:stage_repairer"
+					auto: "invisible"
 					ignore_reward_blocking: true
 					skill: "skills:expert_mode"
 				}

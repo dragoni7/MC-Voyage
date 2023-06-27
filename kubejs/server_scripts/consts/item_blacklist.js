@@ -13,7 +13,7 @@ const blacklist = [
     'ae2:sky_stone_tank',
 
     // neapolitan
-    //'neapolitan:chocolate_bar',
+    'neapolitan:chocolate_bar',
     'neapolitan:milk_bottle',
 
     // bees
@@ -26,7 +26,7 @@ const blacklist = [
     'silentgear:saw_blueprint',
     'silentgear:saw_blade',
     'silentgear:saw',
-    //'silentcompat:source_steel_ingot',
+    'silentcompat:source_steel_ingot',
 
     // endrem
     'endrem:cold_eye',

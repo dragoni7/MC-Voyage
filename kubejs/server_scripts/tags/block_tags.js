@@ -1,3 +1,4 @@
+//priority: 997
 ServerEvents.tags('block', event => {
 
     event.add('forge:needs_netherite_tool',

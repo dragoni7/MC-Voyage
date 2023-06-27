@@ -1,7 +1,8 @@
 //priority: 998
 ServerEvents.recipes(event => {
-	const recipes = [
+	let recipes = [
 		'silentgear:compounding/metal/custom_ingot.high_carbon_steel',
+		'/silentgear:.+_template$/',
 		'silentgear:crimson_iron_dust',
 		'silentgear:crimson_steel_dust',
 		'silentgear:blaze_gold_dust',
@@ -12,6 +13,8 @@ ServerEvents.recipes(event => {
 		'silentgear:blazing_dust',
 		'silentgear:glittery_dust',
 		'silentgear:grip_blueprint_alt',
+		'silentgear:binding_blueprint_alt',
+		'silentgear:ring_blueprint_alt',
 		'delightful:blasting/green_tea_leaf',
 		'delightful:smelting/green_tea_leaf',
 		'ae2:inscriber/certus_quartz_dust',

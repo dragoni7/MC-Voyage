@@ -9,6 +9,20 @@
     },
 
     {
+        "mob": ["whisperwoods:moth"],
+        "mincount": {
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+
+    {
+        "mob": ["species:birt"],
+        "result": "deny"
+    },
+
+    {
         "mob": ["alexsmobs:fly"],
         "dimension": ["ad_astra:moon", "ad_astra:venus", "ad_astra:mars", "ad_astra:mercury"],
         "result": "deny"
@@ -69,7 +83,7 @@
         "mob": ["deeperdarker:stalker", "minecraft:warden"],
         "onjoin": true,
         "result": "default",
-        "healthadd": 400
+        "healthadd": 350
     },
 
     {
@@ -105,14 +119,14 @@
     {
         "mob": ["alexsmobs:farseer"],
         "dimension": "minecraft:overworld",
-        "structure": "betterstrongholds:stronghold",
+        "structure": "integrated_stronghold:stronghold",
         "result": "allow"
     },
     {
         "mob": ["alexsmobs:farseer", "blue_skies:artificial_golem"],
         "structure": "twilightforest:final_castle",
         "dimension": "twilightforest:twilight_forest",
-        "healthmultiply": 3,
+        "healthmultiply": 2,
         "result": "allow"
     },
     {
@@ -192,10 +206,6 @@
         "mob": ["alexsmobs:skreecher"],
         "dimension": "minecraft:overworld",
         "incontrol": true,
-        "mincount": {
-            "amount": 3,
-            "perplayer": true
-        },
         "result": "deny"
     },
 
@@ -240,20 +250,6 @@
     },
     {
         "mob": ["quark:forgotten"],
-        "dimension": "minecraft:overworld",
-        "incontrol": true,
-        "result": "deny"
-    },
-
-    {
-        "mob": ["neapolitan:plantain_spider"],
-        "dimension": "minecraft:overworld",
-        "structure": "idas:treetop_tavern",
-        "onjoin": true,
-        "result": "allow"
-    },
-    {
-        "mob": ["neapolitan:plantain_spider"],
         "dimension": "minecraft:overworld",
         "incontrol": true,
         "result": "deny"

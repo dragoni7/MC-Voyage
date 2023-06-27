@@ -48,10 +48,9 @@
 					xp_levels: 5
 				}
 				{
-					id: "45E8FCAC29F2286B"
+					id: "1C8A126FAF167C59"
 					type: "item"
-					auto: "enabled"
-					item: "kubejs:generic_lootcrate"
+					item: "kubejs:unique_lootcrate"
 				}
 			]
 		}
@@ -130,6 +129,11 @@
 					item: "kubejs:boss_essence"
 					only_one: true
 				}
+				{
+					id: "3F81D2F56AB55084"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
 			]
 		}
 		{
@@ -172,11 +176,16 @@
 					command: "/sh_difficulty add @p 10"
 					player_command: false
 				}
+				{
+					id: "40521E8FF8EECBF0"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
 			]
 		}
 		{
 			title: "Ruined Citadel"
-			icon: "cataclysm:purpur_void_rune_trap_block"
+			icon: "cataclysm:void_infused_end_stone_bricks"
 			x: 7.0d
 			y: 2.0d
 			description: [
@@ -189,7 +198,7 @@
 			tasks: [{
 				id: "546834FCE3DA0E4C"
 				type: "structure"
-				icon: "cataclysm:ender_guardian_spawner"
+				icon: "cataclysm:void_infused_end_stone_bricks"
 				structure: "cataclysm:ruined_citadel"
 			}]
 			rewards: [{
@@ -231,13 +240,48 @@
 				entity: "mutantmore:mutant_shulker"
 				value: 1L
 			}]
-			rewards: [{
-				id: "636885706E7BB269"
-				type: "item"
-				team_reward: true
-				item: "kubejs:boss_essence"
-				only_one: true
+			rewards: [
+				{
+					id: "636885706E7BB269"
+					type: "item"
+					team_reward: true
+					item: "kubejs:boss_essence"
+					only_one: true
+				}
+				{
+					id: "11C67F46EE13A99F"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["7762572B99DD368D"]
+			hide: true
+			id: "55F3E53DAF7EF642"
+			tasks: [{
+				id: "1BC72E984383CD30"
+				type: "kill"
+				title: "Mutant Enderman"
+				icon: "supplementaries:enderman_head"
+				entity: "mutantmonsters:mutant_enderman"
+				value: 1L
 			}]
+			rewards: [
+				{
+					id: "74E81DD356F7EE39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6454AED6504B2BF4"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

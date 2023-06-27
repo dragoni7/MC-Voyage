@@ -1295,15 +1295,26 @@
 				secret: true
 				skill: "skills:expert_mode"
 			}]
-			rewards: [{
-				id: "7AC54176A8C46DA7"
-				type: "command"
-				title: "Difficulty Increased!"
-				team_reward: false
-				auto: "enabled"
-				command: "/sh_difficulty add @p 100"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "7AC54176A8C46DA7"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 100"
+					player_command: false
+				}
+				{
+					id: "25B36D0C202668CE"
+					type: "command"
+					title: "Expert Mode"
+					icon: "kubejs:stage_repairer"
+					auto: "invisible"
+					command: "/gamestage add @p expert_mode"
+					player_command: true
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -1433,15 +1444,26 @@
 				secret: true
 				skill: "skills:master_mode"
 			}]
-			rewards: [{
-				id: "1AA50B4C34473072"
-				type: "command"
-				title: "Difficulty Increased!"
-				team_reward: false
-				auto: "enabled"
-				command: "/sh_difficulty add @p 100"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "1AA50B4C34473072"
+					type: "command"
+					title: "Difficulty Increased!"
+					team_reward: false
+					auto: "enabled"
+					command: "/sh_difficulty add @p 100"
+					player_command: false
+				}
+				{
+					id: "3F01814D6FF38F81"
+					type: "command"
+					title: "Master Mode"
+					icon: "kubejs:stage_repairer"
+					auto: "invisible"
+					command: "/gamestage add @p master_mode"
+					player_command: true
+				}
+			]
 		}
 		{
 			x: 7.0d

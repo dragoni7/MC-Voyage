@@ -55,13 +55,13 @@
 		allow_fallback = false
 		#Maximum amount of status effects rendered in a single row.
 		#Range: 1 ~ 255
-		max_columns = 5
+		max_columns = 3
 		#Screen side to render status effects on.
 		#Allowed Values: LEFT, RIGHT
-		screen_side = "RIGHT"
+		screen_side = "LEFT"
 		#Offset on x-axis.
 		#Range: > 0
-		offset_x = 3
+		offset_x = 44
 		#Space between individual effect widgets on y-axis.
 		#Range: > 0
 		widget_space_y = 1
@@ -80,7 +80,7 @@
 		offset_y = 3
 		#Custom scale for effect renderer.
 		#Range: 1.0 ~ 12.0
-		scale = 4.0
+		scale = 3.5
 
 [widgets]
 
