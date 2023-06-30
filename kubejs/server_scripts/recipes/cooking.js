@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    const id_prefix = 'kubejs:/extruding/';
+    const id_prefix = 'kubejs:/cooking/';
     
     const recipes = [
         {

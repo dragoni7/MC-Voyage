@@ -1,0 +1,23 @@
+{
+  "type": "silentgear:compound_part",
+  "gear_type": "bow",
+  "part_type": "silentgear:main",
+  "crafting_item": {
+    "item": "silentgear:bow_limbs"
+  },
+  "name": {
+    "translate": "part.silentgear.bow_limbs"
+  },
+  "stats": {
+    "ranged_damage": {
+      "add": 0.5
+    },
+    "ranged_speed": {
+      "add": 1.0
+    },
+    "repair_efficiency": 1.0,
+    "enchantment_value": {
+      "mul1": -0.45
+    }
+  }
+}

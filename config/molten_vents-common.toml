@@ -7,8 +7,12 @@
 	ventDepth = 60
 	#When true, vents will only generate underwater. Vent depth is limited to a maximum of 80 when this setting is enabled. Default: false
 	generateUnderwater = false
-	#When true, orestone blocks will only replace liquid source blocks. This means that you will require a constant supply of liquid to generate orestones. Default: true
-	useLiquid = true
 	#The name of the liquid that molten orestones will convert into orestones. Important: For modded liquids you must have the mod's technical id such as 'tconstruct' instead of 'Tinkers Construct'. Default: 'minecraft:lava'
 	requiredLiquid = "minecraft:lava"
+	#When true, orestone blocks will only replace liquid source blocks. This means that you will require a constant supply of liquid to generate orestones. If turned off, flowing blocks will be converted at a much slower rate. Default: true
+	useSourceBlocks = true
+	#The number of ticks to wait before flowing lava is converted to orestone, effective only if useSourceBlocks is set to false. Default: 300 (15 seconds) (0 - 1000)
+	flowingConversionSpeed = 300
+	#When true, vents will be filled with lava and decorated with Blackstone. Default: true
+	fillWithLava = true
 

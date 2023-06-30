@@ -98,8 +98,12 @@ ServerEvents.recipes(event => {
 		'farmersdelight:pie_crust',
 		'delightful:food/deluxe_cheeseburger_from_milk',
 		'delightful:food/cheeseburger_from_milk',
+		'farmersdelight:integration/create/mixing/cabbage_slice_from_mixing',
+		'farmersdelight:cabbage_from_leaves',
+		'farmersdelight:cutting/cabbage_using_deployer',
 
 		//'/.:.+_milkshake$/',
+		'/gourmet:.+_scoop/',
 		'/neapolitan:.+ice_cream$/',
 		'/seasonals:.+ice_cream$/',
 		'/collectorsreap:.+ice_cream$/',

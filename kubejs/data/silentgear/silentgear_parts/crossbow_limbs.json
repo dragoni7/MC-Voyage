@@ -1,0 +1,23 @@
+{
+  "type": "silentgear:compound_part",
+  "gear_type": "crossbow",
+  "part_type": "silentgear:main",
+  "crafting_item": {
+    "item": "silentgear:crossbow_limbs"
+  },
+  "name": {
+    "translate": "part.silentgear.crossbow_limbs"
+  },
+  "stats": {
+    "ranged_damage": {
+      "add": 1.0
+    },
+    "ranged_speed": {
+      "add": 1.0
+    },
+    "repair_efficiency": 1.0,
+    "enchantment_value": {
+      "mul1": -0.45
+    }
+  }
+}

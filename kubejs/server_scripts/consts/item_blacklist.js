@@ -107,5 +107,11 @@ const blacklist = [
     'pamhc2trees:vanillabean_sapling',
     'pamhc2trees:passionfruititem',
     'pamhc2trees:pampassionfruit',
-    'pamhc2trees:passionfruit_sapling'
+    'pamhc2trees:passionfruit_sapling',
+
+    // gourmet
+    'gourmet:neapolitan_ice_cream_cone',
+    'gourmet:ice_cream_scoop',
+    'gourmet:chocolate_ice_cream_scoop',
+    'gourmet:sweet_berry_cream_scoop'
 ]

@@ -74,7 +74,9 @@
     "forge:cooked_bacon",
     "forge:storage_blocks/beetroot",
     "forge:storage_blocks/carrot",
-    "forge:storage_blocks/potato"
+    "forge:storage_blocks/potato",
+    "forge:ground_beef",
+    "forge:beef_patty"
   ],
   "materials": [
     "aeternium",

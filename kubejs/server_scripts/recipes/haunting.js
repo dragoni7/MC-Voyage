@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
             id: `${id_prefix}soul_slate`
         }
         
-    ];
+    ]
 
     recipes.forEach((recipe) => {
         if (recipe.old_id) {
@@ -34,5 +34,5 @@ ServerEvents.recipes(event => {
             results: recipe.results
         })
         .id(recipe.id)
-    });
-});
+    })
+})

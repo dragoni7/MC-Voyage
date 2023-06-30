@@ -41,6 +41,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:ice_cubes', 'gourmet:ice_cube')
     event.add('forge:raw_bacon', 'gourmet:raw_bacon')
     event.add('forge:cooked_bacon', 'gourmet:cooked_bacon')
+    event.add('forge:ground_beef', 'farmersdelight:minced_beef'),
+    event.add('forge:beef_patty', 'farmersdelight:beef_patty')
     event.add('forge:storage_blocks/carrot', ['thermal:carrot_block', 'farmersdelight:carrot_crate'])
     event.add('forge:storage_blocks/potato', ['thermal:potato_block', 'farmersdelight:potato_crate'])
     event.add('forge:storage_blocks/beetroot', ['thermal:beetroot_block', 'farmersdelight:beetroot_crate'])

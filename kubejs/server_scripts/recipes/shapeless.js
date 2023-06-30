@@ -128,6 +128,55 @@ ServerEvents.recipes(event => {
             result: 'silentgear:flax_string',
             id: `${id_prefix}flax_string`,
             old_id: 'supplementaries:string'
+        },
+
+        {
+            input: ['#alexsdelight:cooked_kangaroo', '#alexsdelight:cooked_kangaroo', 'gourmet:buns', '#forge:salad_ingredients', 'minecraft:carrot'],
+            result: 'alexsmobs:kangaroo_burger',
+            id: `${id_prefix}kangaroo_burger`,
+            old_id: 'alexsmobs:kangaroo_burger'
+        },
+
+        {
+            input: ['#forge:beef_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion', '#forge:cheese'],
+            result: 'delightful:cheeseburger',
+            id: `${id_prefix}cheeseburger`,
+            old_id: 'delightful:food/cheeseburger'
+        },
+
+        {
+            input: ['#forge:beef_patty', '#forge:beef_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion', '#forge:cheese', '#forge:cheese', '#forge:cooked_bacon'],
+            result: 'delightful:deluxe_cheeseburger',
+            id: `${id_prefix}deluxe_cheeseburger`,
+            old_id: 'delightful:food/deluxe_cheeseburger'
+        },
+
+        {
+            input: ['#forge:beef_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion'],
+            result: 'farmersdelight:hamburger',
+            id: `${id_prefix}hamburger`,
+            old_id: 'farmersdelight:hamburger'
+        },
+
+        {
+            input: ['alexsdelight:bison_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'minecraft:beetroot'],
+            result: 'alexsdelight:bison_burger',
+            id: `${id_prefix}bison_burger`,
+            old_id: 'alexsdelight:bison_burger'
+        },
+
+        {
+            input: ['collectorsreap:baked_portobello_cap', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion'],
+            result: 'collectorsreap:portobello_burger',
+            id: `${id_prefix}portobello_burger`,
+            old_id: 'collectorsreap:food/portobello_burger'
+        },
+
+        {
+            input: ['#culturaldelights:smoked_regular_eggplants', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato'],
+            result: 'culturaldelights:eggplant_burger',
+            id: `${id_prefix}eggplant_burger`,
+            old_id: 'culturaldelights:eggplant_burger'
         }
     ]
     

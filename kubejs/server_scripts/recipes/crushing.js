@@ -12,8 +12,23 @@ ServerEvents.recipes(event => {
                 }],
             old_id: 'silentgear:crushed_shulker_shell',
             id: `${id_prefix}crushed_shulker_shell`
+        },
+
+        {
+            ingredients: [{'item': 'minecraft:cobbled_deepslate'}],
+            time: 150,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'minecraft:gravel'
+                },
+                {
+                    'chance': 0.05,
+                    'item': 'silentgear:bort'
+                }],
+            id: `${id_prefix}bort_crushing`
         }
-    ];
+    ]
 
     recipes.forEach((recipe) => {
         if (recipe.old_id) {
@@ -27,5 +42,5 @@ ServerEvents.recipes(event => {
             results: recipe.results
         })
         .id(recipe.id)
-    });
-});
+    })
+})

@@ -292,7 +292,124 @@ ServerEvents.recipes(event => {
             transitionalItem: {'item': 'createteleporters:incomplete_q_mechanism'},
             id: `${id_prefix}quantum_mechanism`,
             old_id: 'createteleporters:quantum_mechanism_recipe'
+        },
+
+        // GOURMET
+
+        {
+            type: 'create:sequenced_assembly',
+            ingredient: [
+                {'item': 'gourmet:croissant'}
+            ],
+            loops: 1,
+            results: [{'item': 'gourmet:breakfast_sandwich'}],
+            sequence: [
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'gourmet:incomplete_breakfast_sandwich'},
+                        {'tag': 'forge:cooked_eggs'}
+                    ],
+                    'results': [
+                        {'item': 'gourmet:incomplete_breakfast_sandwich'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'gourmet:incomplete_breakfast_sandwich'},
+                        {'item': 'brewinandchewin:flaxen_cheese_wedge'}
+                    ],
+                    'results': [
+                        {'item': 'gourmet:incomplete_breakfast_sandwich'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'gourmet:incomplete_breakfast_sandwich'},
+                        {'item': 'farmersdelight:cooked_bacon'}
+                    ],
+                    'results': [
+                        {'item': 'gourmet:incomplete_breakfast_sandwich'}
+                ]}
+                ],
+            transitionalItem: {'item': 'gourmet:incomplete_breakfast_sandwich'},
+            id: `${id_prefix}breakfast_sandwich`,
+            old_id: 'gourmet:breakfast_sandwich'
+        },
+
+        {
+            type: 'create:sequenced_assembly',
+            ingredient: [
+                {'item': 'gourmet:buns'}
+            ],
+            loops: 1,
+            results: [{'item': 'gourmet:bacon_burger'}],
+            sequence: [
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'gourmet:incomplete_burger'},
+                        {'tag': 'forge:beef_patty'}
+                    ],
+                    'results': [
+                        {'item': 'gourmet:incomplete_burger'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'gourmet:incomplete_burger'},
+                        {'item': 'brewinandchewin:flaxen_cheese_wedge'}
+                    ],
+                    'results': [
+                        {'item': 'gourmet:incomplete_burger'}
+                ]},
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'gourmet:incomplete_burger'},
+                        {'item': 'gourmet:caramelized_bacon'}
+                    ],
+                    'results': [
+                        {'item': 'gourmet:incomplete_burger'}
+                ]}
+                ],
+            transitionalItem: {'item': 'gourmet:incomplete_burger'},
+            id: `${id_prefix}bacon_burger`,
+            old_id: 'gourmet:bacon_burger'
+        },
+
+        {
+            type: 'create:sequenced_assembly',
+            ingredient: [
+                {'item': 'minecraft:cookie'}
+            ],
+            loops: 1,
+            results: [{'item': 'gourmet:ice_cream_sandwich'}],
+            sequence: [
+                { 
+                    'type': 'create:deploying',
+                    'ingredients': [
+                        {'item': 'minecraft:cookie'},
+                        {'tag': 'minecraft:cookie'}
+                    ],
+                    'results': [
+                        {'item': 'minecraft:cookie'}
+                ]},
+                { 
+                    'type': 'create:filling',
+                    'ingredients': [
+                        {'item': 'minecraft:cookie'},
+                        {'fluid': 'create_central_kitchen:vanilla_ice_cream', 'amount': 500}
+                    ],
+                    'results': [
+                        {'item': 'minecraft:cookie'}
+                ]}
+                ],
+            transitionalItem: {'item': 'minecraft:cookie'},
+            id: `${id_prefix}ice_cream_sandwich`,
+            old_id: 'gourmet:ice_cream_sandwich'
         }
+
     ]
 
     recipes.forEach((recipe) => {
@@ -308,7 +425,7 @@ ServerEvents.recipes(event => {
             transitionalItem: recipe.transitionalItem
         })
         .id(recipe.id)
-    });
+    })
 
     // GEARS
 

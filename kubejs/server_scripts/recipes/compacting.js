@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
         {
             ingredients: [
                 {'item': 'ae2:silicon'},
+                {'item': 'silentgear:bort'},
                 {
                     'amount': 100,
                     'fluid': 'thermal:resin',

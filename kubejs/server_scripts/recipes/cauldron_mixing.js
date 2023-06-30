@@ -44,6 +44,48 @@ ServerEvents.recipes(event => {
           id: `${id_prefix}fiery_blood`
     },
 
+    {
+      liquid: {
+          "fluid": "minecraft:water"
+        },
+
+        ingredients: [
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "item": "create:dough"
+          },
+          {
+            "item": "irons_spellbooks:arcane_essence"
+          },
+          {
+            "item": "savage_and_ravage:creeper_spores"
+          },
+          {
+            "item": "irons_spellbooks:arcane_essence"
+          },
+          {
+            "item": "hexerei:moon_dust"
+          },
+          {
+            "item": "minecraft:sugar"
+          },
+          {
+            "item": "minecraft:sugar"
+          }
+        ],
+        output: {
+          "item": "gourmet:dream_roll"
+        },
+      
+        liquid_output: {
+          "fluid": "minecraft:water"
+        },
+        fluidLevelsConsumed: 250,
+        id: `${id_prefix}dream_roll`
+  },
+
         {
             liquid: {
                 "fluid": "minecraft:water"
@@ -141,7 +183,7 @@ ServerEvents.recipes(event => {
                   "item": "hexerei:willow_log"
                 },
                 {
-                  "item": "meetyourfight:violet_bloom"
+                  "item": "irons_spellbooks:magic_cloth"
                 },
                 {
                   "item": "minecraft:wheat"
@@ -153,7 +195,7 @@ ServerEvents.recipes(event => {
                   "item": "minecraft:wheat"
                 },
                 {
-                  "item": "meetyourfight:violet_bloom"
+                  "item": "irons_spellbooks:magic_cloth"
                 },
                 {
                   "item": "hexerei:willow_log"

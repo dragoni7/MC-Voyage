@@ -95,7 +95,7 @@
 		#Ex: 'minecraft:enderman', 'mutantbeasts:mutant_creeper'
 		mobBiomeBoostedBlacklist = []
 		#Should players be unable to sleep during all invasions?
-		forceInvasionSleeplessness = false
+		forceInvasionSleeplessness = true
 		#Should vexes in Invasions be weakened?
 		weakenedVexes = true
 		#This determines whether invasion mobs should have an xp boost per kill.
