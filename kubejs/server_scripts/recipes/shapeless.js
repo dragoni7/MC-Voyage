@@ -130,6 +130,14 @@ ServerEvents.recipes(event => {
             old_id: 'supplementaries:string'
         }
     ]
+    
+    event.remove({id: 'silentgear:pebble'})
+    
+    event.shapeless('silentgear:pebble',
+    [Item.of('silentgear:pickaxe'), 'minecraft:cobblestone'])
+    .id(`${id_prefix}pebble`)
+    .damageIngredient(Item.of('silentgear:pickaxe'), 5)
+    
 
     recipes.forEach((recipe) => {
         if (recipe.old_id) {

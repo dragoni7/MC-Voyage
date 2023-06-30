@@ -6,7 +6,8 @@ ServerEvents.tags('item', event => {
         'thermal:cured_rubber',
         'thermal:cured_rubber_block',
         'thermal:rubber',
-        'thermal:rubber_block'
+        'thermal:rubber_block',
+        'ad_astra:iron_rod'
     ]
 
     event.add('kubejs:expert_mode', [
@@ -119,7 +120,8 @@ ServerEvents.tags('item', event => {
         'majruszsdifficulty:enderium_hoe', 
         'majruszsdifficulty:enderium_shard_locator',
         'kubejs:overclocked_mechanism',
-        'kubejs:incomplete_overclocked_mechanism'
+        'kubejs:incomplete_overclocked_mechanism',
+        'morbid:morbid_harvester_arm'
     ])
 
     let steel_items = [
@@ -141,7 +143,9 @@ ServerEvents.tags('item', event => {
 
     Ingredient.of('@ad_astra').itemIds.forEach(item => {
         if (!steel_items.includes(item)) {
-            event.add('kubejs:master_mode', item)
+            if (!allowed_items.includes(item)) {
+                event.add('kubejs:master_mode', item)
+            }
         }
     })
 

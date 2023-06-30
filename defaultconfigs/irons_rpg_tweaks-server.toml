@@ -5,7 +5,7 @@
 	#Some entities or damage sources rely on damage ticks to time their attacks. In these cases, we want to let them initiate i-frames.
 	#entityBlacklist default: ["minecraft:slime","minecraft:ender_dragon","minecraft:magma_cube"]
 	entityBlacklist = ["minecraft:slime", "minecraft:ender_dragon", "minecraft:magma_cube"]
-	#damagesourceBlacklist default: ["lava","inFire","cactus","inWall","hotFloor","lightningBolt","sweetBerryBush","outOfWorld"]
+	#damagesourceBlacklist default: ["lava","inFire","cactus","inWall","hotFloor","lightningBolt","sweetBerryBush","outOfWorld","wall_of_fire_spell"]
 	damagesourceBlacklist = ["lava", "inFire", "cactus", "inWall", "hotFloor", "lightningBolt", "sweetBerryBush", "outOfWorld"]
 	#In order to prevent spam attacks, a minimum threshold of attack strength can be set before an attack can deal damage. Default: 0.75
 	minimumAttackStrength = 0.75
@@ -17,15 +17,16 @@
 [Durability-Module]
 	#The purpose of the durability module is to rework how durability damage is applied to better emulate an rpg setting.  Disabling will nullify every feature listed under this module.
 	durabilityModuleEnabled = true
-	#Whether or not tools and armor should take regular durability damage while in use. Default: false
-	takeDurabilityDamage = true
 	#The percent of durability damage equipment should take on player dying. Set to 0 to disable. Default: 0.15 (15%)
-	durabilityLostOnDeath = 0.10
+	durabilityLostOnDeath = 0.1
 	#An additional constant amount of damage taken on death. This makes items with a high max durability degrade relatively slower. Set to 0 to disable. Default: 25
-	additionalDurabilityLostOnDeath = 20
+	additionalDurabilityLostOnDeath = 25
+	#What type of gear should take vanilla durability damage. Default: NONE
+	#Allowed Values: ALL, TOOLS, ARMOR, NONE
+	vanillDurabilityGearType = "ALL"
 	#What type of gear is damaged upon death. Default: ALL
 	#Allowed Values: ALL, TOOLS, ARMOR
-	durabilityGearType = "ALL"
+	deathGearType = "ALL"
 
 [XP-Module]
 	#The purpose of the xp module is to rework how experience is dropped on a player's death by creating a souls-like xp catalyst instead. Disabling will nullify every feature listed under this module.
@@ -46,4 +47,18 @@
 	identifyOnEnchantingTable = true
 	#Whether or not the enchanting table's functionality should be disabled, making looting or trading the only way to get enchanted items. Default: false
 	disableEnchantingTable = false
+
+[Hunger-Module]
+	#The hunger module removes hunger and makes food to directly heal in order to to remove the tedious task of maintaining hunger as well as rebalance health management during combat and exploration . Disabling will nullify every feature listed under this module.
+	hungerModuleEnable = false
+	#The multiplier of a food's hunger value to health regained by eating it. Default: 0.5 (50%)
+	foodToHealthModifier = 0.5
+	#The amount of time, in ticks, between players naturally regenerating 1 hp. 1 second is 20 ticks. Turn off the naturalRegeneration gamerule to disable. Default: 250.
+	naturalRegenerationTickRate = 250
+	#Changes the stack size of potions. Set to 0 to disable. Requires game restart. Default: 4
+	potionStackSize = 4
+	#Limit the stack size of every food item. Set to 0 to disable. Requires game restart. Default: 0
+	foodStackSize = 0
+	#A Blacklist for limited food stack size, if enabled. Useful for mob drops or other edible items that are not meant as food. Default: ["minecraft:rotten_flesh","minecraft:spider_eye","minecraft:potato","minecraft:carrot","farmersdelight:onion","farmersdelight:tomato","farmersdelight:cabbage"]
+	foodStackSizeBlacklist = ["minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:potato", "minecraft:carrot", "farmersdelight:onion", "farmersdelight:tomato", "farmersdelight:cabbage"]
 

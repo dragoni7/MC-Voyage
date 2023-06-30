@@ -556,7 +556,7 @@
 					icon: "kubejs:stage_repairer"
 					auto: "invisible"
 					command: "/gamestage add @p twilight_access"
-					player_command: true
+					player_command: false
 				}
 			]
 		}

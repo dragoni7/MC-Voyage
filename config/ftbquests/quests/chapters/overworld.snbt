@@ -1002,7 +1002,10 @@
 			title: "Conjurer"
 			x: 0.0d
 			y: 5.5d
-			description: ["Defeat the conjurer and take his hat"]
+			description: [
+				"Defeat the conjurer and take his hat"
+				"The conjurer can also be summoned"
+			]
 			hide_dependency_lines: true
 			dependencies: ["780C3CAB2AC424DE"]
 			id: "302825585C6712C7"
@@ -1312,7 +1315,7 @@
 					icon: "kubejs:stage_repairer"
 					auto: "invisible"
 					command: "/gamestage add @p expert_mode"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
@@ -1461,7 +1464,7 @@
 					icon: "kubejs:stage_repairer"
 					auto: "invisible"
 					command: "/gamestage add @p master_mode"
-					player_command: true
+					player_command: false
 				}
 			]
 		}
@@ -1897,7 +1900,7 @@
 		}
 		{
 			x: 6.5d
-			y: 2.0d
+			y: 1.5d
 			description: ["Summon Rosalyne to defeat her and claim her eye!"]
 			dependencies: [
 				"6D3B99609DEEC6DC"
@@ -1995,32 +1998,6 @@
 			}]
 		}
 		{
-			icon: {
-				id: "minecraft:iron_sword"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -4.0d
-			y: 0.0d
-			shape: "diamond"
-			description: [
-				"When playing in a group, forming a team is recommended"
-				"In the inventory screen, select the team option in the top left to create or join a team!"
-				"Everyone in a team will share quest progress"
-			]
-			hide_dependency_lines: true
-			dependencies: ["61EEF0063893B8A9"]
-			size: 2.0d
-			id: "16379E25DB22C8B9"
-			tasks: [{
-				id: "76099E6E259D4ACA"
-				type: "checkmark"
-				title: "Teams"
-			}]
-		}
-		{
 			icon: "minecraft:recovery_compass"
 			x: 5.0d
 			y: -3.0d
@@ -2041,7 +2018,7 @@
 		}
 		{
 			x: 6.5d
-			y: 3.0d
+			y: 2.5d
 			description: [
 				"Defeat the Harbinger to obtain the corrupt eye!"
 				"This mechanical construct is located in the ancient factory in the overworld"
@@ -2073,6 +2050,49 @@
 					id: "2464E456CD978A5A"
 					type: "xp"
 					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			description: [
+				"Defeat the harvester and take his arm!"
+				"The Harvester can be summoned by placing a wither skull on a 2 block tall pillar of obsidian and right clicking the skull with a wither star"
+				"The Harvester is a tough boss with the ability to block, heal, and more! Beware"
+				"Certain enchantments can help in the fight against this boss. Light Aura, Purity, and Harvest"
+				"Light Aura: reduces damage taken by the boss"
+				"Purity: prevents the Harvester from regaining health on hit"
+				"Harvest: Increases damage against the Harvester"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61437502D8EA956C"]
+			hide: true
+			id: "7E61E8AB72752A78"
+			tasks: [{
+				id: "3C744C826DF3DC27"
+				type: "kill"
+				title: "Harvester"
+				icon: {
+					id: "morbid:morbid_harvester_arm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "morbid:morbid_harvester"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6BF3B12EE6F89FBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56AEBBF397A92427"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
 				}
 			]
 		}

@@ -7,6 +7,13 @@
     },
 
     {
+        "mob": "minecraft:creeper",
+        "player": true,
+        "random": 0.1,
+        "item": "savage_and_ravage:creeper_spores"
+    },
+
+    {
         "mob": "quark:wraith",
         "player": true,
         "random": 0.2,
@@ -36,24 +43,28 @@
     {
         "mob": "conjurer_illager:conjurer",
         "player": true,
+        "random": 0.5,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
     },
 
     {
         "mob": "minecraft:illusioner",
         "player": true,
+        "random": 0.5,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
     },
 
     {
         "mob": "friendsandfoes:iceologer",
         "player": true,
+        "random": 0.5,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
     },
 
     {
         "mob": "savage_and_ravage:iceologer",
         "player": true,
+        "random": 0.5,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
     },
 

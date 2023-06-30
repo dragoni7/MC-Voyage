@@ -18,7 +18,7 @@
 	EnderGuardianHealthMultiplier = 3.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 0.6
+	EnderGuardianDamageMultiplier = 0.8
 	#EnderGuardian's DamageCap
 	#Range: 0 ~ 1000000
 	EnderGuardianDamageCap = 60
@@ -64,7 +64,7 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 0.75
+	MonstrosityHealthMultiplier = 0.8
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityDamageMultiplier = 0.6
@@ -96,10 +96,10 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.5
+	IgnisHealthMultiplier = 1.55
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 0.6
+	IgnisDamageMultiplier = 0.7
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 15.0
@@ -181,7 +181,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.6
+	HarbingerHealthMultiplier = 1.7
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 0.8

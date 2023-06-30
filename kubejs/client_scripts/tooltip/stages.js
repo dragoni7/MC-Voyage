@@ -4,7 +4,8 @@ ItemEvents.tooltip((event) => {
         'thermal:cured_rubber',
         'thermal:cured_rubber_block',
         'thermal:rubber',
-        'thermal:rubber_block'
+        'thermal:rubber_block',
+        'ad_astra:iron_rod'
     ]
 
     event.add([
@@ -117,7 +118,8 @@ ItemEvents.tooltip((event) => {
         'majruszsdifficulty:enderium_hoe', 
         'majruszsdifficulty:enderium_shard_locator',
         'kubejs:overclocked_mechanism',
-        'kubejs:incomplete_overclocked_mechanism'
+        'kubejs:incomplete_overclocked_mechanism',
+        'morbid:morbid_harvester_arm'
     ], [Text.of('Available in Master Mode').darkRed()])
 
     let steel_items = [
@@ -125,6 +127,7 @@ ItemEvents.tooltip((event) => {
         'ad_astra:steel_nugget',
         'ad_astra:steel_block',
         'ad_astra:steel_plating',
+        'ad_astra:steel_ingot',
         'ad_astra:steel_pillar',
         'ad_astra:glowing_steel_pillar',
         'ad_astra:steel_plating',
@@ -138,7 +141,9 @@ ItemEvents.tooltip((event) => {
 
     Ingredient.of('@ad_astra').itemIds.forEach(item => {
         if (!steel_items.includes(item)) {
-            event.add(item, [Text.of('Available in Master Mode').darkRed()])
+            if (!allowed_items.includes(item)) {
+                event.add(item, [Text.of('Available in Master Mode').darkRed()])
+            }
         }
     })
 

@@ -32,7 +32,7 @@
 		#NOTE: This can boost performance on multi-threaded CPUs!
 		multiThreadedInvasions = true
 		#Should the rarity of Invasions act as a set delay between Invasions instead?
-		consistentInvasions = false
+		consistentInvasions = true
 		#Should invasions follow the tier system?
 		tieredInvasions = true
 		#List of Invasions that can't occur.
@@ -46,13 +46,13 @@
 	[Gameplay.Balancing]
 		#How often should Day Invasions occur.
 		#Range: 1 ~ 100
-		dayInvasionRarity = 21
+		dayInvasionRarity = 25
 		#How often should Night Invasions occur.
 		#Range: 1 ~ 100
-		nightInvasionRarity = 6
+		nightInvasionRarity = 12
 		#How often should Fixed Invasions occur.
 		#Range: 1 ~ 100
-		fixedInvasionRarity = 14
+		fixedInvasionRarity = 15
 		#Can Day Invasions have a random chance to be canceled?
 		canDayInvasionsBeCanceled = true
 		#Can Night Invasions have a random chance to be canceled?
@@ -73,10 +73,10 @@
 		fixedCancelChanceMultiplier = 2.5
 		#How often should Hyper Invasions occur.
 		#Range: 1 ~ 100
-		hyperInvasionRarity = 12
+		hyperInvasionRarity = 50
 		#How often should Mystery Invasions occur.
 		#Range: 1 ~ 100
-		mysteryInvasionRarity = 6
+		mysteryInvasionRarity = 30
 		#Maximum value in which a mob can be hypercharged
 		#NOTE: Max value can only occur in Extreme Invasions
 		#NOTE: May affect performance at higher numbers!

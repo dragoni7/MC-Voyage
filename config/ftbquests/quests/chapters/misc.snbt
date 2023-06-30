@@ -1,0 +1,112 @@
+{
+	id: "5E974EFB942D030D"
+	group: ""
+	order_index: 6
+	filename: "misc"
+	title: "Misc"
+	icon: "minecraft:oak_sign"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "biomemakeover:cowboy_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: -1.0d
+			description: [
+				"Don't neglect fasion!"
+				"Armor can be applied as a cosmetic over your current armor"
+				"In the inventory screen, select the small armor icon near the player protrait to open the cosmetic screen"
+			]
+			size: 2.0d
+			id: "2AEE610100A7777F"
+			tasks: [{
+				id: "2A3BF71C040723A2"
+				type: "checkmark"
+				title: "Cosmetic Armor"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: -1.0d
+			description: [
+				"When playing in a group, forming a team is recommended"
+				"In the inventory screen, select the team option in the top left to create or join a team!"
+				"Everyone in a team will share quest progress"
+				"Additionally, you can form a party to avoid friendly fire!"
+				"To see the commands for parties, type /party"
+			]
+			size: 2.0d
+			id: "16379E25DB22C8B9"
+			tasks: [{
+				id: "76099E6E259D4ACA"
+				type: "checkmark"
+				title: "Teams"
+			}]
+		}
+		{
+			icon: "minecraft:leather_horse_armor"
+			x: -2.0d
+			y: -1.0d
+			description: [
+				"Never lose your horse again!"
+				"You can select a horse to be your personal horse with the 'p' key (Changable in controls)"
+				"Once you have a horse, summon it wherever you go with 'v' !"
+			]
+			size: 2.0d
+			id: "4D24A6C1DDADE97B"
+			tasks: [{
+				id: "18EFBC00249ACF82"
+				type: "checkmark"
+				title: "Personal Horse"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: [
+				"Waystones allow an easy way to transport oneself across the world!"
+				"Right clicking on one will activate it, adding to your list of known waystones"
+				"Travel from one waystone to any other unlocked waystone!"
+			]
+			size: 2.0d
+			id: "76D2A62501D6A079"
+			tasks: [{
+				id: "644C3CC8BCEAA696"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			icon: "minecraft:oak_sign"
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"Land can be claimed as yours, protecting it from mob griefing or other players"
+				"To get started, select the 'FTBChunks' icon in the upper left while your inventory is open"
+				"This will open the map screen. From here, select the claimed chunks button in the top left"
+				"Left click to claim a chunk, and right click to unclaim one!"
+			]
+			size: 2.0d
+			id: "1DEFBF84D4B10047"
+			tasks: [{
+				id: "7B2E40BE51EEDA9B"
+				type: "checkmark"
+				title: "Chunk Claiming"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

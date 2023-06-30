@@ -42,18 +42,6 @@ ServerEvents.recipes(event => {
         {
             ingredients: [
                 {
-                    'amount': 900,
-                    'fluid': 'the_bumblezone:sugar_water_still',
-                    'nbt': {}
-                }
-            ],
-            results: [{'item': 'supplementaries:sugar_cube'}],
-            id: `${id_prefix}sugar_water_to_block`,
-        },
-
-        {
-            ingredients: [
-                {
                     'amount': 50,
                     'fluid': 'minecraft:water',
                     'nbt': {}
@@ -105,7 +93,7 @@ ServerEvents.recipes(event => {
             old_id: 'thermal:rubber_3',
         }
         
-    ];
+    ]
 
     recipes.forEach((recipe) => {
         if (recipe.old_id) {
@@ -118,5 +106,5 @@ ServerEvents.recipes(event => {
             results: recipe.results
         })
         .id(recipe.id)
-    });
-});
+    })
+})

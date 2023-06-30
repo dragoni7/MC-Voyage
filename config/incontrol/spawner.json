@@ -200,18 +200,18 @@
       {
         "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
         "persecond": 0.4,
-        "attempts": 15,
+        "attempts": 10,
         "amount": {
           "minimum": 2,
           "maximum": 5
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 55,
+          "mindist": 65,
           "maxdist": 110,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 16
+          "maxthis": 9
         }
       },
 
@@ -229,7 +229,7 @@
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 12
+          "maxthis": 8
         }
       },
 

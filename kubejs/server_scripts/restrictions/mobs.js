@@ -1,4 +1,4 @@
-MobSkillEvents.register(event => {
+/*MobSkillEvents.register(event => {
 
     const expert_mobs = [
         'mutantmonsters:mutant_creeper',
@@ -25,11 +25,11 @@ MobSkillEvents.register(event => {
     ]
 
     expert_mobs.forEach(mob => {
-        event.restrict(mob, is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:expert_mode')))
+        //event.restrict(mob, is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:expert_mode')))
     })
 
     master_mobs.forEach(mob => {
-        event.restrict(mob, is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:master_mode')))
+        //event.restrict(mob, is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:master_mode')))
     })
     
     event.restrict('@enderzoology', is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:expert_mode')))
@@ -38,4 +38,4 @@ MobSkillEvents.register(event => {
     event.restrict('@rottencreatures', is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:expert_mode')))
     event.restrict('@lava_monster', is => is.spawnable().fromSpawner("natural").if(player => player.can('skills:expert_mode')))
   })
-  
+  */

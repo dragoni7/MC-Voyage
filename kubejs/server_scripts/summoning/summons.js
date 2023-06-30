@@ -9,13 +9,21 @@ ServerEvents.recipes(event => {
     .mobOutput(
         SummoningOutput.mob('peat_mummy:peat_zombie').spread(4, 0, 4).count(4).data({ Health: 25})
     )
-    .input('3x bone_block', '4x moss_block', '4x slime_ball', '4x honey_bottle')
+    .input('3x bone_block', '4x moss_block', '4x slime_ball', '4x savage_and_ravage:creeper_spores')
+
+    // Conjurer
+    event.recipes.summoningrituals
+    .altar("ender_pearl")
+    .mobOutput(
+        SummoningOutput.mob('conjurer_illager:conjurer').count(1).data({ Health: 150, Attributes: [{ Name: 'generic.max_health', Base: 150 }]})
+        )
+    .input('3x golden_apple', '4x amethyst_shard')
 
     // bellringer
     event.recipes.summoningrituals
     .altar("bell")
     .mobOutput(
-        SummoningOutput.mob('meetyourfight:bellringer').count(1).data({ Health: 200, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 200 }]})
+        SummoningOutput.mob('meetyourfight:bellringer').count(1).data({ Health: 210, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 200 }]})
         )
     .mobOutput(
         SummoningOutput.mob('vex').spread(4, 0, 4).count(4).data({ Health: 15})
@@ -114,7 +122,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("amethyst_shard")
     .mobOutput(
-        SummoningOutput.mob('meetyourfight:rosalyne').count(1).data({ Health: 500, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 500 }]})
+        SummoningOutput.mob('meetyourfight:rosalyne').count(1).data({ Health: 600, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 500 }]})
         )
     .input('2x blue_skies:falsite_ingot', '2x blue_skies:camellia', '2x minecraft:echo_shard', 'kubejs:boss_essence')
 

@@ -1565,6 +1565,18 @@ ServerEvents.recipes(event => {
             },
             id:  `${id_prefix}blood_rune`,
             old_id: 'irons_spellbooks:blood_rune'
+        },
+        {
+            output: MC('bell'),
+            pattern: 
+            [' A ',
+             'III', 
+             'III'],
+            key: {
+                I: INGOT_TAG('gold'),
+                A: INGOT_TAG('andesite_alloy')
+            },
+            id:  `${id_prefix}bell`
         }
     ]
 

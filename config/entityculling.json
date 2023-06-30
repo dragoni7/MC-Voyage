@@ -29,7 +29,7 @@
     "cataclysm:the_harbinger",
     "meetyourfight:rosalyne"
   ],
-  "tracingDistance": 168,
+  "tracingDistance": 256,
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 150,

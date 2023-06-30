@@ -52,6 +52,7 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {'fluid': 'ad_astra:cryo_fuel', 'amount': 2000},
                 {'item': 'alexsmobs:mosquito_larva'},
+                {'item': 'morbid:morbid_harvester_arm'},
             ],
             
             results: [{'item': 'kubejs:stasis_larva'}],

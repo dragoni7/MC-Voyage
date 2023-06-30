@@ -1245,9 +1245,9 @@
 				"Armor can be applied as a cosmetic over your current armor"
 				"In the inventory screen, select the small armor icon near the player protrait to open the cosmetic screen"
 			]
-			id: "2AEE610100A7777F"
+			id: "15E2865324C177BD"
 			tasks: [{
-				id: "2A3BF71C040723A2"
+				id: "04F075E2F1007604"
 				type: "checkmark"
 				title: "Cosmetic Armor"
 			}]

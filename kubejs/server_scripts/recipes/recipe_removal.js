@@ -3,6 +3,7 @@ ServerEvents.recipes(event => {
 	let recipes = [
 		'silentgear:compounding/metal/custom_ingot.high_carbon_steel',
 		'/silentgear:.+_template$/',
+		'silentgear:iron_rod',
 		'silentgear:crimson_iron_dust',
 		'silentgear:crimson_steel_dust',
 		'silentgear:blaze_gold_dust',

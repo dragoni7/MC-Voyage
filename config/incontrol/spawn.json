@@ -50,19 +50,19 @@
         "mob": ["twilightforest:alpha_yeti", "twilightforest:ur_ghast", "twilightforest:armored_giant", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen"],
         "onjoin": true,
         "result": "default",
-        "healthadd": 250
+        "healthadd": 350
     },
 
     {
-        "mob": "twilightforest:hydra",
+        "mob": ["twilightforest:hydra", "morbid:morbid_harvester"],
         "result": "default",
-        "healthadd": 300
+        "healthadd": 400
     },
 
     {
         "mob": "minecraft:ender_dragon",
         "result": "default",
-        "healthadd": 800
+        "healthadd": 900
     },
 
     {
@@ -76,14 +76,14 @@
         "mob": "minecraft:elder_guardian",
         "onjoin": true,
         "result": "default",
-        "healthadd": 250
+        "healthadd": 300
     },
 
     {
         "mob": ["deeperdarker:stalker", "minecraft:warden"],
         "onjoin": true,
         "result": "default",
-        "healthadd": 350
+        "healthadd": 400
     },
 
     {
