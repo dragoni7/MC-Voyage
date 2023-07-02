@@ -39,20 +39,6 @@ ServerEvents.recipes(event => {
         },
 
         {
-            output: 'the_bumblezone:sugar_water_bucket',
-            old_id: 'the_bumblezone:sugar_water_bucket',
-            pattern: 
-            ['SSS',
-             'SBS',
-             'SSS'],
-            key: {
-                B: 'minecraft:water_bucket',
-                S: '#forge:sugar'
-            },
-            id:  `${id_prefix}sugar_water_bucket`
-        },
-
-        {
             output: 'spirit:soul_pedestal',
             old_id: 'spirit:crafting/soul_pedestal',
             pattern: 
@@ -1017,7 +1003,7 @@ ServerEvents.recipes(event => {
              'IKI', 
              ' P '],
             key: {
-                K: MC('dried_kelp'),
+                K: KJ('infused_mechanism'),
                 C: CR('copper_casing'),
                 I: 'architects_palette:nether_brass_ingot',
                 P: PLATE_TAG('netherite'),

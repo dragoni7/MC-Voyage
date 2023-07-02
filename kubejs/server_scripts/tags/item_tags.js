@@ -15,6 +15,7 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:gems/rose_quartz', 'cave_enhancements:rose_quartz')
     event.add('forge:ingots/stainless_steel', 'kubejs:stainless_steel_ingot')
+    event.add('forge:ingots/chromium', 'kubejs:chromium_ingot')
 
     event.add('forge:chocolates', 'neapolitan:chocolate_bar', 'create:bar_of_chocolate')
     event.add('forge:chocolate_milkshakes', 'neapolitan:chocolate_milkshake')

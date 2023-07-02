@@ -1,0 +1,6 @@
+
+#Modify rendering of entities.
+["The Option"]
+	#Nostalgia mode. If true, snowmen are replaced with their original counterparts where applicable.
+	old_snow = false
+

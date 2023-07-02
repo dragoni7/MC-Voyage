@@ -1,7 +1,7 @@
 {
   "startingValue" : 0,
   "minValue" : 0,
-  "maxValue" : 300,
+  "maxValue" : 500,
   "changePerSecond" : 0.0,
   "mode" : {
     "type" : "average",

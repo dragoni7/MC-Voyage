@@ -1,0 +1,116 @@
+{
+    "Dimensions": [
+        "minecraft:overworld"
+    ],
+
+    "Rarity": 4,
+    "Tier": 0,
+    "InvasionTime": "NIGHT",
+    "InvasionPriority": "BOTH",
+    "SpawningSystem": "DEFAULT",
+    "TimeModifier": "NONE",
+    "TimeChangeability": "DEFAULT",
+    "WeatherType": "DEFAULT",
+    "SeverityInfo": [
+        {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.6,
+            "MobSpawnList": [
+              {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 12
+              }
+            ],
+            "TickDelay": 30
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.7,
+            "MobSpawnList": [
+              {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 4,
+                "MinCount": 1,
+                "Weight": 12
+              },
+              {
+                "EntityType": "dreamland:ooze",
+                "MaxCount": 3,
+                "MinCount": 2,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 24
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.8,
+            "MobSpawnList": [
+              {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 6,
+                "MinCount": 2,
+                "Weight": 12
+              },
+              {
+                "EntityType": "dreamland:ooze",
+                "MaxCount": 4,
+                "MinCount": 3,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 18
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 0.9,
+            "MobSpawnList": [
+              {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 8,
+                "MinCount": 3,
+                "Weight": 12
+              },
+              {
+                "EntityType": "twilightforest:maze_slime",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 12
+          },
+          {
+            "ClusterSize": 1,
+            "ForceNoSleep": true,
+            "MobCapPercentage": 1.0,
+            "MobSpawnList": [
+              {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 10,
+                "MinCount": 4,
+                "Weight": 12
+              },
+              {
+                "EntityType": "minecraft:magma_cube",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 1
+              },
+              {
+                "EntityType": "twilightforest:maze_slime",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 1
+              }
+            ],
+            "TickDelay": 6
+          }
+    ]
+ }

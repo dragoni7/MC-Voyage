@@ -1,0 +1,15 @@
+
+#Modify the rules for mobs to exist.
+["Mob Properties"]
+	#Changes temperature spawn requirements. 0: Cold, 1: Neutral, 2: Warm, 3: Hot.
+	#Range: 0 ~ 3
+	spawnTempRange = 0
+	#Defines how hot a cold snap snowman can get before it melts. 0: Cold, 1: Neutral, 2: Warm, 3: Hot (Recommend matching or being higher than spawnTempRange, or being 3 if snowmanInNether
+	#Range: 0 ~ 3
+	snowSunScreen = 1
+	#Defines how hot a cold snap snowman can be and still leave a snow trail. 0: Cold, 1: Neutral, 2: Warm, 3: Hot
+	#Range: 0 ~ 3
+	snowTrailTemperature = 1
+	#If true, cold snap horde mobs will be restricted to spawning only when unlocked by horde completion. If false, entities will spawn as if the world was through tier 3 already.
+	progressiveSpawns = true
+

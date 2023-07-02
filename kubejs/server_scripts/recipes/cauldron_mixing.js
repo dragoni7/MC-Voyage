@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
           fluidLevelsConsumed: 1000,
           id: `${id_prefix}fiery_blood`
     },
-
+  /*
     {
       liquid: {
           "fluid": "minecraft:water"
@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
         },
         fluidLevelsConsumed: 250,
         id: `${id_prefix}dream_roll`
-  },
+  },*/
 
         {
             liquid: {

@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         SummoningOutput.mob('meetyourfight:swampjaw').count(1).data({ Health: 150, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 150 }]})
         )
     .mobOutput(
-        SummoningOutput.mob('peat_mummy:peat_zombie').spread(4, 0, 4).count(4).data({ Health: 25})
+        SummoningOutput.mob('peat_mummy:peat_zombie').spread(4, 0, 4).count(4).data({ Health: 15})
     )
     .input('3x bone_block', '4x moss_block', '4x slime_ball', '4x savage_and_ravage:creeper_spores')
 
@@ -23,10 +23,10 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("bell")
     .mobOutput(
-        SummoningOutput.mob('meetyourfight:bellringer').count(1).data({ Health: 210, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 200 }]})
+        SummoningOutput.mob('meetyourfight:bellringer').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 250 }]})
         )
     .mobOutput(
-        SummoningOutput.mob('vex').spread(4, 0, 4).count(4).data({ Health: 15})
+        SummoningOutput.mob('vex').spread(4, 0, 4).count(4).data({ Health: 5})
     )        
     .input('3x quark:soul_bead', '4x phantom_membrane', '2x biomemakeover:illunite_shard', 'meetyourfight:mossy_tooth')
 
@@ -34,10 +34,10 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("diamond")
     .mobOutput(
-        SummoningOutput.mob('meetyourfight:dame_fortuna').count(1).data({ Health: 280, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 280 }]})
+        SummoningOutput.mob('meetyourfight:dame_fortuna').count(1).data({ Health: 300, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 300 }]})
         )
     .mobOutput(
-        SummoningOutput.mob('witch').spread(4, 0, 4).count(4).data({ Health: 25})
+        SummoningOutput.mob('witch').spread(4, 0, 4).count(4).data({ Health: 15})
     )
     .input('3x create:polished_rose_quartz', '3x emerald', '4x gold_ingot', 'meetyourfight:phantoplasm')
 
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("twilightforest:armor_shard_cluster")
     .mobOutput(
-        SummoningOutput.mob('mutantmonsters:mutant_zombie').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 150 }]})
+        SummoningOutput.mob('mutantmonsters:mutant_zombie').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 16 }, { Name: 'generic.max_health', Base: 250 }]})
         )
     .itemOutput('kubejs:inert_everdawn_portal_key')
     .itemOutput('twilightforest:knight_phantom_trophy')
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("twilightforest:armor_shard_cluster")
     .mobOutput(
-        SummoningOutput.mob('mutantmonsters:mutant_skeleton').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 150 }]})
+        SummoningOutput.mob('mutantmonsters:mutant_skeleton').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 16 }, { Name: 'generic.max_health', Base: 250 }]})
         )
     .itemOutput('kubejs:inert_everbright_portal_key')
     .itemOutput('twilightforest:snow_queen_trophy')
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("amethyst_shard")
     .mobOutput(
-        SummoningOutput.mob('meetyourfight:rosalyne').count(1).data({ Health: 600, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 500 }]})
+        SummoningOutput.mob('meetyourfight:rosalyne').count(1).data({ Health: 700, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 700 }]})
         )
     .input('2x blue_skies:falsite_ingot', '2x blue_skies:camellia', '2x minecraft:echo_shard', 'kubejs:boss_essence')
 
@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("twilightforest:hydra_trophy")
     .mobOutput(
-        SummoningOutput.mob('blue_skies:summoner').count(1).data({ Health: 150, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 150 }]})
+        SummoningOutput.mob('blue_skies:summoner').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 250 }]})
         )
     .itemOutput('twilightforest:hydra_trophy')
     .itemOutput('undergarden:catalyst')
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("kubejs:masticator_bait")
     .mobOutput(
-        SummoningOutput.mob('undergarden:masticator').count(1).data({ Health: 580, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 580 }]})
+        SummoningOutput.mob('undergarden:masticator').count(1).data({ Health: 600, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 600 }]})
         )
     .input('kubejs:boss_essence', '4x undergarden:utherium_crystal')
     .sacrifice('pig', 3)
@@ -188,4 +188,4 @@ ServerEvents.recipes(event => {
     .input('endrem:witch_pupil', 'the_bumblezone:royal_jelly_bottle','kubejs:boss_essence', 'hexerei:witch_helmet', '8x cauldron', '4x hexerei:dried_belladonna_flowers', 'botania:cosmetic_witch_pin')
     .recipeTime(300)
 
-});
+})

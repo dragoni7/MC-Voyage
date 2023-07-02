@@ -2,7 +2,7 @@
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
-    "tier": 3,
+    "tier": 5,
     "categories": [
       "metal",
       "organic"
@@ -22,7 +22,7 @@
   "stats": {
     "main": {
       "durability": 1024.0,
-      "armor_durability": 25.0,
+      "armor_durability": 51.0,
       "enchantment_value": 16.0,
       "harvest_level": 3.0,
       "harvest_speed": 6.0,
@@ -30,11 +30,11 @@
       "magic_damage": 3.0,
       "attack_speed": 0.1,
       "attack_speed/axe": 0.0,
-      "armor": 25.0,
-      "armor/helmet": 5.0,
-      "armor/chestplate": 9.0,
-      "armor/leggings": 7.0,
-      "armor/boots": 4.0,
+      "armor": 38.0,
+      "armor/helmet": 6.0,
+      "armor/chestplate": 15.0,
+      "armor/leggings": 11.0,
+      "armor/boots": 6.0,
       "armor_toughness": 6.0,
       "magic_armor": 10.0,
       "ranged_damage": 2.5,

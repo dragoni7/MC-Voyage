@@ -10,7 +10,7 @@
 	#
 	# The Mutant Blaze's max health
 	# usually set to 300
-	"Max Health" = 300.0
+	"Max Health" = 500.0
 	#
 	# The Mutant Blaze's movement speed
 	# usually set to 0.25
@@ -42,7 +42,7 @@
 	#
 	# The Mutant Blaze's armour toughness value
 	# usually set to 0.0
-	"Armour Toughness" = 0.0
+	"Armour Toughness" = 1.0
 	#
 	# The distance that the Mutant Blaze can target players from
 	# usually set to 64.0
@@ -54,11 +54,11 @@
 	#
 	# The damage that the Mutant Blaze's fireballs deal
 	# usually set to 12.0
-	"Fireball Damage" = 12.0
+	"Fireball Damage" = 22.0
 	#
 	# The damage dealt to mobs caught in an explosion created by one of the Mutant Blaze's fireballs
 	# usually set to 10.0
-	"Fireball Explosion Damage" = 10.0
+	"Fireball Explosion Damage" = 12.0
 	#
 	# The radius of the explosions created by the Mutant Blaze's fireballs
 	# usually set to 3.0
@@ -70,7 +70,7 @@
 	#
 	# The damage that the Mutant Blaze's rod projectiles deal
 	# usually set to 4.0
-	"Rod Damage" = 4.0
+	"Rod Damage" = 10.0
 	#
 	# The amount of time in seconds that mobs are set on fire for when hit by one of the Mutant Blaze's rod projectiles
 	# usually set to 3 seconds

@@ -9,7 +9,6 @@ val expert_mobs = [
         'irons_spellbooks:pyromancer',
         'irons_spellbooks:magehunter_vindicator',
         'alexsmobs:farseer',
-        'alexsmobs:void_worm', 
         'undergarden:masticator',
         'whisperwoods:hidebehind',
         'whisperwoods:zotzpyre',

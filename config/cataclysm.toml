@@ -64,10 +64,10 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 0.8
+	MonstrosityHealthMultiplier = 1.0
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 0.6
+	MonstrosityDamageMultiplier = 0.7
 	#Monstrosity's DamageCap
 	#Range: 0 ~ 1000000
 	MonstrosityDamageCap = 50
@@ -96,7 +96,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.55
+	IgnisHealthMultiplier = 1.3
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 0.7
@@ -181,7 +181,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.7
+	HarbingerHealthMultiplier = 2.0
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 0.8

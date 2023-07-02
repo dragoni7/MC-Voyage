@@ -8,7 +8,7 @@
 	#
 	# The Mutant Shulker's max health
 	# usually set to 300
-	"Max Health" = 300.0
+	"Max Health" = 800.0
 	#
 	# The Mutant Shulker's movement speed
 	# usually set to 0.275D
@@ -28,7 +28,7 @@
 	#
 	# The Mutant Shulker's armour toughness value
 	# usually set to 0.0
-	"Armour Toughness" = 0.0
+	"Armour Toughness" = 1.0
 	#
 	# The distance that the Mutant Shulker can target players from
 	# usually set to 64.0
@@ -40,7 +40,7 @@
 	#
 	# The damage dealt to mobs caught in the explosion caused when a Mutant Shulker Bullet fired by the Mutant Shulker collides with blocks or mobs
 	# usually set to 8.0
-	"Mutant Shulker Bullet Damage" = 8.0
+	"Mutant Shulker Bullet Damage" = 14.0
 	#
 	# The amount of times that a Mutant Shulker Bullet fired by the Mutant Shulker can be hit before it is destroyed
 	# usually set to 3
@@ -60,7 +60,7 @@
 	#
 	# The damage that the Mutant Shulker's bite attack deals
 	# usually set to 25.0
-	"Bite Damage" = 25.0
+	"Bite Damage" = 50.0
 	#
 	# The amount of time in ticks (20 ticks in a second) that the Mutant Shulker disables its target's Shield for if they block its bite attack
 	# usually set to 160 ticks (8 seconds)
@@ -68,11 +68,11 @@
 	#
 	# The damage that the Mutant Shulker deals when flying into mobs
 	# usually set to 10.0
-	"Fly Damage" = 10.0
+	"Fly Damage" = 15.0
 	#
 	# The damage that the Mutant Shulker's anvil crush attack deals
 	# usually set to 30.0
-	"Anvil Crush Damage" = 30.0
+	"Anvil Crush Damage" = 40.0
 	#
 	# The damage that the explosion caused when the Mutant Shulker dies deals
 	# usually set to 30.0
@@ -84,7 +84,7 @@
 	"Ignores Invulnerability Time" = true
 	#
 	# The amount that the Mutant Shulker heals itself while in its shell every shell heal intervalusually set to 1.0
-	"Shell Heal Amount" = 1.0
+	"Shell Heal Amount" = 4.0
 	#
 	# The interval in ticks (20 ticks in a second) between the Mutant Shulker healing itself while in its shellusually set to 20 ticks (1 second)
 	"Shell Heal Interval" = 10

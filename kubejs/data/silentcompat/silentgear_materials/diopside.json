@@ -2,7 +2,7 @@
     "type": "silentgear:standard",
     "simple": true,
     "availability": {
-      "tier": 3,
+      "tier": 5,
       "categories": [
         "gem"
       ],
@@ -21,7 +21,7 @@
     "stats": {
       "main": {
         "durability": 1661.0,
-        "armor_durability": 36.0,
+        "armor_durability": 62.0,
         "enchantment_value": 26.0,
         "rarity": 40.0,
         "charging_value": 1.0,
@@ -37,11 +37,11 @@
         "attack_speed/dagger": -0.4,
         "attack_speed/knife": -0.4,
         "attack_speed/sickle": -0.4,
-        "armor": 30.0,
-        "armor/helmet": 5.0,
-        "armor/chestplate": 11.0,
-        "armor/leggings": 9.0,
-        "armor/boots": 5.0,
+        "armor": 40.0,
+        "armor/helmet": 6.0,
+        "armor/chestplate": 16.0,
+        "armor/leggings": 12.0,
+        "armor/boots": 6.0,
         "armor_toughness": 18.0,
         "magic_armor": 10.0
       }

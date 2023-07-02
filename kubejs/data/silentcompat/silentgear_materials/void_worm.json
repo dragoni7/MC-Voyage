@@ -1,0 +1,162 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 7,
+      "categories": [
+        "organic"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "silentcompat:void_worm"
+      }
+    },
+    "name": {
+      "text": "Void Worm"
+    },
+    "stats": {
+      "coating": {
+        "durability": [
+          {
+            "mul2": 3.2
+          },
+          {
+            "add": 10.0
+          }
+        ],
+        "repair_efficiency": {
+          "add": -0.5
+        },
+        "armor_durability": {
+          "mul2": 3.2
+        },
+        "harvest_level": {
+          "max": 5.0
+        },
+        "melee_damage": [
+          {
+            "mul2": 1.33333334
+          },
+          {
+            "add": 3.0
+          }
+        ],
+        "attack_speed": {
+          "add": -0.2
+        },
+        "magic_damage": {
+          "add": 3.0
+        },
+        "ranged_damage": {
+          "add": 3.0
+        },
+        "armor_toughness": {
+          "add": 8.0
+        },
+        "knockback_resistance": {
+          "add": 8.0
+        },
+        "rarity": {
+          "add": 80.0
+        }
+      },
+      "rod": {
+        "melee_damage": {
+          "mul2": 0.2
+        },
+        "durability": [
+          {
+            "mul2": 0.5
+          },
+          {
+            "add": 5.0
+          }
+        ],
+        "rarity": {
+          "add": 50.0
+        }
+      }
+    },
+    "traits": {
+      "coating": [
+        {
+          "name": "silentcompat:devouring",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+            "name": "silentgear:void_ward",
+            "level": 1
+        },
+        {
+            "name": "silentgear:adamant",
+            "level": 2
+        },
+        {
+          "name": "silentcompat:worm_protection",
+          "level": 1
+        },
+        {
+          "name": "silentcompat:spell_damage",
+          "level": 2
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:flexible",
+          "level": 2
+        },
+        {
+            "name": "silentgear:hard",
+            "level": 5,
+            "conditions": [
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.66
+              }
+            ]
+        }
+      ]
+    },
+    "model": {
+      "coating/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#526c80"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "coating/part": [
+        {
+          "texture": "silentgear:coating_material",
+          "color": "#526c80"
+        },
+        {
+          "texture": "silentgear:coating_jar"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_lc",
+          "color": "#526c80"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#526c80"
+        }
+      ]
+    }
+  }

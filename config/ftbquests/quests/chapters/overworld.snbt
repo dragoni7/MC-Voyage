@@ -636,7 +636,7 @@
 				"The summoning altar is a crucial block that allows you to summon many bosses and items!"
 				"Be sure to set it in a place with a lot of space and away from your main base."
 				"To view summoning recipes, right click on the item in JEI"
-				"When fighting bosses, ensure you have the best gear possible, and make use of shields, potions, spells and more!"
+				"When fighting bosses, ensure you have the best gear possible, and make use of shields, potions, spells, enchantments, and more!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["61EEF0063893B8A9"]
@@ -1104,6 +1104,11 @@
 					id: "3D91C16509DA3D5E"
 					type: "item"
 					item: "kubejs:generic_lootcrate"
+				}
+				{
+					id: "4347E307B61E7218"
+					type: "item"
+					item: "scalinghealth:bandages"
 				}
 			]
 		}
@@ -2024,7 +2029,6 @@
 				"This mechanical construct is located in the ancient factory in the overworld"
 				"A nether star is needed to awaken the entity"
 				"Make use of the various traps located in the factory!"
-				"This tough fight is advised to be taken on after blue skies completion"
 			]
 			hide_dependency_lines: true
 			dependencies: [

@@ -9,7 +9,7 @@
 	#Show the Name above the mobs
 	show_name = true
 	#Show bars only when a mob is aggressive
-	on_aggro = true
+	on_aggro = false
 	#
 	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
 	blacklist = "minecraft:wither, meetyourfight:swampjaw, meetyourfight:bellringer, meetyourfight:dame_fortuna, meetyourfight:rosalyne, twilightforest:alpha_yeti, twilightforest:lich, twilightforest:naga, twilightforest:snow_queen, undergarden:masticator, whisperwoods:hirschgeist, alexsmobs:void_worm, alexsmobs:void_worm_part, alexsmobs:void_worm_shot, alexsmobs:void_portal, alexsmobs:centipede_body, alexsmobs:centipede_tail, cataclysm:ignis, cataclysm:netherite_monstrosity, cataclysm:ender_guardian"

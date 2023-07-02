@@ -24,14 +24,14 @@
           {
             "type": "minecraft:cave_spider",
             "weight": 50,
-            "minCount": 4,
-            "maxCount": 8
+            "minCount": 2,
+            "maxCount": 3
           },
           {
             "type": "neapolitan:plantain_spider",
             "weight": 40,
-            "minCount": 4,
-            "maxCount": 8
+            "minCount": 2,
+            "maxCount": 3
           }
         ]
       }

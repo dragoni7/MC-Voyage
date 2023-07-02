@@ -19,6 +19,18 @@
 
     {
         "mob": ["species:birt"],
+        "onjoin": true,
+        "dimension": "minecraft:overworld",
+        "result": "deny"
+    },
+
+    {
+        "mob": ["alexsmobs:fly"],
+        "mincount": {
+            "amount": 4,
+            "perplayer": true
+        },
+        "dimension": "minecraft:overworld",
         "result": "deny"
     },
 
@@ -35,26 +47,62 @@
     },
 
     {
+        "mob": ["meetyourfight:rosalyne"],
+        "onjoin": true,
+        "damageadd": 60,
+        "speedmultiply": 4,
+        "result": "default"
+    },
+
+    {
+        "mob": ["meetyourfight:dame_fortuna"],
+        "onjoin": true,
+        "damageadd": 5,
+        "result": "default"
+    },
+
+    {
+        "mob": ["meetyourfight:bellringer"],
+        "onjoin": true,
+        "damageadd": 5,
+        "result": "default"
+    },
+
+    {
+        "mob": ["meetyourfight:projectile_line"],
+        "onjoin": true,
+        "damageadd": 5,
+        "result": "default"
+    },
+
+    {
+        "mob": ["morbid:morbid_harvester"],
+        "result": "default",
+        "healthadd": 500
+    },
+
+    {
         "mob": ["minecraft:wither"],
         "result": "default",
-        "healthadd": 150
+        "healthadd": 200
     },
 
     {
         "mob": ["twilightforest:knight_phantom"],
         "result": "default",
-        "healthadd": 150
+        "healthadd": 200
     },
 
     {
         "mob": ["twilightforest:alpha_yeti", "twilightforest:ur_ghast", "twilightforest:armored_giant", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen"],
+        "armorhelmet": "minecraft:iron_helmet",
         "onjoin": true,
         "result": "default",
         "healthadd": 350
     },
 
     {
-        "mob": ["twilightforest:hydra", "morbid:morbid_harvester"],
+        "mob": ["twilightforest:hydra"],
         "result": "default",
         "healthadd": 400
     },
@@ -63,6 +111,21 @@
         "mob": "minecraft:ender_dragon",
         "result": "default",
         "healthadd": 900
+    },
+
+    {
+        "mob": "alexsmobs:void_worm",
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 1000
+    },
+    
+    {
+        "mob": "alexsmobs:void_worm_shot",
+        "onjoin": true,
+        "result": "default",
+        "damageadd": 100,
+        "damagemultiply": 100
     },
 
     {
@@ -83,7 +146,7 @@
         "mob": ["deeperdarker:stalker", "minecraft:warden"],
         "onjoin": true,
         "result": "default",
-        "healthadd": 400
+        "healthadd": 500
     },
 
     {

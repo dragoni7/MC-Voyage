@@ -2,7 +2,7 @@
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
-    "tier": 3,
+    "tier": 4,
     "categories": [
       "gem",
       "organic"
@@ -22,7 +22,7 @@
   "stats": {
     "main": {
       "durability": 312.0,
-      "armor_durability": 5.0,
+      "armor_durability": 31.0,
       "enchantment_value": 16.0,
       "rarity": 50.0,
       "charging_value": 1.0,
@@ -36,7 +36,7 @@
       "ranged_speed": -0.1,
       "projectile_speed": 1.1,
       "projectile_accuracy": 0.9,
-      "armor": 10.0,
+      "armor": 30.0,
       "armor_toughness": 4.0,
       "magic_armor": 10.0
     },

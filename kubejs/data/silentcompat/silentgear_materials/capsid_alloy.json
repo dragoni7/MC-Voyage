@@ -2,7 +2,7 @@
     "type": "silentgear:standard",
     "simple": true,
     "availability": {
-      "tier": 3,
+      "tier": 6,
       "categories": [
         "organic",
         "cloth"
@@ -22,7 +22,7 @@
     "stats": {
       "main": {
         "durability": 1561.0,
-        "armor_durability": 33.0,
+        "armor_durability": 75.0,
         "armor_durability/elytra": 33.0,
         "enchantment_value": 25.0,
         "rarity": 40.0,
@@ -39,7 +39,7 @@
         "attack_speed/katana": 0.1,
         "ranged_damage": 1.0,
         "ranged_speed": 2.0,
-        "armor": 40.0,
+        "armor": 56.0,
         "armor_toughness": 8.0,
         "magic_armor": 11.0
       },
