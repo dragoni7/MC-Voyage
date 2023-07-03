@@ -9,8 +9,15 @@
     {
         "mob": "minecraft:creeper",
         "player": true,
-        "random": 0.1,
+        "random": 0.2,
         "item": "savage_and_ravage:creeper_spores"
+    },
+
+    {
+        "mob": "minecraft:shulker",
+        "player": true,
+        "random": 0.05,
+        "item": "silentgear:glittery_dust"
     },
 
     {
@@ -37,6 +44,7 @@
     {
         "mob": "minecraft:evoker",
         "player": true,
+        "random": 0.5,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
     },
 
@@ -49,9 +57,21 @@
 
     {
         "mob": "minecraft:illusioner",
+        "remove": "friendsandfoes:totem_of_illusion"
+    },
+
+    {
+        "mob": "minecraft:illusioner",
         "player": true,
-        "random": 0.5,
+        "random": 0.2,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+    },
+
+        {
+        "mob": "minecraft:illusioner",
+        "player": true,
+        "random": 0.1,
+        "item": ["friendsandfoes:totem_of_illusion"]
     },
 
     {
@@ -115,8 +135,13 @@
 
     {
         "mob": "cataclysm:the_harbinger",
+        "remove": "cataclysm:witherite_block"
+    },
+
+    {
+        "mob": "cataclysm:the_harbinger",
         "player": true,
-        "item": ["irons_spellbooks:upgrade_orb", "endrem:corrupted_eye", "kubejs:boss_essence"]
+        "item": ["irons_spellbooks:upgrade_orb", "endrem:corrupted_eye", "kubejs:boss_essence", "cataclysm:mechanical_fusion_anvil", "cataclysm:witherite_ingot"]
     },
 
     {
@@ -128,7 +153,7 @@
     {
         "mob": "undergarden:masticator",
         "player": true,
-        "item": "irons_spellbooks:upgrade_orb"
+        "item": ["irons_spellbooks:upgrade_orb", "silentgear:glittery_dust"]
     },
 
     {

@@ -8,7 +8,7 @@
     "hostileMultiplier" : 0.315,
     "hostilePotionChance" : 0.0,
     "peacefulPotionChance" : 0.0,
-    "damageBoostScale" : 0.4,
+    "damageBoostScale" : 0.5,
     "maxDamageBoost" : 60,
     "spawnerModifier" : 0.3,
     "xpBoost" : 0.005

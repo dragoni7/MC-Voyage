@@ -19,7 +19,7 @@
 		#Range: 1.0 ~ 10.0 (from < to)
 		[Enchantments.DeathWish.DamageMultiplier]
 			from = 1.0
-			to = 2.0
+			to = 1.5
 
 		#Multiplies the damage taken according to the health ratio.
 		#In other words, the higher the health ratio, the more 'to' value is taken into account.

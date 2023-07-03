@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['minecraft:andesite', 'architects_palette:algal_brick', 'create:zinc_nugget'],
+            input: ['minecraft:andesite', 'architects_palette:algal_brick', 'create:zinc_ingot'],
             result: '3x create:andesite_alloy',
             id: `${id_prefix}andesite_alloy`,
             old_id: 'create:crafting/materials/andesite_alloy'

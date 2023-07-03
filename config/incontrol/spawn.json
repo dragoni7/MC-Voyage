@@ -41,6 +41,13 @@
     },
 
     {
+        "mob": ["minecraft:illusioner"],
+        "onjoin": true,
+        "result": "default",
+        "healthadd": 30
+    },
+
+    {
         "mob": ["the_bumblezone:bee_queen"],
         "result": "default",
         "healthadd": 1000
@@ -147,6 +154,36 @@
         "onjoin": true,
         "result": "default",
         "healthadd": 500
+    },
+
+    {
+        "mob": ["minecraft:skeleton","minecraft:zombie"],
+        "dimension": "minecraft:overworld",
+        "random": 0.2,
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "gamestage": "expert_mode",
+        "result": "default",
+        "helditem": ["minecraft:wooden_sword", "minecraft:stone_sword"],
+        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet"],
+        "armorchest": ["minecraft:iron_chestplate", "minecraft:golden_chestplate", "minecraft:chainmail_chestplate", "minecraft:diamond_chestplate", "autumnity:snail_shell_chestplate", "biomemakeover:cladded_chestplate", "galosphere:sterling_chestplate", "aquamirae:terrible_chestplate", "majruszsdifficulty:tattered_chestplate"]
+    },
+
+    {
+        "mob": ["minecraft:skeleton","minecraft:zombie"],
+        "dimension": "minecraft:overworld",
+        "random": 0.3,
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "gamestage": "master_mode",
+        "result": "default",
+        "helditem": ["minecraft:iron_sword", "minecraft:diamond_sword", "minecraft:netherite_sword", "cnb:cinder_sword", "majruszsdifficulty:wither_sword", "twilightforest:fiery_sword"],
+        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet", "minecraft:netherite_helmet"],
+        "armorchest": ["minecraft:iron_chestplate", "minecraft:golden_chestplate", "minecraft:chainmail_chestplate", "minecraft:diamond_chestplate", "minecraft:netherite_chestplate", "autumnity:snail_shell_chestplate", "biomemakeover:cladded_chestplate", "galosphere:sterling_chestplate", "aquamirae:terrible_chestplate", "majruszsdifficulty:tattered_chestplate", "twilightforest:fiery_chestplate", "twilightforest:knightmetal_chestplate", "twilightforest:steeleaf_chestplate", "mutantmonsters:mutant_skeleton_chestplate", "mutantmore:mutant_wither_skeleton_chestplate", "phantasm:stellium_chestplate", "blue_skies:diopside_chestplate"]
     },
 
     {

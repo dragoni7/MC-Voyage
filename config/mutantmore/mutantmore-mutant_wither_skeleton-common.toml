@@ -46,7 +46,7 @@
 	#
 	# The damage that the Mutant Wither Skeleton's basic attacks deal
 	# usually set to 8.0
-	"Basic Attack Damage" = 12.0
+	"Basic Attack Damage" = 10.0
 	#
 	# The area around the Mutant Wither Skeleton's strong attack's point of impact (the Mutant Wither Skeleton's target) that other mobs can be caught in the attack
 	# usually set to 1.0 blocks
