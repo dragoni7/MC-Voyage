@@ -1,0 +1,112 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+      "tier": 6,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/chromium"
+      }
+    },
+    "name": {
+      "text": "Chromium"
+    },
+    "stats": {
+      "main": {
+        "durability": 1660.0,
+        "armor_durability": 40.0,
+        "enchantment_value": 11.0,
+        "harvest_level": 4.0,
+        "harvest_speed": 8.0,
+        "melee_damage": 9.0,
+        "magic_damage": 1.5,
+        "attack_speed/axe": -0.1,
+        "attack_speed/knife": 0.5,
+        "attack_speed/dagger": 0.5,
+        "armor": 55.0,
+        "armor/helmet": 10.0,
+        "armor/chestplate": 20.0,
+        "armor/leggings": 16.0,
+        "armor/boots": 9.0,
+        "armor_toughness": 8.0,
+        "magic_armor": 6.0,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.0,
+        "rarity": 45.0,
+        "charging_value": 1.0
+      },
+      "rod": {
+        "durability": {
+          "mul2": 0.3
+        },
+        "melee_damage": {
+            "mul2": 0.3
+        },
+        "rarity": 45.0
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentgear:malleable",
+          "level": 3
+        },
+        {
+          "name": "silentgear:hard",
+          "level": 5,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "rod": [
+        {
+          "name": "silentgear:malleable",
+          "level": 2
+        },
+        {
+          "name": "silentgear:hard",
+          "level": 3
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#9d9d9d"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#9d9d9d"
+        }
+      ],
+      "rod/all": [
+        {
+          "texture": "silentgear:rod_generic_hc",
+          "color": "#9d9d9d"
+        }
+      ],
+      "rod/part": [
+        {
+          "texture": "silentgear:rod",
+          "color": "#9d9d9d"
+        }
+      ]
+    }
+  }

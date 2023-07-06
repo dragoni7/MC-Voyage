@@ -33,6 +33,38 @@ ServerEvents.recipes(event => {
             {'item': 'gourmet:chocolate_ice_cream_cone'}],
             id: `${id_prefix}chocolate_cone`,
             old_id: 'gourmet:chocolate_ice_cream_cone'
+        },
+
+        {
+            ingredients: [
+                {'item': 'minecraft:glass_bottle'},
+                {'fluid': 'createcafe:coffee', 'amount': 1000}
+            ],
+            results: [
+            {'item': 'farmersrespite:coffee'}],
+            id: `${id_prefix}coffee`,
+            old_id: 'create_central_kitchen:filling/coffee'
+        },
+
+        {
+            ingredients: [
+                {'item': 'collectorsreap:pomegranate_seeds'},
+                {'fluid': 'create:chocolate', 'amount': 250}
+            ],
+            results: [
+            {'item': 'collectorsreap:chocolate_arils'}],
+            id: `${id_prefix}chocolate_arils`,
+            old_id: 'collectorsreap:food/chocolate_arils'
+        },
+
+        {
+            ingredients: [
+                {'item': 'minecraft:glowstone'},
+                {'fluid': 'minecraft:lava', 'amount': 250}
+            ],
+            results: [
+            {'item': 'infernalexp:dimstone'}],
+            id: `${id_prefix}dimstone`
         }
         
     ]

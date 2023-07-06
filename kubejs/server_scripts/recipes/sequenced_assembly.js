@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
 
         // GOURMET
 
-        /*{
+        {
             type: 'create:sequenced_assembly',
             ingredient: [
                 {'item': 'gourmet:croissant'}
@@ -335,7 +335,7 @@ ServerEvents.recipes(event => {
             transitionalItem: {'item': 'gourmet:incomplete_breakfast_sandwich'},
             id: `${id_prefix}breakfast_sandwich`,
             old_id: 'gourmet:breakfast_sandwich'
-        },*/
+        },
 
         {
             type: 'create:sequenced_assembly',
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
             id: `${id_prefix}bacon_burger`,
             old_id: 'gourmet:bacon_burger'
         },
-        /*
+        
         {
             type: 'create:sequenced_assembly',
             ingredient: [
@@ -408,7 +408,7 @@ ServerEvents.recipes(event => {
             transitionalItem: {'item': 'minecraft:cookie'},
             id: `${id_prefix}ice_cream_sandwich`,
             old_id: 'gourmet:ice_cream_sandwich'
-        }*/
+        }
 
     ]
 

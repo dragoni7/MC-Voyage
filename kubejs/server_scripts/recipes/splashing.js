@@ -9,6 +9,16 @@ ServerEvents.recipes(event => {
             
             results: [{'count': 3, 'item': 'kubejs:pearlescent_nugget'}, {'count': 1, 'chance': 0.5, 'item': 'kubejs:chromium_nugget'}, {'count': 3, 'item': 'kubejs:chromium_nugget'}],
             id: `${id_prefix}prismasand`
+        },
+
+        {
+            ingredients: [
+                {'tag': 'forge:sand'}
+            ],
+            
+            results: [{'count': 1, 'chance': 0.25, 'item': 'minecraft:clay_ball'}, {'count': 1, 'chance': 0.25, 'item': 'pamhc2foodcore:saltitem'}, {'count': 2, 'chance': 0.1, 'item': 'pamhc2foodcore:saltitem'}],
+            old_id: 'create:splashing/sand',
+            id: `${id_prefix}sand_salt`
         }
     ]
 

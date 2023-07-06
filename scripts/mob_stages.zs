@@ -56,7 +56,8 @@ val expert_mobs = [
 val master_mobs = [
         'mutantmonsters:mutant_enderman',
         'alexsmobs:void_worm',
-        'morbid:morbid_harvester'] as string[];
+        'morbid:morbid_harvester',
+        'weeping_angels:weeping_angel'] as string[];
 
 for mob in expert_mobs {
     mods.MobStages.addStage("expert_mode", mob);

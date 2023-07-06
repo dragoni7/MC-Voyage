@@ -185,12 +185,32 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:coal_coke'},
+                {'tag': 'forge:coal_coke'},
+                {'tag': 'forge:coal_coke'},
                 {'item': 'createdeco:cast_iron_ingot'},
             ],
             
             results: [{'item': 'ad_astra:steel_ingot'}],
             id: `${id_prefix}steel_ingot`,
             old_id: 'as_astra:recipes/steel_ingot_from_blasting_iron_ingot'
+        },
+
+        {
+            heatRequirement: 'heated',
+            ingredients: [
+                {'item': 'infernalexp:glowcoal'},
+                {'item': 'infernalexp:glowcoal'},
+                {'item': 'infernalexp:glowcoal'},
+                {'item': 'kubejs:chromium_nugget'},
+                {'item': 'kubejs:chromium_nugget'},
+                {'item': 'kubejs:chromium_nugget'},
+                {'item': 'kubejs:chromium_nugget'},
+                {'item': 'kubejs:chromium_nugget'},
+                {'item': 'kubejs:chromium_nugget'},
+            ],
+            
+            results: [{'item': 'kubejs:chromium_ingot'}],
+            id: `${id_prefix}chromium_ingot`
         },
 
         {
@@ -414,8 +434,104 @@ ServerEvents.recipes(event => {
             results: [{'amount': 1000, 'fluid': 'createteleporters:quantum_fluid'}],
             id: `${id_prefix}quantum_fluid`,
             old_id: 'createteleporters:quantum_fluid_recipe'
+        },
+
+        {
+            ingredients: [
+                {'item': 'create:wheat_flour'},
+                {'item': 'festive_delight:cinnamon_powder'},
+                {
+                    'amount': 1000,
+                    'fluid': 'minecraft:water',
+                    'nbt': {}
+                },
+                {
+                    'amount': 250,
+                    'fluid': 'create:honey',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'festive_delight:gingerbread_dough'}],
+            id: `${id_prefix}gingerbread_dough`,
+            old_id: 'festive_delight:gingerbread_dough_craft'
+        },
+
+        {
+            ingredients: [
+                {'item': 'pamhc2foodextended:cornmealitem'},
+                {
+                    'amount': 1000,
+                    'fluid': 'minecraft:water',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'culturaldelights:corn_dough'}],
+            id: `${id_prefix}corn_dough`,
+            old_id: 'culturaldelights:corn_dough'
+        },
+
+        {
+            ingredients: [
+                {'item': 'create:wheat_flour'},
+                {'item': 'minecraft:nether_wart'},
+                {'item': 'minecraft:nether_wart'},
+                {'item': 'minecraft:red_mushroom'},
+                {'item': 'minecraft:brown_mushroom'},
+                {
+                    'amount': 1000,
+                    'fluid': 'minecraft:water',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'farmersrespite:nether_wart_sourdough'}],
+            id: `${id_prefix}nether_wart_sourdough`,
+            old_id: 'farmersrespite:nether_wart_sourdough'
+        },
+
+        {
+            ingredients: [
+                {'item': 'pamhc2foodcore:saltitem'},
+                {
+                    'amount': 500,
+                    'fluid': 'minecraft:milk',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'gourmet:butter'}],
+            id: `${id_prefix}butter`,
+            old_id: 'gourmet:butter'
+        },
+
+        {
+            ingredients: [
+                {
+                    'amount': 500,
+                    'fluid': 'minecraft:milk',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'pamhc2foodcore:creamitem'}],
+            id: `${id_prefix}creamitem`,
+            old_id: 'pamhc2foodcore:creamitem'
+        },
+
+        {
+            heatRequirement: 'heated',
+            ingredients: [
+                {'item': 'pamhc2foodextended:soymilkitem'},
+                {'item': 'pamhc2foodextended:soymilkitem'}
+            ],
+            
+            results: [{'item': 'pamhc2foodextended:firmtofuitem'}],
+            id: `${id_prefix}firmtofuitem`,
+            old_id: 'pamhc2foodextended:firmtofuitem'
         }
-    ];
+    ]
 
     recipes.forEach((recipe) => {
 
@@ -440,5 +556,5 @@ ServerEvents.recipes(event => {
         if (recipe.old_id) {
             event.remove({id: recipe.old_id})
         }
-    });
-});
+    })
+})

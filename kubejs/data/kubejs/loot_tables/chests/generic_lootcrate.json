@@ -183,17 +183,6 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "twilightforest:armor_shard",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 3
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
             "name": "savage_and_ravage:blast_proof_plating",
             "functions": [
               {
@@ -281,54 +270,6 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "minecraft:spyglass"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "ae2:fluix_pickaxe"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "ae2:fluix_sword"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "ae2:fluix_axe"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:vanishing_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 4
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:reappearing_block",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 4
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:rainbow_oak_sapling",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 4
-              }
-            ]
           },
           {
             "type": "minecraft:item",
@@ -479,31 +420,6 @@
           {
             "type": "minecraft:item",
             "weight": 1,
-            "name": "undergarden:music_disc_relict"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "undergarden:music_disc_limax_maximus"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "undergarden:music_disc_mammoth"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:music_disc_motion"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:music_disc_thread"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
             "name": "quark:music_disc_crickets"
           },
           {
@@ -515,16 +431,6 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "quark:music_disc_fire"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:moonworm"
-          },
-          {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "twilightforest:moonworm_queen"
           },
           {
             "type": "minecraft:item",

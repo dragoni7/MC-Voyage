@@ -83,6 +83,39 @@ ServerEvents.recipes(event => {
 
         {
             ingredients: [
+                {'item': 'pamhc2crops:canolaitem'},
+                {'item': 'pamhc2crops:canolaitem'},
+                {'item': 'pamhc2crops:canolaitem'}
+            ],
+            results: [{'count': 2, 'item': 'pamhc2foodcore:cookingoilitem'}],
+            id: `${id_prefix}cookingoilitem`,
+            old_id: 'pamhc2crops:cookingoil_x4_canola_x2',
+        },
+
+        {
+            ingredients: [
+                {'tag': 'forge:mushrooms'},
+                {'tag': 'forge:mushrooms'},
+                {'tag': 'forge:mushrooms'}
+            ],
+            results: [{'item': 'pamhc2foodextended:mushroomoilitem'}],
+            id: `${id_prefix}mushroomoilitem`,
+            old_id: 'pamhc2foodextended:mushroomoilitem',
+        },
+
+        {
+            ingredients: [
+                {'tag': 'forge:crops/sesameseeds'},
+                {'tag': 'forge:crops/sesameseeds'},
+                {'tag': 'forge:crops/sesameseeds'},
+            ],
+            results: [{'item': 'pamhc2foodextended:sesameoilitem'}],
+            id: `${id_prefix}sesameoilitem`,
+            old_id: 'pamhc2foodextended:sesameoilitem',
+        },
+
+        {
+            ingredients: [
                 {
                     'amount': 300,
                     'fluid': 'thermal:latex',

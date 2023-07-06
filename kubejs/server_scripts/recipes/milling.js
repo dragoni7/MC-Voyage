@@ -18,21 +18,6 @@ ServerEvents.recipes(event => {
         },
 
         {
-            ingredients: [{'item': 'pamhc2trees:cinnamonitem'}],
-            time: 150,
-            results: [
-                {
-                    'count': 1,
-                    'item': 'festive_delight:cinnamon_powder'
-                },
-                {
-                    'chance': 0.05,
-                    'item': 'festive_delight:cinnamon_powder'
-                }],
-            id: `${id_prefix}cinnamon_powder`
-        },
-
-        {
             ingredients: [{'item': 'minecraft:prismarine'}],
             time: 150,
             results: [
@@ -82,10 +67,99 @@ ServerEvents.recipes(event => {
                     'item': 'spirit:soul_powder'
                 }],
             id: `${id_prefix}soul_powder_milling`
+        },
+
+        {
+            ingredients: [{'item': 'create:bar_of_chocolate'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:cocoapowderitem'
+                }],
+            id: `${id_prefix}cocoapowderitem`,
+            old_id: 'pamhc2foodcore:cocoapowderitem'
+        },
+
+        {
+            ingredients: [{'tag': 'forge:rawpork'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:groundporkitem'
+                }],
+            id: `${id_prefix}groundporkitem`,
+            old_id: 'pamhc2foodcore:groundporkitem'
+        },
+
+        {
+            ingredients: [{'tag': 'forge:rawmutton'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:groundmuttonitem'
+                }],
+            id: `${id_prefix}groundmuttonitem`,
+            old_id: 'pamhc2foodcore:groundmuttonitem'
+        },
+
+        {
+            ingredients: [{'tag': 'forge:rawchicken'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:groundchickenitem'
+                }],
+            id: `${id_prefix}groundchickenitem`,
+            old_id: 'pamhc2foodcore:groundchickenitem'
+        },
+
+        {
+            ingredients: [{'tag': 'forge:rawfish'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:groundfishitem'
+                }],
+            id: `${id_prefix}groundfishitem`,
+            old_id: 'pamhc2foodcore:groundfishitem'
+        },
+
+        {
+            ingredients: [{'tag': 'forge:rawrabbit'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:groundrabbititem'
+                }],
+            id: `${id_prefix}groundrabbititem`,
+            old_id: 'pamhc2foodcore:groundrabbititem'
+        },
+
+        {
+            ingredients: [{'tag': 'forge:rawbeef'}],
+            time: 50,
+            results: [
+                {
+                    'count': 1,
+                    'item': 'pamhc2foodcore:groundbeefitem'
+                }],
+            id: `${id_prefix}groundbeefitem`,
+            old_id: 'pamhc2foodcore:groundbeefitem'
         }
     ]
 
     recipes.forEach((recipe) => {
+
+        if (recipe.old_id) {
+            event.remove({id: recipe.old_id})
+        }
+        
         event.custom({
             type: 'create:milling',
             ingredients: recipe.ingredients,

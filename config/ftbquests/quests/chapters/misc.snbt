@@ -107,6 +107,45 @@
 				title: "Chunk Claiming"
 			}]
 		}
+		{
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+			x: -6.0d
+			y: 1.0d
+			description: [
+				"Many new effects exist in the world now"
+				"One may be confused on what exactly some do, luckily there is a way to find out!"
+				"Click on any active effect shown in your inventory screen and a description will pop up!"
+			]
+			size: 2.0d
+			id: "7346500043BB8803"
+			tasks: [{
+				id: "674B8ABCEFD27B51"
+				type: "checkmark"
+				title: "Effects"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			description: [
+				"With so many mods having their own keybinds, being able to change them is important"
+				"The controls setting now displays all keybinds with search features"
+				"Use this to determine conflicts or change perferred binds"
+			]
+			size: 2.0d
+			id: "1D4C8FA5E58109D4"
+			tasks: [{
+				id: "0F5CD7C3B30EDC84"
+				type: "checkmark"
+				title: "Keybinds"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

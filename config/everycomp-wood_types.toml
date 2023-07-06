@@ -298,12 +298,6 @@
 
 	[types.cut_block_type]
 
-		[types.cut_block_type.supplementaries]
-			lapis_bricks = true
-			ash_bricks = true
-			stone_tile = true
-			blackstone_tile = true
-
 		[types.cut_block_type.silentgear]
 			netherwood = true
 
@@ -966,26 +960,6 @@
 			aspen = true
 			grimwood = true
 
-		[types.cut_block_type.dyenamicsandfriends]
-			regions_unexplored_peach_painted = true
-			quark_peach_shingles = true
-			regions_unexplored_aquamarine_painted = true
-			quark_aquamarine_shingles = true
-			regions_unexplored_fluorescent_painted = true
-			quark_fluorescent_shingles = true
-			regions_unexplored_mint_painted = true
-			quark_mint_shingles = true
-			regions_unexplored_maroon_painted = true
-			quark_maroon_shingles = true
-			regions_unexplored_bubblegum_painted = true
-			quark_bubblegum_shingles = true
-			regions_unexplored_lavender_painted = true
-			quark_lavender_shingles = true
-			regions_unexplored_persimmon_painted = true
-			quark_persimmon_shingles = true
-			regions_unexplored_cherenkov_painted = true
-			quark_cherenkov_shingles = true
-
 		[types.cut_block_type.botania]
 			corporea_brick = true
 			livingwood = true
@@ -1085,6 +1059,32 @@
 			walnut_azalea = true
 			titanium_azalea = true
 
+		[types.cut_block_type.dyenamicsandfriends]
+			regions_unexplored_peach_painted = true
+			quark_peach_shingles = true
+			regions_unexplored_aquamarine_painted = true
+			quark_aquamarine_shingles = true
+			regions_unexplored_fluorescent_painted = true
+			quark_fluorescent_shingles = true
+			regions_unexplored_mint_painted = true
+			quark_mint_shingles = true
+			regions_unexplored_maroon_painted = true
+			quark_maroon_shingles = true
+			regions_unexplored_bubblegum_painted = true
+			quark_bubblegum_shingles = true
+			regions_unexplored_lavender_painted = true
+			quark_lavender_shingles = true
+			regions_unexplored_persimmon_painted = true
+			quark_persimmon_shingles = true
+			regions_unexplored_cherenkov_painted = true
+			quark_cherenkov_shingles = true
+
+		[types.cut_block_type.supplementaries]
+			lapis_bricks = true
+			ash_bricks = true
+			stone_tile = true
+			blackstone_tile = true
+
 [entries]
 
 	[entries.leaves_type]
@@ -1127,9 +1127,6 @@
 			ladder = true
 			hollow_log = true
 
-		[entries.wood_type.friendsandfoes]
-			beehive = false
-
 		[entries.wood_type.furnish]
 			coffin = true
 			cabinet = true
@@ -1162,4 +1159,7 @@
 		[entries.wood_type.dramaticdoors]
 			short_door = true
 			tall_door = true
+
+		[entries.wood_type.friendsandfoes]
+			beehive = true
 

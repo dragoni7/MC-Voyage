@@ -15,6 +15,26 @@ ServerEvents.recipes(event => {
 
         {
             ingredients: [
+                {'item': 'minecraft:potato'}
+            ],
+            results: [
+            {'item': 'gourmet:raw_potato_fry', 'count': 2}],
+            tool: {"tag": "forge:tools/knives"},
+            id: `${id_prefix}raw_potato_fry`
+        },
+
+        {
+            ingredients: [
+                {'item': 'minecraft:carrot'}
+            ],
+            results: [
+            {'item': 'gourmet:carrot_slices', 'count': 2}],
+            tool: {"tag": "forge:tools/knives"},
+            id: `${id_prefix}carrot_slices`
+        },
+
+        {
+            ingredients: [
                 {'item': 'farmersdelight:cabbage'}
             ],
             results: [

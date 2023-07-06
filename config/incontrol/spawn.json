@@ -10,6 +10,7 @@
 
     {
         "mob": ["whisperwoods:moth"],
+        "onjoin": true,
         "mincount": {
             "amount": 5,
             "perplayer": true
@@ -56,7 +57,7 @@
     {
         "mob": ["meetyourfight:rosalyne"],
         "onjoin": true,
-        "damageadd": 60,
+        "damageadd": 70,
         "speedmultiply": 4,
         "result": "default"
     },

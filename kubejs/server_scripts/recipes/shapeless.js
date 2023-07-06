@@ -103,20 +103,6 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['create:dough', '#forge:crops/corn'],
-            result: 'culturaldelights:corn_dough',
-            id: `${id_prefix}corn_dough`,
-            old_id: 'culturaldelights:corn_dough'
-        },
-
-        {
-            input: ['create:dough', 'minecraft:egg', 'minecraft:honey_bottle', 'festive_delight:cinnamon_powder'],
-            result: '2x festive_delight:gingerbread_dough',
-            id: `${id_prefix}gingerbread_dough`,
-            old_id: 'festive_delight:gingerbread_dough_craft'
-        },
-
-        {
             input: ['gourmet:butter', 'minecraft:baked_potato', '#forge:cooked_beef'],
             result: 'farmersdelight:stuffed_potato',
             id: `${id_prefix}stuffed_potato`,
@@ -138,14 +124,14 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['#forge:beef_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion', '#forge:cheese'],
+            input: ['#forge:beef_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion', '#forge:cheese', 'culturaldelights:pickle', '#forge:cooked_bacon'],
             result: 'delightful:cheeseburger',
             id: `${id_prefix}cheeseburger`,
             old_id: 'delightful:food/cheeseburger'
         },
 
         {
-            input: ['#forge:beef_patty', '#forge:beef_patty', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion', '#forge:cheese', '#forge:cheese', '#forge:cooked_bacon'],
+            input: ['#forge:beef_patty', 'culturaldelights:pickle', 'gourmet:buns', '#forge:salad_ingredients', 'farmersdelight:tomato', 'farmersdelight:onion', '#forge:cheese', '#forge:cheese', 'gourmet:caramelized_bacon'],
             result: 'delightful:deluxe_cheeseburger',
             id: `${id_prefix}deluxe_cheeseburger`,
             old_id: 'delightful:food/deluxe_cheeseburger'
@@ -177,6 +163,53 @@ ServerEvents.recipes(event => {
             result: 'culturaldelights:eggplant_burger',
             id: `${id_prefix}eggplant_burger`,
             old_id: 'culturaldelights:eggplant_burger'
+        },
+
+        {
+            input: ['gourmet:batter_bucket'],
+            result: '2x pamhc2foodcore:batteritem',
+            id: `${id_prefix}batter`,
+        },
+
+        {
+            input: ['pamhc2trees:maplesyrupitem', 'pamhc2trees:maplesyrupitem', 'pamhc2trees:maplesyrupitem', 'minecraft:glass_bottle'],
+            result: 'autumnity:syrup_bottle',
+            id: `${id_prefix}syrup_bottle`,
+        },
+
+        {
+            input: ['aquaculture:fish_fillet_raw', 'minecraft:dried_kelp'],
+            result: 'aquaculture:sushi',
+            id: `${id_prefix}sushi`,
+            old_id: 'aquaculture:sushi'
+        },
+
+        {
+            input: ['#forge:cookingoil', '#forge:crops/eggplant', '#forge:firmtofu', '#forge:crops/rice', '#forge:crops/garlic', '#forge:crops/chilipepper', '#forge:crops/ginger', '#forge:vinegar'],
+            result: 'pamhc2foodextended:szechuaneggplantitem',
+            id: `${id_prefix}szechuaneggplantitem`,
+            old_id: 'pamhc2foodextended:szechuaneggplantitem'
+        },
+
+        {
+            input: ['#forge:rawpork', 'pamhc2foodextended:pinkelitem', '#forge:crops/potato', '#forge:crops/onion', '#forge:spices/blackpepper', '#forge:crops/chilipepper', '#forge:sausage', '#forge:crops/kale'],
+            result: 'pamhc2foodextended:kohlundpinkelitem',
+            id: `${id_prefix}kohlundpinkelitem`,
+            old_id: 'pamhc2foodextended:kohlundpinkelitem'
+        },
+
+        {
+            input: ['#forge:dough', '#forge:cookingoil', '#forge:paper', '#forge:cocoapowder', '#forge:sugar', '#forge:spices/groundcinnamon'],
+            result: 'pamhc2foodextended:pambitsboxitem',
+            id: `${id_prefix}pambitsboxitem`,
+            old_id: 'pamhc2foodextended:pambitsboxitem'
+        },
+
+        {
+            input: ['#forge:dough', '#forge:cooking_oil', '#forge:rawchicken', '#forge:rawchicken', '#forge:crops/carrot', '#forge:crops/cabbage', '#forge:crops/leek', '#forge:crops/leek', '#forge:crops/onion'],
+            result: 'pamhc2foodextended:chikorollitem',
+            id: `${id_prefix}chikorollitem`,
+            old_id: 'pamhc2foodextended:chikorollitem'
         }
     ]
     

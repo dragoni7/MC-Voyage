@@ -25,7 +25,7 @@
         "enchantment_value": 13.0,
         "rarity": 40.0,
         "charging_value": 1.0,
-        "harvest_level": 3.0,
+        "harvest_level": 4.0,
         "harvest_speed": 7.0,
         "melee_damage": 3.5,
         "magic_damage": 10.0,
@@ -51,7 +51,7 @@
           "add": 164.0
         },
         "harvest_level": {
-          "max": 3.0
+          "max": 4.0
         },
         "harvest_speed": {
           "add": 1.0

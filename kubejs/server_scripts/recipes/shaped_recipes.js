@@ -24,6 +24,24 @@ ServerEvents.recipes(event => {
     const recipes = [
 
         {
+            output: 'aquamirae:sea_casserole',
+            old_id: 'aquamirae:sea_casserole',
+            pattern: 
+            ['BGB',
+             'OSO', 
+             'EPE'],
+            key: {
+                O: 'aquamirae:oxygelium',
+                B: '#forge:fruits/sweet_berries',
+                S: 'aquamirae:esca',
+                E: MC('turtle_egg'),
+                P: 'farmersdelight:pie_crust',
+                G: '#forge:fruits/gooseberry'
+            },
+            id:  `${id_prefix}sea_casserole`
+        },
+
+        {
             output: MC('ender_eye'),
             old_id: MC('ender_eye'),
             pattern: 
@@ -300,14 +318,13 @@ ServerEvents.recipes(event => {
             output: 'meetyourfight:ace_of_iron',
             old_id: 'meetyourfight:ace_of_iron',
             pattern: 
-            ['IBI',
+            ['EBE',
              'EFE', 
-             'IBI'],
+             'EBE'],
             key: {
                 F: 'meetyourfight:fortunes_favor',
-                I: INGOT_TAG('iron'),
                 E: INGOT_TAG('stainless_steel'),
-                B: '#forge:storage_blocks/knightmetal'
+                B: STORAGE_BLOCK_TAG('knightmetal')
             },
             stage: MASTER_MODE,
             id:  `${id_prefix}ace_of_iron`
@@ -317,9 +334,9 @@ ServerEvents.recipes(event => {
             output: 'meetyourfight:slicers_dice',
             old_id: 'meetyourfight:slicers_dice',
             pattern: 
-            [' I ',
+            ['III',
              'IFI', 
-             ' I '],
+             'III'],
             key: {
                 F: 'meetyourfight:fortunes_favor',
                 I: INGOT_TAG('elementium'),
@@ -332,11 +349,12 @@ ServerEvents.recipes(event => {
             old_id: 'meetyourfight:bone_raker',
             pattern: 
             ['BBB',
-             'ITI', 
-             'III'],
+             'KTK', 
+             'IKI'],
             key: {
                 T: 'meetyourfight:mossy_tooth',
-                I: INGOT_TAG('steel'),
+                I: INGOT_TAG('stainless_steel'),
+                K: INGOT_TAG('knightmetal'),
                 B: FORGE_TAG('bones')
             },
             stage: EXPERT_MODE,
@@ -381,7 +399,7 @@ ServerEvents.recipes(event => {
              ' T '],
             key: {
                 B: '#forge:bones',
-                I: INGOT_TAG('elementium'),
+                I: INGOT_TAG('gaiasteel'),
                 T: 'meetyourfight:mossy_tooth'
             },
             id:  `${id_prefix}caged_heart`
@@ -415,6 +433,22 @@ ServerEvents.recipes(event => {
                 V: 'meetyourfight:violet_bloom'
             },
             id:  `${id_prefix}blossoming_mind`
+        },
+
+        {
+            output: 'meetyourfight:wilted_ideals',
+            old_id: 'meetyourfight:wilted_ideals',
+            pattern: 
+            ['SS ',
+             'SVR', 
+             ' RO'],
+            key: {
+                S: BO('mana_string'),
+                V: 'meetyourfight:violet_bloom',
+                R: 'mutantmore:mutant_wither_skeleton_rib',
+                O: 'botanicadds:gaia_shard'
+            },
+            id:  `${id_prefix}wilted_ideals`
         },
 
         {
@@ -604,7 +638,7 @@ ServerEvents.recipes(event => {
              'BBB',
              ' I '],
             key: {
-                I: INGOT_TAG('crimson_steel'),
+                I: INGOT_TAG('utherium'),
                 B: 'silentgear:blueprint_paper'
             },
             stage: UNDERGARDEN,

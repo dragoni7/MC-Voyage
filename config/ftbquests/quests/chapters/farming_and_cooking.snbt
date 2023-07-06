@@ -205,24 +205,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "3D92827E27898037"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "250021F92374969E"
-					type: "item"
-					item: {
-						id: "ae2:certus_quartz_cutting_knife"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "3D92827E27898037"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 0.5d
@@ -339,7 +326,7 @@
 			tasks: [{
 				id: "2140E48292DC2AE2"
 				type: "item"
-				item: "createcafe:strawberry_milk_tea"
+				item: "createcafe:apple_milk_tea"
 			}]
 			rewards: [
 				{
@@ -411,7 +398,7 @@
 		}
 		{
 			title: "Cheese Making"
-			x: -1.0d
+			x: -1.5d
 			y: -1.5d
 			description: [
 				"Cheese can be made with a keg"
@@ -460,11 +447,18 @@
 				id: "64B2DAB641CD5F90"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "3E6EF7667382CE2F"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3E6EF7667382CE2F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D04F455D6BDDEF6"
+					type: "item"
+					item: "sereneseasons:calendar"
+				}
+			]
 		}
 		{
 			title: "Arby's Menu"
@@ -513,11 +507,6 @@
 			id: "7C055C4AE57129DD"
 			tasks: [
 				{
-					id: "5A7361B2F6B22638"
-					type: "item"
-					item: "gourmet:neapolitan_ice_cream_cone"
-				}
-				{
 					id: "482AE97887042675"
 					type: "item"
 					item: "collectorsreap:lime_popsicle"
@@ -527,12 +516,167 @@
 					type: "item"
 					item: "respiteful:green_tea_ice_cream"
 				}
+				{
+					id: "33037518C53C8964"
+					type: "item"
+					item: "neapolitan:neapolitan_ice_cream"
+				}
 			]
 			rewards: [{
 				id: "266E2A07906B8137"
 				type: "item"
 				item: "kubejs:generic_lootcrate"
 				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			description: [
+				"The cooking guide allows automation of cooking pot recipes!"
+				"Turn your blaze burner into a 5 star chef!"
+				"Hold 'w' on the item to learn more"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F898D6D29E58305"
+				"7EA6228FBA3861B4"
+			]
+			id: "0917F7AC048038EA"
+			tasks: [{
+				id: "15DD2175851FE3AC"
+				type: "item"
+				item: {
+					id: "create_central_kitchen:cooking_guide"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0964B7362A2409C3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: [
+				"The brewing guide allows automation of brewing recipes!"
+				"Turn your blaze burner into a master brewer!"
+				"Hold 'w' on the item to learn more"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6F898D6D29E58305"
+				"7EA6228FBA3861B4"
+			]
+			id: "309CC4FB74D86D2E"
+			tasks: [{
+				id: "493F72F59B193C93"
+				type: "item"
+				item: {
+					id: "create_central_kitchen:brewing_guide"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							NeedWater: 0b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17CE80DCF533A60E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			description: ["The slicer allows automation of slicing recipes!"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "1BB95CEBB35BD5D3"
+			tasks: [{
+				id: "51616ED1FF957FC7"
+				type: "item"
+				item: "sliceanddice:slicer"
+			}]
+			rewards: [{
+				id: "092D4F35E36A84A5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: [
+				"Rich slow is created through a long process of decomposition"
+				"Water, mushrooms and more can speed up this process"
+				"Use rich soil to grow crops more efficiently"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "0E58E1E49A53B788"
+			tasks: [{
+				id: "248101DBD8B1A88B"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [{
+				id: "3D1EDB0B4C794EA8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tools of the Trade"
+			x: -0.5d
+			y: -1.5d
+			description: ["These tools are required to cook certain foods"]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "129455D14378D248"
+			tasks: [
+				{
+					id: "7ADBDCB2FCB94540"
+					type: "item"
+					item: "pamhc2foodcore:bakewareitem"
+				}
+				{
+					id: "628F4D0EE67D2F77"
+					type: "item"
+					item: "pamhc2foodcore:skilletitem"
+				}
+				{
+					id: "6AEE08ACCAF104F3"
+					type: "item"
+					item: "pamhc2foodcore:mixingbowlitem"
+				}
+				{
+					id: "7F212EA882A4197E"
+					type: "item"
+					item: "pamhc2foodcore:juiceritem"
+				}
+				{
+					id: "03846FF0142EB7B1"
+					type: "item"
+					item: "pamhc2foodcore:saucepanitem"
+				}
+				{
+					id: "11A29A6CDFA683DD"
+					type: "item"
+					item: "pamhc2foodcore:cuttingboarditem"
+				}
+			]
+			rewards: [{
+				id: "644E79DCFD87233F"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]

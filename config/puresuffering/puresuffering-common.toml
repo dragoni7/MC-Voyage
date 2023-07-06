@@ -27,7 +27,7 @@
 		maxNightInvasions = 1
 		#Max Fixed Invasions that can occur.
 		#Range: > 0
-		maxFixedInvasions = 3
+		maxFixedInvasions = 1
 		#Should a thread be added for every dimension's Invasion Spawner instead of just 1 for all?
 		#NOTE: This can boost performance on multi-threaded CPUs!
 		multiThreadedInvasions = true
@@ -90,10 +90,10 @@
 		hyperAggressionBlacklist = ["minecraft:vex"]
 		#List of Mods that won't be allowed to have their mobs spawn in Biome Boosted Invasions.
 		#Ex: 'johncraft', 'mutantbeasts'
-		modBiomeBoostedBlacklist = []
+		modBiomeBoostedBlacklist = ['mutantbeasts', 'rottencreatures', 'monsterplus', 'enderzoology', 'whisperwoods', 'mutantmore']
 		#List of Mobs that won't be allowed to spawn in Biome Boosted Invasions.
 		#Ex: 'minecraft:enderman', 'mutantbeasts:mutant_creeper'
-		mobBiomeBoostedBlacklist = []
+		mobBiomeBoostedBlacklist = ['minecraft:vex']
 		#Should players be unable to sleep during all invasions?
 		forceInvasionSleeplessness = true
 		#Should vexes in Invasions be weakened?
@@ -111,7 +111,7 @@
 		#The Chance of a naturally spawning mob has of spawning during an Invasion.
 		#NOTE: May affect performance at higher numbers!
 		#Range: 0 ~ 10000
-		naturalSpawnChance = 3
+		naturalSpawnChance = 2
 		#How many ticks the Blessing Effect lasts when respawning.
 		#Range: > 0
 		blessingEffectRespawnDuration = 600

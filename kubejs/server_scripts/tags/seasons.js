@@ -19,8 +19,18 @@ ServerEvents.tags('item', event => {
         "pamhc2trees:pistachio_sapling",
         "pamhc2trees:candlenut_sapling",
         "pamhc2trees:pinenut_sapling",
+        "pamhc2trees:pomegranate_sapling",
+        "pamhc2trees:vanillabean_sapling",
         "neapolitan:mint_sprout",
-        "neapolitan:vanilla_pods"
+        "neapolitan:vanilla_pods",
+
+        "pamhc2crops:turnipseeditem", 
+        "pamhc2crops:waterchestnutseeditem", 
+        "pamhc2crops:whitemushroomseeditem",
+        "pamhc2crops:barleyseeditem",
+        "pamhc2crops:nettlesseeditem",
+        "pamhc2crops:ryeseeditem",
+        "pamhc2crops:amaranthseeditem"
     ])
 
     event.add('sereneseasons:winter_crops',[
@@ -28,7 +38,16 @@ ServerEvents.tags('item', event => {
         "pamhc2trees:pistachio_sapling",
         "pamhc2trees:candlenut_sapling",
         "pamhc2trees:pinenut_sapling",
-        "neapolitan:mint_sprout"
+        "neapolitan:mint_sprout",
+
+        "pamhc2crops:wolfberryseeditem",
+        "pamhc2crops:sweetpotatoseeditem",
+        "pamhc2crops:juniperberryseeditem",
+        "pamhc2crops:cranberryseeditem", 
+        "pamhc2crops:elderberryseeditem",
+        "pamhc2crops:gingerseeditem",
+        "pamhc2crops:taroseeditem",
+        "pamhc2crops:nettlesseeditem"
     ])
 
     event.add('sereneseasons:spring_crops', [
@@ -39,6 +58,7 @@ ServerEvents.tags('item', event => {
         "silentgear:flax_seeds",
         "silentgear:fluffy_seeds",
         "pamhc2trees:lemon_sapling",
+        "pamhc2trees:lime_sapling",
         "pamhc2trees:orange_sapling",
         "pamhc2trees:peach_sapling",
         "pamhc2trees:plum_sapling",
@@ -57,8 +77,64 @@ ServerEvents.tags('item', event => {
         "pamhc2trees:breadfruit_sapling",
         "pamhc2trees:lychee_sapling",
         "pamhc2trees:rambutan_sapling",
+        "pamhc2trees:vanillabean_sapling",
         "neapolitan:strawberry_pips",
-        "neapolitan:vanilla_pods"
+        "neapolitan:vanilla_pods",
+        
+        "pamhc2crops:huckleberryseeditem", 
+        "pamhc2crops:jicamaseeditem", 
+        "pamhc2crops:juniperberryseeditem",
+        "pamhc2crops:juteseeditem", 
+        "pamhc2crops:kaleseeditem", 
+        "pamhc2crops:kenafseeditem",
+        "pamhc2crops:kohlrabiseeditem", 
+        "pamhc2crops:leekseeditem", 
+        "pamhc2crops:sesameseedsitem", 
+        "pamhc2crops:mustardseedsitem", 
+        "pamhc2crops:agaveseeditem",
+        "pamhc2crops:arrowrootseeditem", 
+        "pamhc2crops:artichokeseeditem", 
+        "pamhc2crops:asparagusseeditem",
+        "pamhc2crops:beanseeditem", 
+        "pamhc2crops:bellpepperseeditem", 
+        "pamhc2crops:blackberryseeditem", 
+        "pamhc2crops:blueberryseeditem", 
+        "pamhc2crops:broccoliseeditem", 
+        "pamhc2crops:brusselsproutseeditem",
+        "pamhc2crops:candleberryseeditem", 
+        "pamhc2crops:cauliflowerseeditem", 
+        "pamhc2crops:celeryseeditem", 
+        "pamhc2crops:chickpeaseeditem",
+        "pamhc2crops:cottonseeditem",  
+        "pamhc2crops:garlicseeditem", 
+        "pamhc2crops:gingerseeditem",
+        "pamhc2crops:grapeseeditem", 
+        "pamhc2crops:greengrapeseeditem",
+
+        "pamhc2crops:wintersquashseeditem", 
+        "pamhc2crops:zucchiniseeditem", 
+        "pamhc2crops:alfalfaseeditem",
+        "pamhc2crops:barrelcactusseeditem", 
+        "pamhc2crops:canolaseeditem", 
+        "pamhc2crops:chiaseeditem", 
+        "pamhc2crops:cloudberryseeditem", 
+        "pamhc2crops:lotusseeditem",  
+        "pamhc2crops:lentilseeditem", 
+        "pamhc2crops:lettuceseeditem",
+        "pamhc2crops:milletseeditem", 
+        "pamhc2crops:mustardseedsseeditem", 
+        "pamhc2crops:oatsseeditem",
+        "pamhc2crops:parsnipseeditem", 
+        "pamhc2crops:peanutseeditem", 
+        "pamhc2crops:peasseeditem", 
+        "pamhc2crops:radishseeditem", 
+        "pamhc2crops:rhubarbseeditem", 
+        "pamhc2crops:rutabagaseeditem",
+        "pamhc2crops:scallionseeditem", 
+        "pamhc2crops:sesameseedsitem", 
+        "pamhc2crops:sisalseeditem", 
+        "pamhc2crops:soybeanseeditem", 
+        "pamhc2crops:spiceleafseeditem"
     ])
 
     event.add('sereneseasons:summer_crops', [
@@ -74,6 +150,7 @@ ServerEvents.tags('item', event => {
         "culturaldelights:eggplant_seeds",
         "culturaldelights:avocado_sapling",
         "culturaldelights:avocado_pit",
+        "pamhc2trees:avocado_sapling",
         "pamhc2trees:fig_sapling",
         "pamhc2trees:grapefruit_sapling",
         "pamhc2trees:mango_sapling",
@@ -90,9 +167,33 @@ ServerEvents.tags('item', event => {
         "pamhc2trees:tamarind_sapling",
         "pamhc2trees:guava_sapling",
         "pamhc2trees:jackfruit_sapling",
+        "pamhc2trees:passionfruit_sapling",
+        "pamhc2trees:banana_sapling",
+        "pamhc2trees:pomegranate_sapling",
         "neapolitan:strawberry_pips",
         "neapolitan:adzuki_beans",
-        "atmospheric:passion_vine"
+        "atmospheric:passion_vine",
+
+        "pamhc2crops:kiwiseeditem",
+        "pamhc2crops:calabashseeditem", 
+        "pamhc2crops:guaranaseeditem", 
+        "pamhc2crops:papyrusseeditem",
+        "pamhc2crops:nopalesseeditem",
+        "pamhc2crops:cactusfruitseeditem",
+        "pamhc2crops:okraseeditem",
+        "pamhc2crops:quinoaseeditem",
+        "pamhc2crops:raspberryseeditem",
+        "pamhc2crops:chilipepperseeditem",
+        "pamhc2crops:alfalfaseeditem",
+        "pamhc2crops:lettuceseeditem",
+        "pamhc2crops:soybeanseeditem",
+        "pamhc2crops:spinachseeditem", 
+        "pamhc2crops:sweetpotatoseeditem", 
+        "pamhc2crops:taroseeditem", 
+        "pamhc2crops:tomatilloseeditem",
+        "pamhc2crops:sorghumseeditem", 
+        "pamhc2crops:truffleseeditem", 
+        "pamhc2crops:bokchoyseeditem"
     ])
 })
 
@@ -119,7 +220,15 @@ ServerEvents.tags('block', event => {
         "pamhc2trees:pampinenut",
         "neapolitan:mint",
         "neapolitan:vanilla_vine",
-        "neapolitan:vanilla_vine_plant"
+        "neapolitan:vanilla_vine_plant",
+
+        "pamhc2crops:pamturnipcrop", 
+        "pamhc2crops:pamwaterchestnutcrop", 
+        "pamhc2crops:pamwhitemushroomcrop",
+        "pamhc2crops:pambarleycrop",
+        "pamhc2crops:pamnettlescrop",
+        "pamhc2crops:pamryecrop",
+        "pamhc2crops:pamamaranthcrop"
     ])
 
     event.add('sereneseasons:winter_crops', [
@@ -127,7 +236,16 @@ ServerEvents.tags('block', event => {
         "pamhc2trees:pampistachio",
         "pamhc2trees:pamcandlenut",
         "pamhc2trees:pampinenut",
-        "neapolitan:mint"
+        "neapolitan:mint",
+
+        "pamhc2crops:pamwolfberrycrop",
+        "pamhc2crops:pamsweetpotatocrop",
+        "pamhc2crops:pamjuniperberrycrop",
+        "pamhc2crops:pamcranberrycrop", 
+        "pamhc2crops:pamelderberrycrop",
+        "pamhc2crops:pamgingercrop",
+        "pamhc2crops:pamtarocrop",
+        "pamhc2crops:pamnettlescrop"
     ])
 
     event.add('sereneseasons:spring_crops', [
@@ -159,7 +277,62 @@ ServerEvents.tags('block', event => {
         "pamhc2trees:pamrambutan",
         "neapolitan:strawberry_bush",
         "neapolitan:vanilla_vine",
-        "neapolitan:vanilla_vine_plant"
+        "neapolitan:vanilla_vine_plant",
+
+        "pamhc2crops:pamhuckleberrycrop", 
+        "pamhc2crops:pamjicamacrop", 
+        "pamhc2crops:pamjuniperberrycrop",
+        "pamhc2crops:pamjutecrop", 
+        "pamhc2crops:pamkalecrop", 
+        "pamhc2crops:pamkenafcrop",
+        "pamhc2crops:pamkohlrabicrop", 
+        "pamhc2crops:pamleekcrop", 
+        "pamhc2crops:pamsesameseedscrop", 
+        "pamhc2crops:pammustardseedscrop", 
+        "pamhc2crops:pamagavecrop",
+        "pamhc2crops:pamarrowrootcrop", 
+        "pamhc2crops:pamartichokecrop", 
+        "pamhc2crops:pamasparaguscrop",
+        "pamhc2crops:pambeancrop", 
+        "pamhc2crops:pambellpeppercrop", 
+        "pamhc2crops:pamblackberrycrop", 
+        "pamhc2crops:pamblueberrycrop", 
+        "pamhc2crops:pambroccolicrop", 
+        "pamhc2crops:pambrusselsproutcrop",
+        "pamhc2crops:pamcandleberrycrop", 
+        "pamhc2crops:pamcauliflowercrop", 
+        "pamhc2crops:pamcelerycrop", 
+        "pamhc2crops:pamchickpeacrop",
+        "pamhc2crops:pamcottoncrop",  
+        "pamhc2crops:pamgarliccrop", 
+        "pamhc2crops:pamgingercrop",
+        "pamhc2crops:pamgrapecrop", 
+        "pamhc2crops:pamgreengrapecrop",
+
+        "pamhc2crops:pamwintersquashcrop", 
+        "pamhc2crops:pamzucchinicrop", 
+        "pamhc2crops:pamalfalfacrop",
+        "pamhc2crops:pambarrelcactuscrop", 
+        "pamhc2crops:pamcanolacrop", 
+        "pamhc2crops:pamchiacrop", 
+        "pamhc2crops:pamcloudberrycrop", 
+        "pamhc2crops:pamlotuscrop",  
+        "pamhc2crops:pamlentilcrop", 
+        "pamhc2crops:pamlettucecrop",
+        "pamhc2crops:pammilletcrop", 
+        "pamhc2crops:pammustardseedscrop", 
+        "pamhc2crops:pamoatscrop",
+        "pamhc2crops:pamparsnipcrop", 
+        "pamhc2crops:pampeanutcrop", 
+        "pamhc2crops:pampeascrop", 
+        "pamhc2crops:pamradishcrop", 
+        "pamhc2crops:pamrhubarbcrop", 
+        "pamhc2crops:pamrutabagacrop",
+        "pamhc2crops:pamscallioncrop", 
+        "pamhc2crops:pamsesameseedscrop", 
+        "pamhc2crops:pamsisalcrop", 
+        "pamhc2crops:pamsoybeancrop", 
+        "pamhc2crops:pamspiceleafcrop"
     ])
 
     event.add('sereneseasons:summer_crops', [
@@ -196,6 +369,27 @@ ServerEvents.tags('block', event => {
         "pamhc2trees:pamjackfruit",
         "neapolitan:strawberry_bush",
         "neapolitan:adzuki_sprouts",
-        "atmospheric:passion_vine"
+        "atmospheric:passion_vine",
+
+        "pamhc2crops:pamkiwicrop",
+        "pamhc2crops:pamcalabashcrop", 
+        "pamhc2crops:pamguaranacrop", 
+        "pamhc2crops:pampapyruscrop",
+        "pamhc2crops:pamnopalescrop",
+        "pamhc2crops:pamcactusfruitcrop",
+        "pamhc2crops:pamokracrop",
+        "pamhc2crops:pamquinoacrop",
+        "pamhc2crops:pamraspberrycrop",
+        "pamhc2crops:pamchilipeppercrop",
+        "pamhc2crops:pamalfalfacrop",
+        "pamhc2crops:pamlettucecrop",
+        "pamhc2crops:pamsoybeancrop",
+        "pamhc2crops:pamspinachcrop", 
+        "pamhc2crops:pamsweetpotatocrop", 
+        "pamhc2crops:pamtarocrop", 
+        "pamhc2crops:pamtomatillocrop",
+        "pamhc2crops:pamsorghumcrop", 
+        "pamhc2crops:pamtrufflecrop", 
+        "pamhc2crops:pambokchoycrop"
     ])
 })

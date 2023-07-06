@@ -16,7 +16,7 @@ blazeEnchanterTankCapacity = 2000
 #.
 #The Maximum Extended Levels beyond Enchantment's Max Level that can be reached through Hyper-Enchanting
 #Range: > 0
-maxHyperEnchantingLevelExtension = 2
+maxHyperEnchantingLevelExtension = 1
 #.
 #The Chance of whether Deployer-killed entities will drop Experience Nugget
 #Range: 0.0 ~ 1.0
@@ -26,11 +26,11 @@ deployerXpDropChance = 1.0
 #Range: 0.10000000149011612 ~ 100.0
 deployerXpDropScale = 0.3400000035762787
 #.
-enableHyperEnchant = true
+enableHyperEnchant = false
 #.
 #The amount of ink needed to be consumed by Copying one page of Written Book
 #Range: 1 ~ 100
-copyWrittenBookCostPerPage = 9
+copyWrittenBookCostPerPage = 12
 #.
 #The amount of liquid experience needed to be consumed by Copying Name Tag
 #Range: 1 ~ 1000
