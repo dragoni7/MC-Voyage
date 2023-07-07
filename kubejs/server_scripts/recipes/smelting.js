@@ -22,6 +22,13 @@ ServerEvents.recipes(event => {
             output: 'twilightforest:knightmetal_ingot',
             input: 'jaopca:dusts.knightmetal',
             cookingTime: 100
+        },
+
+        {
+            type: 'smelting',
+            output: 'croptopia:fried_frog_legs',
+            input: 'croptopia:frog_legs',
+            cookingTime: 100
         }
     ]
 

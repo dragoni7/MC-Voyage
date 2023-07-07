@@ -146,6 +146,18 @@
 				title: "Keybinds"
 			}]
 		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["Enchanted loot can have their enchants revealed with a scroll!"]
+			size: 2.0d
+			id: "1B1C0B8BFFA0B35E"
+			tasks: [{
+				id: "4A58D7B7CF2E59F6"
+				type: "item"
+				item: "irons_rpg_tweaks:identification_scroll"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

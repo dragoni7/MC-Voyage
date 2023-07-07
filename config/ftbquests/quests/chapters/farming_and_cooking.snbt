@@ -293,7 +293,10 @@
 			x: -1.0d
 			y: -0.5d
 			subtitle: "Time to eat healthier!"
-			description: ["Juicy cheeseburgers can provide buffs!"]
+			description: [
+				"Juicy cheeseburgers can provide buffs!"
+				"Burger be bussin"
+			]
 			hide_dependency_lines: true
 			dependencies: ["6F898D6D29E58305"]
 			id: "6B4FEDFEB6EA3237"
@@ -304,14 +307,19 @@
 			}]
 			rewards: [
 				{
-					id: "7391A46997870166"
+					id: "274FBAB8092B302E"
 					type: "item"
-					item: "pamhc2trees:cherry_sapling"
+					item: "croptopia:almond_sapling"
 				}
 				{
-					id: "5DDD9903165A6728"
+					id: "41371BCF950D1A7C"
 					type: "item"
-					item: "pamhc2trees:lime_sapling"
+					item: "croptopia:apricot_sapling"
+				}
+				{
+					id: "76CB533E47803A29"
+					type: "item"
+					item: "croptopia:mango_sapling"
 				}
 			]
 		}
@@ -330,18 +338,24 @@
 			}]
 			rewards: [
 				{
-					id: "1F604F757526E717"
-					type: "item"
-					item: "pamhc2trees:mango_sapling"
-				}
-				{
 					id: "16C139F26F8E9ED2"
 					type: "item"
 					item: "farmersrespite:tea_seeds"
 				}
+				{
+					id: "42B7E82754DA4C40"
+					type: "item"
+					item: "croptopia:greenbean_seed"
+				}
+				{
+					id: "3DDE5E80512DC169"
+					type: "item"
+					item: "croptopia:spinach_seed"
+				}
 			]
 		}
 		{
+			title: "Gummies"
 			x: 1.0d
 			y: -0.5d
 			hide_dependency_lines: true
@@ -362,6 +376,23 @@
 					id: "2D9923B788E7DE78"
 					type: "item"
 					item: "collectorsreap:melon_gummy"
+				}
+			]
+			rewards: [
+				{
+					id: "4DF2356025342C66"
+					type: "item"
+					item: "croptopia:currant_seed"
+				}
+				{
+					id: "00C197559919DDE5"
+					type: "item"
+					item: "croptopia:grape_seed"
+				}
+				{
+					id: "56648CACDD3039AE"
+					type: "item"
+					item: "croptopia:ginger_seed"
 				}
 			]
 		}
@@ -388,17 +419,44 @@
 					type: "item"
 					item: "farmersdelight:honey_glazed_ham_block"
 				}
+				{
+					id: "4900DE3DB68EC63A"
+					type: "item"
+					item: "farmersdelight:rice_roll_medley_block"
+				}
 			]
-			rewards: [{
-				id: "7F55C1DB4E30D3B1"
-				type: "item"
-				item: "kubejs:generic_lootcrate"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "7F55C1DB4E30D3B1"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 4
+				}
+				{
+					id: "163ED830B24773F9"
+					type: "item"
+					item: "croptopia:nectarine_sapling"
+				}
+				{
+					id: "0CE67BA5A1BD76CD"
+					type: "item"
+					item: "croptopia:leek_seed"
+				}
+				{
+					id: "2CAA8DF2BADFCDAB"
+					type: "item"
+					item: "croptopia:turmeric_seed"
+				}
+				{
+					id: "65DA23E5F6E23543"
+					type: "item"
+					item: "croptopia:grapefruit_sapling"
+				}
+			]
 		}
 		{
 			title: "Cheese Making"
-			x: -1.5d
+			x: -1.0d
 			y: -1.5d
 			description: [
 				"Cheese can be made with a keg"
@@ -440,6 +498,8 @@
 			description: [
 				"The world will rotate between the four season, changing the land and how plants grow"
 				"Some crops can only grow in certain seasons, plan your farm accordingly!"
+				"Crops grown under y48 will grow despite the season"
+				"Bees can pollinate out of season crops"
 			]
 			size: 2.0d
 			id: "7F9C0EF7AC6F2E41"
@@ -496,6 +556,11 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "7A0041463E0AF1A1"
+					type: "item"
+					item: "croptopia:kumquat_sapling"
+				}
 			]
 		}
 		{
@@ -522,12 +587,24 @@
 					item: "neapolitan:neapolitan_ice_cream"
 				}
 			]
-			rewards: [{
-				id: "266E2A07906B8137"
-				type: "item"
-				item: "kubejs:generic_lootcrate"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "266E2A07906B8137"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 2
+				}
+				{
+					id: "64247C79503FB8A0"
+					type: "item"
+					item: "environmental:cherry_sapling"
+				}
+				{
+					id: "202E1F09C29BE316"
+					type: "item"
+					item: "croptopia:peach_sapling"
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -613,7 +690,7 @@
 		}
 		{
 			x: 2.0d
-			y: -3.5d
+			y: -3.0d
 			description: [
 				"Rich slow is created through a long process of decomposition"
 				"Water, mushrooms and more can speed up this process"
@@ -634,50 +711,122 @@
 			}]
 		}
 		{
-			title: "Tools of the Trade"
-			x: -0.5d
-			y: -1.5d
-			description: ["These tools are required to cook certain foods"]
+			title: "Nether Crops"
+			x: 2.0d
+			y: -4.0d
+			description: ["Some crops can only be found in the nether"]
 			hide_dependency_lines: true
 			dependencies: ["6F898D6D29E58305"]
-			id: "129455D14378D248"
+			id: "58A987DF697B981C"
 			tasks: [
 				{
-					id: "7ADBDCB2FCB94540"
+					id: "794193D41D916047"
 					type: "item"
-					item: "pamhc2foodcore:bakewareitem"
+					item: "farmersrespite:coffee_berries"
 				}
 				{
-					id: "628F4D0EE67D2F77"
+					id: "198DC5AE3ECB430A"
 					type: "item"
-					item: "pamhc2foodcore:skilletitem"
+					item: "collectorsreap:pomegranate"
 				}
 				{
-					id: "6AEE08ACCAF104F3"
+					id: "7BEB31EC763CA16D"
 					type: "item"
-					item: "pamhc2foodcore:mixingbowlitem"
+					item: "minecraft:nether_wart"
 				}
 				{
-					id: "7F212EA882A4197E"
+					id: "260ABA4912A44E5E"
 					type: "item"
-					item: "pamhc2foodcore:juiceritem"
+					item: "minecraft:warped_fungus"
 				}
 				{
-					id: "03846FF0142EB7B1"
+					id: "361EE6D0B54C9878"
 					type: "item"
-					item: "pamhc2foodcore:saucepanitem"
-				}
-				{
-					id: "11A29A6CDFA683DD"
-					type: "item"
-					item: "pamhc2foodcore:cuttingboarditem"
+					item: "minecraft:crimson_fungus"
 				}
 			]
 			rewards: [{
-				id: "644E79DCFD87233F"
+				id: "04D266DBEC13020B"
 				type: "xp"
 				xp: 100
 			}]
+		}
+		{
+			title: "Overweight Crops"
+			x: 3.0d
+			y: -3.5d
+			description: [
+				"A good, well maintained farm has the chance to produce overweight crops!"
+				"Overweight apples can be found in the wild"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "7077C17C3B27920C"
+			tasks: [{
+				id: "095DB243FF708A1F"
+				type: "item"
+				item: "overweight_farming:overweight_apple_block"
+			}]
+			rewards: [
+				{
+					id: "7FF58ADB805829D3"
+					type: "item"
+					item: "croptopia:pear_sapling"
+				}
+				{
+					id: "2EC5E164DDE6B4EE"
+					type: "item"
+					item: "croptopia:soybean_seed"
+				}
+			]
+		}
+		{
+			x: -1.750000000000007d
+			y: 1.4285714285714306d
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "3C31E92628791025"
+			tasks: [{
+				id: "238691CE74175EAD"
+				type: "item"
+				item: "gourmet:butter"
+			}]
+			rewards: [
+				{
+					id: "7EC6DBCFB83BC6DC"
+					type: "item"
+					item: "croptopia:walnut_sapling"
+				}
+				{
+					id: "46A88F4C7D2C91FF"
+					type: "item"
+					item: "festive_delight:cinnamon_bush"
+				}
+			]
+		}
+		{
+			x: -0.2142857142857224d
+			y: 1.3928571428571388d
+			hide_dependency_lines: true
+			dependencies: ["6F898D6D29E58305"]
+			id: "0F86BD91468329D1"
+			tasks: [{
+				id: "44ABF2D6508C8648"
+				type: "item"
+				item: "create:dough"
+			}]
+			rewards: [
+				{
+					id: "5ADB8D67C2D894C8"
+					type: "item"
+					item: "croptopia:kumquat_sapling"
+				}
+				{
+					id: "609C7C8379161AA0"
+					type: "item"
+					item: "collectorsreap:lime_seeds"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

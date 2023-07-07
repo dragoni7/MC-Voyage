@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     const recipes = [
 
         {
-            cookingtime: 2400,
+            cookingtime: 3400,
             exp: 0.35,
             needwater: true,
             result: {'item': 'farmersrespite:coffee'},
@@ -22,7 +22,25 @@ ServerEvents.recipes(event => {
         },
 
         {
-            cookingtime: 2400,
+            cookingtime: 4400,
+            exp: 0.35,
+            needwater: true,
+            result: {'item': 'farmersrespite:strong_coffee'},
+            container: {'item': 'minecraft:honey_bottle'},
+            ingredients: [
+                {
+                    'item': 'farmersrespite:coffee',
+                },
+                {
+                    'item': 'farmersrespite:coffee',
+                },
+            ],
+            id: `${id_prefix}strong_coffee`,
+            old_id: 'farmersrespite:brewing/strong_coffee'
+        },
+
+        {
+            cookingtime: 3400,
             exp: 0.35,
             needwater: false,
             result: {'item': 'respiteful:mocha_coffee'},
@@ -37,7 +55,24 @@ ServerEvents.recipes(event => {
             ],
             id: `${id_prefix}mocha_coffee`,
             old_id: 'respiteful:brewing/mocha_coffee'
-        }
+        },
+
+        {
+            cookingtime: 2400,
+            exp: 0.35,
+            needwater: true,
+            result: {'item': 'delightful:prickly_pear_juice'},
+            container: {'item': 'minecraft:honey_bottle'},
+            ingredients: [
+                {
+                    'item': 'croptopia:saguaro',
+                },
+                {
+                    'item': 'croptopia:pear',
+                },
+            ],
+            id: `${id_prefix}prickly_pear_juice`
+        },
     ]
 
     recipes.forEach((recipe) => {

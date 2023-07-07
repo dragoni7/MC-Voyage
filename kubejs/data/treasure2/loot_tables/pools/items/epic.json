@@ -1,0 +1,74 @@
+{
+    "version" : "1.0",
+    "pools" : [ {
+      "name" : "epic_items",
+      "rolls" : 1,
+      "entries" : [ {
+        "entryName" : "experience_bottle",
+        "type" : "minecraft:item",
+        "name" : "minecraft:experience_bottle",
+        "weight" : 50,
+        "functions" : [ {
+          "function" : "set_count",
+          "count" : {
+            "min" : 1,
+            "max" : 3
+          }
+        } ]
+      }, {
+        "entryName" : "emerald",
+        "type" : "minecraft:item",
+        "name" : "minecraft:emerald",
+        "weight" : 50,
+        "functions" : [ {
+          "function" : "set_count",
+          "count" : {
+            "min" : 1,
+            "max" : 3
+          }
+        } ]
+      },{
+        "entryName" : "skeleton_head",
+        "type" : "minecraft:item",
+        "name" : "minecraft:skeleton_skull",
+        "weight" : 5
+      }, {
+        "entryName" : "zombie_head",
+        "type" : "minecraft:item",
+        "name" : "minecraft:zombie_head",
+        "weight" : 5
+      }, {
+        "entryName" : "creeper_head",
+        "type" : "minecraft:item",
+        "name" : "minecraft:creeper_head",
+        "weight" : 5
+      }, {
+        "entryName" : "music_disc_pigstep",
+        "type" : "minecraft:item",
+        "name" : "minecraft:conduit",
+        "weight" : 1
+      }, {
+        "entryName" : "music_disc_11",
+        "type" : "minecraft:item",
+        "name" : "minecraft:conduit",
+        "weight" : 1
+      }, {
+        "entryName" : "music_disc_5",
+        "type" : "minecraft:item",
+        "name" : "minecraft:music_disc_5",
+        "weight" : 1
+      }, {
+        "entryName" : "sculk_vein",
+        "type" : "item",
+        "name" : "minecraft:sculk_vein",
+        "weight" : 15,
+        "functions" : [ {
+          "function" : "set_count",
+          "count" : {
+            "min" : 2,
+            "max" : 4
+          }
+        } ]
+      } ]
+    } ]
+  }

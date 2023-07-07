@@ -190,773 +190,83 @@ ServerEvents.recipes(event => {
         },
 
         {
-            cookingtime: 300,
+            cookingtime: 200,
             exp: 0.35,
-            result: {'item': 'pamhc2foodextended:succotashitem'},
+            result: {'item': 'croptopia:cinnamon_roll'},
             ingredients: [
                 {
-                    'tag': 'forge:crops/bean',
+                    'tag': 'forge:milks',
                 },
                 {
-                    'tag': 'forge:crops/corn',
+                    'tag': 'forge:doughs',
                 },
                 {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/spiceleaf',
-                },
-                {
-                    'tag': 'forge:crops/tomato',
+                    'tag': 'forge:eggs',
                 },
                 {
                     'tag': 'forge:butter',
-                },
-            ],
-            tab: 'meals',
-            id: `${id_prefix}succotashitem`,
-            old_id: 'pamhc2foodextended:succotashitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:potroastitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:crops/potato',
-                },
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'tag': 'forge:rawbeef',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}potroastitem`,
-            old_id: 'pamhc2foodcore:potroastitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:dhalitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:crops/pea',
-                },
-                {
-                    'tag': 'forge:spices/garammasala',
-                },
-                {
-                    'tag': 'forge:crops/mustardseeds',
-                },
-                {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/tomato',
-                },
-                {
-                    'tag': 'forge:crops/garlic',
-                },
-            ],
-            tab: 'meals',
-            id: `${id_prefix}dhalitem`,
-            old_id: 'pamhc2foodextended:dhalitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:guisoitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:crops/pea',
-                },
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:rawbeef',
-                },
-                {
-                    'tag': 'forge:crops/sweet_potato',
-                },
-                {
-                    'tag': 'forge:crops/spiceleaf',
-                },
-                {
-                    'tag': 'forge:pasta',
-                },
-            ],
-            tab: 'meals',
-            id: `${id_prefix}guisoitem`,
-            old_id: 'pamhc2foodextended:guisoitem'
-        },
-
-        {
-            cookingtime: 200,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:potatosoupitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:crops/potato',
-                },
-                {
-                    'tag': 'forge:stock',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}potatosoupitem`,
-            old_id: 'pamhc2foodcore:potatosoupitem'
-        },
-
-        {
-            cookingtime: 200,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:donutitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:batter',
-                },
-                {
-                    'tag': 'forge:cookingoil',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}donutitem`,
-            old_id: 'pamhc2foodcore:donutitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:haggisitem'},
-            ingredients: [
-                {
-                    'tag': 'silentcompat:rotten_flesh',
-                },
-                {
-                    'item': 'minecraft:spider_eye',
-                },
-                {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/oats',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                },
-                {
-                    'tag': 'forge:crops/spiceleaf',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}haggisitem`,
-            old_id: 'pamhc2foodextended:haggisitem'
-        },
-
-        {
-            cookingtime: 200,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:macncheeseitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:cheese',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}macncheeseitem`,
-            old_id: 'pamhc2foodcore:macncheeseitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:cornedbeefitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawbeef',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                },
-                {
-                    'tag': 'forge:sugar',
                 },
                 {
                     'tag': 'forge:spices/groundcinnamon',
                 },
                 {
-                    'tag': 'forge:crops/mustardseeds',
-                },
-                {
-                    'tag': 'forge:crops/ginger',
+                    'item': 'minecraft:sugar',
                 }
             ],
             tab: 'meals',
-            id: `${id_prefix}cornedbeefitem`,
-            old_id: 'pamhc2foodextended:cornedbeefitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:chickencurryitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawchicken',
-                },
-                {
-                    'tag': 'forge:spices/currypowder',
-                },
-                {
-                    'tag': 'forge:crops/rice',
-                },
-                {
-                    'tag': 'forge:crops/chilipepper',
-                },
-                {
-                    'tag': 'forge:crops/coconut',
-                },
-                {
-                    'item': 'pamhc2foodcore:yogurtitem',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}chickencurryitem`,
-            old_id: 'pamhc2foodextended:chickencurryitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:chimichangaitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawbeef',
-                },
-                {
-                    'tag': 'forge:salad_ingredients',
-                },
-                {
-                    'tag': 'forge:crops/rice',
-                },
-                {
-                    'tag': 'forge:tortilla',
-                },
-                {
-                    'tag': 'forge:salsa',
-                },
-                {
-                    'tag': 'forge:cream',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}chimichangaitem`,
-            old_id: 'pamhc2foodextended:chimichangaitem'
-        },
-
-        {
-            cookingtime: 100,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:vinegaritem'},
-            ingredients: [
-                {
-                    'tag': 'forge:vinegar_ingredients',
-                }
-            ],
-            tab: 'misc',
-            id: `${id_prefix}vinegaritem`,
-            old_id: 'pamhc2foodcore:vinegaritem_x1_vinegar_ingredients'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:jambalayaitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawchicken',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                },
-                {
-                    'tag': 'forge:sausage',
-                },
-                {
-                    'tag': 'forge:stock',
-                },
-                {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/bellpepper',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}jambalayaitem`,
-            old_id: 'pamhc2foodextended:jambalayaitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:chiliitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawmeats',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                },
-                {
-                    'tag': 'forge:crops/chilipepper',
-                },
-                {
-                    'tag': 'forge:crops/tomato',
-                },
-                {
-                    'tag': 'forge:crops/scallion',
-                },
-                {
-                    'tag': 'forge:crops/bean',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}chiliitem`,
-            old_id: 'pamhc2foodextended:chiliitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:stewitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawmeats',
-                },
-                {
-                    'tag': 'forge:vegetables',
-                },
-                {
-                    'tag': 'forge:vegetables',
-                },
-                {
-                    'tag': 'forge:vegetables',
-                },
-                {
-                    'tag': 'forge:flour',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}stewitem`,
-            old_id: 'pamhc2foodcore:stewitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:pizzasoupitem'},
-            ingredients: [
-                {
-                    'item': 'pamhc2foodextended:tomatosoupitem',
-                },
-                {
-                    'item': 'brewinandchewin:pizza_slice',
-                },
-                {
-                    'item': 'brewinandchewin:pizza_slice',
-                },
-                {
-                    'item': 'brewinandchewin:pizza_slice',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}pizzasoupitem`,
-            old_id: 'pamhc2foodextended:pizzasoupitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:potatoandleeksoupitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:stock',
-                },
-                {
-                    'tag': 'forge:crops/potato',
-                },
-                {
-                    'tag': 'forge:crops/leek',
-                },
-                {
-                    'tag': 'forge:cream',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                },
-                {
-                    'tag': 'forge:spices/spiceleaf',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}potatoandleeksoupitem`,
-            old_id: 'pamhc2foodextended:potatoandleeksoupitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:chickengumboitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:stock',
-                },
-                {
-                    'tag': 'forge:crops/okra',
-                },
-                {
-                    'tag': 'forge:crops/celery',
-                },
-                {
-                    'tag': 'forge:rawchicken',
-                },
-                {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/bellpepper',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}chickengumboitem`,
-            old_id: 'pamhc2foodextended:chickengumboitem'
+            id: `${id_prefix}cinnamon_roll`,
+            old_id: 'croptopia:cinnamon_roll'
         },
 
         {
             cookingtime: 200,
             exp: 0.35,
-            result: {'item': 'pamhc2foodcore:jellydonutitem'},
+            result: {'item': 'gourmet:cooked_fries'},
             ingredients: [
                 {
-                    'tag': 'forge:cookingoil',
+                    'item': 'gourmet:raw_potato_fry',
                 },
                 {
-                    'tag': 'forge:jellies',
+                    'item': 'gourmet:raw_potato_fry',
                 },
                 {
-                    'tag': 'forge:batter',
+                    'item': 'gourmet:raw_potato_fry',
+                },
+                {
+                    'item': 'gourmet:raw_potato_fry',
+                },
+                {
+                    'item': 'gourmet:seed_oil_bottle',
                 }
             ],
             tab: 'meals',
-            id: `${id_prefix}jellydonutitem`,
-            old_id: 'pamhc2foodcore:jellydonutitem'
+            id: `${id_prefix}cooked_fries`
         },
 
         {
             cookingtime: 200,
             exp: 0.35,
-            result: {'item': 'pamhc2foodcore:chocolatedonutitem'},
+            result: {'item': 'farmersdelight:fish_stew'},
+            container: {'item': 'minecraft:bowl'},
             ingredients: [
                 {
-                    'tag': 'forge:cookingoil',
+                    'item': 'farmersdelight:tomato_sauce',
                 },
                 {
-                    'tag': 'forge:cocoapowder',
+                    'item': 'farmersdelight:onion',
                 },
                 {
-                    'tag': 'forge:batter',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}chocolatedonutitem`,
-            old_id: 'pamhc2foodcore:chocolatedonutitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:peaandhamsoupitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawpork',
+                    'item': 'aquaculture:fish_fillet_raw',
                 },
                 {
-                    'tag': 'forge:crops/peas',
+                    'item': 'aquaculture:fish_fillet_raw',
                 },
                 {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/carrot',
-                },
-                {
-                    'tag': 'forge:crops/celery',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}peaandhamsoupitem`,
-            old_id: 'pamhc2foodextended:peaandhamsoupitem'
-        },
-
-        {
-            cookingtime: 200,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:boiledeggitem'},
-            ingredients: [
-                {
-                    'item': 'minecraft:egg',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}boiledeggitem`,
-            old_id: 'pamhc2foodcore:boiledeggitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:pumpkinsoupitem'},
-            ingredients: [
-                {
-                    'item': 'farmersdelight:pumpkin_slice',
-                },
-                {
-                    'item': 'farmersdelight:pumpkin_slice',
-                },
-                {
-                    'item': 'farmersdelight:pumpkin_slice',
-                },
-                {
-                    'item': 'farmersdelight:pumpkin_slice',
-                },
-                {
-                    'item': 'farmersdelight:pumpkin_slice',
-                },
-                {
-                    'tag': 'forge:stock',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}pumpkinsoupitem`,
-            old_id: 'pamhc2foodcore:pumpkinsoupitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:chickennuggetitem'},
-            ingredients: [
-                {
-                    'item': 'pamhc2foodcore:groundchickenitem',
-                },
-                {
-                    'tag': 'forge:flour',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}chickennuggetitem`,
-            old_id: 'pamhc2foodcore:chickennuggetitem_x4'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodextended:porklomeinitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:rawpork',
-                },
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:crops/onion',
-                },
-                {
-                    'tag': 'forge:crops/cabbage',
-                },
-                {
-                    'tag': 'forge:crops/garlic',
-                },
-                {
-                    'tag': 'forge:soysauce',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}porklomeinitem`,
-            old_id: 'pamhc2foodextended:porklomeinitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:pickledbeetsitem'},
-            ingredients: [
-                {
-                    'item': 'minecraft:beetroot',
-                },
-                {
-                    'item': 'minecraft:beetroot',
-                },
-                {
-                    'item': 'minecraft:beetroot',
-                },
-                {
-                    'tag': 'forge:vinegar',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}pickledbeetsitem`,
-            old_id: 'pamhc2foodcore:pickledbeetsitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:carrotsoupitem'},
-            ingredients: [
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'item': 'gourmet:carrot_slices',
-                },
-                {
-                    'tag': 'forge:stock',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}carrotsoupitem`,
-            old_id: 'pamhc2foodcore:carrotsoupitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:noodlesoupitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:pasta',
-                },
-                {
-                    'tag': 'forge:stock',
-                },
-                {
-                    'tag': 'forge:spices/saltandpepper',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}noodlesoupitem`,
-            old_id: 'pamhc2foodcore:noodlesoupitem'
-        },
-
-        {
-            cookingtime: 300,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:cottoncandyitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:sugar',
-                },
-                {
-                    'tag': 'forge:sugar',
-                },
-                {
-                    'tag': 'forge:sugar',
-                },
-                {
-                    'tag': 'forge:dyes/pink',
-                },
-                {
-                    'tag': 'forge:dyes/pink',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}cottoncandyitem`,
-            old_id: 'pamhc2foodcore:cottoncandyitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:fishandchipsitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:fries',
-                },
-                {
-                    'tag': 'forge:fries',
-                },
-                {
-                    'tag': 'forge:rawfish',
-                },
-                {
-                    'tag': 'forge:flour',
-                },
-                {
-                    'tag': 'forge:cookingoil',
-                }
-            ],
-            tab: 'meals',
-            id: `${id_prefix}fishandchipsitem`,
-            old_id: 'pamhc2foodcore:fishandchipsitem'
-        },
-
-        {
-            cookingtime: 400,
-            exp: 0.35,
-            result: {'item': 'pamhc2foodcore:stockitem'},
-            ingredients: [
-                {
-                    'tag': 'forge:stock_ingredients',
-                },
-                {
-                    'tag': 'forge:bones',
-                },
-                {
-                    'tag': 'forge:bones',
+                    'item': 'aquaculture:fish_fillet_raw',
                 },
             ],
             tab: 'meals',
-            id: `${id_prefix}stockitem`,
-            old_id: 'pamhc2foodcore:stockitem_x2_stock_ingredients'
+            id: `${id_prefix}fish_stew`
         },
 
         {

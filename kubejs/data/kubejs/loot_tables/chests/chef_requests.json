@@ -65,15 +65,92 @@
             ]
         },
         {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "farmersdelight:fried_egg",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 16
-              }
-            ]
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:kiwi",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:starfruit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:lemon",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:leek",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:kale",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:kumquat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:chile_pepper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "croptopia:turnip",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 24
+            }
+          ]
         },
         {
             "type": "minecraft:item",
@@ -112,61 +189,6 @@
             "type": "minecraft:item",
             "weight": 1,
             "name": "minecraft:beetroot",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 24
-              }
-            ]
-        },
-        {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "pamhc2trees:plumitem",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 24
-              }
-            ]
-        },
-        {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "pamhc2trees:grapefruititem",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 24
-              }
-            ]
-        },
-        {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "pamhc2trees:mangoitem",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 24
-              }
-            ]
-        },
-        {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "pamhc2trees:peachitem",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 24
-              }
-            ]
-        },
-        {
-            "type": "minecraft:item",
-            "weight": 1,
-            "name": "pamhc2trees:orangeitem",
             "functions": [
               {
                 "function": "minecraft:set_count",
@@ -655,6 +677,72 @@
               {
                 "function": "minecraft:set_count",
                 "count": 2
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:taco",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:fajitas",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:stuffed_poblanos",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:fruit_cake",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:toast_sandwich",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:sausage",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 4
               }
             ]
           }

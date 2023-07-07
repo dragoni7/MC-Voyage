@@ -2,7 +2,7 @@
     {
         "mob": ["minecraft:bat"],
         "mincount": {
-            "amount": 4,
+            "amount": 3,
             "perplayer": true
         },
         "result": "deny"
@@ -12,8 +12,7 @@
         "mob": ["whisperwoods:moth"],
         "onjoin": true,
         "mincount": {
-            "amount": 5,
-            "perplayer": true
+            "amount": 8
         },
         "result": "deny"
     },
@@ -28,7 +27,7 @@
     {
         "mob": ["alexsmobs:fly"],
         "mincount": {
-            "amount": 4,
+            "amount": 3,
             "perplayer": true
         },
         "dimension": "minecraft:overworld",

@@ -7,6 +7,204 @@
           {
             "type": "minecraft:item",
             "weight": 1,
+            "name": "croptopia:almond_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:apricot_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:cashew_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:coconut_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:date_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:dragonfruit_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:nutmeg_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:persimmon_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:peach_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:blackbean_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:garlic_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:greenbean_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:radish_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:rutabaga_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:lettuce",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:grape_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:ginger_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "croptopia:basil_seed",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
             "name": "majruszsdifficulty:bandage",
             "functions": [
               {

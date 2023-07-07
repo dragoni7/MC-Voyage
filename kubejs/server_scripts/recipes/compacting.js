@@ -83,39 +83,6 @@ ServerEvents.recipes(event => {
 
         {
             ingredients: [
-                {'item': 'pamhc2crops:canolaitem'},
-                {'item': 'pamhc2crops:canolaitem'},
-                {'item': 'pamhc2crops:canolaitem'}
-            ],
-            results: [{'count': 2, 'item': 'pamhc2foodcore:cookingoilitem'}],
-            id: `${id_prefix}cookingoilitem`,
-            old_id: 'pamhc2crops:cookingoil_x4_canola_x2',
-        },
-
-        {
-            ingredients: [
-                {'tag': 'forge:mushrooms'},
-                {'tag': 'forge:mushrooms'},
-                {'tag': 'forge:mushrooms'}
-            ],
-            results: [{'item': 'pamhc2foodextended:mushroomoilitem'}],
-            id: `${id_prefix}mushroomoilitem`,
-            old_id: 'pamhc2foodextended:mushroomoilitem',
-        },
-
-        {
-            ingredients: [
-                {'tag': 'forge:crops/sesameseeds'},
-                {'tag': 'forge:crops/sesameseeds'},
-                {'tag': 'forge:crops/sesameseeds'},
-            ],
-            results: [{'item': 'pamhc2foodextended:sesameoilitem'}],
-            id: `${id_prefix}sesameoilitem`,
-            old_id: 'pamhc2foodextended:sesameoilitem',
-        },
-
-        {
-            ingredients: [
                 {
                     'amount': 300,
                     'fluid': 'thermal:latex',
@@ -125,6 +92,42 @@ ServerEvents.recipes(event => {
             results: [{'count': 3, 'item': 'thermal:rubber'}],
             id: `${id_prefix}rubber_from_latex`,
             old_id: 'thermal:rubber_3',
+        },
+
+        {
+            ingredients: [
+                {
+                    'amount': 250,
+                    'fluid': 'minecraft:milk',
+                    'nbt': {}
+                },
+                {'tag': 'forge:potatoes'},
+                {'tag': 'forge:potatoes'},
+                {'tag': 'forge:salt'},
+            ],
+            results: [{'item': 'croptopia:mashed_potatoes'}],
+            id: `${id_prefix}mashed_potatoes`,
+            old_id: 'croptopia:mashed_potatoes',
+        },
+
+        {
+            ingredients: [
+                {'tag': 'forge:crops/chile_pepper'},
+                {'tag': 'forge:crops/chile_pepper'}
+            ],
+            results: [{'item': 'croptopia:paprika'}],
+            id: `${id_prefix}paprika`,
+            old_id: 'croptopia:paprika',
+        },
+
+        {
+            ingredients: [
+                {'tag': 'forge:crops/olive'},
+                {'tag': 'forge:crops/olive'}
+            ],
+            results: [{'item': 'croptopia:olive_oil'}],
+            id: `${id_prefix}olive_oil`,
+            old_id: 'croptopia:olive_oil',
         }
         
     ]

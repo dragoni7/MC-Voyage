@@ -147,42 +147,6 @@ ServerEvents.recipes(event => {
         },
 
         // NEW RECIPES
-        {
-            ingredient: [
-                {'item': 'ae2:silicon'}
-            ],
-            loops: 1,
-            results: [{'item': 'kubejs:control_circuit_base'}],
-            sequence: [{ 
-                'type': 'create:deploying',
-                'ingredients': [
-                    {'item': 'ae2:silicon'},
-                    {'tag': 'forge:ingots/osmium'}
-                ],
-                'results': [
-                    {'item': 'ae2:silicon'}
-                ]},
-                { 
-                    'type': 'create:deploying',
-                    'ingredients': [
-                        {'item': 'ae2:silicon'},
-                        {'item': 'minecraft:clay_ball'}
-                    ],
-                    'results': [
-                        {'item': 'ae2:silicon'}
-                ]},
-                { 
-                    'type': 'create:pressing',
-                    'ingredients': [
-                        {'item': 'ae2:silicon'},
-                    ],
-                    'results': [
-                        {'item': 'ae2:silicon'}
-                ]},
-                ],
-            transitionalItem: {'item': 'ae2:silicon'},
-            id: `${id_prefix}control_circuit_base`
-        },
 
         {
             ingredient: [

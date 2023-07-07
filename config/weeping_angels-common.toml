@@ -20,5 +20,5 @@
 	#Range: 1 ~ 100
 	teleport_chance = 50
 	#A list of Dimensions that angels cannot teleport players to
-	banned_dimensions = ["minecraft:the_end", "ad_astra:mars", "ad_astra:moon", "ad_astra:mercury", "ad_astra:venus", "ad_astra:glacio"]
+	banned_dimensions = ["minecraft:the_end", "ad_astra:mars", "ad_astra:moon", "ad_astra:mercury", "ad_astra:venus", "ad_astra:glacio", "ad_astra:mars_orbit", "ad_astra:moon_orbit", "ad_astra:mercury_orbit", "ad_astra:venus_orbit", "ad_astra:glacio_orbit", "blue_skies:everbright", "blue_skies:everdawn", "undergarden:undergarden", "ae2:spatial_storage", "createteleporters:pocket_dimension", "deeperdarker:otherside", "ad_astra:earth_orbit", "createteleporters:corrupt_dimension", "mythicbotany:alfheim"]
 

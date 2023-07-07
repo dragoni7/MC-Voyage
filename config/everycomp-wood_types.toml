@@ -160,6 +160,9 @@
 			yellow_blooming_azalea = true
 			yellow_flowering_azalea = true
 
+		[types.leaves_type.croptopia]
+			cinnamon = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]

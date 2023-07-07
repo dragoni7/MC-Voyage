@@ -70,87 +70,27 @@ ServerEvents.recipes(event => {
         },
 
         {
-            ingredients: [{'item': 'create:bar_of_chocolate'}],
+            ingredients: [{'tag': 'croptopia:pork_replacements'}],
             time: 50,
             results: [
                 {
-                    'count': 1,
-                    'item': 'pamhc2foodcore:cocoapowderitem'
+                    'count': 2,
+                    'item': 'croptopia:ground_pork'
                 }],
-            id: `${id_prefix}cocoapowderitem`,
-            old_id: 'pamhc2foodcore:cocoapowderitem'
+            id: `${id_prefix}ground_pork`,
+            old_id: 'croptopia:ground_pork'
         },
 
         {
-            ingredients: [{'tag': 'forge:rawpork'}],
-            time: 50,
+            ingredients: [{'item': 'croptopia:peanut'},],
+            time: 100,
             results: [
                 {
                     'count': 1,
-                    'item': 'pamhc2foodcore:groundporkitem'
+                    'item': 'croptopia:peanut_butter'
                 }],
-            id: `${id_prefix}groundporkitem`,
-            old_id: 'pamhc2foodcore:groundporkitem'
-        },
-
-        {
-            ingredients: [{'tag': 'forge:rawmutton'}],
-            time: 50,
-            results: [
-                {
-                    'count': 1,
-                    'item': 'pamhc2foodcore:groundmuttonitem'
-                }],
-            id: `${id_prefix}groundmuttonitem`,
-            old_id: 'pamhc2foodcore:groundmuttonitem'
-        },
-
-        {
-            ingredients: [{'tag': 'forge:rawchicken'}],
-            time: 50,
-            results: [
-                {
-                    'count': 1,
-                    'item': 'pamhc2foodcore:groundchickenitem'
-                }],
-            id: `${id_prefix}groundchickenitem`,
-            old_id: 'pamhc2foodcore:groundchickenitem'
-        },
-
-        {
-            ingredients: [{'tag': 'forge:rawfish'}],
-            time: 50,
-            results: [
-                {
-                    'count': 1,
-                    'item': 'pamhc2foodcore:groundfishitem'
-                }],
-            id: `${id_prefix}groundfishitem`,
-            old_id: 'pamhc2foodcore:groundfishitem'
-        },
-
-        {
-            ingredients: [{'tag': 'forge:rawrabbit'}],
-            time: 50,
-            results: [
-                {
-                    'count': 1,
-                    'item': 'pamhc2foodcore:groundrabbititem'
-                }],
-            id: `${id_prefix}groundrabbititem`,
-            old_id: 'pamhc2foodcore:groundrabbititem'
-        },
-
-        {
-            ingredients: [{'tag': 'forge:rawbeef'}],
-            time: 50,
-            results: [
-                {
-                    'count': 1,
-                    'item': 'pamhc2foodcore:groundbeefitem'
-                }],
-            id: `${id_prefix}groundbeefitem`,
-            old_id: 'pamhc2foodcore:groundbeefitem'
+            id: `${id_prefix}peanut_butter`,
+            old_id: 'croptopia:shaped_peanut_butter'
         }
     ]
 

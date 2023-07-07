@@ -65,6 +65,16 @@ ServerEvents.recipes(event => {
             results: [
             {'item': 'infernalexp:dimstone'}],
             id: `${id_prefix}dimstone`
+        },
+
+        {
+            ingredients: [
+                {'item': 'minecraft:glass_bottle'},
+                {'fluid': 'createdieselgenerators:plant_oil', 'amount': 250}
+            ],
+            results: [
+            {'item': 'gourmet:seed_oil_bottle'}],
+            id: `${id_prefix}seed_oil_bottle`
         }
         
     ]

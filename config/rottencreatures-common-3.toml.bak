@@ -1,0 +1,19 @@
+
+["Mob Spawns"]
+	#determines how often will Burneds spawn
+	"Burned Weight" = 34
+	#determines how often will Frostbittens spawn
+	"Frostbitten Weight" = 94
+	#determines how often will Glacial Hunters spawn
+	"Glacial Hunter Weight" = 34
+	#determines how often will Swampies spawn
+	"Swampy Weight" = 84
+	#determines how often will Undead Miners spawn
+	"Undead Miner Weight" = 36
+	#determines how often will Mummies spawn
+	"Mummy Weight" = 36
+	#determines how often will Dead Beard spawn
+	"Dead Beard Weight" = 3
+	#determines the chance of spawning for Immortals
+	"Immortal Chance" = 0.025
+

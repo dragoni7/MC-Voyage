@@ -187,6 +187,9 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:coal_coke'},
+                {'tag': 'forge:slag'},
+                {'tag': 'forge:slag'},
+                {'tag': 'forge:slag'},
                 {'item': 'createdeco:cast_iron_ingot'},
             ],
             
@@ -334,7 +337,8 @@ ServerEvents.recipes(event => {
             heatRequirement: 'heated',
             ingredients: [
                 {'tag': 'forge:ingots/silver'},
-                {'tag': 'forge:ingots/gold'}
+                {'tag': 'forge:ingots/gold'},
+                {'tag': 'forge:gems/sulfur'}
             ],
             
             results: [{'count': 2, 'item': 'thermal:electrum_ingot'}],
@@ -459,9 +463,11 @@ ServerEvents.recipes(event => {
 
         {
             ingredients: [
-                {'item': 'pamhc2foodextended:cornmealitem'},
+                {'item': 'culturaldelights:corn_kernels'},
+                {'item': 'culturaldelights:corn_kernels'},
+                {'item': 'culturaldelights:corn_kernels'},
                 {
-                    'amount': 1000,
+                    'amount': 250,
                     'fluid': 'minecraft:water',
                     'nbt': {}
                 }
@@ -470,6 +476,21 @@ ServerEvents.recipes(event => {
             results: [{'item': 'culturaldelights:corn_dough'}],
             id: `${id_prefix}corn_dough`,
             old_id: 'culturaldelights:corn_dough'
+        },
+
+        {
+            ingredients: [
+                {'tag': 'forge:salt'},
+                {
+                    'amount': 500,
+                    'fluid': 'minecraft:milk',
+                    'nbt': {}
+                }
+            ],
+            
+            results: [{'item': 'gourmet:butter'}],
+            id: `${id_prefix}butter`,
+            old_id: 'gourmet:butter'
         },
 
         {
@@ -489,47 +510,6 @@ ServerEvents.recipes(event => {
             results: [{'item': 'farmersrespite:nether_wart_sourdough'}],
             id: `${id_prefix}nether_wart_sourdough`,
             old_id: 'farmersrespite:nether_wart_sourdough'
-        },
-
-        {
-            ingredients: [
-                {'item': 'pamhc2foodcore:saltitem'},
-                {
-                    'amount': 500,
-                    'fluid': 'minecraft:milk',
-                    'nbt': {}
-                }
-            ],
-            
-            results: [{'item': 'gourmet:butter'}],
-            id: `${id_prefix}butter`,
-            old_id: 'gourmet:butter'
-        },
-
-        {
-            ingredients: [
-                {
-                    'amount': 500,
-                    'fluid': 'minecraft:milk',
-                    'nbt': {}
-                }
-            ],
-            
-            results: [{'item': 'pamhc2foodcore:creamitem'}],
-            id: `${id_prefix}creamitem`,
-            old_id: 'pamhc2foodcore:creamitem'
-        },
-
-        {
-            heatRequirement: 'heated',
-            ingredients: [
-                {'item': 'pamhc2foodextended:soymilkitem'},
-                {'item': 'pamhc2foodextended:soymilkitem'}
-            ],
-            
-            results: [{'item': 'pamhc2foodextended:firmtofuitem'}],
-            id: `${id_prefix}firmtofuitem`,
-            old_id: 'pamhc2foodextended:firmtofuitem'
         }
     ]
 

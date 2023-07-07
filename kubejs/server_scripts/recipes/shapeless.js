@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['pamhc2trees:peachitem'],
+            input: ['croptopia:peach'],
             result: '2x dyenamics:peach_dye',
             id: `${id_prefix}peach_dye`
         },
@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['pamhc2trees:persimmonitem'],
+            input: ['croptopia:persimmon'],
             result: '2x dyenamics:persimmon_dye',
             id: `${id_prefix}persimmon_dye`
         },
@@ -166,18 +166,6 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['gourmet:batter_bucket'],
-            result: '2x pamhc2foodcore:batteritem',
-            id: `${id_prefix}batter`,
-        },
-
-        {
-            input: ['pamhc2trees:maplesyrupitem', 'pamhc2trees:maplesyrupitem', 'pamhc2trees:maplesyrupitem', 'minecraft:glass_bottle'],
-            result: 'autumnity:syrup_bottle',
-            id: `${id_prefix}syrup_bottle`,
-        },
-
-        {
             input: ['aquaculture:fish_fillet_raw', 'minecraft:dried_kelp'],
             result: 'aquaculture:sushi',
             id: `${id_prefix}sushi`,
@@ -185,31 +173,29 @@ ServerEvents.recipes(event => {
         },
 
         {
-            input: ['#forge:cookingoil', '#forge:crops/eggplant', '#forge:firmtofu', '#forge:crops/rice', '#forge:crops/garlic', '#forge:crops/chilipepper', '#forge:crops/ginger', '#forge:vinegar'],
-            result: 'pamhc2foodextended:szechuaneggplantitem',
-            id: `${id_prefix}szechuaneggplantitem`,
-            old_id: 'pamhc2foodextended:szechuaneggplantitem'
+            input: ['farmersrespite:coffee', 'minecraft:sugar', 'croptopia:paprika', '#forge:milks', 'farmersdelight:pumpkin_slice', 'farmersdelight:pumpkin_slice', 'farmersdelight:pumpkin_slice'],
+            result: 'croptopia:pumpkin_spice_latte',
+            id: `${id_prefix}pumpkin_spice_latte`,
+            old_id: 'croptopia:pumpkin_spice_latte',
         },
 
         {
-            input: ['#forge:rawpork', 'pamhc2foodextended:pinkelitem', '#forge:crops/potato', '#forge:crops/onion', '#forge:spices/blackpepper', '#forge:crops/chilipepper', '#forge:sausage', '#forge:crops/kale'],
-            result: 'pamhc2foodextended:kohlundpinkelitem',
-            id: `${id_prefix}kohlundpinkelitem`,
-            old_id: 'pamhc2foodextended:kohlundpinkelitem'
+            input: ['minecraft:egg', 'minecraft:sugar', 'minecraft:sugar', '#forge:almonds', '#forge:almonds'],
+            result: '2x croptopia:macaron',
+            id: `${id_prefix}macaron`,
+            old_id: 'croptopia:macaron',
         },
 
         {
-            input: ['#forge:dough', '#forge:cookingoil', '#forge:paper', '#forge:cocoapowder', '#forge:sugar', '#forge:spices/groundcinnamon'],
-            result: 'pamhc2foodextended:pambitsboxitem',
-            id: `${id_prefix}pambitsboxitem`,
-            old_id: 'pamhc2foodextended:pambitsboxitem'
+            input: ['croptopia:orange', '#forge:bottles/blood'],
+            result: 'createcafe:blood_orange',
+            id: `${id_prefix}blood_orange`
         },
 
         {
-            input: ['#forge:dough', '#forge:cooking_oil', '#forge:rawchicken', '#forge:rawchicken', '#forge:crops/carrot', '#forge:crops/cabbage', '#forge:crops/leek', '#forge:crops/leek', '#forge:crops/onion'],
-            result: 'pamhc2foodextended:chikorollitem',
-            id: `${id_prefix}chikorollitem`,
-            old_id: 'pamhc2foodextended:chikorollitem'
+            input: ['farmersdelight:tomato', 'farmersdelight:onion', 'aquaculture:fish_fillet_cooked'],
+            result: 'farmersdelight:barbecue_stick',
+            id: `${id_prefix}barbecue_stick`
         }
     ]
     
