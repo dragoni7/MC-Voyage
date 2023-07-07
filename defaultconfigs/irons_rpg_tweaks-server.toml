@@ -18,7 +18,7 @@
 	#The purpose of the durability module is to rework how durability damage is applied to better emulate an rpg setting.  Disabling will nullify every feature listed under this module.
 	durabilityModuleEnabled = true
 	#The percent of durability damage equipment should take on player dying. Set to 0 to disable. Default: 0.15 (15%)
-	durabilityLostOnDeath = 0.1
+	durabilityLostOnDeath = 0.25
 	#An additional constant amount of damage taken on death. This makes items with a high max durability degrade relatively slower. Set to 0 to disable. Default: 25
 	additionalDurabilityLostOnDeath = 25
 	#What type of gear should take vanilla durability damage. Default: NONE

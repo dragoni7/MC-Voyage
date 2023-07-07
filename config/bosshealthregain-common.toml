@@ -2,7 +2,7 @@
 #General Settings
 [Bosses]
 	#List of entities that should regain health whenever a play dies nearby.
-	"boss entities:" = ["minecraft:wither", "minecraft:elder_guardian", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "twilightforest:alpha_yeti", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen", "twilightforest:knight_phantom", "undergarden:masticator", "whisperwoods:hirschgeist"]
+	"boss entities:" = ["minecraft:wither", "minecraft:elder_guardian", "meetyourfight:swampjaw", "meetyourfight:bellringer", "meetyourfight:dame_fortuna", "meetyourfight:rosalyne", "twilightforest:alpha_yeti", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:naga", "twilightforest:quest_ram", "twilightforest:snow_queen", "twilightforest:knight_phantom", "undergarden:masticator", "whisperwoods:hirschgeist", "morbid:morbid_harvester", "cataclysm:ignis", "cataclysm:netherite_monstrosity", "mutantmore:mutant_blaze", "mutantmore:mutant_wither_skeleton", "cataclysm:the_harbinger"]
 	#Radius to check around player who died for bosses to regain health. Default 16. Value between 0 and 256
 	#Range: 0 ~ 256
 	"radius:" = 32
@@ -10,5 +10,5 @@
 	[Bosses."Health Percent"]
 		#How much should the boss heal whenever a player dies nearby? Setting this to 1 will make it heal to full, 0.5 will heal it by half its max HP. Value between 0.0 and 1.0
 		#Range: 0.0 ~ 1.0
-		"heal factor:" = 0.3
+		"heal factor:" = 0.35
 

@@ -35,7 +35,7 @@ const blacklist = [
     'endrem:black_eye',
 
     // scalinghealth
-    /*'scalinghealth:heart_crystal_ore',
+    'scalinghealth:heart_crystal_ore',
     'scalinghealth:power_crystal_ore',
     'scalinghealth:deepslate_heart_crystal_ore',
     'scalinghealth:deepslate_power_crystal_ore',
@@ -43,7 +43,7 @@ const blacklist = [
     'scalinghealth:power_crystal_shard',
     'scalinghealth:cursed_heart',
     'scalinghealth:enchanted_heart',
-    'scalinghealth:chance_heart',*/
+    'scalinghealth:chance_heart',
 
     // twilightforest
     'twilightforest:uncrafting_table',
@@ -86,6 +86,10 @@ const blacklist = [
 
     // supp
     'supplementaries:pancake',
+
+    // backpacks
+    'sophisticatedbackpacks:feeding_upgrade',
+    'sophisticatedbackpacks:advanced_feeding_upgrade',
 
     // whisper woods
     'whisperwoods:hand_of_fate',
