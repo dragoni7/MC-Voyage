@@ -461,6 +461,7 @@
 			description: [
 				"Cheese can be made with a keg"
 				"Kegs can also produce beers!"
+				"A keg's temperature can be modified by placing  magma or ice blocks in a 3x3 around the keg"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6F898D6D29E58305"]

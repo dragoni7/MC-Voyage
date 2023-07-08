@@ -198,7 +198,7 @@
       },
 
       {
-        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:slime", "peat_mummy:peat_zombie"],
         "persecond": 0.4,
         "attempts": 10,
         "amount": {

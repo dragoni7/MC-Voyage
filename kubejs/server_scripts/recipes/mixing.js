@@ -185,8 +185,6 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:coal_coke'},
-                {'tag': 'forge:coal_coke'},
-                {'tag': 'forge:coal_coke'},
                 {'tag': 'forge:slag'},
                 {'tag': 'forge:slag'},
                 {'tag': 'forge:slag'},
@@ -235,10 +233,11 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:ingots/copper'},
                 {'tag': 'forge:ingots/copper'},
                 {'tag': 'forge:ingots/copper'},
-                {'tag': 'forge:dusts/redstone'},
-                {'tag': 'forge:dusts/redstone'},
-                {'tag': 'forge:dusts/redstone'},
-                {'tag': 'forge:dusts/redstone'}
+                {
+                    'amount': 500,
+                    'fluid': 'thermal:redstone',
+                    'nbt': {}
+                },
             ],
             
             results: [{'count': 4, 'item': 'thermal:signalum_ingot'}],
@@ -253,8 +252,11 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:ingots/tin'},
                 {'tag': 'forge:ingots/tin'},
                 {'tag': 'forge:ingots/tin'},
-                {'tag': 'forge:dusts/glowstone'},
-                {'tag': 'forge:dusts/glowstone'},
+                {
+                    'amount': 500,
+                    'fluid': 'thermal:glowstone',
+                    'nbt': {}
+                },
                 {'item': 'architects_palette:sunmetal_brick'}
             ],
             
@@ -271,8 +273,11 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:ingots/lead'},
                 {'tag': 'forge:ingots/lead'},
                 {'tag': 'forge:ingots/lead'},
-                {'tag': 'forge:dusts/ender_pearl'},
-                {'tag': 'forge:dusts/ender_pearl'},
+                {
+                    'amount': 500,
+                    'fluid': 'thermal:ender',
+                    'nbt': {}
+                },
                 {'item': 'architects_palette:wardstone_brick'}
             ],
             

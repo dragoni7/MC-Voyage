@@ -1,0 +1,18 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:steel",
+    "result": "productivebees:prismabee",
+    "item": {
+        "item": "kubejs:stainless_steel_ingot"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:steel"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:prismabee"
+        }
+    ]
+}

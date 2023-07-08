@@ -1,11 +1,32 @@
 {
     "primaryColor": "#737373",
     "secondaryColor": "#804f40",
+    "renderer": "thicc",
     "flowerTag": "forge:storage_blocks/steel",
+    "attributes": {
+        "temper": 2,
+        "behavior": 1
+    },
+    "passiveEffects": [
+        {
+          "effect": "savage_and_ravage:weight",
+          "duration": 120
+        }
+    ],
     "conditions": [
         {
-            "type": "forge:mod_loaded",
-            "modid": "none"
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/steel"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:storage_blocks/steel"
+            }
         }
     ]
 }

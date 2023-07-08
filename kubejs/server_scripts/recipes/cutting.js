@@ -42,6 +42,16 @@ ServerEvents.recipes(event => {
             tool: {"tag": "forge:tools/knives"},
             id: `${id_prefix}cabbage_leaf`,
             old_id: 'farmersdelight:cutting/cabbage'
+        },
+
+        {
+            ingredients: [
+                {'item': 'farmersrespite:coffee_berries'}
+            ],
+            results: [
+            {'item': 'farmersrespite:coffee_beans'}],
+            tool: {"tag": "forge:tools/knives"},
+            id: `${id_prefix}coffee_bean`,
         }
     ]
 

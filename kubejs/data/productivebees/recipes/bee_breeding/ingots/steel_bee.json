@@ -1,0 +1,22 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:iron",
+    "parent2": "productivebees:withered",
+    "offspring": [
+        "productivebees:steel"
+    ],
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:iron"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:withered"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:steel"
+        }
+    ]
+}

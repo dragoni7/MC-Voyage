@@ -1,0 +1,17 @@
+{
+    "primaryColor": "#4aba8c",
+    "particleColor": "#4aba8c",
+    "beeTexture": "productivebees:textures/entity/bee/sculk/bee",
+    "selfbreed": false,
+    "flowerBlock": "thermalendergy:prismalium_block",
+    "attributes": {
+      "temper": 2,
+      "behavior": 1
+    },
+    "passiveEffects": [
+      {
+        "effect": "cofh_core:sundered",
+        "duration": 120
+      }
+    ]
+  }

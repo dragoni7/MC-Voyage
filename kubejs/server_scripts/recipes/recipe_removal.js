@@ -23,7 +23,6 @@ ServerEvents.recipes(event => {
 		'ae2:inscriber/fluix_dust',
 		'ae2:inscriber/sky_stone_dust',
 		'ae2:misc/tank_sky_stone',
-		'productivebees:centrifuge/ingots/honeycomb_steel_dust',
 		'productivebees:centrifuge/ingots/honeycomb_netherite',
 		'productivebees:create/mixing/ingots/honeycomb_soulsteel',
 		'productivebees:create/mixing/ingots/honeycomb_netherite',

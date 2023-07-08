@@ -28,7 +28,7 @@
 			#Set this to true to apply this setting to all mobs on the filter list. Set this to false to NOT apply this to mobs on the filter list.
 			is_allowlist = true
 			#The list of mobs that is affected by this setting according to is_allowlist
-			filter_list = ["minecraft:spider", "minecraft:pig", "minecraft:villager", "minecraft:zombie"]
+			filter_list = ["minecraft:pig", "minecraft:villager", "minecraft:zombie"]
 
 		#Replace Look Controller
 		[entity.mob.replace_look_controller]

@@ -1,5 +1,29 @@
 [
     {
+        "mob": ["minecraft:zombie"],
+        "mincount": 40,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["minecraft:skeleton"],
+        "mincount": 40,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["minecraft:spider"],
+        "mincount": 40,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["minecraft:creeper"],
+        "mincount": 40,
+        "result": "deny"
+    },
+
+    {
         "mob": ["minecraft:bat"],
         "mincount": {
             "amount": 3,
@@ -187,7 +211,7 @@
     },
 
     {
-        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:slime", "peat_mummy:peat_zombie"],
         "dimension": "minecraft:overworld",
         "phase": "nighttime",
         "minlight": 0,
@@ -196,7 +220,7 @@
         "result": "allow"
     },
     {
-        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:zombie", "minecraft:slime", "minecraft:skeleton", "minecraft:spider", "peat_mummy:peat_zombie"],
+        "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:slime", "peat_mummy:peat_zombie"],
         "dimension": "minecraft:overworld",
         "incontrol": true,
         "minlight": 0,

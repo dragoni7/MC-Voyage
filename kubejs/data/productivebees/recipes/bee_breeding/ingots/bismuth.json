@@ -1,0 +1,22 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:diamond",
+    "parent2": "productivebees:crystalline",
+    "offspring": [
+        "productivebees:bismuth"
+    ],
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:diamond"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:crystalline"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:bismuth"
+        }
+    ]
+}
