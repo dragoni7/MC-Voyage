@@ -10,14 +10,14 @@
   },
   "stats": {
     "ranged_damage": {
-      "add": 1.0
+      "add": 0.2
     },
     "ranged_speed": {
       "add": 1.0
     },
     "repair_efficiency": 1.0,
     "enchantment_value": {
-      "mul1": -0.45
+      "mul1": -0.55
     }
   }
 }

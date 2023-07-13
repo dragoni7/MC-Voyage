@@ -470,6 +470,7 @@
     {
         "mob": ["aquamirae:anglerfish", "species:deepfish"],
         "dimension": "minecraft:overworld",
+        "phase": "nighttime",
         "biometags": "minecraft:is_ocean",
         "onjoin": true,
         "result": "allow"
