@@ -84,14 +84,6 @@ BlockSkillEvents.register(event => {
     {
       id: 'silentcompat:solarmetal_ore',
       mask: 'minecraft:smooth_basalt'
-    },
-    {
-      id: 'weeping_angels:kontron_ore',
-      mask: 'minecraft:stone'
-    },
-    {
-      id: 'weeping_angels:deepslate_kontron_ore',
-      mask: 'minecraft:deepslate'
     }
   ]
   

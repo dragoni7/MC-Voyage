@@ -49,6 +49,13 @@
     },
 
     {
+        "mob": ["minecraft:evoker", "conjurer_illager:conjurer", "minecraft:illusioner", "minecraft:vex", "bygonenether:wex", "twilightforest:death_tome", "twilightforest:skeleton_druid"],
+        "player": true,
+        "random": 0.75,
+        "item": ["irons_spellbooks:arcane_essence"]
+    },
+
+    {
         "mob": "minecraft:evoker",
         "player": true,
         "random": 0.5,

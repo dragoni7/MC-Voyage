@@ -19,6 +19,24 @@ ServerEvents.recipes(event => {
             results: [{'count': 1, 'chance': 0.25, 'item': 'minecraft:clay_ball'}, {'count': 1, 'chance': 0.25, 'item': 'croptopia:salt'}, {'count': 2, 'chance': 0.1, 'item': 'croptopia:salt'}],
             old_id: 'create:splashing/sand',
             id: `${id_prefix}sand_salt`
+        },
+
+        {
+            ingredients: [
+                {'item': 'supplementaries:ash'}
+            ],
+            
+            results: [{'count': 1, 'item': 'supplementaries:ash_brick'}],
+            id: `${id_prefix}ash_brick`
+        },
+
+        {
+            ingredients: [
+                {'item': 'nourished_nether:ash_lump'}
+            ],
+            
+            results: [{'count': 1, 'item': 'supplementaries:ash_brick'}],
+            id: `${id_prefix}ash_brick`
         }
     ]
 

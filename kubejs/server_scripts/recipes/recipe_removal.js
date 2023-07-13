@@ -1,6 +1,7 @@
 //priority: 998
 ServerEvents.recipes(event => {
 	let recipes = [
+		'cataclysm:abyssal_sacrifice',
 		'silentgear:compounding/metal/custom_ingot.high_carbon_steel',
 		'/silentgear:.+_template$/',
 		'silentgear:iron_rod',

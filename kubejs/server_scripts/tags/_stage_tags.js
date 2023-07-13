@@ -11,6 +11,11 @@ ServerEvents.tags('item', event => {
     ]
 
     event.add('kubejs:expert_mode', [
+        'cataclysm:witherite_ingot',
+        'cataclysm:mechanical_fusion_anvil',
+        'cataclysm:witherite_block',
+        'minecraft:nether_star',
+        'silentgear:nether_star_fragment',
         'ad_astra:steel_plate',
         'ad_astra:steel_nugget',
         'ad_astra:steel_block',
@@ -53,6 +58,9 @@ ServerEvents.tags('item', event => {
     })
 
     event.add('kubejs:master_mode', [
+        'cataclysm:void_core',
+        'cataclysm:abyssal_sacrifice',
+        'cataclysm:altar_of_abyss',
         'kubejs:stainless_steel_ingot',
         'kubejs:stainless_mechanism',
         'kubejs:stainless_casing',
@@ -186,6 +194,10 @@ ServerEvents.tags('item', event => {
     })
 
     event.add('kubejs:nether_access', [
+        'cataclysm:burning_ashes',
+        'cataclysm:ignitium_ingot',
+        'cataclysm:ignitium_block',
+        'cataclysm:monstrous_horn',
         'silentgear:shield_blueprint',
         'silentgear:tip_blueprint',
         'silentgear:grip_blueprint',
@@ -212,8 +224,7 @@ ServerEvents.tags('item', event => {
     ])
 
     let nether_mods = [
-        'biomancy',
-        'cataclysm'
+        'biomancy'
     ]
 
     nether_mods.forEach((mod) => {

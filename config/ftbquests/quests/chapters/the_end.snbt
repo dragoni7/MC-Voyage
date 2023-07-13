@@ -57,7 +57,7 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			description: ["Defeat the Ender Dragon to explore the End"]
+			description: ["Defeat the Ender Dragon preventing further exploration of the End!"]
 			hide_dependency_lines: true
 			dependencies: ["7762572B99DD368D"]
 			hide: true
@@ -105,7 +105,10 @@
 			title: "Ender Golem"
 			x: 6.5d
 			y: 3.0d
-			description: ["Ender golems can be found throughout the citadel."]
+			description: [
+				"Ender golems can be found throughout the citadel and the End."
+				"Their origins are unknown but they drop an important component, the void core."
+			]
 			hide_dependency_lines: true
 			dependencies: ["67108B87338BF60E"]
 			id: "3A7E02F3FB7B99F5"
@@ -141,8 +144,8 @@
 			x: 7.5d
 			y: 3.0d
 			description: [
-				"Much more powerful than ender golems."
-				"Final boss of the ruined citadel."
+				"A powerful entity of the End, the Ender Guardian seems to be the leader of the Ender Golems and Shulkers"
+				"Final boss of the ruined citadel awaiting any challengers who dare approach"
 			]
 			hide_dependency_lines: true
 			dependencies: ["67108B87338BF60E"]
@@ -258,6 +261,7 @@
 		{
 			x: 9.0d
 			y: 3.0d
+			description: ["Like other mutant mobs, chemical X can be applied to a regular Enderman to create a mutant"]
 			hide_dependency_lines: true
 			dependencies: ["7762572B99DD368D"]
 			hide: true

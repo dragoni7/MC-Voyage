@@ -23,7 +23,7 @@ StartupEvents.registry('item', event => {
 	]
 
 	items.forEach((item) => {
-		event.create(item).group('KubeJS').texture(`kubejs:item/${item}`)
+		event.create(item).group('KubeJS').texture(`kubejs:item/${item}`).fireResistant(true)
 	})
 
 	let mechanisms = [

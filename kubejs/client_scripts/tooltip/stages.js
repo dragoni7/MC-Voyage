@@ -9,6 +9,11 @@ ItemEvents.tooltip((event) => {
     ]
 
     event.add([
+        'cataclysm:witherite_ingot',
+        'cataclysm:mechanical_fusion_anvil',
+        'cataclysm:witherite_block',
+        'minecraft:nether_star',
+        'silentgear:nether_star_fragment',
         'ad_astra:steel_plate',
         'ad_astra:steel_nugget',
         'ad_astra:steel_block',
@@ -51,6 +56,9 @@ ItemEvents.tooltip((event) => {
     })
 
     event.add([
+        'cataclysm:void_core',
+        'cataclysm:abyssal_sacrifice',
+        'cataclysm:altar_of_abyss',
         'kubejs:stainless_steel_ingot',
         'kubejs:stainless_mechanism',
         'kubejs:stainless_casing',
@@ -184,6 +192,10 @@ ItemEvents.tooltip((event) => {
     })
 
     event.add([
+        'cataclysm:burning_ashes',
+        'cataclysm:ignitium_ingot',
+        'cataclysm:ignitium_block',
+        'cataclysm:monstrous_horn',
         'silentgear:shield_blueprint',
         'silentgear:tip_blueprint',
         'silentgear:grip_blueprint',
@@ -210,8 +222,7 @@ ItemEvents.tooltip((event) => {
     ], [Text.of('Requires Nether Entered').darkRed()])
 
     let nether_mods = [
-        'biomancy',
-        'cataclysm'
+        'biomancy'
     ]
 
     nether_mods.forEach((mod) => {

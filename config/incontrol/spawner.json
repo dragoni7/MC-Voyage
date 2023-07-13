@@ -199,7 +199,7 @@
 
       {
         "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:slime", "peat_mummy:peat_zombie"],
-        "persecond": 0.4,
+        "persecond": 0.6,
         "attempts": 10,
         "amount": {
           "minimum": 2,
@@ -211,7 +211,61 @@
           "maxdist": 110,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 9
+          "maxthis": 12
+        }
+      },
+
+      {
+        "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer", "twilightforest:death_tome", "twilightforest:king_spider"],
+        "persecond": 0.4  ,
+        "attempts": 10,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 65,
+          "maxdist": 110,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 12
+        }
+      },
+      
+      {
+        "mob": ["twilightforest:slime_beetle", "blue_skies:venom_spider", "undergarden:rotling", "conjurer_illager:conjurer", "takesapillage:legioner"],
+        "persecond": 0.4,
+        "attempts": 8,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 65,
+          "maxdist": 110,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 12
+        }
+      },
+
+      {
+        "mob": "irons_spellbooks:dead_king",
+        "persecond": 0.1,
+        "attempts": 1,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 64,
+          "maxdist": 210,
+          "minheight": -60,
+          "maxheight": 200,
+          "maxthis": 4
         }
       },
 
@@ -248,6 +302,22 @@
           "minheight": 0,
           "maxheight": 200,
           "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["cataclysm:ender_golem"],
+        "persecond": 0.1,
+        "attempts": 15,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
+        },
+        "conditions": {
+          "dimension": "minecraft:the_end",
+          "mindist": 45,
+          "maxdist": 60,
+          "maxthis": 4
         }
       },
 

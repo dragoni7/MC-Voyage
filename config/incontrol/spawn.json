@@ -1,25 +1,31 @@
 [
     {
         "mob": ["minecraft:zombie"],
-        "mincount": 40,
+        "mincount": 70,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["minecraft:drowned"],
+        "mincount": 70,
         "result": "deny"
     },
 
     {
         "mob": ["minecraft:skeleton"],
-        "mincount": 40,
+        "mincount": 70,
         "result": "deny"
     },
 
     {
         "mob": ["minecraft:spider"],
-        "mincount": 40,
+        "mincount": 70,
         "result": "deny"
     },
 
     {
         "mob": ["minecraft:creeper"],
-        "mincount": 40,
+        "mincount": 70,
         "result": "deny"
     },
 
@@ -178,6 +184,88 @@
         "onjoin": true,
         "result": "default",
         "healthadd": 500
+    },
+
+    {
+        "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "incontrol": true,
+        "healthadd": 20,
+        "damageadd": 3,
+        "gamestage": "expert_mode",
+        "result": "allow",
+        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet"]
+    },
+    {
+        "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer", "twilightforest:death_tome", "twilightforest:king_spider"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "incontrol": true,
+        "healthadd": 20,
+        "damageadd": 3,
+        "gamestage": "expert_mode",
+        "result": "allow",
+        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet"]
+    },
+    {
+        "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer", "twilightforest:death_tome", "twilightforest:king_spider"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["irons_spellbooks:dead_king"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "incontrol": true,
+        "healthadd": 20,
+        "damageadd": 3,
+        "gamestage": "master_mode",
+        "result": "allow"
+    },
+    {
+        "mob": ["irons_spellbooks:dead_king"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["twilightforest:slime_beetle", "blue_skies:venom_spider", "undergarden:rotling", "conjurer_illager:conjurer", "takesapillage:legioner"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "incontrol": true,
+        "healthadd": 10,
+        "damageadd": 3,
+        "gamestage": "master_mode",
+        "result": "allow"
+    },
+    {
+        "mob": ["twilightforest:slime_beetle", "blue_skies:venom_spider", "undergarden:rotling", "conjurer_illager:conjurer", "takesapillage:legioner"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
     },
 
     {

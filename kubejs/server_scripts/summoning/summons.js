@@ -64,21 +64,13 @@ ServerEvents.recipes(event => {
     .sacrifice('pig', 1)
     .recipeTime(300)
 
-    // Ignis
-    event.recipes.summoningrituals
-    .altar('minecraft:netherite_ingot')
-    .mobOutput(
-        SummoningOutput.mob('cataclysm:ignis').count(1)
-        )
-    .input('3x cataclysm:burning_ashes', '4x minecraft:blaze_rod')
-
     // Netherite Monstosity
     event.recipes.summoningrituals
     .altar('minecraft:netherite_ingot')
     .mobOutput(
         SummoningOutput.mob('cataclysm:netherite_monstrosity').count(1)
         )
-    .input('3x cataclysm:burning_ashes', '8x minecraft:blaze_powder')
+    .input('3x cataclysm:burning_ashes', '8x minecraft:blaze_powder', 'kubejs:boss_essence')
 
     // Harbinger
     event.recipes.summoningrituals
@@ -87,14 +79,6 @@ ServerEvents.recipes(event => {
         SummoningOutput.mob('cataclysm:the_harbinger').count(1)
         )
     .input('3x cataclysm:burning_ashes', '6x minecraft:wither_skeleton_skull', 'kubejs:redstone_mechanism')
-
-    // End Guardian
-    event.recipes.summoningrituals
-    .altar('majruszsdifficulty:enderium_ingot')
-    .mobOutput(
-        SummoningOutput.mob('cataclysm:ender_guardian').count(1)
-        )
-    .input('6x phantasm:stardust', '6x minecraft:shulker_shell', 'enlightened_end:adamantite_plates')
 
     // everdawn key
     event.recipes.summoningrituals
@@ -146,6 +130,14 @@ ServerEvents.recipes(event => {
     .input('kubejs:boss_essence', '4x undergarden:utherium_crystal')
     .sacrifice('pig', 3)
 
+    // Harbinger
+    event.recipes.summoningrituals
+    .altar('majruszsdifficulty:enderium_ingot')
+    .mobOutput(
+        SummoningOutput.mob('cataclysm:ender_guardian').count(1)
+        )
+    .input('3x cataclysm:void_core', '6x enlightened_end:malachite', 'kubejs:boss_essence')
+
     // exotic eye
     event.recipes.summoningrituals
     .altar("ender_eye")
@@ -187,5 +179,12 @@ ServerEvents.recipes(event => {
     .itemOutput('endrem:witch_eye')
     .input('endrem:witch_pupil', 'the_bumblezone:royal_jelly_bottle','kubejs:boss_essence', 'hexerei:witch_helmet', '8x cauldron', '4x hexerei:dried_belladonna_flowers', 'botania:cosmetic_witch_pin')
     .recipeTime(300)
+
+    // abyssal sacrifice
+    event.recipes.summoningrituals
+    .altar("alexsmobs:void_worm_eye")
+    .itemOutput('cataclysm:abyssal_sacrifice')
+    .input('cataclysm:crystallized_coral', 'cataclysm:athame','2x cataclysm:ignitium_ingot', '4x cataclysm:void_core', '2x cataclysm:witherite_ingot', 'minecraft:heart_of_the_sea', '2x majruszsdifficulty:enderium_block', '2x thermalendergy:stellarium_block', '4x mythicbotany:alfsteel_ingot', '4x meetyourfight:phantoplasm', '4x meetyourfight:fortunes_favor', '4x meetyourfight:mossy_tooth', '4x meetyourfight:violet_bloom')
+    .recipeTime(600)
 
 })

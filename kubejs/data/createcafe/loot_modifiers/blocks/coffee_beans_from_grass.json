@@ -1,0 +1,26 @@
+{
+  "type": "createcafe:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.01
+    },
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:grass"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:shears"
+          ]
+        }
+      }
+    }
+  ],
+  "item": "createcafe:cassava_seeds",
+  "count": 1
+}

@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
           fluidLevelsConsumed: 1000,
           id: `${id_prefix}fiery_blood`
     },
-  /*
+  
     {
       liquid: {
           "fluid": "minecraft:water"
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
             "item": "minecraft:sugar"
           },
           {
-            "item": "create:dough"
+            "item": "silentgear:nether_banana"
           },
           {
             "item": "irons_spellbooks:arcane_essence"
@@ -76,15 +76,57 @@ ServerEvents.recipes(event => {
           }
         ],
         output: {
-          "item": "gourmet:dream_roll"
+          "item": "majruszsdifficulty:recall_potion"
         },
       
         liquid_output: {
           "fluid": "minecraft:water"
         },
         fluidLevelsConsumed: 250,
-        id: `${id_prefix}dream_roll`
-  },*/
+        id: `${id_prefix}recall_potion`
+    },
+
+    {
+      liquid: {
+          "fluid": "minecraft:water"
+        },
+
+        ingredients: [
+          {
+            "item": "minecraft:ancient_debris"
+          },
+          {
+            "item": "kubejs:boss_essence"
+          },
+          {
+            "item": "irons_spellbooks:arcane_essence"
+          },
+          {
+            "item": "silentgear:glowing_dust"
+          },
+          {
+            "item": "irons_spellbooks:arcane_essence"
+          },
+          {
+            "item": "hexerei:moon_dust"
+          },
+          {
+            "item": "hexerei:moon_dust"
+          },
+          {
+            "item": "hexerei:moon_dust"
+          },
+        ],
+        output: {
+          "item": "irons_spellbooks:arcane_debris"
+        },
+      
+        liquid_output: {
+          "fluid": "minecraft:water"
+        },
+        fluidLevelsConsumed: 250,
+        id: `${id_prefix}arcane_debris`
+  },
 
         {
             liquid: {

@@ -29,6 +29,27 @@ ServerEvents.recipes(event => {
             output: 'croptopia:fried_frog_legs',
             input: 'croptopia:frog_legs',
             cookingTime: 100
+        },
+
+        {
+            type: 'smelting',
+            output: 'supplementaries:ash',
+            input: 'minecraft:coal',
+            cookingTime: 100
+        },
+
+        {
+            type: 'smelting',
+            output: 'supplementaries:ash',
+            input: 'minecraft:charcoal',
+            cookingTime: 100
+        },
+
+        {
+            type: 'smelting',
+            output: 'supplementaries:ash',
+            input: 'minecraft:gunpowder',
+            cookingTime: 100
         }
     ]
 

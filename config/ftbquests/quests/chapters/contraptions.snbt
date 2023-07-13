@@ -3041,6 +3041,44 @@
 				xp: 100
 			}]
 		}
+		{
+			title: "Better Ender Storage"
+			x: -14.0d
+			y: -5.0d
+			description: ["These new ender storage items allows color coding!"]
+			hide_dependency_lines: true
+			dependencies: ["2A8AA1677D3BD35B"]
+			id: "159B6EE794D47B96"
+			tasks: [
+				{
+					id: "0E96AB804C4340A6"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+				{
+					id: "21B60F4DAAA34036"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+				{
+					id: "744A7652462543F9"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+			rewards: [
+				{
+					id: "2F5451CD17215D8C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E99DB2EE21B43EF"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

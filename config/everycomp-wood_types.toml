@@ -422,6 +422,7 @@
 			polished_end_stone = true
 			obsidian_brick = true
 			chorus = true
+			stone_tile = true
 
 		[types.cut_block_type.deeperdarker]
 			echo = true
@@ -1067,6 +1068,26 @@
 			ash_bricks = true
 			stone_tile = true
 			blackstone_tile = true
+
+		[types.cut_block_type.dyenamicsandfriends]
+			regions_unexplored_peach_painted = true
+			quark_peach_shingles = true
+			regions_unexplored_aquamarine_painted = true
+			quark_aquamarine_shingles = true
+			regions_unexplored_fluorescent_painted = true
+			quark_fluorescent_shingles = true
+			regions_unexplored_mint_painted = true
+			quark_mint_shingles = true
+			regions_unexplored_maroon_painted = true
+			quark_maroon_shingles = true
+			regions_unexplored_bubblegum_painted = true
+			quark_bubblegum_shingles = true
+			regions_unexplored_lavender_painted = true
+			quark_lavender_shingles = true
+			regions_unexplored_persimmon_painted = true
+			quark_persimmon_shingles = true
+			regions_unexplored_cherenkov_painted = true
+			quark_cherenkov_shingles = true
 
 [entries]
 

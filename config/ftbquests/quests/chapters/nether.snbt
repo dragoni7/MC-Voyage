@@ -238,9 +238,8 @@
 			x: -9.0d
 			y: -2.0d
 			description: [
-				"Defeated the Ignis."
-				"This boss is extremely difficult, doing damage in proportion to your health and lowering armor defenses"
-				"Can also be summoned"
+				"An ancient nether warrior, changed by the curse of the eye it holds!"
+				"Beware his fiery attacks and abilites to stun and shred armor!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0B88B2E02E80A9A2"]
@@ -294,9 +293,9 @@
 			x: -7.5d
 			y: -0.5d
 			description: [
-				"Defeat the netherite monstrosity."
-				"This boss lobs lava at range and heals from lava"
-				"Can also be summoned"
+				"The ancient residents of the nether created this golem eons ago for protection."
+				"Though dorment, it must be defeated to prevent the destruction of the nether!"
+				"Beware it's lava throwing attacks! Can also be summoned"
 			]
 			hide_dependency_lines: true
 			dependencies: ["634BB8529543BF53"]
@@ -395,7 +394,7 @@
 			y: -2.0d
 			subtitle: "Wither no more"
 			description: [
-				"Defeat the wither and steal it's eye!"
+				"Defeat the Wither and prevent it from enveloping the world in it's chaos!"
 				"Succeeding will begin expert mode!"
 				"The wither will drop boss essence and upgrade orbs on each defeat while growing stronger at the same time!"
 			]

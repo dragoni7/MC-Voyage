@@ -90,7 +90,7 @@
 		hyperAggressionBlacklist = ["minecraft:vex"]
 		#List of Mods that won't be allowed to have their mobs spawn in Biome Boosted Invasions.
 		#Ex: 'johncraft', 'mutantbeasts'
-		modBiomeBoostedBlacklist = ['mutantbeasts', 'rottencreatures', 'monsterplus', 'enderzoology', 'whisperwoods', 'mutantmore']
+		modBiomeBoostedBlacklist = ['mutantbeasts', 'rottencreatures', 'monsterplus', 'enderzoology', 'whisperwoods', 'mutantmore', 'weeping_angels']
 		#List of Mobs that won't be allowed to spawn in Biome Boosted Invasions.
 		#Ex: 'minecraft:enderman', 'mutantbeasts:mutant_creeper'
 		mobBiomeBoostedBlacklist = ['minecraft:vex']

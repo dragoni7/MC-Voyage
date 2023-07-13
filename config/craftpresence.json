@@ -184,7 +184,8 @@
       "dragoni7": "https://crafatar.com/avatars/3e25a332087548e6b783f483a1cfeca3",
       "default": "https://via.placeholder.com/256.png",
       "localhost": "https://api.mcsrvstat.us/icon/localhost",
-      "162.33.29.66": "https://api.mcsrvstat.us/icon/162.33.29.66"
+      "162.33.29.66": "https://api.mcsrvstat.us/icon/162.33.29.66",
+      "oniland.mcserver.us": "https://api.mcsrvstat.us/icon/oniland.mcserver.us"
     },
     "dynamicVariables": {
       "default": "Example Text",

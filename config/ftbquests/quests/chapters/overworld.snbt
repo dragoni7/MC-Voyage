@@ -682,7 +682,7 @@
 			x: 3.5d
 			y: 5.5d
 			description: [
-				"Defeat Captain Cornelia. Summon her with a shell horn near the water in the ice maze"
+				"Defeat the ghost of Captain Cornelia, bound to this world by the power of the Lost Eye! Summon her with a shell horn near the water in the ice maze"
 				"Be sure to come prepared as this fight is more difficult"
 			]
 			hide_dependency_lines: true
@@ -1617,7 +1617,11 @@
 			y: 2.5d
 			shape: "octagon"
 			subtitle: "Hungering void"
-			description: ["Summon the Void Worm in the end by tossing a mysterious worm into the void"]
+			description: [
+				"Defeat the final threat of the End, the Void Worm"
+				"Awaiting for the perfect moment, the worm threatens to devour all of existance"
+				"Summon the worm by tossing a mysterious worm into the void while in the End"
+			]
 			hide_dependency_lines: true
 			dependencies: [
 				"6E6C32E16EEE1ED7"
@@ -1906,7 +1910,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
-			description: ["Summon Rosalyne to defeat her and claim her eye!"]
+			description: ["Defeat Rosalyne, a once normal adventurer who became corrupt with the power of the Old Eye they covet"]
 			dependencies: [
 				"6D3B99609DEEC6DC"
 				"3FD0D1FB30D1716D"
@@ -1966,7 +1970,10 @@
 		{
 			x: 13.0d
 			y: 1.0d
-			description: ["Create a mysterious worm by placing a stasis worm into a capsid"]
+			description: [
+				"Create a mysterious worm by placing a stasis worm into a capsid"
+				"The worm squirms in hunger.."
+			]
 			hide_dependency_lines: true
 			dependencies: ["61437502D8EA956C"]
 			hide: true
@@ -2025,8 +2032,8 @@
 			x: 6.5d
 			y: 2.5d
 			description: [
-				"Defeat the Harbinger to obtain the corrupt eye!"
-				"This mechanical construct is located in the ancient factory in the overworld"
+				"Discover and put an end to the second iteration of the Wither. It's long gone creators failing to bring it to life with the Corrupt Eye contained within it."
+				"This mechanical construct is located in an abandoned ancient factory deep underground in the overworld"
 				"A nether star is needed to awaken the entity"
 				"Make use of the various traps located in the factory!"
 			]
@@ -2097,6 +2104,151 @@
 					id: "56AEBBF397A92427"
 					type: "item"
 					item: "kubejs:premium_lootcrate"
+				}
+			]
+		}
+		{
+			title: "The Sunken City"
+			icon: "cataclysm:altar_of_abyss"
+			x: 15.0d
+			y: 2.5d
+			description: [
+				"With the Void Worm defeated, strange energy resonates from deep within the frozen oceans..."
+				"Seek out the city and defeat the presence within"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4BF2E05841674BD6"
+				"157232B7AE3D7C2B"
+			]
+			hide: true
+			id: "56B75D9303DA02FC"
+			tasks: [{
+				id: "063DF5BB56B55706"
+				type: "structure"
+				structure: "cataclysm:sunken_city"
+			}]
+			rewards: [{
+				id: "559AAF9DF227DE88"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			description: ["These coral constructs drop a key ingredient!"]
+			hide_dependency_lines: true
+			dependencies: ["56B75D9303DA02FC"]
+			hide: true
+			id: "34FCB248AE170E87"
+			tasks: [{
+				id: "65547A79CDB1E38D"
+				type: "kill"
+				title: "Coral Golems"
+				icon: "cataclysm:crystallized_coral_fragments"
+				entity: "cataclysm:coralssus"
+				value: 1L
+			}]
+			rewards: [{
+				id: "05F613705BB5C287"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Deepling Priest"
+			icon: {
+				id: "cataclysm:athame"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 16.5d
+			y: 2.0d
+			description: ["Defeat these cultist priests to obtain their blades"]
+			hide_dependency_lines: true
+			dependencies: ["56B75D9303DA02FC"]
+			hide: true
+			id: "65820808FE62553E"
+			tasks: [{
+				id: "6C1B52D67368BCC4"
+				type: "kill"
+				entity: "cataclysm:deepling_priest"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5B0B0CBB3EB7474E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.5d
+			description: [
+				"Create the abyssal sacrifice with the summoning altar"
+				"The power held within it seems to be drawn towards the altar in the center of the city"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"65820808FE62553E"
+				"34FCB248AE170E87"
+			]
+			hide: true
+			id: "67EB61BC3CFA4EE0"
+			tasks: [{
+				id: "0A20644DB366C596"
+				type: "item"
+				item: "cataclysm:abyssal_sacrifice"
+			}]
+			rewards: [{
+				id: "022C357A54AB55E1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "cataclysm:tidal_claws"
+			x: 20.0d
+			y: 2.5d
+			shape: "octagon"
+			description: [
+				"The ancient Leviathan, relative to the Void Worm remains trapped within the altar of the sunken city."
+				"Summon and defeat it to purge the overworld of it's final threat"
+			]
+			hide_dependency_lines: true
+			dependencies: ["67EB61BC3CFA4EE0"]
+			hide: true
+			size: 2.0d
+			id: "4D8A71507CB8EABD"
+			tasks: [{
+				id: "082F88AFB4B3E854"
+				type: "kill"
+				title: "The Leviathan"
+				icon: "cataclysm:abyss_eye"
+				entity: "cataclysm:the_leviathan"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "511017A63655B576"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68ABAD208E8C5CAE"
+					type: "item"
+					item: "kubejs:premium_lootcrate"
+					count: 5
+				}
+				{
+					id: "4C235F27ED82752B"
+					type: "item"
+					team_reward: true
+					item: "create:creative_blaze_cake"
+					only_one: true
 				}
 			]
 		}
