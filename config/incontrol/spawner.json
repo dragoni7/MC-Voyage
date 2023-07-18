@@ -2,7 +2,7 @@
     {
       "mob": ["deeperdarker:sculk_leech", "alexsmobs:skreecher", "deeperdarker:sculk_snapper", "deeperdarker:shattered"],
       "persecond": 0.3,
-      "attempts": 10,
+      "attempts": 5,
       "amount": {
         "minimum": 2,
         "maximum": 5
@@ -128,7 +128,7 @@
       {
         "mob": ["alexsmobs:skelewag"],
         "persecond": 0.5,
-        "attempts": 10,
+        "attempts": 5,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -146,7 +146,7 @@
       {
         "mob": ["alexsmobs:guster", "rottencreatures:mummy"],
         "persecond": 0.2,
-        "attempts": 10,
+        "attempts": 5,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -164,7 +164,7 @@
       {
         "mob": ["alexsmobs:rocky_roller"],
         "persecond": 0.5,
-        "attempts": 10,
+        "attempts": 5,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -182,7 +182,7 @@
       {
         "mob": ["savage_and_ravage:executioner", "savage_and_ravage:trickster", "savage_and_ravage:griefer"],
         "persecond": 0.5,
-        "attempts": 10,
+        "attempts": 5,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -199,8 +199,8 @@
 
       {
         "mob": ["rottencreatures:undead_miner", "savage_and_ravage:skeleton_villager", "minecraft:slime", "peat_mummy:peat_zombie"],
-        "persecond": 0.6,
-        "attempts": 10,
+        "persecond": 0.5,
+        "attempts": 8,
         "amount": {
           "minimum": 2,
           "maximum": 5
@@ -217,8 +217,8 @@
 
       {
         "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer", "twilightforest:death_tome", "twilightforest:king_spider"],
-        "persecond": 0.4  ,
-        "attempts": 10,
+        "persecond": 0.4,
+        "attempts": 6,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -236,7 +236,7 @@
       {
         "mob": ["twilightforest:slime_beetle", "blue_skies:venom_spider", "undergarden:rotling", "conjurer_illager:conjurer", "takesapillage:legioner"],
         "persecond": 0.4,
-        "attempts": 8,
+        "attempts": 6,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -288,12 +288,30 @@
       },
 
       {
-        "mob": ["alexsmobs:crimson_mosquito", "friendsandfoes:wildfire", "cataclysm:ignited_revenant", "bygonenether:wither_skeleton_knight"],
-        "persecond": 0.1,
-        "attempts": 15,
+        "mob": ["coldsnaphorde:coldsnapbrawler", "coldsnaphorde:coldsnapgifter", "coldsnaphorde:coldsnapgunner", "coldsnaphorde:coldsnapsnowballer", "coldsnaphorde:coldsnapstabber", "coldsnaphorde:coldsnapzapper"],
+        "persecond": 0.4,
+        "attempts": 6,
         "amount": {
           "minimum": 2,
           "maximum": 3
+        },
+        "conditions": {
+          "dimension": "minecraft:overworld",
+          "mindist": 65,
+          "maxdist": 100,
+          "minheight": 0,
+          "maxheight": 200,
+          "maxthis": 6
+        }
+      },
+
+      {
+        "mob": ["alexsmobs:crimson_mosquito", "friendsandfoes:wildfire", "cataclysm:ignited_revenant", "bygonenether:wither_skeleton_knight"],
+        "persecond": 0.1,
+        "attempts": 6,
+        "amount": {
+          "minimum": 1,
+          "maximum": 2
         },
         "conditions": {
           "dimension": "minecraft:the_nether",
@@ -308,7 +326,7 @@
       {
         "mob": ["cataclysm:ender_golem"],
         "persecond": 0.1,
-        "attempts": 15,
+        "attempts": 10,
         "amount": {
           "minimum": 1,
           "maximum": 2
@@ -324,7 +342,7 @@
       {
         "mob": ["quark:forgotten"],
         "persecond": 0.5,
-        "attempts": 20,
+        "attempts": 10,
         "amount": {
           "minimum": 2,
           "maximum": 3
@@ -342,7 +360,7 @@
       {
         "mob": ["aquamirae:anglerfish", "species:deepfish"],
         "persecond": 0.5,
-        "attempts": 10,
+        "attempts": 8,
         "amount": {
           "minimum": 2,
           "maximum": 3
@@ -361,7 +379,7 @@
       {
         "mob": ["aquamirae:eel"],
         "persecond": 0.2,
-        "attempts": 7,
+        "attempts": 5,
         "amount": {
           "minimum": 1,
           "maximum": 1
@@ -380,7 +398,7 @@
       {
         "mob": ["enderzoology:infested_zombie"],
         "persecond": 0.5,
-        "attempts": 20,
+        "attempts": 15,
         "amount": {
           "minimum": 1,
           "maximum": 4

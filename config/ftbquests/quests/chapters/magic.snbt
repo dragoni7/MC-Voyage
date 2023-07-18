@@ -1404,6 +1404,156 @@
 				title: "More Gaia.."
 			}]
 		}
+		{
+			icon: "waystones:waystone"
+			x: 2.0d
+			y: -1.0d
+			description: [
+				"Waystones can be found randomly throughout the world or in structures."
+				"When activated, waystones provide an easy transportation method at the cost of xp!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["398A839A4C8C748C"]
+			id: "3116BC8CB551B4E5"
+			tasks: [{
+				id: "2E3D557A3E7413A0"
+				type: "checkmark"
+				title: "Waystones"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["Waystones are also craftable!"]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "4D89A6DA20210FEE"
+			tasks: [{
+				id: "2C73D91565DD699B"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "188F1D3E94212618"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: [
+				"Sharestones serve as 'private' version of waystones"
+				"Sharestones can be colored, and only allow teleportation to another sharestone of the same color"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "2D7D11BA5CFCA4DA"
+			tasks: [{
+				id: "2DAB39978E65F353"
+				type: "item"
+				item: "waystones:sharestone"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: [
+				"Warp plates allow teleportation of entities or items!"
+				"Place down one warp plate and insert the required items to create an attuned shard"
+				"This shard can then be placed into another warp plate to link them together"
+				"The first warp plate will also need an attuned shard from the second warp plate"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3116BC8CB551B4E5"
+				"49E9E2AD9434D731"
+			]
+			hide: true
+			id: "4F1040853BC67A85"
+			tasks: [{
+				id: "1C5A15227410EDCD"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Portstones provide one way teleportation to other waystones"]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "009E92AD00070E15"
+			tasks: [{
+				id: "144425AEC35DD5EA"
+				type: "item"
+				item: "waystones:portstone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["Portable waystone, does not consume but has a cooldown"]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "55039320797FDEDF"
+			tasks: [{
+				id: "5F666F9BC3AD99B5"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["Portable waystone, consumed on use"]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "79EA125855A329E0"
+			tasks: [{
+				id: "6DF77F25FA501E78"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"A return scroll can be bound to any waystone by right clicking on it with the scroll"
+				"Using the scroll will then teleport to the bound waystone, consuming the scroll"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "746E80F8CF6175D1"
+			tasks: [{
+				id: "574A3597EB1E1974"
+				type: "item"
+				item: "waystones:bound_scroll"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"Return scrolls teleport to the last used waystone"
+				"Consumed on use"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3116BC8CB551B4E5"]
+			id: "44BEF920A186CCBB"
+			tasks: [{
+				id: "158BAA18E5EE435A"
+				type: "item"
+				item: "waystones:return_scroll"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

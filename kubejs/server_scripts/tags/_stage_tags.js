@@ -73,6 +73,9 @@ ServerEvents.tags('item', event => {
         'kubejs:chromium_ingot',
         'kubejs:prismasand',
         'kubejs:impossible_compound',
+        'silentgear:azure_silver_ingot',
+        'silentgear:azure_electrum_ingot',
+        'silentgear:tyrian_steel_ingot',
         'silentgear:elytra_blueprint',
         'kubejs:stasis_larva',
         'kubejs:incomplete_steel_engine',
@@ -116,6 +119,7 @@ ServerEvents.tags('item', event => {
         'silentgear:tyrian_steel_nugget', 
         'silentgear:tyrian_steel_dust', 
         'silentgear:tyrian_steel_block',
+        'majruszsdifficulty:enderium_ingot',
         'majruszsdifficulty:enderium_helmet', 
         'majruszsdifficulty:enderium_chestplate', 
         'majruszsdifficulty:enderium_leggings', 
@@ -164,7 +168,8 @@ ServerEvents.tags('item', event => {
         'enlightened_end',
         'phantasm',
         'ad_astra_giselle_addon',
-        'createteleporters'
+        'createteleporters',
+        'hmag'
     ]
 
     master_mods.forEach((mod) => {
@@ -198,6 +203,7 @@ ServerEvents.tags('item', event => {
         'cataclysm:ignitium_ingot',
         'cataclysm:ignitium_block',
         'cataclysm:monstrous_horn',
+        'silentgear:crimson_iron_ingot',
         'silentgear:shield_blueprint',
         'silentgear:tip_blueprint',
         'silentgear:grip_blueprint',
@@ -236,6 +242,7 @@ ServerEvents.tags('item', event => {
     })
 
     event.add('kubejs:twilight_access', [
+        'silentgear:crimson_steel_ingot',
         'silentgear:bow_blueprint',
         'silentgear:arrow_blueprint',
         'silentgear:fletching_blueprint',

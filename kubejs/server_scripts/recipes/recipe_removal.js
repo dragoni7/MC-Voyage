@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
 		'cataclysm:abyssal_sacrifice',
 		'silentgear:compounding/metal/custom_ingot.high_carbon_steel',
 		'/silentgear:.+_template$/',
+		'botanicadds:gaiasteel_pylon',
 		'silentgear:iron_rod',
 		'silentgear:crimson_iron_dust',
 		'silentgear:crimson_steel_dust',
@@ -69,6 +70,8 @@ ServerEvents.recipes(event => {
 		'create:crushing/obsidian',
 
 		'irons_spellbooks:upgrade_orb',
+		'hmag:enchanted_golden_apple',
+		
 
 		// force certain food recipes to use create
 		'abnormals_delight:maple_glazed_bacon',
@@ -126,6 +129,7 @@ ServerEvents.recipes(event => {
 		'croptopia:apple_pie',
 		'croptopia:cheeseburger',
 		'croptopia:flour',
+		'croptopia:shaped_milk_bottle',
 
 		//'/.:.+_milkshake$/',
 		'/create_central_kitchen:crafting/dough_./',

@@ -56,10 +56,10 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("whisperwoods:hirschgeist_skull")
     .mobOutput(
-        SummoningOutput.mob('friendsandfoes:wildfire').count(1).data({ Health: 200, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 200 }]})
+        SummoningOutput.mob('friendsandfoes:wildfire').count(1).data({ Health: 200, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 200 }]}).offset(0, 0, -8)
         )
     .itemOutput('kubejs:inert_nether_portal_key')
-    .input('4x spider_eye', 'kubejs:boss_essence', '4x book', '4x createdeco:cast_iron_ingot')
+    .input('4x spider_eye', 'kubejs:boss_essence', '4x minecraft:obsidian', '6x createdeco:cast_iron_ingot')
     .dayTime('night')
     .sacrifice('pig', 1)
     .recipeTime(300)
@@ -84,22 +84,22 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("twilightforest:armor_shard_cluster")
     .mobOutput(
-        SummoningOutput.mob('mutantmonsters:mutant_zombie').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 16 }, { Name: 'generic.max_health', Base: 250 }]})
+        SummoningOutput.mob('mutantmonsters:mutant_zombie').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 16 }, { Name: 'generic.max_health', Base: 250 }]}).offset(0, 0, -8)
         )
     .itemOutput('kubejs:inert_everdawn_portal_key')
     .itemOutput('twilightforest:knight_phantom_trophy')
-    .input('2x twilightforest:carminite', 'kubejs:boss_essence', '4x twilightforest:raw_ironwood', 'twilightforest:knight_phantom_trophy')
+    .input('2x twilightforest:carminite', 'kubejs:boss_essence', '4x twilightforest:raw_ironwood', 'twilightforest:knight_phantom_trophy', '6x architects_palette:nether_brass_ingot')
     .recipeTime(300)
 
     // everbright key
     event.recipes.summoningrituals
     .altar("twilightforest:armor_shard_cluster")
     .mobOutput(
-        SummoningOutput.mob('mutantmonsters:mutant_skeleton').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 16 }, { Name: 'generic.max_health', Base: 250 }]})
+        SummoningOutput.mob('mutantmonsters:mutant_skeleton').count(1).data({ Health: 250, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 16 }, { Name: 'generic.max_health', Base: 250 }]}).offset(0, 0, -8)
         )
     .itemOutput('kubejs:inert_everbright_portal_key')
     .itemOutput('twilightforest:snow_queen_trophy')
-    .input('2x twilightforest:carminite', 'kubejs:boss_essence', '4x twilightforest:raw_ironwood', 'twilightforest:snow_queen_trophy')
+    .input('2x twilightforest:carminite', 'kubejs:boss_essence', '4x twilightforest:raw_ironwood', 'twilightforest:snow_queen_trophy', '6x architects_palette:nether_brass_ingot')
     .recipeTime(300)
 
     // rosalyne
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("ender_eye")
     .itemOutput('endrem:wither_eye')
-    .input('3x wither_skeleton_skull', 'kubejs:boss_essence', 'friendsandfoes:wildfire_crown_fragment', 'cataclysm:monstrous_horn', 'nether_star', '4x netherdepthsupgrade:wither_bonefish', 'mutantmore:mutant_wither_skeleton_rib', 'mutantmore:mutant_blaze_core')
+    .input('3x wither_skeleton_skull', 'kubejs:boss_essence', 'friendsandfoes:wildfire_crown_fragment', 'cataclysm:monstrous_horn', 'nether_star', 'netherdepthsupgrade:wither_bonefish', 'mutantmore:mutant_wither_skeleton_rib', 'mutantmore:mutant_blaze_core', '4x bygonenether:withered_debris')
     .recipeTime(300)
 
     // magical eye
@@ -186,5 +186,5 @@ ServerEvents.recipes(event => {
     .itemOutput('cataclysm:abyssal_sacrifice')
     .input('cataclysm:crystallized_coral', 'cataclysm:athame','2x cataclysm:ignitium_ingot', '4x cataclysm:void_core', '2x cataclysm:witherite_ingot', 'minecraft:heart_of_the_sea', '2x majruszsdifficulty:enderium_block', '2x thermalendergy:stellarium_block', '4x mythicbotany:alfsteel_ingot', '4x meetyourfight:phantoplasm', '4x meetyourfight:fortunes_favor', '4x meetyourfight:mossy_tooth', '4x meetyourfight:violet_bloom')
     .recipeTime(600)
-
+    .sacrifice('aquamirae:spinefish', 3)
 })

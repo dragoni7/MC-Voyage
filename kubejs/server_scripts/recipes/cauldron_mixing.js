@@ -99,13 +99,13 @@ ServerEvents.recipes(event => {
             "item": "kubejs:boss_essence"
           },
           {
-            "item": "irons_spellbooks:arcane_essence"
+            "item": "irons_spellbooks:arcane_ingot"
           },
           {
-            "item": "silentgear:glowing_dust"
+            "item": "silentgear:blazing_dust"
           },
           {
-            "item": "irons_spellbooks:arcane_essence"
+            "item": "irons_spellbooks:arcane_ingot"
           },
           {
             "item": "hexerei:moon_dust"
@@ -122,9 +122,9 @@ ServerEvents.recipes(event => {
         },
       
         liquid_output: {
-          "fluid": "minecraft:water"
+          "fluid": "minecraft:lava"
         },
-        fluidLevelsConsumed: 250,
+        fluidLevelsConsumed: 1000,
         id: `${id_prefix}arcane_debris`
   },
 
@@ -144,13 +144,13 @@ ServerEvents.recipes(event => {
                   "item": "biomancy:stone_powder"
                 },
                 {
-                  "item": "minecraft:nether_wart"
+                  "item": "nourished_nether:soul_quartz"
                 },
                 {
                   "item": "biomancy:unstable_compound"
                 },
                 {
-                  "item": "minecraft:nether_wart"
+                  "item": "nourished_nether:soul_quartz"
                 },
                 {
                   "item": "biomancy:stone_powder"
@@ -339,7 +339,222 @@ ServerEvents.recipes(event => {
               fluidLevelsConsumed: 1000,
               id: `${id_prefix}mahogany`,
               old_id: 'hexerei:mahogany_broom_from_mixing_cauldron'
-        }
+        },
+
+        {
+          liquid: {
+              "fluid": "thermal:ender"
+            },
+
+            ingredients: [
+              {
+                  "item": "hmag:dyssomnia_skin"
+              },
+              {
+                  "item": "hmag:dyssomnia_skin"
+              },
+              {
+                  "item": "hmag:soul_apple"
+              },
+              {
+                  "item": "minecraft:amethyst_block"
+              },
+              {
+                  "item": "hmag:evil_crystal_block"
+              },
+              {
+                  "item": "minecraft:amethyst_block"
+              },
+              {
+                  "item": "hmag:dyssomnia_skin"
+              },
+              {
+                  "item": "hmag:dyssomnia_skin"
+              },
+            ],
+            output: {
+              "item": "hmag:insomnia_fruit"
+            },
+          
+            liquid_output: {
+              "fluid": "minecraft:water"
+            },
+            fluidLevelsConsumed: 500,
+            id: `${id_prefix}insomnia_fruit`,
+            old_id: 'hmag:insomnia_fruit'
+      },
+
+      {
+        liquid: {
+            "fluid": "minecraft:lava"
+          },
+
+          ingredients: [
+            {
+              "tag": "hmag:reinforcing_chain_crafting_materials"
+            },
+            {
+              "tag": "hmag:reinforcing_chain_crafting_materials"
+            },
+            {
+              "item": "minecraft:chain"
+            },
+            {
+              "item": "minecraft:chain"
+            },
+            {
+              "item": "minecraft:chain"
+            },
+            {
+              "item": "minecraft:chain"
+            },
+            {
+              "item": "minecraft:obsidian"
+            },
+            {
+              "item": "hmag:evil_crystal_fragment"
+            },
+          ],
+          output: {
+            "item": "hmag:reinforcing_chain"
+          },
+        
+          liquid_output: {
+            "fluid": "minecraft:water"
+          },
+          fluidLevelsConsumed: 1000,
+          id: `${id_prefix}reinforcing_chain`,
+          old_id: 'hmag:reinforcing_chain'
+      },
+
+    {
+      liquid: {
+          "fluid": "create_enchantment_industry:experience"
+        },
+
+        ingredients: [
+          {
+            "tag": "hmag:lucky_materials"
+          },
+          {
+            "tag": "minecraft:music_discs"
+          },
+          {
+            "tag": "forge:storage_blocks/fluix"
+          },
+          {
+            "tag": "forge:storage_blocks/fluix"
+          },
+          {
+            "tag": "forge:storage_blocks/steeleaf"
+          },
+          {
+            "tag": "forge:storage_blocks/fluix"
+          },
+          {
+            "item": "minecraft:netherite_ingot"
+          },
+          {
+            "item": "hmag:evil_crystal_block"
+          }
+        ],
+        output: {
+          "item": "hmag:greedy_crystal"
+        },
+      
+        liquid_output: {
+          "fluid": "minecraft:water"
+        },
+        fluidLevelsConsumed: 1000,
+        id: `${id_prefix}greedy_crystal`,
+        old_id: 'hmag:greedy_crystal'
+    },
+
+    {
+      liquid: {
+          "fluid": "create_enchantment_industry:experience"
+        },
+
+        ingredients: [
+          {
+            "tag": "hmag:lucky_materials"
+          },
+          {
+            "tag": "minecraft:music_discs"
+          },
+          {
+            "tag": "forge:storage_blocks/fluix"
+          },
+          {
+            "tag": "forge:storage_blocks/fluix"
+          },
+          {
+            "tag": "blue_skies:storage_blocks/charoite"
+          },
+          {
+            "tag": "forge:storage_blocks/fluix"
+          },
+          {
+            "item": "minecraft:netherite_ingot"
+          },
+          {
+            "item": "hmag:evil_crystal_block"
+          }
+        ],
+        output: {
+          "item": "hmag:fortune_crystal"
+        },
+      
+        liquid_output: {
+          "fluid": "minecraft:water"
+        },
+        fluidLevelsConsumed: 1000,
+        id: `${id_prefix}fortune_crystal`,
+        old_id: 'hmag:fortune_crystal'
+    },
+
+    {
+      liquid: {
+          "fluid": "create_enchantment_industry:experience"
+        },
+
+        ingredients: [
+          {
+            "item": "minecraft:end_crystal"
+          },
+          {
+            "item": "hmag:ender_plasm"
+          },
+          {
+            "item": "hmag:ender_plasm"
+          },
+          {
+            "item": "minecraft:end_crystal"
+          },
+          {
+            "item": "hmag:ender_plasm"
+          },
+          {
+            "item": "hmag:ender_plasm"
+          },
+          {
+            "item": "minecraft:end_crystal"
+          },
+          {
+            "item": "minecraft:echo_shard"
+          }
+        ],
+        output: {
+          "item": "hmag:endless_pearl"
+        },
+      
+        liquid_output: {
+          "fluid": "minecraft:water"
+        },
+        fluidLevelsConsumed: 1000,
+        id: `${id_prefix}endless_pearl`,
+        old_id: 'hmag:endless_pearl'
+    },
         
     ]
 

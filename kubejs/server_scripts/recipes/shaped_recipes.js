@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
                 S: 'aquamirae:esca',
                 E: MC('turtle_egg'),
                 P: 'farmersdelight:pie_crust',
-                G: '#forge:fruits/gooseberry'
+                G: '#forge:fruits/mulberry'
             },
             id:  `${id_prefix}sea_casserole`
         },
@@ -66,10 +66,11 @@ ServerEvents.recipes(event => {
             key: {
                 I: 'spirit:soul_steel_ingot',
                 B: 'spirit:soul_steel_block',
-                A: 'quark:soul_bead',
+                A: 'nourished_nether:soul_quartz_block',
                 C: 'spirit:crystal_pedestal',
                 S: 'spirit:soul_slate',
             },
+            stage: NETHER,
             id:  `${id_prefix}soul_pedestal`
         },
 
@@ -523,7 +524,6 @@ ServerEvents.recipes(event => {
                 B: 'silentgear:blueprint_paper',
                 I: 'minecraft:diamond'
             },
-            stage: NETHER,
             id:  `${id_prefix}katana_blueprint`
         },
 
@@ -1496,6 +1496,113 @@ ServerEvents.recipes(event => {
             stage: MASTER_MODE,
             id:  `${id_prefix}mana_infuser`
         },
+        {
+            output: 'botanicadds:gaiasteel_pylon',
+            old_id: 'botanicadds:gaiasteel_pylon',
+            pattern:
+            [' D ',
+             'IPI',
+             ' D '],
+            key: {
+                I: BO('glimmering_dreamwood'),
+                P: BO('gaia_pylon'),
+                D: NUGGET_TAG('gaiasteel')
+            },
+            id:  `${id_prefix}gaiasteel_pylon`
+        },
+        {
+            output: 'mythicbotany:alfsteel_pylon',
+            old_id: 'mythicbotany:alfsteel_pylon',
+            pattern:
+            [' D ',
+             'IPI',
+             ' D '],
+            key: {
+                I: MC('ghast_tear'),
+                P: 'botanicadds:gaiasteel_pylon',
+                D: 'mythicbotany:alfsteel_nugget'
+            },
+            id:  `${id_prefix}alfsteel_pylon`
+        },
+
+        // WAYSTONES
+        
+        {
+            output: 'waystones:warp_stone',
+            old_id: 'waystones:warp_stone',
+            pattern:
+            ['FWF',
+             'WDW',
+             'FWF'],
+            key: {
+                D: BO('dragonstone'),
+                W: 'waystones:warp_dust',
+                F: BO('piston_relay')
+            },
+            id:  `${id_prefix}warp_stone`
+        },
+
+        {
+            output: 'waystones:warp_plate',
+            old_id: 'waystones:warp_plate',
+            pattern:
+            ['BWB',
+             'WPW',
+             'BWB'],
+            key: {
+                B: MC('stone_bricks'),
+                P: 'botanicadds:gaia_plate',
+                W: 'waystones:warp_dust',
+
+            },
+            stage: EXPERT_MODE,
+            id:  `${id_prefix}warp_plate`
+        },
+
+        {
+            output: Item.of('waystones:return_scroll', 3),
+            old_id: 'waystones:return_scroll',
+            pattern:
+            ['   ',
+             'GEG',
+             'PPP'],
+            key: {
+                G: NUGGET_TAG('gold'),
+                E: MC('ender_pearl'),
+                P: MC('paper')
+            },
+            id:  `${id_prefix}return_scroll`
+        },
+
+        {
+            output: Item.of('waystones:bound_scroll', 3),
+            old_id: 'waystones:bound_scroll',
+            pattern:
+            ['GGG',
+             'GWG',
+             'PPP'],
+            key: {
+                G: NUGGET_TAG('gold'),
+                W: 'waystones:warp_dust',
+                P: MC('paper')
+            },
+            id:  `${id_prefix}bound_scroll`
+        },
+
+        {
+            output: Item.of('waystones:warp_scroll', 3),
+            old_id: 'waystones:warp_scroll',
+            pattern:
+            ['GGG',
+             'GWG',
+             'MMM'],
+            key: {
+                G: NUGGET_TAG('gold'),
+                W: 'waystones:warp_dust',
+                M: BO('manaweave_cloth')
+            },
+            id:  `${id_prefix}warp_scroll`
+        },
         
         // IRONS SPELLBOOKS
         {
@@ -1636,7 +1743,7 @@ ServerEvents.recipes(event => {
             }
             )
             .stage(EXPERT_MODE)
-            .id(`${id_prefix}` + id[1])
+            .id(`${id_prefix}` + id[1] + '_manual_only')
     }
 
     MachineRecipe(TH('machine_pulverizer'), MC('piston'), MC('flint'), GEAR_TAG('copper'))
@@ -1679,10 +1786,13 @@ ServerEvents.recipes(event => {
         if (recipe.old_id) {
             event.remove({id: recipe.old_id})
         }
+
         if (recipe.stage) {
-            event.shaped(recipe.output, recipe.pattern, recipe.key).stage(recipe.stage).id(recipe.id)
+            event.shaped(recipe.output, recipe.pattern, recipe.key).stage(recipe.stage).id(recipe.id + '_manual_only')
         }
-        event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
+        else {
+            event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id)
+        }
     })
 })
 

@@ -74,24 +74,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.0d
-			description: [
-				"Waystones allow an easy way to transport oneself across the world!"
-				"Right clicking on one will activate it, adding to your list of known waystones"
-				"Travel from one waystone to any other unlocked waystone!"
-			]
-			size: 2.0d
-			id: "76D2A62501D6A079"
-			tasks: [{
-				id: "644C3CC8BCEAA696"
-				type: "item"
-				item: "waystones:waystone"
-			}]
-		}
-		{
 			icon: "minecraft:oak_sign"
-			x: 2.0d
+			x: 0.0d
 			y: -1.0d
 			description: [
 				"Land can be claimed as yours, protecting it from mob griefing or other players"
@@ -115,8 +99,8 @@
 					Potion: "minecraft:swiftness"
 				}
 			}
-			x: -6.0d
-			y: 1.0d
+			x: 2.0d
+			y: -1.0d
 			description: [
 				"Many new effects exist in the world now"
 				"One may be confused on what exactly some do, luckily there is a way to find out!"
@@ -131,8 +115,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
+			x: 6.0d
+			y: -1.0d
 			description: [
 				"With so many mods having their own keybinds, being able to change them is important"
 				"The controls setting now displays all keybinds with search features"
@@ -147,9 +131,12 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
-			description: ["Enchanted loot can have their enchants revealed with a scroll!"]
+			x: 4.0d
+			y: -1.0d
+			description: [
+				"Enchanted loot can have their enchants revealed with a scroll!"
+				"Right click on the enchanted items in your inventory with the scroll to reveal"
+			]
 			size: 2.0d
 			id: "1B1C0B8BFFA0B35E"
 			tasks: [{

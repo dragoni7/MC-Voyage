@@ -94,6 +94,11 @@ const blacklist = [
     // whisper woods
     'whisperwoods:hand_of_fate',
 
+    // hmag
+    'hmag:honeyed_apple',
+    'hmag:diamond_fragment',
+    'hmag:emerald_fragment',
+
     // gourmet
     'gourmet:neapolitan_ice_cream_cone',
     'gourmet:ice_cream_scoop',

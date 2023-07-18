@@ -59,6 +59,16 @@ ServerEvents.recipes(event => {
 
         {
             ingredients: [
+                {'tag': 'forge:fruits/lemon'},
+                {'fluid': 'create:honey', 'amount': 250}
+            ],
+            results: [
+            {'item': 'hmag:honeyed_lemon'}],
+            id: `${id_prefix}honeyed_lemon`
+        },
+
+        {
+            ingredients: [
                 {'item': 'minecraft:glowstone'},
                 {'fluid': 'minecraft:lava', 'amount': 250}
             ],

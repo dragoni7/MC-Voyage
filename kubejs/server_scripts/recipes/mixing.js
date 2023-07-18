@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
                 {'tag': 'forge:ingots/fiery'},
                 {'tag': 'forge:ingots/crimson_iron'},
                 {'item': 'minecraft:crimson_fungus'},
+                {'item': 'architects_palette:nether_brass_ingot'},
             ],
             
             results: [{'count': 3, 'item': 'silentgear:crimson_steel_ingot'}],
@@ -158,7 +159,7 @@ ServerEvents.recipes(event => {
             ingredients: [
                 {'item': 'minecraft:soul_sand'},
                 {'item': 'minecraft:soul_sand'},
-                {'tag': 'forge:nuggets/zinc'},
+                {'tag': 'forge:ingots/zinc'},
                 {'tag': 'forge:ingots/copper'},
             ],
             
@@ -171,7 +172,7 @@ ServerEvents.recipes(event => {
             heatRequirement: 'heated',
             ingredients: [
                 {'item': 'architects_palette:nether_brass_blend'},
-                {'item': 'minecraft:clay_ball'},
+                {'item': 'nourished_nether:sludge_ball'},
             ],
             
             results: [{'item': 'architects_palette:nether_brass_ingot'}],

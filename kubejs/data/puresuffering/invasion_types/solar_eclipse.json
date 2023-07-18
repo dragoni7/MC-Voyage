@@ -4,7 +4,7 @@
   ],
   "InvasionPriority": "PRIMARY_ONLY",
   "InvasionTime": "DAY",
-  "Rarity": 27,
+  "Rarity": 87,
   "SeverityInfo": [
     {
       "ClusterSize": 1,
@@ -65,7 +65,7 @@
     }
   ],
   "SpawningSystem": "BIOME_BOOSTED",
-  "Tier": 1,
+  "Tier": 40,
   "TimeChangeability": "ONLY_DAY",
   "TimeModifier": "DAY_TO_NIGHT",
   "WeatherType": "DEFAULT"

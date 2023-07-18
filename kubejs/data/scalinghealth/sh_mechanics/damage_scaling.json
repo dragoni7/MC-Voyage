@@ -8,19 +8,19 @@
   "damageScales": [
     {
       "damageTypes" : ["sonic_boom"],
-      "scale" : 0.4
+      "scale" : 1.0
     },
     {
       "damageTypes" : ["arrow"],
-      "scale" : 0.2
+      "scale" : 1.0
     },
     {
       "damageTypes" : ["inFire"],
-      "scale" : 0.4
+      "scale" : 1.0
     },
     {
       "damageTypes" : ["poison"],
-      "scale" : 0.3
+      "scale" : 0.5
     },
     {
       "damageTypes" : ["lightningBolt"],
@@ -28,11 +28,11 @@
     },
     {
       "damageTypes" : ["onFire"],
-      "scale" : 0.1
+      "scale" : 1.0
     },
     {
       "damageTypes" : ["lava"],
-      "scale" : 0.4
+      "scale" : 1.0
     },
     {
       "damageTypes" : ["hotFloor"],
@@ -72,11 +72,11 @@
     },
     {
       "damageTypes" : ["magic"],
-      "scale" : 0.4
+      "scale" : 0.5
     },
     {
       "damageTypes" : ["wither"],
-      "scale" : 0.33
+      "scale" : 0.8
     },
     {
       "damageTypes" : ["anvil"],

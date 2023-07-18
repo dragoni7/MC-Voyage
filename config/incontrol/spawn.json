@@ -57,7 +57,7 @@
     {
         "mob": ["alexsmobs:fly"],
         "mincount": {
-            "amount": 3,
+            "amount": 5,
             "perplayer": true
         },
         "dimension": "minecraft:overworld",
@@ -67,6 +67,18 @@
     {
         "mob": ["alexsmobs:fly"],
         "dimension": ["ad_astra:moon", "ad_astra:venus", "ad_astra:mars", "ad_astra:mercury"],
+        "result": "deny"
+    },
+
+    {
+        "mob": ["weeping_angels:weeping_angel"],
+        "onjoin": true,
+        "gamestage": "master_mode",
+        "result": "default"
+    },
+    {
+        "mob": ["weeping_angels:weeping_angel"],
+        "onjoin": true,
         "result": "deny"
     },
 
@@ -182,8 +194,15 @@
     {
         "mob": ["deeperdarker:stalker", "minecraft:warden"],
         "onjoin": true,
+        "healthadd": 500,
+        "result": "default"
+    },
+
+    {
+        "dimension": "minecraft:the_nether",
+        "onjoin": true,
         "result": "default",
-        "healthadd": 500
+        "healthadd": 8
     },
 
     {
@@ -197,8 +216,7 @@
         "healthadd": 20,
         "damageadd": 3,
         "gamestage": "expert_mode",
-        "result": "allow",
-        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet"]
+        "result": "allow"
     },
     {
         "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer"],
@@ -218,8 +236,7 @@
         "healthadd": 20,
         "damageadd": 3,
         "gamestage": "expert_mode",
-        "result": "allow",
-        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet"]
+        "result": "allow"
     },
     {
         "mob": ["irons_spellbooks:pyromancer", "irons_spellbooks:cryomancer", "irons_spellbooks:necromancer", "twilightforest:death_tome", "twilightforest:king_spider"],
@@ -243,6 +260,25 @@
     },
     {
         "mob": ["irons_spellbooks:dead_king"],
+        "dimension": "minecraft:overworld",
+        "incontrol": true,
+        "result": "deny"
+    },
+
+    {
+        "mob": ["coldsnaphorde:coldsnapbrawler", "coldsnaphorde:coldsnapgifter", "coldsnaphorde:coldsnapgunner", "coldsnaphorde:coldsnapsnowballer", "coldsnaphorde:coldsnapstabber", "coldsnaphorde:coldsnapzapper"],
+        "dimension": "minecraft:overworld",
+        "phase": "nighttime",
+        "minlight": 0,
+        "maxlight": 4,
+        "onjoin": true,
+        "incontrol": true,
+        "healthadd": 4,
+        "block": ["minecraft:snow"],
+        "result": "allow"
+    },
+    {
+        "mob": ["coldsnaphorde:coldsnapbrawler", "coldsnaphorde:coldsnapgifter", "coldsnaphorde:coldsnapgunner", "coldsnaphorde:coldsnapsnowballer", "coldsnaphorde:coldsnapstabber", "coldsnaphorde:coldsnapzapper"],
         "dimension": "minecraft:overworld",
         "incontrol": true,
         "result": "deny"
@@ -266,36 +302,6 @@
         "dimension": "minecraft:overworld",
         "incontrol": true,
         "result": "deny"
-    },
-
-    {
-        "mob": ["minecraft:skeleton","minecraft:zombie"],
-        "dimension": "minecraft:overworld",
-        "random": 0.2,
-        "phase": "nighttime",
-        "minlight": 0,
-        "maxlight": 4,
-        "onjoin": true,
-        "gamestage": "expert_mode",
-        "result": "default",
-        "helditem": ["minecraft:wooden_sword", "minecraft:stone_sword"],
-        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet"],
-        "armorchest": ["minecraft:iron_chestplate", "minecraft:golden_chestplate", "minecraft:chainmail_chestplate", "minecraft:diamond_chestplate", "autumnity:snail_shell_chestplate", "biomemakeover:cladded_chestplate", "galosphere:sterling_chestplate", "aquamirae:terrible_chestplate", "majruszsdifficulty:tattered_chestplate"]
-    },
-
-    {
-        "mob": ["minecraft:skeleton","minecraft:zombie"],
-        "dimension": "minecraft:overworld",
-        "random": 0.3,
-        "phase": "nighttime",
-        "minlight": 0,
-        "maxlight": 4,
-        "onjoin": true,
-        "gamestage": "master_mode",
-        "result": "default",
-        "helditem": ["minecraft:iron_sword", "minecraft:diamond_sword", "minecraft:netherite_sword", "cnb:cinder_sword", "majruszsdifficulty:wither_sword", "twilightforest:fiery_sword"],
-        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet", "minecraft:chainmail_helmet", "minecraft:diamond_helmet", "minecraft:netherite_helmet"],
-        "armorchest": ["minecraft:iron_chestplate", "minecraft:golden_chestplate", "minecraft:chainmail_chestplate", "minecraft:diamond_chestplate", "minecraft:netherite_chestplate", "autumnity:snail_shell_chestplate", "biomemakeover:cladded_chestplate", "galosphere:sterling_chestplate", "aquamirae:terrible_chestplate", "majruszsdifficulty:tattered_chestplate", "twilightforest:fiery_chestplate", "twilightforest:knightmetal_chestplate", "twilightforest:steeleaf_chestplate", "mutantmonsters:mutant_skeleton_chestplate", "mutantmore:mutant_wither_skeleton_chestplate", "phantasm:stellium_chestplate", "blue_skies:diopside_chestplate"]
     },
 
     {

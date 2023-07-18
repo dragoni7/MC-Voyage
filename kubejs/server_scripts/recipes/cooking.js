@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
                     'tag': 'forge:crops/onion',
                 },
                 {
-                    'tag': 'forge:raw_chicken',
+                    'tag': 'croptopia:chicken_replacements',
                 },
                 {
                     'tag': 'forge:tea_leaves/yellow',
@@ -267,6 +267,129 @@ ServerEvents.recipes(event => {
             ],
             tab: 'meals',
             id: `${id_prefix}fish_stew`
+        },
+
+        {
+            cookingtime: 200,
+            exp: 0.1,
+            result: {'item': 'croptopia:fish_and_chips'},
+            ingredients: [
+                {
+                    'item': 'minecraft:potato',
+                },
+                {
+                    'item': 'croptopia:salt',
+                },
+                {
+                    'item': 'croptopia:pepper',
+                },
+                {
+                    'tag': 'forge:flour',
+                },
+                {
+                    'item': 'aquaculture:fish_fillet_raw',
+                },
+                {
+                    'item': 'aquaculture:fish_fillet_raw',
+                }
+            ],
+            tab: 'meals',
+            id: `${id_prefix}fish_and_chips`
+        },
+
+        {
+            cookingtime: 200,
+            exp: 0.35,
+            result: {'item': 'hmag:bat_stew'},
+            container: {'item': 'minecraft:bowl'},
+            ingredients: [
+                {
+                    'item': 'hmag:bat_wing',
+                },
+                {
+                    'item': 'minecraft:wheat',
+                },
+                {
+                    'tag': 'forge:vegetables',
+                }
+            ],
+            tab: 'meals',
+            old_id: 'hmag:bat_stew',
+            id: `${id_prefix}bat_stew`
+        },
+
+        {
+            cookingtime: 200,
+            exp: 0.35,
+            result: {'item': 'hmag:swampy_stew'},
+            container: {'item': 'minecraft:bowl'},
+            ingredients: [
+                {
+                    'item': 'hmag:cooked_savagefang_meat',
+                },
+                {
+                    'item': 'minecraft:seagrass',
+                },
+                {
+                    'tag': 'forge:mushrooms',
+                },
+                {
+                    'tag': 'forge:cooked_calamari',
+                }
+            ],
+            tab: 'meals',
+            old_id: 'hmag:swampy_stew',
+            id: `${id_prefix}swampy_stew`
+        },
+
+        {
+            cookingtime: 200,
+            exp: 0.35,
+            result: {'item': 'hmag:spectral_soup'},
+            container: {'item': 'minecraft:bowl'},
+            ingredients: [
+                {
+                    'item': 'minecraft:glowstone_dust',
+                },
+                {
+                    'tag': 'forge:mushrooms',
+                },
+                {
+                    'tag': 'forge:mushrooms',
+                },
+            ],
+            tab: 'meals',
+            old_id: 'hmag:spectral_soup',
+            id: `${id_prefix}spectral_soup`
+        },
+
+        {
+            cookingtime: 300,
+            exp: 0.35,
+            result: {'item': 'hmag:lightning_soup'},
+            ingredients: [
+                {
+                    'item': 'hmag:spectral_soup',
+                },
+                {
+                    'item': 'hmag:lightning_particle',
+                },
+                {
+                    'item': 'hmag:lightning_particle',
+                },
+                {
+                    'item': 'minecraft:glow_ink_sac',
+                },
+                {
+                    'item': 'minecraft:glowstone_dust',
+                },
+                {
+                    'item': 'minecraft:gunpowder',
+                }
+            ],
+            tab: 'meals',
+            old_id: 'hmag:lightning_soup',
+            id: `${id_prefix}lightning_soup`
         },
 
         {

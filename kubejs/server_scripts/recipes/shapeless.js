@@ -196,6 +196,12 @@ ServerEvents.recipes(event => {
             input: ['farmersdelight:tomato', 'farmersdelight:onion', 'aquaculture:fish_fillet_cooked'],
             result: 'farmersdelight:barbecue_stick',
             id: `${id_prefix}barbecue_stick`
+        },
+
+        {
+            input: ['minecraft:ender_pearl', 'minecraft:amethyst_shard', 'minecraft:glowstone_dust', 'botania:pixie_dust'],
+            result: '4x waystones:warp_dust',
+            id: `${id_prefix}warp_dust`
         }
     ]
     
@@ -204,7 +210,7 @@ ServerEvents.recipes(event => {
     event.shapeless('silentgear:pebble',
     [Item.of('silentgear:pickaxe'), 'minecraft:cobblestone'])
     .id(`${id_prefix}pebble`)
-    .damageIngredient(Item.of('silentgear:pickaxe'), 5)
+    .damageIngredient(Item.of('silentgear:pickaxe'), 2)
     
 
     recipes.forEach((recipe) => {

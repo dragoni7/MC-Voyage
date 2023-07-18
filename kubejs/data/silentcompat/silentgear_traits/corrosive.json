@@ -1,0 +1,20 @@
+{
+    "type": "silentcompat:on_hit_effect",
+    "max_level": 1,
+    "conditions": [
+      {
+        "type": "silentgear:gear_type",
+        "gear_type": "weapon"
+      }
+    ],
+    "name": {
+      "translate": "trait.silentcompat.corrosive"
+    },
+    "description": {
+      "translate": "trait.silentcompat.corrosive.desc"
+    },
+
+    "effect": "biomancy:corrosive",
+    "duration": 40,
+    "chance": 3
+  }

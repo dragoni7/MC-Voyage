@@ -19,6 +19,7 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:butter', 'gourmet:butter', 'croptopia:butter')
     event.add('forge:butters', 'gourmet:butter')
+    event.add('croptopia:chicken_replacements', 'farmersdelight:chicken_cuts', 'gourmet:raw_drumstick')
     event.add('minecraft:cookie', 'minecraft:cookie')
     event.add('forge:spices/vanilla', 'neapolitan:dried_vanilla_pods')
     event.add('forge:crops/vanillabean', 'neapolitan:vanilla_pods')

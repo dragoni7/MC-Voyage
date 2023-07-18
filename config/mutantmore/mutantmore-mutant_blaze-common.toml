@@ -10,7 +10,7 @@
 	#
 	# The Mutant Blaze's max health
 	# usually set to 300
-	"Max Health" = 500.0
+	"Max Health" = 600.0
 	#
 	# The Mutant Blaze's movement speed
 	# usually set to 0.25

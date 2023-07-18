@@ -3005,6 +3005,12 @@
 				type: "item"
 				item: "toms_storage:ts.storage_terminal"
 			}]
+			rewards: [{
+				id: "569026E37BAC3CAC"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+				count: 5
+			}]
 		}
 		{
 			x: -13.0d
@@ -3020,6 +3026,12 @@
 				id: "7D4456118A756151"
 				type: "item"
 				item: "toms_storage:ts.inventory_connector"
+			}]
+			rewards: [{
+				id: "05E79D06118B676B"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+				count: 5
 			}]
 		}
 		{

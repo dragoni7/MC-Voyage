@@ -711,12 +711,34 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:tadpole_bucket"
+          "name": "waystones:warp_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "the_bumblezone:bee_queen_spawn_egg"
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:echo_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:tadpole_bucket"
         },
         {
           "type": "minecraft:item",

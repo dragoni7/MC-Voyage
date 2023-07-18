@@ -21,6 +21,13 @@
     },
 
     {
+        "mob": "hmag:ghost",
+        "player": true,
+        "random": 0.3,
+        "item": "quark:soul_bead"
+    },
+
+    {
         "mob": "minecraft:shulker",
         "player": true,
         "random": 0.05,
@@ -65,7 +72,7 @@
     {
         "mob": "conjurer_illager:conjurer",
         "player": true,
-        "random": 0.5,
+        "random": 0.25,
         "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
     },
 
