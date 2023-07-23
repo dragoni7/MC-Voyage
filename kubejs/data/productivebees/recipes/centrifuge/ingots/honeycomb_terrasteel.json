@@ -5,36 +5,29 @@
         "item": "productivebees:configurable_honeycomb",
         "nbt": {
             "EntityTag": {
-                "type": "productivebees:steel"
+                "type": "productivebees:terrasteel"
             }
         }
     },
     "outputs": [
         {
             "item": {
-                "tag": "forge:nuggets/steel"
+                "tag": "forge:nuggets/terrasteel"
             },
-            "chance": 20
+            "min": 1,
+            "max": 2,
+            "chance": 10
         },
         {
             "item": {
                 "tag": "forge:wax"
             }
-        },
-        {
-            "fluid": {
-                "fluid": "productivebees:honey"
-            },
-            "amount": 50
         }
     ],
     "conditions": [
         {
-            "type": "forge:not",
-            "value": {
-                "type": "forge:tag_empty",
-                "tag": "forge:nuggets/steel"
-            }
+            "type": "forge:mod_loaded",
+            "modid": "botania"
         }
     ]
 }

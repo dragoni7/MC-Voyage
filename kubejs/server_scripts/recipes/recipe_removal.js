@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
 
 		'irons_spellbooks:upgrade_orb',
 		'hmag:enchanted_golden_apple',
-		
+		'croptopia:purple_dye',
 
 		// force certain food recipes to use create
 		'abnormals_delight:maple_glazed_bacon',

@@ -1,13 +1,19 @@
-#Range: 0.5 ~ 1.9
+#Range: -12 ~ 12
 instrument_pitch = 1.0
-#Allowed Values: KEYBOARD_LAYOUT, DO_RE_MI, ABC, NONE
+#Allowed Values: KEYBOARD_LAYOUT, NOTE_NAME, DO_RE_MI, ABC_1, ABC_2, NONE
 label_type = "KEYBOARD_LAYOUT"
 #Allowed Values: MONO, MIXED, STEREO
 channel_type = "MIXED"
-#Stops all background music when you play or someone else within 10 blocks of range
+#Stops all background music when you or someone else within 10.0 blocks of range plays an instrument
 stop_music_on_play = true
 #Allowed Values: OLD, NEW
 zither_sound_type = "NEW"
 #Allowed Values: DON_KA, KEYBOARD_LAYOUT, NONE
 drum_label_type = "KEYBOARD_LAYOUT"
+emit_ring_animation = true
+#Defines whether you will see others playing on your instrument's screen
+display_other_players = true
+render_background = true
+accurate_accidentals = true
+accepted_genshin_consent = false
 

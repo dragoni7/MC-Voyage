@@ -50,6 +50,13 @@ ServerEvents.recipes(event => {
             output: 'supplementaries:ash',
             input: 'minecraft:gunpowder',
             cookingTime: 100
+        },
+
+        {
+            type: 'smelting',
+            output: 'minecraft:quartz_block',
+            input: 'minecraft:smooth_quartz',
+            cookingTime: 100
         }
     ]
 

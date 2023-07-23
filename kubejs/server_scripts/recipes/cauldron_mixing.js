@@ -111,10 +111,10 @@ ServerEvents.recipes(event => {
             "item": "hexerei:moon_dust"
           },
           {
-            "item": "hexerei:moon_dust"
+            "item": "twilightforest:carminite_block"
           },
           {
-            "item": "hexerei:moon_dust"
+            "item": "irons_spellbooks:upgrade_orb"
           },
         ],
         output: {

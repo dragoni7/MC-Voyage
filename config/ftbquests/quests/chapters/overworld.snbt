@@ -1322,6 +1322,11 @@
 					command: "/gamestage add @p expert_mode"
 					player_command: false
 				}
+				{
+					id: "072FA7A5D09585ED"
+					type: "item"
+					item: "irons_spellbooks:arcane_salvage"
+				}
 			]
 		}
 		{
@@ -1470,6 +1475,11 @@
 					auto: "invisible"
 					command: "/gamestage add @p master_mode"
 					player_command: false
+				}
+				{
+					id: "6D67C26937A20569"
+					type: "item"
+					item: "irons_spellbooks:arcane_salvage"
 				}
 			]
 		}
@@ -2249,6 +2259,46 @@
 					team_reward: true
 					item: "create:creative_blaze_cake"
 					only_one: true
+				}
+			]
+		}
+		{
+			icon: "scalinghealth:medkit"
+			x: 5.0d
+			y: 0.5d
+			description: [
+				"As the difficulty increases, having ways to heal onself is useful, especially with if you have more max health!"
+				"The following items are best suited for this"
+			]
+			hide_dependency_lines: true
+			dependencies: ["49E9E2AD9434D731"]
+			hide: true
+			id: "21B0B90A3AF8470F"
+			tasks: [{
+				id: "47BF33EDDCADA3E4"
+				type: "checkmark"
+				title: "Healing"
+			}]
+			rewards: [
+				{
+					id: "6FFD1892160CABD3"
+					type: "item"
+					item: "majruszsdifficulty:bandage"
+				}
+				{
+					id: "1EC3572BC7C7B06A"
+					type: "item"
+					item: "majruszsdifficulty:golden_bandage"
+				}
+				{
+					id: "06D4C67A04A00A71"
+					type: "item"
+					item: "scalinghealth:bandages"
+				}
+				{
+					id: "7D939FE4F8235B5B"
+					type: "item"
+					item: "scalinghealth:medkit"
 				}
 			]
 		}

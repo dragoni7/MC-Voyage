@@ -1,4 +1,4 @@
 {
-    "active": {"minecraft:glass": true},
-    "unregistered": {}
+    "active": {"minecraft:glass_1": true},
+    "unregistered": {"minecraft:glass": true}
 }

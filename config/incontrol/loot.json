@@ -66,14 +66,14 @@
         "mob": "minecraft:evoker",
         "player": true,
         "random": 0.5,
-        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:blank_rune"]
     },
 
     {
         "mob": "conjurer_illager:conjurer",
         "player": true,
         "random": 0.25,
-        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:blank_rune"]
     },
 
     {
@@ -85,7 +85,7 @@
         "mob": "minecraft:illusioner",
         "player": true,
         "random": 0.2,
-        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:blank_rune"]
     },
 
         {
@@ -99,14 +99,14 @@
         "mob": "friendsandfoes:iceologer",
         "player": true,
         "random": 0.5,
-        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:blank_rune"]
     },
 
     {
         "mob": "savage_and_ravage:iceologer",
         "player": true,
         "random": 0.5,
-        "item": ["silentgear:glowing_dust", "irons_spellbooks:upgrade_orb"]
+        "item": ["silentgear:glowing_dust", "irons_spellbooks:blank_rune"]
     },
 
     {
@@ -168,19 +168,24 @@
     {
         "mob": "aquamirae:captain_cornelia",
         "player": true,
-        "item": ["irons_spellbooks:upgrade_orb", "endrem:lost_eye", "silentgear:blazing_dust"]
+        "item": ["irons_spellbooks:upgrade_orb", "endrem:lost_eye", "silentgear:blazing_dust", "irons_spellbooks:blank_rune"]
     },
 
     {
         "mob": "undergarden:masticator",
         "player": true,
-        "item": ["irons_spellbooks:upgrade_orb", "silentgear:glittery_dust"]
+        "item": ["irons_spellbooks:upgrade_orb", "silentgear:glittery_dust", "irons_spellbooks:blank_rune"]
+    },
+
+    {
+        "mob": "cataclysm:ignis",
+        "remove": "cataclysm:ignitium_ingot"
     },
 
     {
         "mob": "cataclysm:ignis",
         "player": true,
-        "item": ["irons_spellbooks:upgrade_orb", "endrem:cursed_eye", "silentgear:blazing_dust"]
+        "item": ["irons_spellbooks:upgrade_orb", "endrem:cursed_eye", "silentgear:blazing_dust", "irons_spellbooks:blank_rune", "cataclysm:ignitium_ingot"]
     },
     
     {
@@ -204,13 +209,13 @@
     {
         "mob": "meetyourfight:rosalyne",
         "player": true,
-        "item": ["meetyourfight:violet_bloom", "irons_spellbooks:upgrade_orb", "endrem:old_eye", "kubejs:boss_essence", "silentgear:glittery_dust"]
+        "item": ["meetyourfight:violet_bloom", "irons_spellbooks:upgrade_orb", "endrem:old_eye", "kubejs:boss_essence", "silentgear:glittery_dust", "irons_spellbooks:blank_rune"]
     },
 
     {
         "mob": "minecraft:ender_dragon",
         "player": true,
-        "item": ["kubejs:boss_essence", "irons_spellbooks:upgrade_orb", "silentgear:glittery_dust"]
+        "item": ["kubejs:boss_essence", "irons_spellbooks:upgrade_orb", "silentgear:glittery_dust", "irons_spellbooks:blank_rune"]
     },
 
     {

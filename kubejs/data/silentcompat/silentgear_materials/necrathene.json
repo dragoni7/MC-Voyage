@@ -1,0 +1,117 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "conditions": [
+      {
+        "value": {
+          "tag": "forge:ingots/necrathene",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      }
+    ],
+    "availability": {
+      "tier": 4,
+      "categories": [
+        "metal"
+      ],
+      "visible": true,
+      "gear_blacklist": [],
+      "can_salvage": true
+    },
+    "crafting_items": {
+      "main": {
+        "tag": "forge:ingots/necrathene"
+      }
+    },
+    "name": {
+      "text": "Necrathene"
+    },
+    "stats": {
+      "main": {
+        "durability": 1561.0,
+        "armor_durability": 39.0,
+        "enchantment_value": 15.0,
+        "rarity": 30.0,
+        "charging_value": 1.1,
+        "harvest_level": 3.0,
+        "harvest_speed": 9.0,
+        "melee_damage": 4.0,
+        "magic_damage": 3.0,
+        "attack_speed": 0.1,
+        "attack_speed/axe": -0.1,
+        "ranged_damage": 1.0,
+        "ranged_speed": 0.1,
+        "armor": 22.0,
+        "armor/helmet": 4.0,
+        "armor/chestplate": 8.0,
+        "armor/leggings": 6.0,
+        "armor/boots": 4.0,
+        "armor_toughness": 8.0,
+        "magic_armor": 6.0
+      },
+      "rod": {
+        "durability": {
+          "mul2": 0.10
+        },
+        "rarity": 20.0
+      },
+      "tip": {
+        "durability": {
+          "add": 400.0
+        }
+      }
+    },
+    "traits": {
+      "main": [
+        {
+          "name": "silentcompat:decay",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "name": "silentgear:ancient",
+          "level": 4,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ]
+        },
+        {
+          "name": "silentgear:light",
+          "level": 2
+        }
+      ],
+
+      "rod": [
+        {
+          "name": "silentgear:ancient",
+          "level": 1
+        }
+      ]
+    },
+    "model": {
+      "main/all": [
+        {
+          "texture": "silentgear:main_generic_hc",
+          "color": "#524a63"
+        },
+        {
+          "texture": "silentgear:_highlight"
+        }
+      ],
+      "main/fragment": [
+        {
+          "texture": "silentgear:metal",
+          "color": "#524a63"
+        }
+      ]
+    }
+  }

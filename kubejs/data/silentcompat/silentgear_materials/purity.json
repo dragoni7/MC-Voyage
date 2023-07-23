@@ -1,0 +1,80 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:gems/purity"
+    }
+  },
+  "name": {
+    "text": "Purity"
+  },
+  "stats": {
+    "main": {
+      "durability": 59.0,
+      "armor_durability": 11.0,
+      "enchantment_value": 16.0,
+      "rarity": 30.0,
+      "charging_value": 1.1,
+      "harvest_level": 3.0,
+      "harvest_speed": 8.0,
+      "melee_damage": 4.0,
+      "magic_damage": 5.0,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.1,
+      "ranged_damage": 1.0,
+      "ranged_speed": 0.1,
+      "armor": 20.0,
+      "armor_toughness": 2.0,
+      "magic_armor": 8.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentcompat:purifying",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.66
+          }
+        ]
+      },
+      {
+        "name": "silentcompat:spell_damage",
+        "level": 1
+      },
+      {
+        "name": "silentgear:brittle",
+        "level": 5
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#efd68b"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#efd68b"
+      }
+    ]
+  }
+}

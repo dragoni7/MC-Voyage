@@ -201,7 +201,15 @@ ServerEvents.recipes(event => {
         {
             input: ['minecraft:ender_pearl', 'minecraft:amethyst_shard', 'minecraft:glowstone_dust', 'botania:pixie_dust'],
             result: '4x waystones:warp_dust',
+            old_id: 'waystones:warp_dust',
             id: `${id_prefix}warp_dust`
+        },
+
+        {
+            input: ['minecraft:lapis_lazuli', 'minecraft:lapis_lazuli', 'minecraft:nether_wart', 'minecraft:nether_wart', 'minecraft:nether_wart', 'minecraft:nether_wart', 'biomancy:exotic_dust', 'biomancy:exotic_dust'],
+            result: '2x architects_palette:wardstone_blend',
+            old_id: 'architects_palette:wardstone_blend',
+            id: `${id_prefix}wardstone_blend`
         }
     ]
     

@@ -5,16 +5,16 @@
         "item": "productivebees:configurable_honeycomb",
         "nbt": {
             "EntityTag": {
-                "type": "productivebees:steel"
+                "type": "productivebees:enderium"
             }
         }
     },
     "outputs": [
         {
             "item": {
-                "tag": "forge:nuggets/steel"
+                "tag": "forge:dusts/enderium"
             },
-            "chance": 20
+            "chance": 10
         },
         {
             "item": {
@@ -33,12 +33,8 @@
             "type": "forge:not",
             "value": {
                 "type": "forge:tag_empty",
-                "tag": "forge:nuggets/steel"
+                "tag": "forge:dusts/enderium"
             }
-        },
-        {
-            "type": "forge:tag_empty",
-            "tag": "forge:dusts/steel"
         }
     ]
 }

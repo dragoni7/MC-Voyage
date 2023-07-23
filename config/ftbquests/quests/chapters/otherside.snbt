@@ -214,12 +214,6 @@
 			}]
 			rewards: [
 				{
-					id: "35D341A12FAEF075"
-					type: "item"
-					item: "kubejs:unique_lootcrate"
-					count: 2
-				}
-				{
 					id: "633D51387CF67B46"
 					type: "xp"
 					xp: 100
@@ -230,6 +224,12 @@
 					team_reward: true
 					item: "kubejs:boss_essence"
 					only_one: true
+				}
+				{
+					id: "3D5D93FDA15F58E3"
+					type: "item"
+					item: "kubejs:generic_lootcrate"
+					count: 2
 				}
 			]
 		}
@@ -320,6 +320,7 @@
 			}]
 		}
 		{
+			title: "Sculk Centipede"
 			x: -7.0d
 			y: 3.0d
 			hide_dependency_lines: true

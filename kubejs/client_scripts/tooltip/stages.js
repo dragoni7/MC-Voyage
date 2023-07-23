@@ -35,7 +35,8 @@ ItemEvents.tooltip((event) => {
         'kubejs:masticator_bait',
         'silentcompat:bunny_steel_ingot',
         'silentcompat:bunny_steel_nugget',
-        'silentcompat:bunny_steel_block'
+        'silentcompat:bunny_steel_block',
+        'deeperdarker:reinforced_echo_shard'
     ], [Text.of('Available in Expert Mode').darkRed()])
 
     let expert_mods = [

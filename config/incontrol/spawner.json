@@ -67,7 +67,7 @@
           "maxdist": 100,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 4
+          "maxthis": 3
         }
     },
 
@@ -85,7 +85,7 @@
           "maxdist": 60,
           "minheight": -60,
           "maxheight": 30,
-          "maxthis": 12
+          "maxthis": 10
         }
       },
 
@@ -157,7 +157,7 @@
           "maxdist": 65,
           "minheight": 0,
           "maxheight": 200,
-          "maxthis": 6
+          "maxthis": 5
         }
       },
 
@@ -229,7 +229,7 @@
           "maxdist": 110,
           "minheight": -60,
           "maxheight": 200,
-          "maxthis": 12
+          "maxthis": 10
         }
       },
       
@@ -245,9 +245,9 @@
           "dimension": "minecraft:overworld",
           "mindist": 65,
           "maxdist": 110,
-          "minheight": -60,
+          "minheight": 0,
           "maxheight": 200,
-          "maxthis": 12
+          "maxthis": 10
         }
       },
 
@@ -290,10 +290,10 @@
       {
         "mob": ["coldsnaphorde:coldsnapbrawler", "coldsnaphorde:coldsnapgifter", "coldsnaphorde:coldsnapgunner", "coldsnaphorde:coldsnapsnowballer", "coldsnaphorde:coldsnapstabber", "coldsnaphorde:coldsnapzapper"],
         "persecond": 0.4,
-        "attempts": 6,
+        "attempts": 8,
         "amount": {
-          "minimum": 2,
-          "maximum": 3
+          "minimum": 1,
+          "maximum": 2
         },
         "conditions": {
           "dimension": "minecraft:overworld",
@@ -301,7 +301,7 @@
           "maxdist": 100,
           "minheight": 0,
           "maxheight": 200,
-          "maxthis": 6
+          "maxthis": 8
         }
       },
 
@@ -315,11 +315,11 @@
         },
         "conditions": {
           "dimension": "minecraft:the_nether",
-          "mindist": 45,
-          "maxdist": 60,
+          "mindist": 64,
+          "maxdist": 164,
           "minheight": 0,
           "maxheight": 200,
-          "maxthis": 6
+          "maxthis": 5
         }
       },
 
@@ -333,8 +333,8 @@
         },
         "conditions": {
           "dimension": "minecraft:the_end",
-          "mindist": 45,
-          "maxdist": 60,
+          "mindist": 64,
+          "maxdist": 160,
           "maxthis": 4
         }
       },
@@ -349,8 +349,8 @@
         },
         "conditions": {
           "dimension": "minecraft:overworld",
-          "mindist": 25,
-          "maxdist": 55,
+          "mindist": 55,
+          "maxdist": 85,
           "minheight": 40,
           "maxheight": 200,
           "maxthis": 8
@@ -368,8 +368,8 @@
         "conditions": {
           "dimension": "minecraft:overworld",
           "inwater": true,
-          "mindist": 50,
-          "maxdist": 100,
+          "mindist": 64,
+          "maxdist": 128,
           "minheight": -10,
           "maxheight": 30,
           "maxthis": 6

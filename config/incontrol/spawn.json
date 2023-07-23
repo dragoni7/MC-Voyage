@@ -147,13 +147,13 @@
         "armorhelmet": "minecraft:iron_helmet",
         "onjoin": true,
         "result": "default",
-        "healthadd": 350
+        "healthadd": 500
     },
 
     {
         "mob": ["twilightforest:hydra"],
         "result": "default",
-        "healthadd": 400
+        "healthadd": 700
     },
 
     {

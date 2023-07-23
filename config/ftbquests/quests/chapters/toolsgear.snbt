@@ -176,6 +176,11 @@
 					type: "item"
 					item: "silentgear:knife_blueprint"
 				}
+				{
+					id: "59EA74F1E66278A7"
+					type: "item"
+					item: "dummmmmmy:target_dummy"
+				}
 			]
 		}
 		{

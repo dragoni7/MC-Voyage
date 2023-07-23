@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("amethyst_shard")
     .mobOutput(
-        SummoningOutput.mob('meetyourfight:rosalyne').count(1).data({ Health: 700, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 700 }]})
+        SummoningOutput.mob('meetyourfight:rosalyne').count(1).data({ Health: 800, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 800 }]})
         )
     .input('2x blue_skies:falsite_ingot', '2x blue_skies:camellia', '2x minecraft:echo_shard', 'kubejs:boss_essence')
 
@@ -125,12 +125,12 @@ ServerEvents.recipes(event => {
     event.recipes.summoningrituals
     .altar("kubejs:masticator_bait")
     .mobOutput(
-        SummoningOutput.mob('undergarden:masticator').count(1).data({ Health: 600, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 600 }]})
+        SummoningOutput.mob('undergarden:masticator').count(1).data({ Health: 800, Attributes: [{ Name: 'generic.armor_toughness', Base: 6 }, { Name: 'generic.armor', Base: 10 }, { Name: 'generic.max_health', Base: 800 }]})
         )
     .input('kubejs:boss_essence', '4x undergarden:utherium_crystal')
     .sacrifice('pig', 3)
 
-    // Harbinger
+    // Ender Guardian
     event.recipes.summoningrituals
     .altar('majruszsdifficulty:enderium_ingot')
     .mobOutput(

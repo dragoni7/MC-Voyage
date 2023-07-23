@@ -45,6 +45,9 @@ JEIEvents.hideItems(event => {
     'scalinghealth:cursed_heart',
     'scalinghealth:enchanted_heart',
     'scalinghealth:chance_heart',
+    'scalinghealth:heart_crystal',
+    'scalinghealth:heart_crystal_shard',
+    'scalinghealth:heart_dust',
 
     // twilightforest
     'twilightforest:uncrafting_table',

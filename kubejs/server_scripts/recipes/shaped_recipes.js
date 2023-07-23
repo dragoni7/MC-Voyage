@@ -714,7 +714,7 @@ ServerEvents.recipes(event => {
              'I ',
              '  '],
             key: {
-                I: 'infernalexp:glowsilk',
+                I: 'irons_spellbooks:hogskin',
                 B: 'silentgear:blueprint_paper'
             },
             stage: NETHER,
@@ -1403,6 +1403,21 @@ ServerEvents.recipes(event => {
             id:  `${id_prefix}upgrade_base`
         },
 
+        {
+            output: 'the_bumblezone:incense_candle',
+            pattern:
+            [' J ',
+             'WSW',
+             'WWW'],
+            key: {
+                J: 'the_bumblezone:royal_jelly_bottle',
+                W: '#the_bumblezone:carvable_wax',
+                S: FORGE_TAG('string')
+            },
+            stage: BUMBLEZONE,
+            id:  `${id_prefix}incense_candle`
+        },
+
         // BOTANIA
         {
             output: BO('flight_tiara'),
@@ -1618,6 +1633,23 @@ ServerEvents.recipes(event => {
             },
             id:  `${id_prefix}mana_ring`
         },
+        {
+            output: 'irons_spellbooks:netherite_spell_book',
+            old_id: 'irons_spellbooks:netherite_spell_book',
+            pattern:
+            ['CNC',
+             'BAB',
+             'CLC'],
+            key: {
+                C: 'irons_spellbooks:magic_cloth',
+                N: INGOT_TAG('netherite'),
+                B: '#forge:bottles/blood',
+                A: 'irons_spellbooks:ruined_book',
+                L: 'irons_spellbooks:lightning_bottle'
+            },
+            stage: TWILIGHT,
+            id:  `${id_prefix}netherite_spell_book`
+        },
 
         {
             output: 'explorerscompass:explorerscompass',
@@ -1704,6 +1736,56 @@ ServerEvents.recipes(event => {
                 A: INGOT_TAG('andesite_alloy')
             },
             id:  `${id_prefix}bell`
+        },
+        {
+            output: '2x architects_palette:algal_bricks',
+            pattern: 
+            ['II ',
+             'II ', 
+             '   '],
+            key: {
+                I: INGOT_TAG('algal_brick')
+            },
+            old_id: 'architects_palette:algal_bricks',
+            id:  `${id_prefix}algal_bricks`
+        },
+        {
+            output: '8x architects_palette:nether_brass_block',
+            pattern: 
+            ['II ',
+             'II ', 
+             '   '],
+            key: {
+                I: INGOT_TAG('nether_brass')
+            },
+            old_id: 'architects_palette:nether_brass_block',
+            id:  `${id_prefix}nether_brass_block`
+        },
+        {
+            output: '8x architects_palette:wardstone',
+            pattern: 
+            ['II ',
+             'II ', 
+             '   '],
+            key: {
+                I: INGOT_TAG('wardstone')
+            },
+            old_id: 'architects_palette:wardstone',
+            id:  `${id_prefix}wardstone`
+        },
+        {
+            output: MC('daylight_detector'),
+            pattern: 
+            ['GGG',
+             'QQQ', 
+             'PPP'],
+            key: {
+                G: FORGE_TAG('glass'),
+                Q: GEM_TAG('quartz'),
+                P: MC_TAG('wooden_slabs')
+            },
+            old_id: 'ae2:misc/vanilla_daylight_detector',
+            id:  `${id_prefix}daylight_detector`
         }
     ]
 
